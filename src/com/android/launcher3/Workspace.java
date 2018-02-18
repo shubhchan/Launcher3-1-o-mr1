@@ -521,7 +521,9 @@ public class Workspace extends PagedView
     @Override
     public void initParentViews(View parent) {
         super.initParentViews(parent);
-        mPageIndicator.setAccessibilityDelegate(new OverviewAccessibilityDelegate());
+        if (mPageIndicator != null) {
+            mPageIndicator.setAccessibilityDelegate(new OverviewAccessibilityDelegate());
+        }
     }
 
     private int getDefaultPage() {
@@ -1063,9 +1065,11 @@ public class Workspace extends PagedView
             int spanX, int spanY) {
         if (container == LauncherSettings.Favorites.CONTAINER_DESKTOP) {
             if (getScreenWithId(screenId) == null) {
-                Log.e(TAG, "Skipping child, screenId " + screenId + " not found");
-                // DEBUGGING - Print out the stack trace to see where we are adding from
-                new Throwable().printStackTrace();
+                if (!(mLauncher instanceof PreviewWorkspaceActivityBase)) {
+                    Log.e(TAG, "Skipping child, screenId " + screenId + " not found");
+                    // DEBUGGING - Print out the stack trace to see where we are adding from
+                    new Throwable().printStackTrace();
+                }
                 return;
             }
         }
@@ -1125,7 +1129,9 @@ public class Workspace extends PagedView
             child.setOnLongClickListener(mLongClickListener);
         }
         if (child instanceof DropTarget) {
-            mDragController.addDropTarget((DropTarget) child);
+            if (mDragController != null) {
+                mDragController.addDropTarget((DropTarget) child);
+            }
         }
     }
 
@@ -1286,7 +1292,7 @@ public class Workspace extends PagedView
         super.onPageEndTransition();
         updateChildrenLayersEnabled(false);
 
-        if (mDragController.isDragging()) {
+        if (mDragController != null && mDragController.isDragging()) {
             if (workspaceInModalState()) {
                 // If we are in springloaded mode, then force an event to check if the current touch
                 // is under a new page (to scroll to)
@@ -1510,7 +1516,9 @@ public class Workspace extends PagedView
         Property<View, Float> property = direction.viewProperty;
         // Skip the page indicator movement in the vertical bar layout
         if (direction != Direction.Y || !mLauncher.getDeviceProfile().isVerticalBarLayout()) {
-            property.set(mPageIndicator, translation);
+            if (mPageIndicator != null) {
+                property.set(mPageIndicator, translation);
+            }
         }
         property.set(mLauncher.getHotseat(), translation);
         setHotseatAlphaAtIndex(alpha, direction.ordinal());
@@ -1522,7 +1530,9 @@ public class Workspace extends PagedView
         final float pageIndicatorAlpha = mHotseatAlpha[0] * mHotseatAlpha[2];
 
         mLauncher.getHotseat().setAlpha(hotseatAlpha);
-        mPageIndicator.setAlpha(pageIndicatorAlpha);
+        if (mPageIndicator != null) {
+            mPageIndicator.setAlpha(pageIndicatorAlpha);
+        }
     }
 
     public ValueAnimator createHotseatAlphaAnimator(float finalValue) {
@@ -1545,8 +1555,11 @@ public class Workspace extends PagedView
             final boolean accessibilityEnabled = am.isEnabled();
             animator.addUpdateListener(
                     new AlphaUpdateListener(mLauncher.getHotseat(), accessibilityEnabled));
-            animator.addUpdateListener(
-                    new AlphaUpdateListener(mPageIndicator, accessibilityEnabled));
+            if (mPageIndicator != null) {
+                animator.addUpdateListener(
+                        new AlphaUpdateListener(mPageIndicator, accessibilityEnabled));
+            }
+
             return animator;
         }
     }
@@ -1738,7 +1751,9 @@ public class Workspace extends PagedView
         IBinder windowToken = getWindowToken();
         mWallpaperOffset.setWindowToken(windowToken);
         computeScroll();
-        mDragController.setWindowToken(windowToken);
+        if (mDragController != null) {
+            mDragController.setWindowToken(windowToken);
+        }
     }
 
     protected void onDetachedFromWindow() {
@@ -2119,7 +2134,7 @@ public class Workspace extends PagedView
         mDragInfo = cellInfo;
         child.setVisibility(INVISIBLE);
 
-        if (options.isAccessibleDrag) {
+        if (options.isAccessibleDrag && mDragController != null) {
             mDragController.addDragListener(new AccessibleDragListenerAdapter(
                     this, CellLayout.WORKSPACE_ACCESSIBILITY_DRAG) {
                 @Override
@@ -2202,9 +2217,12 @@ public class Workspace extends PagedView
             }
         }
 
-        DragView dv = mDragController.startDrag(b, dragLayerX, dragLayerY, source,
-                dragObject, dragVisualizeOffset, dragRect, scale, dragOptions);
-        dv.setIntrinsicIconScaleFactor(source.getIntrinsicIconScaleFactor());
+        DragView dv = null;
+        if (mDragController != null) {
+            dv = mDragController.startDrag(b, dragLayerX, dragLayerY, source,
+                    dragObject, dragVisualizeOffset, dragRect, scale, dragOptions);
+            dv.setIntrinsicIconScaleFactor(source.getIntrinsicIconScaleFactor());
+        }
         b.recycle();
         return dv;
     }
@@ -3561,7 +3579,9 @@ public class Workspace extends PagedView
             Log.e(TAG, "mDragInfo.cell has null parent");
         }
         if (v instanceof DropTarget) {
-            mDragController.removeDropTarget((DropTarget) v);
+            if (mDragController != null) {
+                mDragController.removeDropTarget((DropTarget) v);
+            }
         }
     }
 
@@ -3761,7 +3781,9 @@ public class Workspace extends PagedView
             @Override
             public boolean evaluate(ItemInfo info, View v) {
                 if (v instanceof DropTarget) {
-                    mDragController.removeDropTarget((DropTarget) v);
+                    if (mDragController != null) {
+                        mDragController.removeDropTarget((DropTarget) v);
+                    }
                 }
                 // not done, process all the shortcuts
                 return false;
@@ -3798,7 +3820,9 @@ public class Workspace extends PagedView
                     // does not re-mark the spaces as unoccupied.
                     layoutParent.removeViewInLayout(child);
                     if (child instanceof DropTarget) {
-                        mDragController.removeDropTarget((DropTarget) child);
+                        if (mDragController != null) {
+                            mDragController.removeDropTarget((DropTarget) child);
+                        }
                     }
                 } else if (itemToRemove.container >= 0) {
                     // The item may belong to a folder.

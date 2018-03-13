@@ -24,7 +24,7 @@ public class CustomAppFilter extends NexusAppFilter {
 
     @Override
     public boolean shouldShowApp(ComponentName componentName) {
-        return !isHiddenApp(mContext, componentName.toString(), componentName.getPackageName());
+        return !isHiddenApp(mContext, componentName.toString());
     }
 
     static void resetAppFilter(Context context) {
@@ -49,7 +49,7 @@ public class CustomAppFilter extends NexusAppFilter {
         }
     }
 
-    static boolean isHiddenApp(Context context, String comp, String pkg) {
+    static boolean isHiddenApp(Context context, String comp) {
         return getHiddenApps(context).contains(comp);
     }
 

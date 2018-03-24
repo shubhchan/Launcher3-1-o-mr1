@@ -218,9 +218,10 @@ public class CustomIconPreview extends PreviewWorkspaceActivityBase {
                     String currentPack = PreferenceManager.getDefaultSharedPreferences(context)
                             .getString(Utilities.KEY_ICON_PACK, defaultName);
                     if (!currentPack.equals(name)) {
-                        LauncherAppState.getInstance(context).getIconsHandler().switchIconPacks(name, false);
+                       LauncherAppState.getInstance(context).getIconsHandler().switchIconPacks(name, false);
                         notifyDataSetChanged();
                         setShouldReload(true);
+
                     }
                 }
             }

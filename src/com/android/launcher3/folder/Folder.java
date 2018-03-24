@@ -427,6 +427,7 @@ public class Folder extends AbstractFloatingView implements DragSource, View.OnC
         return mInfo;
     }
 
+   // void bind(FolderInfo info) {
     void bind(FolderInfo info, boolean fromPreview) {
         mInfo = info;
         ArrayList<ShortcutInfo> children = info.contents;
@@ -449,6 +450,7 @@ public class Folder extends AbstractFloatingView implements DragSource, View.OnC
             lp.customPosition = true;
             setLayoutParams(lp);
         }
+        //centerAboutIcon();
         if (!fromPreview) {
             centerAboutIcon();
         }

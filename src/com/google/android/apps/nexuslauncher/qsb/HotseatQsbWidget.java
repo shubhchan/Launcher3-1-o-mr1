@@ -12,8 +12,10 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.graphics.Rect;
 import android.net.Uri;
+import android.support.v4.graphics.ColorUtils;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.ContextThemeWrapper;
@@ -26,6 +28,10 @@ import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.dragndrop.DragLayer;
+
+
+
+
 
 public class HotseatQsbWidget extends AbstractQsbLayout {
     private boolean mIsDefaultLiveWallpaper;
@@ -53,6 +59,8 @@ public class HotseatQsbWidget extends AbstractQsbLayout {
         mIsDefaultLiveWallpaper = isDefaultLiveWallpaper();
         setColors();
         setOnClickListener(this);
+
+        setVisibility(Utilities.isBottomSearchBarVisible(context) ? VISIBLE : GONE);
     }
 
     static int getBottomMargin(Launcher launcher) {
@@ -64,9 +72,31 @@ public class HotseatQsbWidget extends AbstractQsbLayout {
     }
 
     private void setColors() {
+        boolean forcecolour = Utilities.getPrefs((getContext())).getBoolean("pref_forcecolourlogo", false);
+       // boolean darkqsb = Utilities.getPrefs((getContext())).getBoolean("pref_darkqsb", false);
+        boolean customqsbcolour = Utilities.getPrefs((getContext())).getBoolean("pref_customqsbcolour", false);
+        boolean transparentqsb = Utilities.getPrefs((getContext())).getBoolean("pref_transparentqsbqsb", true);
         View.inflate(new ContextThemeWrapper(getContext(), mIsDefaultLiveWallpaper ? R.style.HotseatQsbTheme_Colored : R.style.HotseatQsbTheme), R.layout.qsb_hotseat_content, this);
         bz(mIsDefaultLiveWallpaper ? 0xCCFFFFFF : 0x99FAFAFA);
+        if (transparentqsb && !forcecolour) bz(0x99FAFAFA);
+        if (!transparentqsb && forcecolour) bz(0xFFFFFFFF);
+       // if (darkqsb && transparentqsb) bz(0xCC444444);
+        //if (darkqsb && !transparentqsb) bz(0xFF444444);
+        if (customqsbcolour){
+            SharedPreferences prefs = Utilities.getPrefs((getContext()).getApplicationContext());
+            int qsbcolor = Color.parseColor(prefs.getString("pref_qsb_color", "0xFFFFFF"));
+        if (transparentqsb) {
+            int colorwithtransparent = ColorUtils.setAlphaComponent(qsbcolor, 204);
+            bz(colorwithtransparent);
+        }
+        else bz(qsbcolor);
+        }
+
+            //Integer intColor = prefs.getInt("pref_qsb_color_picker", -1);
+            //String hexColor = "#" + Integer.toHexString(intColor);
+            //bz(Color.parseColor(hexColor));
     }
+
 
     private void openQSB() {
         mSearchRequested = false;
@@ -108,11 +138,15 @@ public class HotseatQsbWidget extends AbstractQsbLayout {
 
     private boolean isDefaultLiveWallpaper() {
         WallpaperInfo wallpaperInfo = WallpaperManager.getInstance(getContext()).getWallpaperInfo();
+        boolean forcecolour = Utilities.getPrefs((getContext())).getBoolean("pref_forcecolourlogo", false);
+        if (forcecolour) {
+            return forcecolour;
+        }
         return wallpaperInfo != null && wallpaperInfo.getComponent().flattenToString().equals(getContext().getString(R.string.default_live_wallpaper));
     }
 
     private void doOnClick() {
-        final ConfigBuilder f = new ConfigBuilder(this, false);
+       /* final ConfigBuilder f = new ConfigBuilder(this, false);
         if (mActivity.getGoogleNow().startSearch(f.build(), f.getExtras())) {
             SharedPreferences devicePrefs = Utilities.getDevicePrefs(getContext());
             devicePrefs.edit().putInt("key_hotseat_qsb_tap_count", devicePrefs.getInt("key_hotseat_qsb_tap_count", 0) + 1).apply();
@@ -127,13 +161,35 @@ public class HotseatQsbWidget extends AbstractQsbLayout {
                                 fallbackSearch("com.google.android.googlequicksearchbox.TEXT_ASSIST");
                             } else {
                                 playQsbAnimation();
+                            }*/
+        String provider = Utilities.getSearchProvider(getContext());
+        if(provider.contains("google")) {
+            final ConfigBuilder f = new ConfigBuilder(this, false);
+            if (mActivity.getGoogleNow().startSearch(f.build(), f.getExtras())) {
+                SharedPreferences devicePrefs = Utilities.getDevicePrefs(getContext());
+                devicePrefs.edit().putInt("key_hotseat_qsb_tap_count", devicePrefs.getInt("key_hotseat_qsb_tap_count", 0) + 1).apply();
+                playQsbAnimation();
+            } else {
+                getContext().sendOrderedBroadcast(getSearchIntent(), null,
+                        new BroadcastReceiver() {
+                            @Override
+                            public void onReceive(Context context, Intent intent) {
+                                Log.e("HotseatQsbSearch", getResultCode() + " " + getResultData());
+                                if (getResultCode() == 0) {
+                                    fallbackSearch("com.google.android.googlequicksearchbox.TEXT_ASSIST");
+                                } else {
+                                    playQsbAnimation();
+                                }
                             }
-                        }
-                    }, null, 0, null, null);
+                        }, null, 0, null, null);
+            }
+        } else {
+            getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(provider)));
+            playQsbAnimation();
         }
     }
 
-    @Override
+@Override
     protected void noGoogleAppSearch() {
         getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com")));
         playQsbAnimation();

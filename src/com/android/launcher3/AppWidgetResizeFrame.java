@@ -70,7 +70,7 @@ public class AppWidgetResizeFrame extends FrameLayout
     private boolean mTopBorderActive;
     private boolean mBottomBorderActive;
 
-    private int mResizeMode;
+   // private int mResizeMode;
 
     private int mRunningHInc;
     private int mRunningVInc;
@@ -120,7 +120,7 @@ public class AppWidgetResizeFrame extends FrameLayout
         mWidgetView = widgetView;
         LauncherAppWidgetProviderInfo info = (LauncherAppWidgetProviderInfo)
                 widgetView.getAppWidgetInfo();
-        mResizeMode = info.resizeMode;
+       // mResizeMode = info.resizeMode;
         mDragLayer = dragLayer;
 
         mMinHSpan = info.minSpanX;
@@ -135,13 +135,13 @@ public class AppWidgetResizeFrame extends FrameLayout
             mWidgetPadding = new Rect(padding, padding, padding, padding);
         }
 
-        if (mResizeMode == AppWidgetProviderInfo.RESIZE_HORIZONTAL) {
+       /* if (mResizeMode == AppWidgetProviderInfo.RESIZE_HORIZONTAL) {
             mDragHandles[INDEX_TOP].setVisibility(GONE);
             mDragHandles[INDEX_BOTTOM].setVisibility(GONE);
         } else if (mResizeMode == AppWidgetProviderInfo.RESIZE_VERTICAL) {
             mDragHandles[INDEX_LEFT].setVisibility(GONE);
             mDragHandles[INDEX_RIGHT].setVisibility(GONE);
-        }
+        }*/
 
         // When we create the resize frame, we first mark all cells as unoccupied. The appropriate
         // cells (same if not resized, or different) will be marked as occupied when the resize
@@ -152,14 +152,19 @@ public class AppWidgetResizeFrame extends FrameLayout
     }
 
     public boolean beginResizeIfPointInRegion(int x, int y) {
-        boolean horizontalActive = (mResizeMode & AppWidgetProviderInfo.RESIZE_HORIZONTAL) != 0;
+        /*boolean horizontalActive = (mResizeMode & AppWidgetProviderInfo.RESIZE_HORIZONTAL) != 0;
         boolean verticalActive = (mResizeMode & AppWidgetProviderInfo.RESIZE_VERTICAL) != 0;
 
         mLeftBorderActive = (x < mTouchTargetWidth) && horizontalActive;
         mRightBorderActive = (x > getWidth() - mTouchTargetWidth) && horizontalActive;
         mTopBorderActive = (y < mTouchTargetWidth + mTopTouchRegionAdjustment) && verticalActive;
         mBottomBorderActive = (y > getHeight() - mTouchTargetWidth + mBottomTouchRegionAdjustment)
-                && verticalActive;
+                && verticalActive;*/
+        mLeftBorderActive = x < mTouchTargetWidth;
+        mRightBorderActive = x > getWidth() - mTouchTargetWidth;
+        mTopBorderActive = y < mTouchTargetWidth + mTopTouchRegionAdjustment;
+        mBottomBorderActive = y > getHeight() - mTouchTargetWidth + mBottomTouchRegionAdjustment;
+
 
         boolean anyBordersActive = mLeftBorderActive || mRightBorderActive
                 || mTopBorderActive || mBottomBorderActive;

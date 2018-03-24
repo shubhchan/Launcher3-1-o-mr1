@@ -154,12 +154,13 @@ public class FolderIcon extends FrameLayout implements FolderListener {
     }
 
     public static FolderIcon fromXml(int resId, Launcher launcher, ViewGroup group,
+          //  FolderInfo folderInfo) {
                                      FolderInfo folderInfo) {
         return fromXml(resId, launcher, group, folderInfo, false);
     }
 
     public static FolderIcon fromXml(int resId, Launcher launcher, ViewGroup group,
-            FolderInfo folderInfo, boolean fromPreview) {
+           FolderInfo folderInfo, boolean fromPreview) {
         @SuppressWarnings("all") // suppress dead code warning
         final boolean error = INITIAL_ITEM_ANIMATION_DURATION >= DROP_IN_ANIMATION_DURATION;
         if (error) {

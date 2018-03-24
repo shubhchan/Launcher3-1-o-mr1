@@ -132,7 +132,7 @@ public class CustomBottomSheet extends WidgetsBottomSheet {
                 }
             });
 
-            mPrefHide.setChecked(CustomAppFilter.isHiddenApp(context, mComponentName, mPackageName));
+           // mPrefHide.setChecked(CustomAppFilter.isHiddenApp(context, mComponentName, mPackageName));
             mPrefHide.setOnPreferenceChangeListener(this);
         }
 

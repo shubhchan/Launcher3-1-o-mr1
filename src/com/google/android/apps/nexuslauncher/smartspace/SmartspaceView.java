@@ -11,6 +11,7 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Process;
+import android.provider.AlarmClock;
 import android.provider.CalendarContract;
 import android.text.TextPaint;
 import android.text.TextUtils;
@@ -37,6 +38,7 @@ import com.google.android.apps.nexuslauncher.graphics.IcuDateTextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
 
 public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAnimator.AnimatorUpdateListener, View.OnClickListener, View.OnLongClickListener, Runnable {
     private TextView mSubtitleWeatherText;
@@ -297,13 +299,28 @@ public class SmartspaceView extends FrameLayout implements ISmartspace, ValueAni
 
     public boolean onLongClick(final View view) {
         final boolean b = true;
-        final Launcher launcher = Launcher.getLauncher(getContext());
+       /* final Launcher launcher = Launcher.getLauncher(getContext());
         final PopupContainerWithArrow popupContainerWithArrow = (PopupContainerWithArrow) launcher.getLayoutInflater().inflate(R.layout.popup_container, launcher.getDragLayer(), false);
         popupContainerWithArrow.setVisibility(View.INVISIBLE);
         launcher.getDragLayer().addView(popupContainerWithArrow);
         ArrayList<SystemShortcut> list = new ArrayList<>(1);
         list.add(new SmartspacePreferencesShortcut());
-        popupContainerWithArrow.populateAndShow(dr, Collections.EMPTY_LIST, Collections.EMPTY_LIST, list);
+        popupContainerWithArrow.populateAndShow(dr, Collections.EMPTY_LIST, Collections.EMPTY_LIST, list);*/
+        boolean clock = Utilities.getPrefs((getContext())).getBoolean("pref_launchclock", false);
+        if (!clock) {
+            final Launcher launcher = Launcher.getLauncher(getContext());
+            final PopupContainerWithArrow popupContainerWithArrow = (PopupContainerWithArrow) launcher.getLayoutInflater().inflate(R.layout.popup_container, launcher.getDragLayer(), false);
+            popupContainerWithArrow.setVisibility(View.INVISIBLE);
+            launcher.getDragLayer().addView(popupContainerWithArrow);
+            ArrayList<SystemShortcut> list = new ArrayList<>(1);
+            list.add(new SmartspacePreferencesShortcut());
+            popupContainerWithArrow.populateAndShow(dr, Collections.EMPTY_LIST, Collections.EMPTY_LIST, list);
+        }
+        else {
+            final Intent addFlags = new Intent(AlarmClock.ACTION_SHOW_ALARMS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+            Context context = Launcher.getLauncher(getContext());
+            Launcher.getLauncher(context).startActivitySafely(view, addFlags, null);
+        }
         return b;
     }
 

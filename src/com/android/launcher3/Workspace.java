@@ -530,6 +530,10 @@ public class Workspace extends PagedView
         return numCustomPages();
     }
 
+    public boolean isOnDefaultPage() {
+        return mState == State.NORMAL && mCurrentPage == getDefaultPage();
+    }
+
     private void setupLayoutTransition() {
         // We want to show layout transitions when pages are deleted, to close the gap.
         mLayoutTransition = new LayoutTransition();
@@ -1496,6 +1500,15 @@ public class Workspace extends PagedView
             currentChild.setAlpha(finalAlpha);
         }
 
+        if (direction == Direction.Y) {
+            View nextChild = getChildAt(getNextPage());
+            if (nextChild != null) {
+                property.set(nextChild, translation);
+                nextChild.setAlpha(finalAlpha);
+            }
+        }
+
+
         // When the animation finishes, reset all pages, just in case we missed a page.
         if (Float.compare(translation, 0) == 0) {
             for (int i = getChildCount() - 1; i >= 0; i--) {
@@ -1894,6 +1907,10 @@ public class Workspace extends PagedView
 
     public void prepareDragWithProvider(DragPreviewProvider outlineProvider) {
         mOutlineProvider = outlineProvider;
+    }
+
+    public boolean isInWidgetResize() {
+        return mLauncher.getDragLayer().isInWidgetResize();
     }
 
     public void exitWidgetResizeMode() {
@@ -2573,16 +2590,14 @@ public class Workspace extends PagedView
                     lp.cellVSpan = item.spanY;
                     lp.isLockedToGrid = true;
 
-                    if (container != LauncherSettings.Favorites.CONTAINER_HOTSEAT &&
-                            cell instanceof LauncherAppWidgetHostView) {
+                    if (cell instanceof LauncherAppWidgetHostView) {
                         final CellLayout cellLayout = dropTargetLayout;
                         // We post this call so that the widget has a chance to be placed
                         // in its final location
 
                         final LauncherAppWidgetHostView hostView = (LauncherAppWidgetHostView) cell;
                         AppWidgetProviderInfo pInfo = hostView.getAppWidgetInfo();
-                        if (pInfo != null && pInfo.resizeMode != AppWidgetProviderInfo.RESIZE_NONE
-                                && !d.accessibleDrag) {
+                        if (pInfo != null && !d.accessibleDrag) {
                             mDelayedResizeRunnable = new Runnable() {
                                 public void run() {
                                     if (!isPageInTransition()) {
@@ -2986,7 +3001,7 @@ public class Workspace extends PagedView
     private boolean setDropLayoutForDragObject(DragObject d, float centerX, float centerY) {
         CellLayout layout = null;
         // Test to see if we are over the hotseat first
-        if (mLauncher.getHotseat() != null && !isDragWidget(d)) {
+        if (mLauncher.getHotseat() != null) {
             if (isPointInSelfOverHotseat(d.x, d.y)) {
                 layout = mLauncher.getHotseat().getLayout();
             }

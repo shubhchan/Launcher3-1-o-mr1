@@ -111,7 +111,7 @@ public class DeepShortcutManager {
      */
     @TargetApi(25)
     public void unpinShortcut(final ShortcutKey key) {
-        if (Utilities.ATLEAST_NOUGAT_MR1) {
+
             String packageName = key.componentName.getPackageName();
             String id = key.getId();
             UserHandle user = key.user;
@@ -125,7 +125,7 @@ public class DeepShortcutManager {
                 mWasLastCallSuccess = false;
             }
         }
-    }
+
 
     /**
      * Adds the given shortcut to the current list of pinned shortcuts.
@@ -133,7 +133,7 @@ public class DeepShortcutManager {
      */
     @TargetApi(25)
     public void pinShortcut(final ShortcutKey key) {
-        if (Utilities.ATLEAST_NOUGAT_MR1) {
+
             String packageName = key.componentName.getPackageName();
             String id = key.getId();
             UserHandle user = key.user;
@@ -147,7 +147,7 @@ public class DeepShortcutManager {
                 mWasLastCallSuccess = false;
             }
         }
-    }
+
 
     @TargetApi(25)
     public void startShortcut(String packageName, String id, Intent intent,
@@ -162,7 +162,7 @@ public class DeepShortcutManager {
                 mWasLastCallSuccess = false;
             }
         } else {
-            mContext.startActivity(intent, startActivityOptions);
+            mContext.startActivity(ShortcutInfoCompatBackport.stripPackage(intent), startActivityOptions);
         }
     }
 

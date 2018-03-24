@@ -18,6 +18,7 @@ package com.android.launcher3;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -67,6 +68,10 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver {
 
     private static final int[] STATE_PRESSED = new int[] {android.R.attr.state_pressed};
 
+    private static final String KEY_SHOW_DESKTOP_LABELS = "pref_desktop_show_labels";
+    private static final String KEY_SHOW_DRAWER_LABELS = "pref_drawer_show_labels";
+    private static final String KEY_SHOW_FOLDER_LABELS = "pref_folder_show_labels";
+
     private final Launcher mLauncher;
     private Drawable mIcon;
     private final boolean mCenterVertically;
@@ -84,6 +89,8 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver {
     @ViewDebug.ExportedProperty(category = "launcher")
     private int mTextColor;
     private boolean mIsIconVisible = true;
+
+    private boolean mShouldShowLabel;
 
     private BadgeInfo mBadgeInfo;
     private BadgeRenderer mBadgeRenderer;
@@ -149,19 +156,39 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver {
         mDeferShadowGenerationOnTouch =
                 a.getBoolean(R.styleable.BubbleTextView_deferShadowGeneration, false);
 
+        SharedPreferences prefs = Utilities.getPrefs(context.getApplicationContext());
+
         int display = a.getInteger(R.styleable.BubbleTextView_iconDisplay, DISPLAY_WORKSPACE);
         int defaultIconSize = grid.iconSizePx;
         if (display == DISPLAY_WORKSPACE) {
             setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.iconTextSizePx);
             setCompoundDrawablePadding(grid.iconDrawablePaddingPx);
+           /* if (prefs.getBoolean("pref_change_workspace_label_color", false)){
+                Integer intColor = prefs.getInt("pref_workspace_label_color_picker", -1);
+                String hexColor = "#" + Integer.toHexString(intColor).substring(2);
+                setTextColor(Color.parseColor(hexColor));
+            }*/
+            mShouldShowLabel = prefs.getBoolean(KEY_SHOW_DESKTOP_LABELS, true);
         } else if (display == DISPLAY_ALL_APPS) {
             setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.allAppsIconTextSizePx);
             setCompoundDrawablePadding(grid.allAppsIconDrawablePaddingPx);
-            defaultIconSize = grid.allAppsIconSizePx;
+            defaultIconSize = grid.allAppsIconSizePx * Integer.valueOf(prefs.getString("pref_drawer_icon_size", "100"))/100;
+            mShouldShowLabel = prefs.getBoolean(KEY_SHOW_DRAWER_LABELS, true);
+           /* if (prefs.getBoolean("pref_change_drawer_label_color", false)){
+                Integer intColor = prefs.getInt("pref_drawer_label_color_picker", -1);
+                String hexColor = "#" + Integer.toHexString(intColor).substring(2);
+                setTextColor(Color.parseColor(hexColor));
+            }*/
+
         } else if (display == DISPLAY_FOLDER) {
             setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.folderChildTextSizePx);
             setCompoundDrawablePadding(grid.folderChildDrawablePaddingPx);
             defaultIconSize = grid.folderChildIconSizePx;
+           /* if (prefs.getBoolean("pref_change_folder_label_color", false)){
+                Integer intColor = prefs.getInt("pref_folder_label_color_picker", -1);
+                String hexColor = "#" + Integer.toHexString(intColor).substring(2);
+                setTextColor(Color.parseColor(hexColor));
+            }*/ mShouldShowLabel = prefs.getBoolean(KEY_SHOW_FOLDER_LABELS, true);
         }
         mCenterVertically = a.getBoolean(R.styleable.BubbleTextView_centerVertically, false);
 
@@ -220,7 +247,9 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver {
         FastBitmapDrawable iconDrawable = DrawableFactory.get(getContext()).newIcon(icon, info);
         iconDrawable.setIsDisabled(info.isDisabled());
         setIcon(iconDrawable);
-        setText(info.title);
+        if (mShouldShowLabel) {
+            setText(info.title);
+        }
         if (info.contentDescription != null) {
             setContentDescription(info.isDisabled()
                     ? getContext().getString(R.string.disabled_app_label, info.contentDescription)

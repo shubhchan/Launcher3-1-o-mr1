@@ -35,6 +35,18 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class ShortcutInfoCompatBackport extends ShortcutInfoCompat {
+
+    private final static String USE_PACKAGE = "shortcut_backport_use_package";
+
+    static Intent stripPackage(Intent intent) {
+        intent = new Intent(intent);
+        if (!intent.getBooleanExtra(ShortcutInfoCompatBackport.USE_PACKAGE, true)) {
+            intent.setPackage(null);
+        }
+        intent.removeExtra(ShortcutInfoCompatBackport.USE_PACKAGE);
+        return intent;
+    }
+
     private final Context mContext;
     private final String mPackageName;
     private final String mId;

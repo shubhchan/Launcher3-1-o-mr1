@@ -27,6 +27,9 @@ import android.util.Xml;
 import android.view.Display;
 import android.view.WindowManager;
 
+import android.content.SharedPreferences;
+
+
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.util.Thunk;
 
@@ -64,6 +67,7 @@ public class InvariantDeviceProfile {
     public int numRows;
     public int numRowsOriginal;
     public int numColumns;
+    public int numAllAppColumns;
 
     /**
      * The minimum number of predicted apps in all apps.
@@ -82,6 +86,8 @@ public class InvariantDeviceProfile {
     public int fillResIconDpi;
     public float iconTextSize;
 
+    public float iconAllAppSize;
+
     /**
      * Number of icons inside the hotseat area.
      */
@@ -99,13 +105,13 @@ public class InvariantDeviceProfile {
     }
 
     public InvariantDeviceProfile(InvariantDeviceProfile p) {
-        this(p.name, p.minWidthDps, p.minHeightDps, p.numRows, p.numColumns,
+        this(p.name, p.minWidthDps, p.minHeightDps, p.numRows, p.numColumns,  p.numAllAppColumns,
                 p.numFolderRows, p.numFolderColumns, p.minAllAppsPredictionColumns,
                 p.iconSize, p.landscapeIconSize, p.iconTextSize, p.numHotseatIcons,
                 p.defaultLayoutId, p.demoModeLayoutId);
     }
 
-    InvariantDeviceProfile(String n, float w, float h, int r, int c, int fr, int fc, int maapc,
+    InvariantDeviceProfile(String n, float w, float h, int r, int c, int nac, int fr, int fc, int maapc,
             float is, float lis, float its, int hs, int dlId, int dmlId) {
         name = n;
         minWidthDps = w;
@@ -113,6 +119,7 @@ public class InvariantDeviceProfile {
         numRows = r;
         numRowsOriginal = r;
         numColumns = c;
+        numAllAppColumns = nac;
         numFolderRows = fr;
         numFolderColumns = fc;
         minAllAppsPredictionColumns = maapc;
@@ -144,18 +151,21 @@ public class InvariantDeviceProfile {
         InvariantDeviceProfile interpolatedDeviceProfileOut =
                 invDistWeightedInterpolate(minWidthDps,  minHeightDps, closestProfiles);
 
+        SharedPreferences prefs = Utilities.getPrefs(context.getApplicationContext());
+
         InvariantDeviceProfile closestProfile = closestProfiles.get(0);
-        numRows = closestProfile.numRows;
-        numRowsOriginal = closestProfile.numRows;
-        numColumns = closestProfile.numColumns;
-        numHotseatIcons = closestProfile.numHotseatIcons;
+        numRows = Utilities.getGridRows(context, closestProfile.numRows);
+        numColumns = Utilities.getGridColumns(context, closestProfile.numColumns);
+        numAllAppColumns = Utilities.getDGridColumns(context, closestProfile.numColumns);
+        numHotseatIcons = Utilities.getHotseatIcons(context, closestProfile.numHotseatIcons);
         defaultLayoutId = closestProfile.defaultLayoutId;
         demoModeLayoutId = closestProfile.demoModeLayoutId;
         numFolderRows = closestProfile.numFolderRows;
         numFolderColumns = closestProfile.numFolderColumns;
         minAllAppsPredictionColumns = closestProfile.minAllAppsPredictionColumns;
 
-        iconSize = interpolatedDeviceProfileOut.iconSize;
+        iconSize = Integer.valueOf(prefs.getString("pref_IconSize", "56"));
+        iconAllAppSize = 56;
         landscapeIconSize = interpolatedDeviceProfileOut.landscapeIconSize;
         iconBitmapSize = Utilities.pxFromDp(iconSize, dm);
         iconTextSize = interpolatedDeviceProfileOut.iconTextSize;
@@ -201,6 +211,7 @@ public class InvariantDeviceProfile {
                             Xml.asAttributeSet(parser), R.styleable.InvariantDeviceProfile);
                     int numRows = a.getInt(R.styleable.InvariantDeviceProfile_numRows, 0);
                     int numColumns = a.getInt(R.styleable.InvariantDeviceProfile_numColumns, 0);
+                    int numAllAppColumns = a.getInt(R.styleable.InvariantDeviceProfile_numAllAppColumns, 0);
                     float iconSize = a.getFloat(R.styleable.InvariantDeviceProfile_iconSize, 0);
                     profiles.add(new InvariantDeviceProfile(
                             a.getString(R.styleable.InvariantDeviceProfile_name),
@@ -208,6 +219,7 @@ public class InvariantDeviceProfile {
                             a.getFloat(R.styleable.InvariantDeviceProfile_minHeightDps, 0),
                             numRows,
                             numColumns,
+                            numAllAppColumns,
                             a.getInt(R.styleable.InvariantDeviceProfile_numFolderRows, numRows),
                             a.getInt(R.styleable.InvariantDeviceProfile_numFolderColumns, numColumns),
                             a.getInt(R.styleable.InvariantDeviceProfile_minAllAppsPredictionColumns, numColumns),

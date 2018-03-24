@@ -109,6 +109,7 @@
 
         <attr name="numRows" format="integer" />
         <attr name="numColumns" format="integer" />
+        <attr name="numAllAppColumns" format="integer" />
         <!-- numFolderRows & numFolderColumns defaults to numRows & numColumns, if not specified -->
         <attr name="numFolderRows" format="integer" />
         <attr name="numFolderColumns" format="integer" />
@@ -151,4 +152,13 @@
 
     <!-- Custom -->
     <attr name="bottomSheetNavBarColor" format="color" />
+
+    <declare-styleable name="SeekbarPreference">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="summaryFormat" format="string" />
+        <attr name="summaryMultiplier" format="integer" />
+        <attr name="defaultValue" format="float" />
+    </declare-styleable>
+
 </resources>

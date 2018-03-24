@@ -39,6 +39,7 @@ import com.android.launcher3.util.ComponentKey;
 import com.android.launcher3.util.LongArrayMap;
 import com.android.launcher3.util.MultiHashMap;
 import com.google.protobuf.nano.MessageNano;
+import com.android.launcher3.Utilities;
 
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;
@@ -264,13 +265,15 @@ public class BgDataModel {
                     workspaceItems.remove(item);
                     break;
                 case LauncherSettings.Favorites.ITEM_TYPE_DEEP_SHORTCUT: {
-                    // Decrement pinned shortcut count
-                    ShortcutKey pinnedShortcut = ShortcutKey.fromItemInfo(item);
-                    MutableInt count = pinnedShortcutCounts.get(pinnedShortcut);
-                    if ((count == null || --count.value == 0)
-                            && !InstallShortcutReceiver.getPendingShortcuts(context)
+                    if (Utilities.ATLEAST_NOUGAT_MR1) {
+                        // Decrement pinned shortcut count
+                        ShortcutKey pinnedShortcut = ShortcutKey.fromItemInfo(item);
+                        MutableInt count = pinnedShortcutCounts.get(pinnedShortcut);
+                        if ((count == null || --count.value == 0)
+                                && !InstallShortcutReceiver.getPendingShortcuts(context)
                                 .contains(pinnedShortcut)) {
-                        DeepShortcutManager.getInstance(context).unpinShortcut(pinnedShortcut);
+                            DeepShortcutManager.getInstance(context).unpinShortcut(pinnedShortcut);
+                        }
                     }
                     // Fall through.
                 }
@@ -295,6 +298,7 @@ public class BgDataModel {
                 workspaceItems.add(item);
                 break;
             case LauncherSettings.Favorites.ITEM_TYPE_DEEP_SHORTCUT: {
+                if (Utilities.ATLEAST_NOUGAT_MR1) {
                 // Increment the count for the given shortcut
                 ShortcutKey pinnedShortcut = ShortcutKey.fromItemInfo(item);
                 MutableInt count = pinnedShortcutCounts.get(pinnedShortcut);
@@ -308,6 +312,7 @@ public class BgDataModel {
                 // Since this is a new item, pin the shortcut in the system server.
                 if (newItem && count.value == 1) {
                     DeepShortcutManager.getInstance(context).pinShortcut(pinnedShortcut);
+                }
                 }
                 // Fall through
             }

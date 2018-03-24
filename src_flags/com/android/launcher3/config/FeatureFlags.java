@@ -30,5 +30,8 @@ public final class FeatureFlags extends BaseFlags {
     // Feature flag to enable moving the QSB on the 0th screen of the workspace.
     public static boolean QSB_ON_FIRST_SCREEN = true;
 
+    public static final boolean LAUNCHER3_GRADIENT_ALL_APPS = true;
+
+
     private FeatureFlags() {}
 }

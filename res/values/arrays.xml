@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numHotseatIconsValues">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="numGridValues">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="numFolderValues">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="GradientSizeName">
+        <item>@string/size_small</item>
+        <item>@string/size_stock</item>
+        <item>@string/size_big</item>
+        <item>@string/size_biggest</item>
+    </string-array>
+
+    <string-array name="GradientSize">
+        <item>70</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>240</item>
+    </string-array>
+
+    <string-array name="IconSizeName">
+        <item>@string/size_tiny</item>
+        <item>@string/size_smallest</item>
+        <item>@string/size_small</item>
+        <item>@string/size_stock</item>
+        <item>@string/size_big</item>
+        <item>@string/size_biggest</item>
+    </string-array>
+
+    <string-array name="IconSizesValues">
+        <item>41</item>
+        <item>44</item>
+        <item>49</item>
+        <item>56</item>
+        <item>61</item>
+        <item>66</item>
+    </string-array>
+
+    <string-array name="IconSizePrName">
+        <item>@string/size_tiny</item>
+        <item>@string/size_smallest</item>
+        <item>@string/size_small</item>
+        <item>@string/size_stock</item>
+        <item>@string/size_big</item>
+        <item>@string/size_biggest</item>
+    </string-array>
+
+    <string-array name="IconSizesPrValues">
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+    </string-array>
+
+    <string-array name="DateFormatsName">
+        <item>@string/date_format_1</item>
+        <item>@string/date_format_2</item>
+        <item>@string/date_format_3</item>
+        <item>@string/date_format_4</item>
+        <item>@string/date_format_5</item>
+        <item>@string/date_format_6</item>
+    </string-array>
+
+    <string-array name="DateFormatsValues">
+        <item>EEEEMMMd</item>
+        <item>EEEE</item>
+        <item>EEMMMMd</item>
+        <item>EEMMМd</item>
+        <item>EEEEd</item>
+        <item>EEEEMMMMd</item>
+    </string-array>
+
+
+    <string-array name="ThemeName">
+        <item>@string/white_theme</item>
+        <item>@string/white_withdarktext_theme</item>
+        <item>@string/dark_theme</item>
+        <item>@string/black_theme</item>
+    </string-array>
+
+    <string-array name="ThemeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string-array name="ColorValues">
+        <item>#FFFFFF</item>
+        <item>#000000</item>
+        <item>#78909C</item>
+        <item>#37474F</item>
+        <item>#BDBDBD</item>
+        <item>#424242</item>
+        <item>#8D6E63</item>
+        <item>#4E342E</item>
+        <item>#FF7043</item>
+        <item>#D84315</item>
+        <item>#FFA726</item>
+        <item>#EF6C00</item>
+        <item>#FFCA28</item>
+        <item>#FF8F00</item>
+        <item>#FFEE58</item>
+        <item>#F9A825</item>
+        <item>#D4E157</item>
+        <item>#9E9D24</item>
+        <item>#9CCC65</item>
+        <item>#558B2F</item>
+        <item>#66BB6A</item>
+        <item>#2E7D32</item>
+        <item>#26A69A</item>
+        <item>#00695C</item>
+        <item>#26C6DA</item>
+        <item>#00838F</item>
+        <item>#29B6F6</item>
+        <item>#0277BD</item>
+        <item>#42A5F5</item>
+        <item>#1565C0</item>
+        <item>#5C6BC0</item>
+        <item>#283593</item>
+        <item>#7E57C2</item>
+        <item>#4527A0</item>
+        <item>#AB47BC</item>
+        <item>#6A1B9A</item>
+        <item>#EC407A</item>
+        <item>#AD1457</item>
+        <item>#EF5350</item>
+        <item>#C62828</item>
+    </string-array>
+
+    <string-array name="ColorNames">
+        <item>@string/White</item>
+        <item>@string/Black</item>
+        <item>@string/Blue_gray1</item>
+        <item>@string/Blue_gray2</item>
+        <item>@string/Gray1</item>
+        <item>@string/Gray2</item>
+        <item>@string/Brown1</item>
+        <item>@string/Brown2</item>
+        <item>@string/Deep_orange1</item>
+        <item>@string/Deep_orange2</item>
+        <item>@string/Orange1</item>
+        <item>@string/Orange2</item>
+        <item>@string/Amber1</item>
+        <item>@string/Amber2</item>
+        <item>@string/Yellow1</item>
+        <item>@string/Yellow2</item>
+        <item>@string/Lime1</item>
+        <item>@string/Lime2</item>
+        <item>@string/Light_green1</item>
+        <item>@string/Light_green2</item>
+        <item>@string/Green1</item>
+        <item>@string/Green2</item>
+        <item>@string/Teal1</item>
+        <item>@string/Teal2</item>
+        <item>@string/Cyan1</item>
+        <item>@string/Cyan2</item>
+        <item>@string/Light_blue1</item>
+        <item>@string/Light_blue2</item>
+        <item>@string/Blue1</item>
+        <item>@string/Blue2</item>
+        <item>@string/Indigo1</item>
+        <item>@string/Indigo2</item>
+        <item>@string/Deep_purple1</item>
+        <item>@string/Deep_purple2</item>
+        <item>@string/Purple1</item>
+        <item>@string/Purple2</item>
+        <item>@string/Pink1</item>
+        <item>@string/Pink2</item>
+        <item>@string/Red1</item>
+        <item>@string/Red2</item>
+    </string-array>
+
+</resources>

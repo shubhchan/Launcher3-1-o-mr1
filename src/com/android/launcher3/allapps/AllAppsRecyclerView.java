@@ -32,6 +32,7 @@ import com.android.launcher3.BubbleTextView;
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.ItemInfo;
 import com.android.launcher3.R;
+import com.android.launcher3.Utilities;
 import com.android.launcher3.anim.SpringAnimationHandler;
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.graphics.DrawableFactory;
@@ -587,7 +588,7 @@ public class AllAppsRecyclerView extends BaseRecyclerView implements LogContaine
         private void reset(boolean shouldSpring) {
             float y = getContentTranslationY();
             if (Float.compare(y, 0) != 0) {
-                if (FeatureFlags.LAUNCHER3_PHYSICS && shouldSpring) {
+                if (FeatureFlags.LAUNCHER3_PHYSICS && shouldSpring && Utilities.isPhysicalAnimationEnabled(getContext())) {
                     // We calculate our own velocity to give the springs the desired effect.
                     float velocity = y / getDampedOverScroll(getHeight()) * MAX_RELEASE_VELOCITY;
                     // We want to negate the velocity because we are moving to 0 from -1 due to the

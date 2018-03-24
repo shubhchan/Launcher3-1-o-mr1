@@ -19,10 +19,13 @@ public class NexusAppFilter extends AppFilter {
 
         //Google Now Launcher
         mHideList.add(ComponentName.unflattenFromString("com.google.android.launcher/com.google.android.launcher.StubApp"));
+
+        //Hide launcher icon
+        mHideList.add(ComponentName.unflattenFromString("com.google.android.apps.nexuslauncher/.NexusLauncherActivity"));
     }
 
     @Override
     public boolean shouldShowApp(ComponentName componentName) {
-        return !mHideList.contains(componentName);
+        return !mHideList.contains(componentName) && super.shouldShowApp(componentName);
     }
 }

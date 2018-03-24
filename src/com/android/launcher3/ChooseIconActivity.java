@@ -129,11 +129,11 @@ public class ChooseIconActivity extends Activity {
 
         mIconSize = getResources().getDimensionPixelSize(R.dimen.icon_pack_icon_size);
 
-        if (mDefaultIconPack) {
-            setListLoaded();
-        } else {
-            new LoadIconListTask(this).execute();
-        }
+            if (mDefaultIconPack) {
+                setListLoaded();
+            } else {
+                new LoadIconListTask(this).execute();
+            }
     }
 
     public void setIcons(List<String> allIcons, List<String> matchingIcons) {
@@ -142,6 +142,7 @@ public class ChooseIconActivity extends Activity {
     }
 
     public void setListLoaded() {
+       // mGridAdapter = new GridAdapter(mAllIcons, mMatchingIcons);
         mGridAdapter = new GridAdapter(mAllIcons, mMatchingIcons, mCurrentInstalledApps);
         mIconsGrid.setAdapter(mGridAdapter);
         mProgressBar.setVisibility(View.GONE);
@@ -167,18 +168,23 @@ public class ChooseIconActivity extends Activity {
         private List<String> mDefaultAllDrawables = new ArrayList<>();
         private List<String> mMatchingDrawables = new ArrayList<>();
 
-        void filterList(List<String> filteredAllDrawables, List<String> filteredMatchingDrawables,
+       // void filterList(List<String> filteredAllDrawables, List<String> filteredMatchingDrawables) {
+
+           // mAllDrawables = filteredAllDrawables;
+           // mMatchingDrawables = filteredMatchingDrawables;
+           void filterList(List<String> filteredAllDrawables, List<String> filteredMatchingDrawables,
                         boolean defaultIconPack) {
-            if (defaultIconPack) {
-                mDefaultAllDrawables = filteredAllDrawables;
-            } else {
-                mAllDrawables = filteredAllDrawables;
-                mMatchingDrawables = filteredMatchingDrawables;
-            }
+               if (defaultIconPack) {
+                   mDefaultAllDrawables = filteredAllDrawables;
+               } else {
+                   mAllDrawables = filteredAllDrawables;
+                   mMatchingDrawables = filteredMatchingDrawables;
+               }
             notifyDataSetChanged();
         }
 
-        private GridAdapter(List<String> allDrawables, List<String> matchingDrawables,
+       // private GridAdapter(List<String> allDrawables, List<String> matchingDrawables) {
+       private GridAdapter(List<String> allDrawables, List<String> matchingDrawables,
                             List<String> defaultAllDrawables) {
             if (!mDefaultIconPack) {
                 mAllDrawables.add(null);
@@ -240,6 +246,7 @@ public class ChooseIconActivity extends Activity {
 
         @Override
         public int getItemCount() {
+            //return mDefaultIconPack ? mCurrentInstalledApps.size() : (mAllDrawables.size() + 1);
             return mDefaultIconPack ? mDefaultAllDrawables.size() : (mAllDrawables.size() + 1);
         }
 
@@ -280,6 +287,7 @@ public class ChooseIconActivity extends Activity {
                     public void onClick(View v) {
                         Drawable icon = null;
                         if (mDefaultIconPack) {
+                            //String pkgName  = mCurrentInstalledApps.get(position);
                             String pkgName  = mDefaultAllDrawables.get(holder.getAdapterPosition());
                             PackageManager pm = getPackageManager();
                             try {
@@ -302,6 +310,7 @@ public class ChooseIconActivity extends Activity {
                 });
                 Drawable icon = null;
                 if (mDefaultIconPack) {
+                   // String pkgName = mCurrentInstalledApps.get(position);
                     String pkgName = mDefaultAllDrawables.get(position);
                     PackageManager pm = getPackageManager();
                     try {
@@ -316,6 +325,7 @@ public class ChooseIconActivity extends Activity {
                         // time for a new device?
                         e.printStackTrace();
                     }
+
                 }
                 ((ImageView) holder.itemView).setImageDrawable(icon);
             }
@@ -356,11 +366,14 @@ public class ChooseIconActivity extends Activity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
+
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String newText) {
+
+                //IconsSearchUtils.filter(newText, mMatchingIcons, mAllIcons, mGridAdapter);
                 if (mDefaultIconPack) {
                     IconsSearchUtils.filter(newText, null, mCurrentInstalledApps, mGridAdapter);
                 } else {
@@ -399,6 +412,7 @@ public class ChooseIconActivity extends Activity {
             if (activity != null) {
                 activity.setIcons(allIcons, matchingIcons);
                 activity.setListLoaded();
+
             }
         }
     }

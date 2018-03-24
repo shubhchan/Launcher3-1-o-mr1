@@ -16,7 +16,6 @@ import android.graphics.PorterDuff.Mode;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.net.Uri;
 import android.os.Process;
 import android.util.AttributeSet;
 import android.view.View;
@@ -179,7 +178,7 @@ public abstract class AbstractQsbLayout extends FrameLayout implements LauncherL
 
     public void onClick(View view) {
         if (view == mMicIconView) {
-            fallbackSearch("android.intent.action.VOICE_ASSIST");
+            fallbackSearch(Intent.ACTION_VOICE_COMMAND);
         }
     }
 
@@ -210,6 +209,10 @@ public abstract class AbstractQsbLayout extends FrameLayout implements LauncherL
 
     private void loadPreferences(SharedPreferences sharedPreferences) {
         mMicIconView.setVisibility(sharedPreferences.getBoolean("opa_enabled", true) ? View.GONE : View.VISIBLE);
+        boolean mic = Utilities.getPrefs((getContext())).getBoolean("pref_enablemic", false);
+        if (mic) {
+            mMicIconView.setVisibility(sharedPreferences.getBoolean("opa_enabled", false) ? View.GONE : View.VISIBLE);
+        }
         requestLayout();
     }
 }

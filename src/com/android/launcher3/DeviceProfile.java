@@ -31,8 +31,10 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 
+
 import com.android.launcher3.CellLayout.ContainerType;
 import com.android.launcher3.badge.BadgeRenderer;
+
 
 import java.util.ArrayList;
 
@@ -56,6 +58,7 @@ public class DeviceProfile {
     public final int heightPx;
     public final int availableWidthPx;
     public final int availableHeightPx;
+    public int iconAllAppSizePx;
     /**
      * The maximum amount of left/right workspace padding as a percentage of the screen width.
      * To be clear, this means that up to 7% of the screen width can be used as left padding, and
@@ -180,14 +183,23 @@ public class DeviceProfile {
         ComponentName cn = new ComponentName(context.getPackageName(),
                 this.getClass().getName());
         defaultWidgetPadding = AppWidgetHostView.getDefaultPaddingForWidget(context, cn, null);
-        edgeMarginPx = res.getDimensionPixelSize(R.dimen.dynamic_grid_edge_margin);
+        boolean a = Utilities.getPrefs(context).getBoolean("pref_diabledgemargin", false);
+        if (a) {
+            edgeMarginPx = res.getDimensionPixelSize(R.dimen.dynamic_grid_edge_margin_disabled);
+        }
+        else edgeMarginPx = res.getDimensionPixelSize(R.dimen.dynamic_grid_edge_margin);
         desiredWorkspaceLeftRightMarginPx = isVerticalBarLayout() ? 0 : edgeMarginPx;
         cellLayoutPaddingLeftRightPx =
                 res.getDimensionPixelSize(R.dimen.dynamic_grid_cell_layout_padding);
         cellLayoutBottomPaddingPx =
                 res.getDimensionPixelSize(R.dimen.dynamic_grid_cell_layout_bottom_padding);
-        pageIndicatorSizePx = res.getDimensionPixelSize(
-                R.dimen.dynamic_grid_min_page_indicator_size);
+        a = Utilities.getPrefs(context).getBoolean("pref_hotseatShowArrow", true);
+        if (a) {
+            pageIndicatorSizePx = res.getDimensionPixelSize(R.dimen.dynamic_grid_min_page_indicator_size);
+        }
+        else pageIndicatorSizePx = 0;
+
+
         pageIndicatorLandLeftNavBarGutterPx = res.getDimensionPixelSize(
                 R.dimen.dynamic_grid_page_indicator_land_left_nav_bar_gutter_width);
         pageIndicatorLandRightNavBarGutterPx = res.getDimensionPixelSize(
@@ -218,8 +230,9 @@ public class DeviceProfile {
 
         hotseatBarTopPaddingPx =
                 res.getDimensionPixelSize(R.dimen.dynamic_grid_hotseat_top_padding);
-        hotseatBarBottomPaddingPx =
-                res.getDimensionPixelSize(R.dimen.dynamic_grid_hotseat_bottom_padding);
+        hotseatBarBottomPaddingPx = Utilities.isBottomSearchBarVisible(context)
+                ? res.getDimensionPixelSize(R.dimen.dynamic_grid_hotseat_bottom_padding)
+                : res.getDimensionPixelSize(R.dimen.dynamic_grid_hotseat_bottom_padding_hidden_bottom_qsb);
         hotseatBarLeftNavBarRightPaddingPx = res.getDimensionPixelSize(
                 R.dimen.dynamic_grid_hotseat_land_left_nav_bar_right_padding);
         hotseatBarRightNavBarRightPaddingPx = res.getDimensionPixelSize(
@@ -231,9 +244,9 @@ public class DeviceProfile {
         hotseatBarSizePx = isVerticalBarLayout()
                 ? Utilities.pxFromDp(inv.iconSize, dm)
                 : res.getDimensionPixelSize(R.dimen.dynamic_grid_hotseat_size)
-                        + hotseatBarTopPaddingPx + hotseatBarBottomPaddingPx;
-
+                + hotseatBarTopPaddingPx + hotseatBarBottomPaddingPx;
         mBottomMarginHw = res.getDimensionPixelSize(R.dimen.qsb_hotseat_bottom_margin_hw);
+
         if (!isVerticalBarLayout()) {
             hotseatBarSizePx += mBottomMarginHw;
             hotseatBarBottomPaddingPx += mBottomMarginHw;
@@ -354,7 +367,9 @@ public class DeviceProfile {
     private void updateIconSize(float scale, Resources res, DisplayMetrics dm) {
         // Workspace
         float invIconSizePx = isVerticalBarLayout() ? inv.landscapeIconSize : inv.iconSize;
+        float inviconAllAppSizePx = inv.iconAllAppSize;
         iconSizePx = (int) (Utilities.pxFromDp(invIconSizePx, dm) * scale);
+        iconAllAppSizePx = (int) (Utilities.pxFromDp(inviconAllAppSizePx, dm) * scale);
         iconTextSizePx = (int) (Utilities.pxFromSp(inv.iconTextSize, dm) * scale);
         iconDrawablePaddingPx = (int) (iconDrawablePaddingOriginalPx * scale);
 
@@ -373,7 +388,7 @@ public class DeviceProfile {
 
         // All apps
         allAppsIconTextSizePx = iconTextSizePx;
-        allAppsIconSizePx = iconSizePx;
+        allAppsIconSizePx = iconAllAppSizePx;
         allAppsIconDrawablePaddingPx = iconDrawablePaddingPx;
         allAppsCellHeightPx = getCellSize().y;
 

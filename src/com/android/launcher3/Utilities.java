@@ -17,6 +17,9 @@
 package com.android.launcher3;
 
 import android.app.WallpaperManager;
+import android.app.admin.DevicePolicyManager;
+import android.content.ActivityNotFoundException;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -31,13 +34,15 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.graphics.Point;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.DeadObjectException;
 import android.os.PowerManager;
+import android.os.Process;
 import android.os.TransactionTooLargeException;
-import android.preference.PreferenceManager;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
@@ -47,10 +52,12 @@ import android.util.Log;
 import android.util.Pair;
 import android.util.SparseArray;
 import android.util.TypedValue;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 
+import com.android.launcher3.compat.LauncherAppsCompat;
 import com.android.launcher3.config.FeatureFlags;
 
 import java.io.ByteArrayOutputStream;
@@ -67,6 +74,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+
+
 
 /**
  * Various utilities shared amongst the Launcher's classes.
@@ -129,7 +140,94 @@ public final class Utilities {
     public static final String ALLOW_ROTATION_PREFERENCE_KEY = "pref_allowRotation";
 
     public static final String KEY_ICON_PACK = "icon-packs";
+    public static final String DISABLEEDGEMARGIN = "pref_diabledgemargin";
+    public static final String MIC_PREFERENCE_KEY = "pref_enablemic";
+    public static final String FORCECOLURLOGO_PREFERENCE_KEY = "pref_forcecolourlogo";
+    public static final String TRANSPARENTQSB = "pref_transparentqsbqsb";
+    public static final String KEY_PREF_HOTSEAT_SHOW_ARROW = "pref_hotseatShowArrow";
+    public static final String KEY_PREF_HOTSEAT_SHOW_PAGE_INDICATOR = "pref_hotseatShowPageIndicator";
+    public static final String DISABLEGRADIENT_PREFERENCE_KEY = "pref_disablegrad";
+    public static final String GRADIENTSIZE = "pref_gradsize";
+    public static final String KEY_SHOW_DESKTOP_LABELS = "pref_desktop_show_labels";
+    public static final String KEY_SHOW_DRAWER_LABELS = "pref_drawer_show_labels";
+    public static final String KEY_SHOW_FOLDER_LABELS = "pref_folder_show_labels";
+    public static final String ICONSIZE = "pref_IconSize";
+    public static final String DARKTHEME_PREFERENCE_KEY = "pref_darktheme_enabled";
+    public static final String DARKTEXT_PREFERENCE_KEY = "pref_darktext_enabled";
+    public static final String GOOGLEBAR_INAPPMENU_PREFERENCE_KEY = "pref_googleinappmenu_enabled";
+    public static final String CHANGETHEME_PREFERENCE_KEY = "pref_themestyle";
+    public static final String NOT_DOT = "pref_textinbadge";
+    public static final String BOTTOM_BADGES = "pref_bottombadge";
+    public static final String GRID_COLUMNS = "pref_grid_columns";
+    public static final String GRID_ROWS = "pref_grid_rows";
+    public static final String HOTSEAT_ICONS = "pref_hotseat_icons";
+    private static final String GRID_COLUMNS_DEFAULT = "default";
+    private static final String GRID_ROWS_DEFAULT = "default";
+    private static final String HOTSEAT_ICONS_DEFAULTS = "default";
+    public static final String RESTART_KEY = "pref_restart";
+    public static final String DOUBLE_TAP_TO_LOCK = "pref_double_tap_to_lock";
+    private static final boolean DOUBLE_TAP_TO_LOCK_DEFAULT = false;
+    //public static final String COLORQSBALLAPPS = "pref_allappqsb_color_picker";
+   //public static final String KEY_DESK_COLOUR = "pref_workspace_label_color_picker";
+   // public static final String KEY_DRAWER_COLOUR = "pref_drawer_label_color_picker";
+   // public static final String KEY_DESK_CAN_CHANGE_COLOUR = "pref_change_workspace_label_color";
+   // public static final String KEY_DRAWER_CAN_CHANGE_COLOUR = "pref_change_drawer_label_color";
+   // public static final String KEY_FOLDER_COLOUR = "pref_folder_label_color_picker";
+   // public static final String KEY_FOLDER_CAN_CHANGE_COLOUR = "pref_change_folder_label_color";
+   public static final String KEY_QSB_CAN_CHANGE_COLOUR = "pref_customqsbcolour";
+   public static final String KEY_QSB_COLOUR = "pref_qsb_color";
+   // public static final String KEY_QSB_CAN_CHANGE_COLOUR = "pref_customqsbcolour";
+   // public static final String DARKQSB = "pref_darkqsb";
+    private static final boolean BOTTOM_SEARCH_BAR_DEFAULT = true;
+    public static final String BOTTOM_SEARCH_BAR_KEY = "pref_bottom_search_bar";
+   // public static final String DARKQSBALLAPPS = "pref_darkqsballapp";
+   public static final String COLORQSBALLAPPS = "pref_allappqsb_color";
+    public static final String DRAWER_ICONSIZE = "pref_drawer_icon_size";
+    public static final String PHYSICAL_ANIMATION_KEY = "pref_physical_animation";
+    public static final String LEGACY_ICON_PREFERENCE_KEY = "pref_legacyIcons";
+   //
+   public static final String DGRID_COLUMNS = "pref_dgrid_columns";
+    private static final boolean PHYSICAL_ANIMATION_DEFAULT = true;
+    public static final String TRANSPARENT_NAV_BAR = "pref_transparent_status_bar";
+    private static final boolean TRANSPARENT_NAV_BAR_DEFAULT = false;
+    public static final String HOME_ACTION = "pref_home_action";
 
+    private static final String GOOGLE_QSB = "com.google.android.googlequicksearchbox";
+    public static final String SEARCH_PROVIDER = "pref_search_provider";
+   private static final String SEARCH_PROVIDER_DEFAULT = "https://www.google.com";
+
+    public static String getSearchProvider(Context context) {
+                return getPrefs(context).getString(SEARCH_PROVIDER, SEARCH_PROVIDER_DEFAULT);
+    // return null;
+    }
+
+
+    public static String getHomeAction(Context context) {
+        return getPrefs(context).getString(HOME_ACTION, "");
+    }
+
+    public static boolean isNavBarTransparent(Context context) {
+        return getPrefs(context).getBoolean(TRANSPARENT_NAV_BAR, TRANSPARENT_NAV_BAR_DEFAULT);
+    }
+
+  public static int getDGridColumns(Context context, int fallback) {
+              return getIconCount(context, DGRID_COLUMNS, GRID_COLUMNS_DEFAULT, fallback);
+          }
+   public static boolean isLegacyIcons(Context context) {
+       return getPrefs(context).getBoolean(LEGACY_ICON_PREFERENCE_KEY, FeatureFlags.LEGACY_ICON_TREATMENT);
+   }
+
+    public static boolean isPhysicalAnimationEnabled(Context context) {
+        return getPrefs(context).getBoolean(PHYSICAL_ANIMATION_KEY, PHYSICAL_ANIMATION_DEFAULT);
+    }
+
+    //for dt2s
+    private static final DoubleTapToLockRegistry REGISTRY = new DoubleTapToLockRegistry();
+
+  //for dt2s
+    public static boolean isDoubleTapToLockEnabled(Context context) {
+        return getPrefs(context).getBoolean(DOUBLE_TAP_TO_LOCK, DOUBLE_TAP_TO_LOCK_DEFAULT);
+    }
     public static boolean isPropertyEnabled(String propertyName) {
         return Log.isLoggable(propertyName, Log.VERBOSE);
     }
@@ -150,6 +248,60 @@ public final class Utilities {
         }
         return false;
     }
+    public static void restartLauncher(Context context) {
+        android.os.Process.killProcess(android.os.Process.myPid());
+    }
+
+    public static int getGridColumns(Context context, int fallback) {
+        return getIconCount(context, GRID_COLUMNS, GRID_COLUMNS_DEFAULT, fallback);
+    }
+
+    public static int getGridRows(Context context, int fallback) {
+        return getIconCount(context, GRID_ROWS, GRID_ROWS_DEFAULT, fallback);
+    }
+
+    public static int getHotseatIcons(Context context, int fallback) {
+        return getIconCount(context, HOTSEAT_ICONS, HOTSEAT_ICONS_DEFAULTS, fallback);
+    }
+
+    private static int getIconCount(Context context, String preferenceName, String preferenceFallback, int deviceProfileFallback) {
+        String saved = getPrefs(context).getString(preferenceName, preferenceFallback);
+        int num;
+        switch (saved) {
+            case "default":
+                num = deviceProfileFallback;
+                break;
+            case "three":
+                num = 3;
+                break;
+            case "four":
+                num = 4;
+                break;
+            case "five":
+                num = 5;
+                break;
+            case "six":
+                num = 6;
+                break;
+            case "seven":
+                num = 7;
+                break;
+           /* case "Eight":
+                num = 8;
+                break;
+            case "Nine":
+                num = 9;
+                break;*/
+            default:
+                num = deviceProfileFallback;
+                break;
+        }
+        return num;
+    }
+    public static boolean isBottomSearchBarVisible(Context context) {
+        return getPrefs(context).getBoolean(BOTTOM_SEARCH_BAR_KEY, BOTTOM_SEARCH_BAR_DEFAULT);
+    }
+
 
     /**
      * Given a coordinate relative to the descendant, find the coordinate in a parent view's
@@ -656,6 +808,97 @@ public final class Utilities {
         HashSet<T> hashSet = new HashSet<>(1);
         hashSet.add(elem);
         return hashSet;
+    }
+    //for dt2s
+    public static void handleWorkspaceTouchEvent(Context context, MotionEvent ev) {
+        REGISTRY.add(ev);
+        if (Utilities.isDoubleTapToLockEnabled(context) && REGISTRY.shouldLock()) {
+            DevicePolicyManager devicePolicyManager = (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
+            if (devicePolicyManager != null) {
+                if (devicePolicyManager.isAdminActive(adminComponent(context))) {
+                    devicePolicyManager.lockNow();
+                } else {
+                    Intent intent = new Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN);
+                    intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, adminComponent(context));
+                    intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, context.getString(R.string.double_tap_to_lock_hint));
+                    context.startActivity(intent);
+                }
+            }
+        }
+    }
+    //for dt2s
+    private static ComponentName adminComponent(Context context) {
+                return new ComponentName(context, DeviceAdmin.class);
+           }
+    public static boolean isWorkspaceEditAllowed(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(SettingsActivity.KEY_WORKSPACE_EDIT, true);
+    }
+    public static void startQuickSearch(final Launcher launcher) {
+        final String provider = Utilities.getSearchProvider(launcher);
+        if (provider.contains("google")) {
+            Point point = new Point(0, 0);
+            Intent intent = new Intent("com.google.nexuslauncher.FAST_TEXT_SEARCH")
+                    .setPackage("com.google.android.googlequicksearchbox")
+                    .addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_NEW_TASK)
+                    .putExtra("source_round_left", true)
+                    .putExtra("source_round_right", true)
+                    .putExtra("source_logo_offset", point)
+                    .putExtra("source_mic_offset", point)
+                    .putExtra("use_fade_animation", true);
+            intent.setSourceBounds(new Rect());
+            launcher.sendOrderedBroadcast(intent, null,
+                    new BroadcastReceiver() {
+                        @Override
+                        public void onReceive(Context context, Intent intent) {
+                            Log.e("HotseatQsbSearch", getResultCode() + " " + getResultData());
+                            if (getResultCode() == 0) {
+                                try {
+                                    launcher.startActivity(new Intent("com.google.android.googlequicksearchbox.TEXT_ASSIST")
+                                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                                            .setPackage(GOOGLE_QSB));
+                                } catch (ActivityNotFoundException e) {
+                                    try {
+                                        launcher.getPackageManager().getPackageInfo(GOOGLE_QSB, 0);
+                                        LauncherAppsCompat.getInstance(launcher)
+                                                .showAppDetailsForProfile(new ComponentName(GOOGLE_QSB, ".SearchActivity"), Process.myUserHandle());
+                                    } catch (PackageManager.NameNotFoundException ignored) {
+                                        launcher.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(provider)));
+                                    }
+                                }
+                            }
+                        }
+                    }, null, 0, null, null);
+        } else {
+            launcher.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(provider)));
+        }
+    }
+
+    public static void startVoiceSearch(Launcher launcher) {
+        try {
+            launcher.startActivity(new Intent("android.intent.action.VOICE_ASSIST")
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                    .setPackage(GOOGLE_QSB));
+        } catch (ActivityNotFoundException e) {
+            try {
+                launcher.getPackageManager().getPackageInfo(GOOGLE_QSB, 0);
+                LauncherAppsCompat.getInstance(launcher).showAppDetailsForProfile(new ComponentName(GOOGLE_QSB, ".SearchActivity"), Process.myUserHandle());
+            } catch (PackageManager.NameNotFoundException ignored) {
+                launcher.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com")));
+            }
+        }
+    }
+
+    public static void openAppDrawer(Launcher launcher) {
+        launcher.showAppsView(true, false);
+    }
+
+    public static void openAppSearch(Launcher launcher) {
+        launcher.showAppsViewWithSearch(true, false);
+    }
+
+    public static void openOverview(Launcher launcher) {
+        launcher.showOverviewMode(true);
     }
 
 }

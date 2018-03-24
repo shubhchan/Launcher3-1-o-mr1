@@ -37,6 +37,12 @@ import com.android.launcher3.discovery.AppDiscoveryUpdateState;
 import com.android.launcher3.util.ComponentKey;
 import com.android.launcher3.util.ComponentKeyMapper;
 import com.android.launcher3.util.LabelComparator;
+import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.launcher3.compat.UserManagerCompat;
+import com.android.launcher3.LauncherAppState;
+import com.android.launcher3.IconCache;
+import android.os.UserHandle;
+import android.content.pm.LauncherActivityInfo;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -629,11 +635,13 @@ public class AlphabeticalAppsList {
         if (mSearchResults == null) {
             return mApps;
         }
-
         final LauncherAppsCompat launcherApps = LauncherAppsCompat.getInstance(mLauncher);
         final UserHandle user = android.os.Process.myUserHandle();
         final IconCache iconCache = LauncherAppState.getInstance(mLauncher).getIconCache();
+
+
         ArrayList<AppInfo> result = new ArrayList<>();
+
         boolean quietMode = UserManagerCompat.getInstance(mLauncher).isQuietModeEnabled(user);
         for (ComponentKey key : mSearchResults) {
             AppInfo match = mComponentToAppMap.get(key);

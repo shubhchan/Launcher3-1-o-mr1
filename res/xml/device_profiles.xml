@@ -23,8 +23,7 @@
         launcher:minHeightDps="496"
         launcher:numRows="4"
         launcher:numColumns="4"
-        launcher:numFolderRows="3"
-        launcher:numFolderColumns="4"
+        launcher:numAllAppColumns="4"
         launcher:minAllAppsPredictionColumns="4"
         launcher:numHotseatIcons="4"
         launcher:iconSize="56"
@@ -39,6 +38,7 @@
         launcher:minHeightDps="545"
         launcher:numRows="4"
         launcher:numColumns="4"
+        launcher:numAllAppColumns="4"
         launcher:numFolderRows="3"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
@@ -55,6 +55,7 @@
         launcher:minHeightDps="568"
         launcher:numRows="5"
         launcher:numColumns="5"
+        launcher:numAllAppColumns="5"
         launcher:numFolderRows="4"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
@@ -71,6 +72,7 @@
         launcher:minHeightDps="557"
         launcher:numRows="4"
         launcher:numColumns="5"
+        launcher:numAllAppColumns="4"
         launcher:numFolderRows="4"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
@@ -87,6 +89,7 @@
         launcher:minHeightDps="659"
         launcher:numRows="5"
         launcher:numColumns="5"
+        launcher:numAllAppColumns="5"
         launcher:numFolderRows="4"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
@@ -103,6 +106,7 @@
         launcher:minHeightDps="750"
         launcher:numRows="5"
         launcher:numColumns="5"
+        launcher:numAllAppColumns="5"
         launcher:numFolderRows="4"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
@@ -114,11 +118,12 @@
         />
 
     <profile
-        launcher:name="Low DPI"
-        launcher:minWidthDps="525"
-        launcher:minHeightDps="750"
-        launcher:numRows="6"
-        launcher:numColumns="6"
+        launcher:name="Note 8"
+        launcher:minWidthDps="425"
+        launcher:minHeightDps="846"
+        launcher:numRows="7"
+        launcher:numColumns="5"
+        launcher:numAllAppColumns="5"
         launcher:numFolderRows="4"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
@@ -129,21 +134,87 @@
         launcher:defaultLayoutId="@xml/default_workspace_6x6"
         />
 
-    <!--
     <profile
-        launcher:name="Super Short Stubby"
+        launcher:name="Low DPI"
+        launcher:minWidthDps="525"
+        launcher:minHeightDps="750"
+        launcher:numRows="6"
+        launcher:numColumns="6"
+        launcher:numAllAppColumns="6"
+        launcher:numFolderRows="4"
+        launcher:numFolderColumns="4"
+        launcher:minAllAppsPredictionColumns="4"
+        launcher:numHotseatIcons="6"
+        launcher:iconSize="52"
+        launcher:landscapeIconSize="50"
+        launcher:iconTextSize="13.0"
+        launcher:defaultLayoutId="@xml/default_workspace_6x6"
+        />
+
+    <profile
+        launcher:name="Pixel C"
+        launcher:minWidthDps="820"
+        launcher:minHeightDps="1200"
+        launcher:numRows="5"
+        launcher:numColumns="6"
+        launcher:numAllAppColumns="5"
+        launcher:numFolderRows="4"
+        launcher:numFolderColumns="4"
+        launcher:minAllAppsPredictionColumns="4"
+        launcher:numHotseatIcons="6"
+        launcher:iconSize="64"
+        launcher:landscapeIconSize="64"
+        launcher:iconTextSize="13.0"
+        launcher:defaultLayoutId="@xml/default_workspace_5x6"
+        />
+
+    <profile
+        launcher:name="Shorter Stubby"
         launcher:minWidthDps="255"
-        launcher:minHeightDps="300"
-        launcher:numRows="2"
+        launcher:minHeightDps="400"
+        launcher:numRows="3"
         launcher:numColumns="3"
-        launcher:numFolderRows="2"
+        launcher:numAllAppColumns="3"
+        launcher:numFolderRows="3"
         launcher:numFolderColumns="3"
         launcher:minAllAppsPredictionColumns="3"
         launcher:iconSize="48"
         launcher:iconTextSize="13.0"
         launcher:numHotseatIcons="3"
-        launcher:defaultLayoutId="@xml/default_workspace_3x3"
+        launcher:defaultLayoutId="@xml/default_workspace_3x3"/>
+
+
+
+    <!--
+     <profile
+        launcher:name="Super Short Stubby"
+        launcher:minWidthDps="870"
+        launcher:minHeightDps="1300"
+        launcher:numRows="8"
+        launcher:numColumns="7"
+        launcher:numAllAppColumns="7"
+        launcher:numFolderRows="4"
+        launcher:numFolderColumns="4"
+        launcher:minAllAppsPredictionColumns="3"
+        launcher:iconSize="48"
+        launcher:iconTextSize="13.0"
+        launcher:numHotseatIcons="3"
+        launcher:defaultLayoutId="@xml/default_workspace_3x3" />
+ <profile
+        launcher:name="Short Stubby"
+        launcher:minWidthDps="950"
+        launcher:minHeightDps="1550"
+        launcher:numRows="9"
+        launcher:numColumns="9"
+        launcher:numFolderRows="4"
+        launcher:numFolderColumns="4"
+        launcher:minAllAppsPredictionColumns="9"
+        launcher:iconSize="48"
+        launcher:iconTextSize="13.0"
+        launcher:numHotseatIcons="5"
+        launcher:defaultLayoutId="@xml/default_workspace_4x4"
         />
+
 
     <profile
         launcher:name="Shorter Stubby"
@@ -160,20 +231,7 @@
         launcher:defaultLayoutId="@xml/default_workspace_3x3"
         />
 
-    <profile
-        launcher:name="Short Stubby"
-        launcher:minWidthDps="275"
-        launcher:minHeightDps="420"
-        launcher:numRows="3"
-        launcher:numColumns="4"
-        launcher:numFolderRows="3"
-        launcher:numFolderColumns="4"
-        launcher:minAllAppsPredictionColumns="4"
-        launcher:iconSize="48"
-        launcher:iconTextSize="13.0"
-        launcher:numHotseatIcons="5"
-        launcher:defaultLayoutId="@xml/default_workspace_4x4"
-        />
+
 
     <profile
         launcher:name="Stubby"

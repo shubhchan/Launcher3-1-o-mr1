@@ -38,7 +38,7 @@ abstract class BaseFlags {
     // When enabled allows to use any point on the fast scrollbar to start dragging.
     public static final boolean LAUNCHER3_DIRECT_SCROLL = true;
     // When enabled while all-apps open, the soft input will be set to adjust resize .
-    public static final boolean LAUNCHER3_UPDATE_SOFT_INPUT_MODE = false;
+    //public static final boolean LAUNCHER3_UPDATE_SOFT_INPUT_MODE = false;
     // When enabled the promise icon is visible in all apps while installation an app.
     public static final boolean LAUNCHER3_PROMISE_APPS_IN_ALL_APPS = false;
     // When enabled uses the AllAppsRadialGradientAndScrimDrawable for all apps
@@ -57,7 +57,7 @@ abstract class BaseFlags {
     // When enabled the status bar may show dark icons based on the top of the wallpaper.
     public static final boolean LIGHT_STATUS_BAR = false;
     // When enabled, icons not supporting {@link AdaptiveIconDrawable} will be wrapped in {@link FixedScaleDrawable}.
-    public static final boolean LEGACY_ICON_TREATMENT = true;
+    public static final boolean LEGACY_ICON_TREATMENT = false;
     // When enabled, adaptive icons would have shadows baked when being stored to icon cache.
     public static final boolean ADAPTIVE_ICON_SHADOW = true;
     // When enabled, app discovery will be enabled if service is implemented

@@ -49,9 +49,9 @@ import com.android.launcher3.dragndrop.DragOptions;
 import com.android.launcher3.folder.Folder;
 import com.android.launcher3.keyboard.FocusedItemDecorator;
 import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.ComponentKey;
 import com.android.launcher3.util.ComponentKeyMapper;
 import com.android.launcher3.util.PackageUserKey;
+
 
 import java.util.List;
 import java.util.Set;
@@ -215,7 +215,7 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
         mAppsRecyclerView.setHasFixedSize(true);
         // No animations will occur when changes occur to the items in this RecyclerView.
         mAppsRecyclerView.setItemAnimator(null);
-        if (FeatureFlags.LAUNCHER3_PHYSICS) {
+        if (FeatureFlags.LAUNCHER3_PHYSICS && Utilities.isPhysicalAnimationEnabled(getContext())) {
             mAppsRecyclerView.setSpringAnimationHandler(mSpringAnimationHandler);
         }
 
@@ -249,10 +249,14 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
         // Update the number of items in the grid before we measure the view
         grid.updateAppsViewNumCols();
 
-        if (mNumAppsPerRow != grid.inv.numColumns ||
+       /* if (mNumAppsPerRow != grid.inv.numColumns ||
                 mNumPredictedAppsPerRow != grid.inv.numColumns) {
             mNumAppsPerRow = grid.inv.numColumns;
-            mNumPredictedAppsPerRow = grid.inv.numColumns;
+            mNumPredictedAppsPerRow = grid.inv.numColumns;*/
+        if (mNumAppsPerRow != grid.inv.numAllAppColumns ||
+                mNumPredictedAppsPerRow != grid.inv.numAllAppColumns) {
+            mNumAppsPerRow = grid.inv.numAllAppColumns;
+            mNumPredictedAppsPerRow = grid.inv.numAllAppColumns;
 
             mAppsRecyclerView.setNumAppsPerRow(grid, mNumAppsPerRow);
             mAdapter.setNumAppsPerRow(mNumAppsPerRow);
@@ -350,6 +354,9 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
             ViewGroup.LayoutParams navBarBgLp = navBarBg.getLayoutParams();
             navBarBgLp.height = insets.bottom;
             navBarBg.setLayoutParams(navBarBgLp);
+            if (Utilities.isNavBarTransparent(getContext())) {
+                navBarBg.setBackgroundResource(R.color.transparent);
+            }
         }
     }
 

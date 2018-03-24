@@ -40,9 +40,10 @@ import android.os.Process;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.util.Pair;
+import com.android.launcher3.graphics.IconNormalizer;
 
 import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.graphics.IconNormalizer;
+
 
 import org.xmlpull.v1.XmlPullParser;
 
@@ -110,6 +111,7 @@ public class IconsHandler {
         } else {
             mDrawables.clear();
         }
+
         mFactor = 1.0f;
 
         if (isDefaultIconPack()) {
@@ -235,7 +237,6 @@ public class IconsHandler {
             loadIconPack(packageName, true);
         }
     }
-
     public String getCurrentIconPackPackageName() {
         return mIconPackPackageName;
     }
@@ -307,8 +308,13 @@ public class IconsHandler {
         if (drawable == null) {
             return null;
         }
+        if (drawable instanceof BitmapDrawable) {
+            return generateBitmap(((BitmapDrawable) drawable).getBitmap());
+        }
+        return generateBitmap(LauncherIcons.createBadgedIconBitmap(drawable,
+                Process.myUserHandle(), mContext, Build.VERSION.SDK_INT));
 
-        return generateBitmap(LauncherIcons.createIconBitmap(drawable, mContext));
+       // return generateBitmap(LauncherIcons.createIconBitmap(drawable, mContext));
     }
 
     public void switchIconPacks(String packageName, boolean update) {
@@ -356,9 +362,11 @@ public class IconsHandler {
 
     private Bitmap generateBitmap(Bitmap defaultBitmap) {
         if (mBackImages.isEmpty()) {
-            Drawable d = new BitmapDrawable(mContext.getResources(), defaultBitmap);
+            Drawable d = new BitmapDrawable(defaultBitmap);
+            //Drawable d = new BitmapDrawable(mContext.getResources(), defaultBitmap);
             return LauncherIcons.createBadgedIconBitmap(d, Process.myUserHandle(),
-                    mContext, Build.VERSION.SDK_INT, true);
+                    mContext, Build.VERSION.SDK_INT);
+                  //  mContext, Build.VERSION.SDK_INT, true);
         }
 
         Random random = new Random();
@@ -541,6 +549,8 @@ public class IconsHandler {
                 iconCache.clearIconDataBase();
                 iconCache.flush();
                 LauncherAppState.getInstance(context).getModel().forceReload();
+                //temporary fix for fc after applying icon pack
+               android.os.Process.killProcess(android.os.Process.myPid());
             }
         }
     }

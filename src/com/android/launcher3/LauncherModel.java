@@ -17,7 +17,6 @@
 package com.android.launcher3;
 
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -41,9 +40,9 @@ import com.android.launcher3.compat.UserManagerCompat;
 import com.android.launcher3.dynamicui.ExtractionUtils;
 import com.android.launcher3.graphics.LauncherIcons;
 import com.android.launcher3.model.AddWorkspaceItemsTask;
+import com.android.launcher3.model.BaseModelUpdateTask;
 import com.android.launcher3.model.BgDataModel;
 import com.android.launcher3.model.CacheDataUpdatedTask;
-import com.android.launcher3.model.BaseModelUpdateTask;
 import com.android.launcher3.model.LoaderResults;
 import com.android.launcher3.model.LoaderTask;
 import com.android.launcher3.model.ModelWriter;
@@ -316,7 +315,6 @@ public class LauncherModel extends BroadcastReceiver
     public void onPackageChanged(String packageName, UserHandle user) {
         int op = PackageUpdatedTask.OP_UPDATE;
         enqueueModelUpdateTask(new PackageUpdatedTask(op, user, packageName));
-
         IconsHandler handler = LauncherAppState.getInstance(mApp.getContext()).getIconsHandler();
         String currentIconPack = handler.getCurrentIconPackPackageName();
 
@@ -336,6 +334,7 @@ public class LauncherModel extends BroadcastReceiver
                 Utilities.KEY_ICON_PACK, defaultIconPack).equals(packageName)) {
             LauncherAppState.getInstance(mApp.getContext()).getIconsHandler()
                     .switchIconPacks(defaultIconPack, false);
+
         }
     }
 

@@ -28,6 +28,7 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.content.Context;
 
 import com.android.launcher3.DragSource;
 import com.android.launcher3.DropTarget;
@@ -138,11 +139,10 @@ public class DragController implements DragDriver.EventListener, TouchController
             android.os.Debug.startMethodTracing("Launcher");
         }
 
-        if (Utilities.ATLEAST_MARSHMALLOW) {
-            // Hide soft keyboard, if visible
-            mLauncher.getSystemService(InputMethodManager.class)
-                    .hideSoftInputFromWindow(mWindowToken, 0);
-        }
+        // Hide soft keyboard, if visible
+        ((InputMethodManager) mLauncher.getSystemService(Context.INPUT_METHOD_SERVICE))
+                .hideSoftInputFromWindow(mWindowToken, 0);
+
 
         mOptions = options;
         if (mOptions.systemDndStartPoint != null) {
@@ -394,7 +394,14 @@ public class DragController implements DragDriver.EventListener, TouchController
      * Call this from a drag source view.
      */
     public boolean onControllerInterceptTouchEvent(MotionEvent ev) {
-        if (mOptions != null && mOptions.isAccessibleDrag) {
+      //  if (mOptions != null && mOptions.isAccessibleDrag) {
+        boolean isEditDisabled = !Utilities.isWorkspaceEditAllowed(
+                mLauncher.getApplicationContext());
+
+        if ((mOptions != null && mOptions.isAccessibleDrag) || isEditDisabled) {
+            if (isEditDisabled) {
+                cancelDrag();
+            }
             return false;
         }
 

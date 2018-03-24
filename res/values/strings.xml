@@ -333,9 +333,13 @@
     <string name="title_google_app">Google app</string>
     <string name="title_app_suggestions">Display app suggestions</string>
     <string name="summary_app_suggestions">At the top of your All Apps list</string>
-    <string name="about_app_version">Version</string>
+    <string name="about_app_version">Ruthless Version</string>
+    <string name="compiled_by">Compiled By</string>
+    <string name="compiled_by_sum">Shubbyy</string>
+    <string name="Icon_By">Icon By</string>
+    <string name="Icon_By_sum">DUlcetiseduce(Dulce)</string>
     <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
-    <string name="app_name_pixel_launcher">Pixel Launcher</string>
+    <string name="app_name_pixel_launcher">Ruthless Launcher</string>
     <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
     <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
     <string name="label_turn_off_suggestions">TURN OFF</string>
@@ -346,4 +350,247 @@
     <string name="icon_pack_default">Default</string>
     <string name="icon_edit">Edit app icon and label</string>
     <string name="market">More</string>
-</resources>
+    <string name="based_on">Based On</string>
+    <string name="based_on_sum">Amir Zaidi "Rootless Pixel Launcher"</string>
+
+
+    <string name="diabledgemargin">Disable side padding</string>
+
+    <!-- Dock bar -->
+    <string name="force_mic">Force mic</string>
+    <string name="force_colour_logo">Сolored Google logo on search bar</string>
+    <string name="dark_themeqsb">Dark search bar</string>
+    <string name="transparentqsb">Transparent search bar</string>
+    <string name="custom_qsb_in_dock">Search bar settings</string>
+    <string name="qsb_in_dock_show">Show search bar in dock</string>
+
+
+    <!-- Sizes -->
+    <string name="size_biggest">Biggest</string>
+    <string name="size_big">Big</string>
+    <string name="size_smallest">Smallest</string>
+    <string name="size_small">Small</string>
+    <string name="size_stock">Stock</string>
+    <string name="size_tiny">Tiny</string>
+
+    <!-- Rows and Coloumns -->
+    <string name="num_rows">Number of rows</string>
+    <string name="num_cols">Number of columns</string>
+
+
+    <string name="hotseatShowArrow">Show arrow</string>
+    <string name="hotseat_show_page_indicator">Show page indicator</string>
+
+    <string name="gradient_size">Gradient size</string>
+    <string name="remove_gradient">Disable gradient below dock</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Show icon labels on desktop</string>
+    <string name="drawer_show_labels">Show icon labels in drawer</string>
+    <string name="folder_show_labels">Show icon labels in folders</string>
+
+    <string name="icon_size">Icon size</string>
+
+    <!--At glance-->
+    <string name="custom_glance">At a Glance</string>
+    <string name="smartspace_time">Add clock</string>
+    <string name="in_smartspace">In \"At a Glance\" widget</string>
+    <!--   <string name="smartspace_launchclock_sum">On long click</string>
+       <string name="smartspace_launchclock">Launch clock app</string>-->
+
+    <!-- Date formats -->
+    <string name="date_format">Date format</string>
+    <string name="date_format_1">Tuesday, Feb 13</string>
+    <string name="date_format_2">Tuesday</string>
+    <string name="date_format_3">Tue, February 13</string>
+    <string name="date_format_4">Tue, 02/13</string>
+    <string name="date_format_5">13 Tuesday</string>
+    <string name="date_format_6">Tuesday, February 13</string>
+
+     <!--theme-->
+    <string name="custom_theme">Theme</string>
+    <string name="white_theme">White</string>
+    <string name="white_withdarktext_theme">White with dark text</string>
+    <string name="dark_theme">Dark</string>
+    <string name="black_theme">Black</string>
+    <string name="googleinappmenu">Google search bar</string>
+
+    <!--Notification dot-->
+    <string name="textinbadge">Numeric badges</string>
+    <string name="textinbadge_sum">Show the number of notifications in badge</string>
+    <string name="bottombadge">Different position</string>
+    <string name="bottombadge_sum">Show badges in bottom</string>
+    <!--Grid size-->
+    <string name="num_default">Default</string>
+    <string name="num_three">Three</string>
+    <string name="num_four">Four</string>
+    <string name="num_five">Five</string>
+    <string name="num_six">Six</string>
+    <string name="num_seven">Seven</string>
+    <!-- <string name="num_eight">Eight</string>
+      <string name="num_nine">Nine</string>-->
+
+    <string-array name="grid_names">
+        <item>@string/num_default</item>
+        <item>@string/num_three</item>
+        <item>@string/num_four</item>
+        <item>@string/num_five</item>
+        <item>@string/num_six</item>
+        <item>@string/num_seven</item>
+        <!--  <item>@string/num_eight</item>
+         <item>@string/num_nine</item>-->
+    </string-array>
+
+    <string-array name="grid_values">
+        <item>default</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+        <item>six</item>
+        <item>seven</item>
+       <!--  <item>eight</item>
+         <item>nine</item>-->
+    </string-array>
+
+    <string name="grid_category_title">Columns and rows</string>
+    <string name="number_of_columns_title">Grid columns</string>
+    <string name="number_of_rows_title">Grid rows</string>
+    <string name="number_of_hotseat_title">Dock icons number</string>
+
+    <string name="restart">Restart</string>
+    <string name="restart_sum">Tick and go back it will restart</string>
+
+
+    <!--<string name="custom_label_color">Custom lable color</string>-->
+    <string name="custom_qsb_color">Search bar color</string>
+    <string name="custom_qsb_color_list">List of color</string>
+    <string name="dark_themeqsballapp">Dark search bar</string>
+    <string name="behavior_pref_title">Behavior</string>
+    <string name="custom_dockbar">Dockbar</string>
+
+    <!--Home screen-->
+    <string name="custom_hs">Home Screen</string>
+    <string name="custom_allapp">App Drawer</string>
+    <string name="settings_edit_allow_title">Allow edit</string>
+    <string name="settings_edit_allow_summary_on">Icons and widgets can be added, removed and moved on the homescreen</string>
+    <string name="settings_edit_allow_summary_off">Icons and widgets can\'t be added, removed and moved on the homescreen</string>
+    <string name="settings_edit_widgets_error">It\'s not possible to add widgets to the home screen</string>
+
+
+    <!-- Hide/Show search bars -->
+    <string name="bottom_search_bar_title">Bottom search bar</string>
+    <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
+   <!-- <string name="top_search_bar_title">Top search bar</string>
+    <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>-->
+
+    <!--Double tap to lock-->
+    <string name="double_tap_to_lock_title">Double tap to lock</string>
+    <string name="double_tap_to_lock_summary">On your home screen</string>
+    <string name="double_tap_to_lock_hint">To be able to use double tap to lock, you have to enable admin access for Ruthless Launcher. This is a secure lock, meaning you have to enter your PIN on the next unlock, if you have any.</string>
+    <string name="double_tap_to_lock_disable_warning">By disabling admin access, you will not be able to use double tap to lock on your home screen.</string>
+
+
+    <!-- Colors -->
+    <string name="White">White</string>
+    <string name="Black">Black</string>
+    <string name="Blue_gray1">Blue gray1</string>
+    <string name="Blue_gray2">Blue gray2</string>
+    <string name="Gray1">Gray1</string>
+    <string name="Gray2">Gray2</string>
+    <string name="Brown1">Brown1</string>
+    <string name="Brown2">Brown2</string>
+    <string name="Deep_orange1">Deep orange1</string>
+    <string name="Deep_orange2">Deep orange2</string>
+    <string name="Orange1">Orange1</string>
+    <string name="Orange2">Orange2</string>
+    <string name="Amber1">Amber1</string>
+    <string name="Amber2">Amber2</string>
+    <string name="Yellow1">Уellow1</string>
+    <string name="Yellow2">Уellow2</string>
+    <string name="Lime1">Lime1</string>
+    <string name="Lime2">Lime2</string>
+    <string name="Light_green1">Light green1</string>
+    <string name="Light_green2">Light green2</string>
+    <string name="Green1">Green1</string>
+    <string name="Green2">Green2</string>
+    <string name="Teal1">Teal1</string>
+    <string name="Teal2">Teal2</string>
+    <string name="Cyan1">Cyan1</string>
+    <string name="Cyan2">Cyan2</string>
+    <string name="Light_blue1">Light blue1</string>
+    <string name="Light_blue2">Light blue</string>
+    <string name="Blue1">Blue1</string>
+    <string name="Blue2">Blue2</string>
+    <string name="Indigo1">Indigo1</string>
+    <string name="Indigo2">Indigo2</string>
+    <string name="Violet">Violet</string>
+    <string name="Deep_purple1">Deep Purple1</string>
+    <string name="Deep_purple2">Deep Purple2</string>
+    <string name="Purple1">Purple1</string>
+    <string name="Purple2">Purple2</string>
+    <string name="Pink1">Pink1</string>
+    <string name="Pink2">Pink2</string>
+    <string name="Red1">Red1</string>
+    <string name="Red2">Red2</string>
+
+    <!--Animations-->
+    <string name="physical_animation_title">Physical animation</string>
+    <string name="physical_animation_summary">Use spring effect</string>
+
+     <string name="legacy_icons_title">Mask legacy icons</string>
+    <string name="gradient_switch">Get P style dock</string>
+
+     <!--AllappsGrid-->
+    <string name="number_of_columns_title1">Grid columns</string>
+    <string name="home_action_title">Home action on home screen</string>
+
+    <string name="home_action_nothing">Nothing</string>
+    <string name="home_action_quick_search">Quick search</string>
+    <string name="home_action_voice_search">Voice search</string>
+    <string name="home_action_app_drawer">Open app drawer</string>
+    <string name="home_action_app_search">Open app search</string>
+    <string name="home_action_overview">Enter overview</string>
+
+    <string-array name="home_action_names">
+        <item>@string/home_action_nothing</item>
+        <item>@string/home_action_quick_search</item>
+        <item>@string/home_action_voice_search</item>
+        <item>@string/home_action_app_drawer</item>
+        <item>@string/home_action_app_search</item>
+        <item>@string/home_action_overview</item>
+    </string-array>
+
+    <string-array name="home_action_values">
+        <item>nothing</item>
+        <item>quicksearch</item>
+        <item>voicesearch</item>
+        <item>appdrawer</item>
+        <item>appsearch</item>
+        <item>overview</item>
+    </string-array>
+
+    <!--search provider-->
+    <string name="search_provider_title">Search provider</string>
+    <string name="search_provider_google">Google</string>
+    <string name="search_provider_bing">Bing</string>
+    <string name="search_provider_duckduckgo">DuckDuckGo</string>
+
+    <string-array name="search_provider_names">
+        <item>@string/search_provider_google</item>
+        <item>@string/search_provider_bing</item>
+        <item>@string/search_provider_duckduckgo</item>
+    </string-array>
+
+    <string-array name="search_provider_values">
+    <item>https://www.google.com</item>
+    <item>https://www.bing.com</item>
+    <item>https://www.duckduckgo.com</item>
+    </string-array>
+
+    <string name="transparent_nav_bar_title">Transparent Navigation Bar</string>
+    <string name="transparent_nav_bar_summary">On the app drawer</string>
+
+    <string name="smartspace_launchclock_sum">On long click</string>
+    <string name="smartspace_launchclock">Launch clock app</string>
+
+ </resources>

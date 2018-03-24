@@ -39,7 +39,7 @@ public class CustomIconUtils {
             "org.adw.launcher.icons.ACTION_PICK_ICON"
     };
 
-    static HashMap<String, CharSequence> getPackProviders(Context context) {
+   /* static HashMap<String, CharSequence> getPackProviders(Context context) {
         PackageManager pm = context.getPackageManager();
         HashMap<String, CharSequence> packs = new HashMap<>();
         for (String intent : ICON_INTENTS) {
@@ -48,7 +48,7 @@ public class CustomIconUtils {
             }
         }
         return packs;
-    }
+    }*/
 
     static boolean isPackProvider(Context context, String packageName) {
         if (packageName != null && !packageName.equals("")) {
@@ -73,14 +73,14 @@ public class CustomIconUtils {
         edit.apply();
     }
 
-    static void applyIconPack(Context context, String name) {
+   /* static void applyIconPack(Context context, String name) {
         setCurrentPack(context, name);
 
         ((CustomDrawableFactory) DrawableFactory.get(context)).reloadIconPack();
         LauncherAppState.getInstance(context).getIconCache().clear();
         LauncherAppState.getInstance(context).getIconCache().flush();
         LauncherAppState.getInstance(context).getModel().forceReload();
-    }
+    }*/
 
     static void applyIconPackAsync(final Context context) {
         new LooperExecutor(LauncherModel.getWorkerLooper()).execute(new Runnable() {
@@ -90,6 +90,7 @@ public class CustomIconUtils {
                 LauncherModel model = LauncherAppState.getInstance(context).getModel();
 
                 boolean noPack = CustomIconUtils.getCurrentPack(context).isEmpty();
+               // Utilities.getPrefs(context).edit().putBoolean(DefaultAppSearchAlgorithm.SEARCH_HIDDEN_APPS, !noPack).apply();
                 if (noPack) {
                     CustomAppFilter.resetAppFilter(context);
                 }

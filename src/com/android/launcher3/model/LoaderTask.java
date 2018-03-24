@@ -706,6 +706,7 @@ public class LoaderTask implements Runnable {
                         LauncherSettings.Settings.METHOD_REMOVE_GHOST_WIDGETS);
             }
 
+            if (Utilities.ATLEAST_NOUGAT_MR1) {
             // Unpin shortcuts that don't exist on the workspace.
             HashSet<ShortcutKey> pendingShortcuts =
                     InstallShortcutReceiver.getPendingShortcuts(context);
@@ -716,6 +717,7 @@ public class LoaderTask implements Runnable {
                     // Shortcut is pinned but doesn't exist on the workspace; unpin it.
                     mShortcutManager.unpinShortcut(key);
                 }
+            }
             }
 
             FolderIconPreviewVerifier verifier =

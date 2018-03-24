@@ -92,6 +92,7 @@
                 <category android:name="android.intent.category.HOME" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.MONKEY"/>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LAUNCHER_APP" />
             </intent-filter>
         </activity>
@@ -102,7 +103,7 @@
         <activity
             android:name="com.google.android.apps.nexuslauncher.SettingsActivity"
             android:label="@string/settings_button_text"
-            android:theme="@style/SettingsTheme"
+            android:theme="@android:style/Theme.DeviceDefault.Settings"
             android:autoRemoveFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
@@ -162,6 +163,18 @@
             android:authorities="com.google.android.apps.nexuslauncher.appssearch"
             android:exported="true"
             android:name="com.google.android.apps.nexuslauncher.search.AppSearchProvider" />
+
+        <receiver
+            android:name="com.android.launcher3.DeviceAdmin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/admin_policy" />
+             <intent-filter>
+                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+             </intent-filter>
+        </receiver>
+
 
         <!-- ENABLE_FOR_TESTING
 

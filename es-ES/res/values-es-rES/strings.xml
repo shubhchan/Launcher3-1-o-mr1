@@ -360,11 +360,28 @@
   <string name="custom_qsb_color_list">Lista de colores de la barra de Google</string>
   <string name="dark_themeqsballapp">Barra de búsqueda oscura</string>
   <string name="behavior_pref_title">Comportamiento</string>
+  <string name="custom_dockbar">Barra del dock</string>
   <!--Home screen-->
+  <string name="custom_hs">Pantalla principal</string>
+  <string name="custom_allapp">Cajón de aplicaciones</string>
+  <string name="settings_edit_allow_title">Permitir edición</string>
+  <string name="settings_edit_allow_summary_on">Se pueden añadir, remover y mover iconos y widgets de la página principal</string>
+  <string name="settings_edit_allow_summary_off">No sé pueden añadir, remover o mover iconos y widgets de la página principal</string>
+  <string name="settings_edit_widgets_error">No sé pueden añadir widgets a la página principal</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Barra de dock de Google</string>
+  <string name="bottom_search_bar_summary">Mostrar la barra de búsqueda de Google abajo del dock</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Doble toque para bloquear</string>
+  <string name="double_tap_to_lock_summary">En tu pantalla principal</string>
+  <string name="double_tap_to_lock_hint">Si quieres usar \"doble toque para bloquear\", debes activar los permisos de administrador para Ruthless Launcher. Esto es un bloqueo seguro, lo que significa que debes ingresar tu PIN en el próximo desbloqueo, si tienes uno.</string>
+  <string name="double_tap_to_lock_disable_warning">Al desactivar los permisos de administrador, no podrás usar \"doble toque para bloquear\" en tu pantalla principal.</string>
   <!-- Colors -->
+  <string name="White">Blanco</string>
   <string name="Black">Negro</string>
+  <string name="Blue_gray1">Gris azulado claro</string>
+  <string name="Blue_gray2">Gris azulado oscuro</string>
+  <string name="Gray1">Gris claro</string>
   <string name="Green1">Verde claro</string>
   <string name="Green2">Verde oscuro</string>
   <string name="Teal1">Verde azulado</string>

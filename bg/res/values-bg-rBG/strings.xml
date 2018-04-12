@@ -346,10 +346,19 @@
   <string name="g_bar_drawer">Google лента за търсене в листа с приложения</string>
   <!--Notification dot-->
   <string name="textinbadge">Числови Етикети</string>
+  <string name="textinbadge_sum">Показване на броя известия в етикета</string>
+  <string name="bottombadge">Долни Етикети </string>
+  <string name="bottombadge_sum">Показване на етикетите в долната дясна част на иконата</string>
   <string name="restart">Рестартиране</string>
+  <string name="restart_sum">Рестартиране за дебъг</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Друг цвят на търсачката</string>
+  <string name="custom_qsb_color_list">Лист от G-Bar цветове</string>
+  <string name="dark_themeqsballapp">Тъмна лента за търсене</string>
   <string name="behavior_pref_title">Поведение</string>
+  <string name="custom_dockbar">Докбар</string>
   <!--Home screen-->
+  <string name="custom_hs">Начален екран</string>
   <string name="custom_allapp">Списък с приложения</string>
   <string name="settings_edit_allow_title">Разреши редактиране</string>
   <string name="settings_edit_allow_summary_on">Икони и джаджи могат да бъдат добавяни, премахвани и местени на началния екран</string>
@@ -358,9 +367,15 @@
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Google док</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Двукратно почукване за заспиване</string>
+  <string name="double_tap_to_lock_summary">На началният Ви екран</string>
   <!-- Colors -->
   <string name="White">Бяло</string>
   <string name="Black">Черно</string>
+  <string name="Blue_gray1">Светло синьо сиво</string>
+  <string name="Blue_gray2">Тъмно сиво синьо</string>
+  <string name="Gray1">Светло сиво</string>
+  <string name="Gray2">Тъмно сиво</string>
   <string name="Yellow2">Тъмно жълто</string>
   <string name="Lime1">Светло лайм</string>
   <string name="Lime2">Тъмен лайм</string>

@@ -208,18 +208,31 @@
   <!-- Accessibility description to move item inside a folder. -->
   <string name="move_to_position">Ubah posisi<xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
+  <string name="move_to_hotseat_position">Ubah ke posisi favorit<xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
+  <string name="item_moved">Item dipindahkan</string>
   <!-- Accessibility description to move item into an existing folder. -->
+  <string name="add_to_folder">Tambahkan ke folder<xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Accessibility description to move item into an existing folder containing an app. -->
+  <string name="add_to_folder_with_app">Tambahkan ke folder dengan<xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item added to folder. -->
+  <string name="added_to_folder">Item ditambahkan ke folder</string>
   <!-- Accessibility description to create folder with another item. -->
+  <string name="create_folder_with">Buat folder dengan <xliff:g id="name" example="Game">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
+  <string name="folder_created">Folder dibuat</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+  <string name="action_move_to_workspace">Pindahkan ke beranda</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
+  <string name="action_move_screen_left">Pindahkan layar ke kiri</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
+  <string name="action_move_screen_right">Pindahkan layar ke kanan</string>
   <!-- Accessibility confirmation when a screen was moved. -->
+  <string name="screen_moved">Layar dipindahkan</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+  <string name="action_resize">Ubah ukuran</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_increase_width">Tingkatkan lebar</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
   <string name="action_increase_height">Tingkatkan ketinggian</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
@@ -265,13 +278,55 @@
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->
   <!--At glance-->
+  <string name="in_smartspace">Pada widget \"At a Glance \"</string>
   <!-- Date formats -->
+  <string name="date_format">Format tanggal</string>
+  <string name="date_format_1">Selasa,Peb 13</string>
+  <string name="date_format_2">Selasa</string>
+  <string name="date_format_3">Sel, Pebruari 13</string>
+  <string name="date_format_4">Sel,02/13</string>
+  <string name="date_format_5">13 Selasa</string>
+  <string name="date_format_6">Selasa, Pebruari 13</string>
   <!--theme-->
+  <string name="custom_theme">Tema dan pengaturan ikon</string>
+  <string name="theme">Tema</string>
+  <string name="white_theme">Putih</string>
+  <string name="white_withdarktext_theme">Putih dengan tulisan gelap</string>
+  <string name="dark_theme">Gelap</string>
+  <string name="black_theme">Hitam</string>
+  <string name="solid_theme">Padat</string>
+  <string name="transparent_theme">Transparan</string>
+  <string name="auto_theme_sum">Oleh latar belakang</string>
+  <string name="auto_theme">Tema otomatis</string>
+  <string name="googleinappmenu">Pencarian Google bar</string>
+  <string name="g_bar_drawer">Pencarian Google bar di daftar apl</string>
   <!--Notification dot-->
+  <string name="textinbadge">Angka pada lencana</string>
+  <string name="textinbadge_sum">Tunjukkan notifikasi angka pada lencana</string>
+  <string name="bottombadge">Lencana di bawah</string>
+  <string name="bottombadge_sum">Tunjukkan lencana di bawah kanan icon</string>
+  <string name="restart">Memulai ulang</string>
+  <string name="restart_sum">Memulai ulang untuk debug</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Kustomisasi warna pada bar pencarian</string>
+  <string name="custom_qsb_color_list">Daftar warna Google Bar</string>
+  <string name="dark_themeqsballapp">Bar pencarian gelap</string>
+  <string name="behavior_pref_title">Perilaku</string>
+  <string name="custom_dockbar">Dokbar</string>
   <!--Home screen-->
+  <string name="custom_hs">Layar Beranda</string>
+  <string name="custom_allapp">Laci Aplikasi</string>
+  <string name="settings_edit_allow_title">Izinkan sunting</string>
+  <string name="settings_edit_allow_summary_on">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada layar utama</string>
+  <string name="settings_edit_allow_summary_off">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
+  <string name="settings_edit_widgets_error">Tidak dimungkinkan untuk menambah widget di layar beranda</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Pencarian Google bar</string>
+  <string name="bottom_search_bar_summary">Tunjukkan pencarian Google Bar di bawah dok</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Ketuk dua kali untuk mengunci</string>
+  <string name="double_tap_to_lock_summary">Pada layar beranda</string>
+  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci,anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artina ada harus memasukkan  PIN pada saat membukan layar selanjutnya</string>
   <!-- Colors -->
   <!--Animations-->
   <!--AllappsGrid-->

@@ -314,11 +314,19 @@
   <string name="hotseat_show_page_indicator_sum">Habilitar/Deshabilitar indicador de página en la pantalla de inicio sobre el dock </string>
   <string name="gradient_size">Tamaño de grandiente</string>
   <string name="remove_gradient">Vista de grandiente</string>
+  <string name="remove_gradient_sum">Activar/Desactivar degradado en el área del dock cuando eliges dock transparente incluso en con el tema blanco. No funciona con el dock con estilo de Android P</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Etiquetas de escritorio</string>
+  <string name="desktop_show_labels_sum">Mostrar etiquetas de los iconos en el escritorio</string>
+  <string name="drawer_show_labels">Etiquetas del Cajón</string>
+  <string name="drawer_show_labels_sum">Mostrar etiquetas de los iconos en el cajón de aplicaciones</string>
+  <string name="folder_show_labels">Etiquetas de carpetas</string>
+  <string name="folder_show_labels_sum">Mostrar etiquetas de los iconos en las carpetas</string>
   <string name="icon_size">Tamaño de icono</string>
   <!--At glance-->
   <string name="custom_glance">A simple vista</string>
   <string name="smartspace_time">Añadir reloj</string>
+  <string name="in_smartspace">En el widget \"Un vistazo\"</string>
   <!-- Date formats -->
   <string name="date_format">Formato de fecha</string>
   <string name="date_format_1">Martes, Feb 13</string>
@@ -328,6 +336,7 @@
   <string name="date_format_5">13 Martes</string>
   <string name="date_format_6">Martes, Febrero 13</string>
   <!--theme-->
+  <string name="custom_theme">Tema e Iconos</string>
   <string name="theme">Tema</string>
   <string name="white_theme">Blanco</string>
   <string name="white_withdarktext_theme">Blanco con Texto Oscuro</string>
@@ -335,8 +344,22 @@
   <string name="black_theme">Negro</string>
   <string name="solid_theme">Sólido</string>
   <string name="transparent_theme">Transparente</string>
+  <string name="auto_theme_sum">Definido por Fondo de pantalla</string>
+  <string name="auto_theme">Tema automático</string>
+  <string name="googleinappmenu">Barra de búsqueda de Google</string>
+  <string name="g_bar_drawer">Barra de búsqueda de Google en el cajón</string>
   <!--Notification dot-->
+  <string name="textinbadge">Insignias numéricas</string>
+  <string name="textinbadge_sum">Muestra la cantidad de notificaciones en la insignia</string>
+  <string name="bottombadge">Insignias abajo </string>
+  <string name="bottombadge_sum">Mostrar insignias en la parte inferior derecha del ícono</string>
+  <string name="restart">Reiniciar</string>
+  <string name="restart_sum">Reiniciar para solucionar errores</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Color de la barra de búsqueda personalizado</string>
+  <string name="custom_qsb_color_list">Lista de colores de la barra de Google</string>
+  <string name="dark_themeqsballapp">Barra de búsqueda oscura</string>
+  <string name="behavior_pref_title">Comportamiento</string>
   <!--Home screen-->
   <!-- Hide/Show search bars -->
   <!--Double tap to lock-->

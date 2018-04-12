@@ -337,7 +337,7 @@
     <string name="compiled_by">Compiled By</string>
     <string name="compiled_by_sum">Shubbyy</string>
     <string name="Icon_By">Icon By</string>
-    <string name="Icon_By_sum">DUlcetiseduce(Dulce)</string>
+    <string name="Icon_By_sum">Joshua Baldassarre</string>
     <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
     <string name="app_name_pixel_launcher">Ruthless Launcher</string>
     <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
@@ -355,14 +355,19 @@
 
 
     <string name="diabledgemargin">Disable side padding</string>
+    <string name="diabledgemargin_sum">Disables space between icon and left/right sides</string>
 
     <!-- Dock bar -->
-    <string name="force_mic">Force mic</string>
-    <string name="force_colour_logo">Сolored Google logo on search bar</string>
+    <string name="force_mic">Force Mic Icon</string>
+    <string name="force_mic_sum">Enables mic icon visible even if conditions to make it automatically visible r not met</string>
+    <string name="force_colour_logo">Coloured google logo on search bar</string>
+    <string name="force_colour_logo_sum">Enabling this makes google logo and mic icon coloured in google dock bar</string>
     <string name="dark_themeqsb">Dark search bar</string>
-    <string name="transparentqsb">Transparent search bar</string>
+    <string name="transparentqsb">Transparency in search bar</string>
+    <string name="transparentqsb_sum">Makes search bar little bit see through</string>
     <string name="custom_qsb_in_dock">Search bar settings</string>
     <string name="qsb_in_dock_show">Show search bar in dock</string>
+    <string name="pdock">Solid-style Dock</string>
 
 
     <!-- Sizes -->
@@ -376,18 +381,28 @@
     <!-- Rows and Coloumns -->
     <string name="num_rows">Number of rows</string>
     <string name="num_cols">Number of columns</string>
+    <string name="num_hotseat_icons_pref_title">Number of icons in dock</string>
+    <string name="custom_grid_size">Change grid</string>
+    <string name="change_grid_size">Drawer Grid</string>
+    <string name="change_grid_size_sum">Change gid size in app drawer, grid row may seem one digit more then it actually is because it counts "Display Apps Suggestions " turned on by default </string>
 
 
-    <string name="hotseatShowArrow">Show arrow</string>
-    <string name="hotseat_show_page_indicator">Show page indicator</string>
+    <string name="hotseatShowArrow">Swipe Arrow</string>
+    <string name="hotseatShowArrow_sum">Enable/Disable swipe-up arrow(caret) indicator above dock</string>
+    <string name="hotseat_show_page_indicator">Page Indicator</string>
+    <string name="hotseat_show_page_indicator_sum">Enable/Disable page indicator on home screen above dock </string>
 
     <string name="gradient_size">Gradient size</string>
-    <string name="remove_gradient">Disable gradient below dock</string>
+    <string name="remove_gradient">Gradient View</string>
+    <string name="remove_gradient_sum">Enable/Disable gradient in the dock area for transparent dock even in white theme, it will not work in P-style dock</string>
 
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on desktop</string>
-    <string name="drawer_show_labels">Show icon labels in drawer</string>
-    <string name="folder_show_labels">Show icon labels in folders</string>
+    <string name="desktop_show_labels">Desktop Labels</string>
+    <string name="desktop_show_labels_sum">Show icon labels in desktop</string>
+    <string name="drawer_show_labels">Drawer Labels</string>
+    <string name="drawer_show_labels_sum">Show icon labels in drawer</string>
+    <string name="folder_show_labels">Folders Labels</string>
+    <string name="folder_show_labels_sum">Show icon labels in folder</string>
 
     <string name="icon_size">Icon size</string>
 
@@ -395,8 +410,6 @@
     <string name="custom_glance">At a Glance</string>
     <string name="smartspace_time">Add clock</string>
     <string name="in_smartspace">In \"At a Glance\" widget</string>
-    <!--   <string name="smartspace_launchclock_sum">On long click</string>
-       <string name="smartspace_launchclock">Launch clock app</string>-->
 
     <!-- Date formats -->
     <string name="date_format">Date format</string>
@@ -408,62 +421,32 @@
     <string name="date_format_6">Tuesday, February 13</string>
 
      <!--theme-->
-    <string name="custom_theme">Theme</string>
+    <string name="custom_theme">Theme and Icon Treatment</string>
+    <string name="theme">Theme</string>
     <string name="white_theme">White</string>
     <string name="white_withdarktext_theme">White with dark text</string>
     <string name="dark_theme">Dark</string>
     <string name="black_theme">Black</string>
-    <string name="googleinappmenu">Google search bar</string>
+    <string name="solid_theme">Solid</string>
+    <string name="transparent_theme">Transparent</string>
+    <string name="auto_theme_sum">By wallpaper</string>
+    <string name="auto_theme">Auto Theme</string>
+    <string name="googleinappmenu">Google Search Bar</string>
+    <string name="g_bar_drawer">Google search bar in drawer</string>
 
     <!--Notification dot-->
-    <string name="textinbadge">Numeric badges</string>
+    <string name="textinbadge">Numeric Badges</string>
     <string name="textinbadge_sum">Show the number of notifications in badge</string>
-    <string name="bottombadge">Different position</string>
-    <string name="bottombadge_sum">Show badges in bottom</string>
-    <!--Grid size-->
-    <string name="num_default">Default</string>
-    <string name="num_three">Three</string>
-    <string name="num_four">Four</string>
-    <string name="num_five">Five</string>
-    <string name="num_six">Six</string>
-    <string name="num_seven">Seven</string>
-    <!-- <string name="num_eight">Eight</string>
-      <string name="num_nine">Nine</string>-->
-
-    <string-array name="grid_names">
-        <item>@string/num_default</item>
-        <item>@string/num_three</item>
-        <item>@string/num_four</item>
-        <item>@string/num_five</item>
-        <item>@string/num_six</item>
-        <item>@string/num_seven</item>
-        <!--  <item>@string/num_eight</item>
-         <item>@string/num_nine</item>-->
-    </string-array>
-
-    <string-array name="grid_values">
-        <item>default</item>
-        <item>three</item>
-        <item>four</item>
-        <item>five</item>
-        <item>six</item>
-        <item>seven</item>
-       <!--  <item>eight</item>
-         <item>nine</item>-->
-    </string-array>
-
-    <string name="grid_category_title">Columns and rows</string>
-    <string name="number_of_columns_title">Grid columns</string>
-    <string name="number_of_rows_title">Grid rows</string>
-    <string name="number_of_hotseat_title">Dock icons number</string>
+    <string name="bottombadge">Bottom Badges </string>
+    <string name="bottombadge_sum">Show badges in bottom right of the icon</string>
 
     <string name="restart">Restart</string>
-    <string name="restart_sum">Tick and go back it will restart</string>
+    <string name="restart_sum">Restart for debug</string>
 
 
     <!--<string name="custom_label_color">Custom lable color</string>-->
-    <string name="custom_qsb_color">Search bar color</string>
-    <string name="custom_qsb_color_list">List of color</string>
+    <string name="custom_qsb_color">Custom search bar color</string>
+    <string name="custom_qsb_color_list">List of G-Bar colors</string>
     <string name="dark_themeqsballapp">Dark search bar</string>
     <string name="behavior_pref_title">Behavior</string>
     <string name="custom_dockbar">Dockbar</string>
@@ -478,10 +461,9 @@
 
 
     <!-- Hide/Show search bars -->
-    <string name="bottom_search_bar_title">Bottom search bar</string>
-    <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
-   <!-- <string name="top_search_bar_title">Top search bar</string>
-    <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>-->
+    <string name="bottom_search_bar_title">Google Dock Bar</string>
+    <string name="bottom_search_bar_summary">Show the Google search bar at the bottom of the dock</string>
+
 
     <!--Double tap to lock-->
     <string name="double_tap_to_lock_title">Double tap to lock</string>
@@ -493,56 +475,55 @@
     <!-- Colors -->
     <string name="White">White</string>
     <string name="Black">Black</string>
-    <string name="Blue_gray1">Blue gray1</string>
-    <string name="Blue_gray2">Blue gray2</string>
-    <string name="Gray1">Gray1</string>
-    <string name="Gray2">Gray2</string>
-    <string name="Brown1">Brown1</string>
-    <string name="Brown2">Brown2</string>
-    <string name="Deep_orange1">Deep orange1</string>
-    <string name="Deep_orange2">Deep orange2</string>
-    <string name="Orange1">Orange1</string>
-    <string name="Orange2">Orange2</string>
-    <string name="Amber1">Amber1</string>
-    <string name="Amber2">Amber2</string>
-    <string name="Yellow1">Уellow1</string>
-    <string name="Yellow2">Уellow2</string>
-    <string name="Lime1">Lime1</string>
-    <string name="Lime2">Lime2</string>
-    <string name="Light_green1">Light green1</string>
-    <string name="Light_green2">Light green2</string>
-    <string name="Green1">Green1</string>
-    <string name="Green2">Green2</string>
-    <string name="Teal1">Teal1</string>
-    <string name="Teal2">Teal2</string>
-    <string name="Cyan1">Cyan1</string>
-    <string name="Cyan2">Cyan2</string>
-    <string name="Light_blue1">Light blue1</string>
-    <string name="Light_blue2">Light blue</string>
-    <string name="Blue1">Blue1</string>
-    <string name="Blue2">Blue2</string>
-    <string name="Indigo1">Indigo1</string>
-    <string name="Indigo2">Indigo2</string>
+    <string name="Blue_gray1">Blue gray light</string>
+    <string name="Blue_gray2">Blue gray dark</string>
+    <string name="Gray1">Gray light</string>
+    <string name="Gray2">Gray dark</string>
+    <string name="Brown1">Brown light</string>
+    <string name="Brown2">Brown dark</string>
+    <string name="Deep_orange1">Deep orange light</string>
+    <string name="Deep_orange2">Deep orange dark</string>
+    <string name="Orange1">Orange light</string>
+    <string name="Orange2">Orange dark</string>
+    <string name="Amber1">Amber light</string>
+    <string name="Amber2">Amber dark</string>
+    <string name="Yellow1">Уellow light</string>
+    <string name="Yellow2">Уellow dark</string>
+    <string name="Lime1">Lime light</string>
+    <string name="Lime2">Lime dark</string>
+    <string name="Light_green1">Light green (light)</string>
+    <string name="Light_green2">Light green (dark)</string>
+    <string name="Green1">Green light</string>
+    <string name="Green2">Green dark</string>
+    <string name="Teal1">Teal light</string>
+    <string name="Teal2">Teal dark</string>
+    <string name="Cyan1">Cyan light</string>
+    <string name="Cyan2">Cyan dark</string>
+    <string name="Light_blue1">Light blue (light)</string>
+    <string name="Light_blue2">Light blue (dark)</string>
+    <string name="Blue1">Blue light</string>
+    <string name="Blue2">Blue dark</string>
+    <string name="Indigo1">Indigo light</string>
+    <string name="Indigo2">Indigo dark</string>
     <string name="Violet">Violet</string>
-    <string name="Deep_purple1">Deep Purple1</string>
-    <string name="Deep_purple2">Deep Purple2</string>
-    <string name="Purple1">Purple1</string>
-    <string name="Purple2">Purple2</string>
-    <string name="Pink1">Pink1</string>
-    <string name="Pink2">Pink2</string>
-    <string name="Red1">Red1</string>
-    <string name="Red2">Red2</string>
+    <string name="Deep_purple1">Deep Purple light</string>
+    <string name="Deep_purple2">Deep Purple dark</string>
+    <string name="Purple1">Purple light</string>
+    <string name="Purple2">Purple dark</string>
+    <string name="Pink1">Pink light</string>
+    <string name="Pink2">Pink dark</string>
+    <string name="Red1">Red light</string>
+    <string name="Red2">Red dark</string>
 
     <!--Animations-->
-    <string name="physical_animation_title">Physical animation</string>
-    <string name="physical_animation_summary">Use spring effect</string>
 
-     <string name="legacy_icons_title">Mask legacy icons</string>
-    <string name="gradient_switch">Get P style dock</string>
+
+     <string name="legacy_icons_title">Legacy Icons Treatment</string>
+     <string name="legacy_icons_title_sum">Makes an adaptive background behind the icon, after enabling this you have to "Change Icon Shape" to see then changes applied</string>
 
      <!--AllappsGrid-->
     <string name="number_of_columns_title1">Grid columns</string>
-    <string name="home_action_title">Home action on home screen</string>
+    <string name="home_action_title">Home button action on home screen</string>
 
     <string name="home_action_nothing">Nothing</string>
     <string name="home_action_quick_search">Quick search</string>
@@ -574,23 +555,62 @@
     <string name="search_provider_google">Google</string>
     <string name="search_provider_bing">Bing</string>
     <string name="search_provider_duckduckgo">DuckDuckGo</string>
+    <string name="search_provider_baidu">Baidu</string>
 
     <string-array name="search_provider_names">
         <item>@string/search_provider_google</item>
         <item>@string/search_provider_bing</item>
         <item>@string/search_provider_duckduckgo</item>
+        <item>@string/search_provider_baidu</item>
     </string-array>
 
     <string-array name="search_provider_values">
     <item>https://www.google.com</item>
     <item>https://www.bing.com</item>
     <item>https://www.duckduckgo.com</item>
+     <item>https://www.baidu.com</item>
     </string-array>
 
     <string name="transparent_nav_bar_title">Transparent Navigation Bar</string>
     <string name="transparent_nav_bar_summary">On the app drawer</string>
 
-    <string name="smartspace_launchclock_sum">On long click</string>
+    <string name="smartspace_launchclock_sum">On long press</string>
     <string name="smartspace_launchclock">Launch clock app</string>
 
- </resources>
+    <string name="system_font_for_smartspace">Use System Font</string>
+    <string name="system_font_for_smartspace_sum">For \"At a Glance\" widget</string>
+    <string name="bage_size">Badges Size</string>
+
+    <string name="label_font">Label Font</string>
+    <string name="smartspace_font">\"At a Glance\" Widget Font</string>
+    <string name="donate">Donation Link</string>
+    <string name="donate_sum">Paypal donation link(if you want to)</string>
+    <string name="donate_url">https://PayPal.Me/Shubbyy</string>
+
+    <string name="icon_pack_updated">Your currently applied icon pack has been updated. It is recommended to go into settings and re-apply the icon pack.</string>
+    <string name="icon_pack_apply_warning_title">Warning</string>
+    <string name="icon_pack_apply_warning_message">Any custom icons or icon labels will disappear. Are you sure you want to continue?</string>
+
+    <string name="show_top_shadow_title">Show top shadow</string>
+    <string name="pdock1">P Style Dock</string>
+    <string name="pdock1sum">New pixel launcher dock introduced in android p developer preview 1</string>
+    
+    
+    <!--Time format-->
+    <string name="time_formats">Time Formats</string>
+    <string name="time_f1">12:00 AM</string>
+    <string name="time_f2">24:00</string>
+
+    <string name="other_settings">Other Settings</string>
+    <string name="space_in_dock">Icon Margin In Dock</string>
+    <string name="space_in_dock_sum">Enable this if icons are too close to dock bar </string>
+
+    <string name="generate_adaptive_background_title">Extract color from legacy icon</string>
+    <string name="generate_adaptive_background_summary">For generated adaptive icon backgrounds,after enabling this you have to change "Change Icon Shape" and enable "Legacy Icons Treatment"  to see then changes applied</string>
+
+    <string name="allow_two_line_labels_title">Allow two line labels</string>
+    <string name="allow_two_line_labels_summary">For long app or folder names ,may seem cut off </string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="faq_url">http://telegra.ph/Frequently-Asked-Questions-04-09</string>
+    <string name="hide_apps_title">Hide apps</string>
+    <string name="hide_apps_summary">From the app drawer</string>

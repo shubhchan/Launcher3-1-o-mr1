@@ -298,7 +298,16 @@
   <string name="size_big">Grande</string>
   <string name="size_smallest">O mais pequeno</string>
   <string name="size_small">Pequeno</string>
+  <string name="size_stock">Padrão</string>
+  <string name="size_tiny">Minúsculo</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Número de linhas</string>
+  <string name="num_cols">Número de colunas</string>
+  <string name="num_hotseat_icons_pref_title">Número de ícones da dock</string>
+  <string name="custom_grid_size">Alterar grelha</string>
+  <string name="change_grid_size">Desenhar Grelha</string>
+  <string name="change_grid_size_sum">Altera o tamanho da grelha no menu de aplicações, o número de linhas na grelha pode ter um valor a mais, mas deve-se ao facto da opção \"Mostrar sugestão de aplicações\" estar ativa por defeito</string>
+  <string name="hotseatShowArrow">Seta do deslize</string>
   <!-- Hide labels -->
   <!--At glance-->
   <!-- Date formats -->

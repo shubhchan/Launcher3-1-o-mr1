@@ -382,12 +382,36 @@
   <string name="Blue_gray1">Gris azulado claro</string>
   <string name="Blue_gray2">Gris azulado oscuro</string>
   <string name="Gray1">Gris claro</string>
+  <string name="Gray2">Gris oscuro</string>
+  <string name="Brown1">Marrón claro</string>
+  <string name="Brown2">Marrón oscuro</string>
+  <string name="Deep_orange1">Anaranjado profundo claro</string>
+  <string name="Deep_orange2">Anaranjado profundo oscuro</string>
+  <string name="Orange1">Anaranjado claro</string>
+  <string name="Orange2">Anaranjado oscuro</string>
+  <string name="Amber1">Ámbar claro</string>
+  <string name="Amber2">Ámbar oscuro</string>
+  <string name="Yellow1">Amarillo Claro</string>
+  <string name="Yellow2">Amarillo oscuro</string>
+  <string name="Lime1">Lima claro</string>
+  <string name="Lime2">Lima oscuro</string>
+  <string name="Light_green1">Verde claro (claro)</string>
+  <string name="Light_green2">Verde claro (oscuro)</string>
   <string name="Green1">Verde claro</string>
   <string name="Green2">Verde oscuro</string>
   <string name="Teal1">Verde azulado</string>
   <string name="Teal2">Verde azulado oscuro</string>
+  <string name="Cyan1">Cían claro</string>
+  <string name="Cyan2">Cían oscuro</string>
+  <string name="Light_blue1">Celeste claro</string>
+  <string name="Light_blue2">Celeste oscuro</string>
   <string name="Blue1">Azul claro</string>
+  <string name="Blue2">Azul 2</string>
+  <string name="Indigo1">Índigo claro</string>
+  <string name="Indigo2">Índigo oscuro</string>
   <string name="Violet">Violeta</string>
+  <string name="Deep_purple1">Violeta profundo claro</string>
+  <string name="Deep_purple2">Violeta profundo oscuro</string>
   <string name="Purple1">Morado claro</string>
   <string name="Purple2">Morado oscuro</string>
   <string name="Pink1">Rosa claro</string>
@@ -405,6 +429,36 @@
   <string name="home_action_voice_search">Búsqueda por voz</string>
   <string name="home_action_app_drawer">Abrir cajón de aplicaciones</string>
   <string name="home_action_app_search">Abrir aplicación de búsqueda</string>
+  <string name="home_action_overview">Entrar en Vista general</string>
+  <string-array name="home_action_values">
+    <item>nada</item>
+    <item>búsqueda rapida</item>
+    <item>búsqueda por voz</item>
+    <item>cajón de aplicaciones</item>
+    <item>búsqueda de aplicaciones</item>
+    <item>visión general</item>
+  </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Motor de búsqueda</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Barra de navegación transparente</string>
+  <string name="transparent_nav_bar_summary">En el cajón de aplicaciones</string>
+  <string name="smartspace_launchclock_sum">Al mantener presiónado</string>
+  <string name="smartspace_launchclock">Abrir Reloj</string>
+  <string name="system_font_for_smartspace">Usar fuente del sistema</string>
+  <string name="system_font_for_smartspace_sum">Para el widget \"Un Vistazo\"</string>
+  <string name="bage_size">Tamaño de las insignias</string>
+  <string name="label_font">Fuente de las etoquetas</string>
+  <string name="smartspace_font">Fuente del widget \"Un Vistazo\"</string>
+  <string name="donate">Link de donación</string>
+  <string name="donate_sum">Link de donación de PayPal (si es que quieres)</string>
+  <string name="icon_pack_updated">Tu paquete de iconos actual ha sido actualizado. Se recomienda ir a los ajustes y re-aplicar el paquete de iconos.</string>
+  <string name="icon_pack_apply_warning_title">Advertencia</string>
+  <string name="icon_pack_apply_warning_message">Cualquier etiqueta de iconos o iconos personalizados desaparecerán. ¿Estás seguro que deseas continuar?</string>
+  <string name="show_top_shadow_title">Mostrar sombra superior</string>
+  <string name="pdock1">Dock de estilo Android P</string>
   <!--Time format-->
 </resources>

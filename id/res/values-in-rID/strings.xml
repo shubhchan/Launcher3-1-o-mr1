@@ -342,5 +342,20 @@
   <string name="search_provider_title">Cari penyedia</string>
   <string name="search_provider_google">Google</string>
   <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Transparansi bar navigasi</string>
+  <string name="transparent_nav_bar_summary">Pada daftar apl</string>
+  <string name="smartspace_launchclock_sum">Tahan lama</string>
+  <string name="smartspace_launchclock">Luncurkan apl jam</string>
+  <string name="system_font_for_smartspace">Gunakan huruf bawaan</string>
+  <string name="system_font_for_smartspace_sum">Untuk widget \" At a Glance \"</string>
+  <string name="bage_size">Ukuran lencana</string>
+  <string name="label_font">Label huruf</string>
+  <string name="smartspace_font">Widget huruf \" At a Glance \"</string>
+  <string name="donate">Link untuk donasi</string>
+  <string name="donate_sum">Link paypal untuk donasi ( jika anda ingin )</string>
+  <string name="icon_pack_updated">Ikon pak anda yang teraplikasikan telah di perbaharui. Sangat disarankan untuk ke pengaturan menerapkan kembali ikon pak.</string>
+  <string name="icon_pack_apply_warning_title">Peringatan</string>
   <!--Time format-->
 </resources>

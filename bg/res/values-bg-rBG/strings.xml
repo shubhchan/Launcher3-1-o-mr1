@@ -313,9 +313,25 @@
   <string name="gradient_size">Размер на смесването на цветове</string>
   <string name="remove_gradient">Изглед на смесването на цветове</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Заглавия на иконите</string>
+  <string name="desktop_show_labels_sum">Покажи заглавията на началният екран</string>
+  <string name="drawer_show_labels">Заглавия в лист с приложения</string>
+  <string name="drawer_show_labels_sum">Покажи заглавията в листа с приложения</string>
+  <string name="folder_show_labels">Заглавия на папките</string>
+  <string name="folder_show_labels_sum">Покажи заглавията в папките</string>
+  <string name="icon_size">Размер на икона</string>
   <!--At glance-->
+  <string name="custom_glance">Бърз поглед</string>
+  <string name="smartspace_time">Добави часовник</string>
+  <string name="in_smartspace">В \"Бърз Поглед\" джаджата</string>
   <!-- Date formats -->
+  <string name="date_format">Формат на датата</string>
+  <string name="date_format_1">Вторник, Фев 13</string>
   <string name="date_format_2">Вторник</string>
+  <string name="date_format_3">Вт, Февруари 13</string>
+  <string name="date_format_4">Вт, 02/13</string>
+  <string name="date_format_5">13 Вторник</string>
+  <string name="date_format_6">Вторник, Февруари 13</string>
   <!--theme-->
   <string name="theme">Тема</string>
   <string name="white_theme">Бяло</string>
@@ -329,6 +345,7 @@
   <string name="googleinappmenu">Google лента за търсене</string>
   <string name="g_bar_drawer">Google лента за търсене в листа с приложения</string>
   <!--Notification dot-->
+  <string name="textinbadge">Числови Етикети</string>
   <string name="restart">Рестартиране</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
   <string name="behavior_pref_title">Поведение</string>
@@ -342,6 +359,8 @@
   <string name="bottom_search_bar_title">Google док</string>
   <!--Double tap to lock-->
   <!-- Colors -->
+  <string name="White">Бяло</string>
+  <string name="Black">Черно</string>
   <string name="Yellow2">Тъмно жълто</string>
   <string name="Lime1">Светло лайм</string>
   <string name="Lime2">Тъмен лайм</string>
@@ -360,8 +379,20 @@
   <string name="Indigo1">Светло лилаво</string>
   <string name="Indigo2">Тъмно лилаво</string>
   <string name="Violet">Виолетово</string>
+  <string name="Deep_purple1">Светло лилаво</string>
+  <string name="Deep_purple2">Тъмно лилаво</string>
+  <string name="Purple1">Светло лилав</string>
+  <string name="Purple2">Тъмно лилаво</string>
+  <string name="Pink1">Светло розово</string>
+  <string name="Pink2">Тъмно розово</string>
+  <string name="Red1">Светло червено</string>
+  <string name="Red2">Тъмно червено</string>
   <!--Animations-->
   <!--AllappsGrid-->
   <!--search provider-->
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
   <!--Time format-->
 </resources>

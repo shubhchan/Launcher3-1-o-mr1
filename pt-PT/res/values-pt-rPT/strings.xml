@@ -285,7 +285,19 @@
   <!-- Dock bar -->
   <string name="force_mic">Forçar ícone do microfone</string>
   <string name="force_mic_sum">Ativa o ícone do microfone mesmo que as condições para que esteja visível automaticamente não sejam cumpridas</string>
+  <string name="force_colour_logo">Ícone Google colorido na barra de pesquisa</string>
+  <string name="force_colour_logo_sum">Ativar esta opção faz com que o ícone da Google e do microfone fiquem coloridos na barra inferior</string>
+  <string name="dark_themeqsb">Barra de pesquisa escura</string>
+  <string name="transparentqsb">Transparência na barra de pesquisa</string>
+  <string name="transparentqsb_sum">Faz com que seja possível ver o que está por trás da barra de pesquisa</string>
+  <string name="custom_qsb_in_dock">Definições da barra de pesquisa</string>
+  <string name="qsb_in_dock_show">Mostrar a barra de pesquisa na dock</string>
+  <string name="pdock">Estilo sólido na dock</string>
   <!-- Sizes -->
+  <string name="size_biggest">O Maior</string>
+  <string name="size_big">Grande</string>
+  <string name="size_smallest">O mais pequeno</string>
+  <string name="size_small">Pequeno</string>
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->
   <!--At glance-->

@@ -127,6 +127,7 @@
   <string name="folder_name_format">Cartafol: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Fondos de pantalla</string>
   <!-- Text for settings button -->
@@ -249,9 +250,11 @@
   <string name="action_dismiss_notification">Ignorar</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Ignorouse a notificación</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
   <string name="smartspace_preferences">Preferencias</string>
   <string name="label_search">Busca</string>
   <string name="label_voice_search">Busca por voz</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Paquete de iconos</string>
   <string name="state_loading">Aplicando…</string>
   <string name="smartspace_preferences_in_settings">Dunha ollada</string>
@@ -263,6 +266,8 @@
   <string name="title_app_suggestions">Mostrar suxestións de aplicacións</string>
   <string name="summary_app_suggestions">Na parte superior da lista Todas as aplicacións</string>
   <string name="about_app_version">Versión</string>
+  <string name="compiled_by">Compilado por</string>
+  <string name="Icon_By">Icono por</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">Queres desactivar as suxestións de aplicacións?</string>
   <string name="msg_disable_suggestions_prompt">"As suxestións non aparecerán na parte superior da lista de aplicacións e os datos de uso utilizados para crealas eliminaranse permanentemente."</string>
@@ -271,21 +276,95 @@
   <string name="hide_app_sum">Ocultar aplicación del cajón de aplicaciones</string>
   <string name="hide_app">Ocultar aplicación</string>
   <string name="icon_shape_rounded_square">Cadrado redondeado</string>
+  <string name="icon_pack_default">Predeterminado</string>
+  <string name="icon_edit">Editar icono y texto de la aplicación</string>
+  <string name="market">Más</string>
+  <string name="based_on">Basado En</string>
+  <string name="based_on_sum">\"Rootless Pixel Launcher\" por Amir Zaidi</string>
+  <string name="diabledgemargin">Desactivar separación lateral</string>
+  <string name="diabledgemargin_sum">Desactivar espaciado entre los iconos y los costados de la pantalla</string>
   <!-- Dock bar -->
+  <string name="force_mic">Forzar icono de micrófono</string>
+  <string name="force_mic_sum">Activar ícono de mic. visible incluso si las condiciones para hacerlo automáticamente no son cumplidas</string>
+  <string name="force_colour_logo">Logo de Google coloreado en la barra de búsqueda</string>
+  <string name="force_colour_logo_sum">Activando esto haces que el logo de Google y el icono de micrófono sean coloreados en la barra de Google</string>
+  <string name="dark_themeqsb">Barra de búsqueda oscura</string>
+  <string name="transparentqsb">Transparencia en barra de búsqueda</string>
+  <string name="transparentqsb_sum">Hace la barra de búsqueda un poco transparente</string>
+  <string name="custom_qsb_in_dock">Ajustes de barra de búsqueda</string>
+  <string name="qsb_in_dock_show">Mostrar barra de búsqueda en el dock</string>
+  <string name="pdock">Dock de estilo sólido</string>
   <!-- Sizes -->
+  <string name="size_biggest">Más grande</string>
+  <string name="size_big">Grande</string>
+  <string name="size_smallest">Diminuto</string>
+  <string name="size_small">Pequeño</string>
+  <string name="size_stock">Defecto</string>
+  <string name="size_tiny">Diminuto</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Número de filas</string>
+  <string name="num_cols">Número de columnas</string>
+  <string name="num_hotseat_icons_pref_title">Número de iconos en el dock</string>
+  <string name="custom_grid_size">Cambiar cuadrícula</string>
+  <string name="change_grid_size">Cuadrícula del cajón</string>
+  <string name="change_grid_size_sum">Cambia el tamaño de la cuadrícula en el cajón de aplicaciones. Las filas pueden parecer que tiene una más. Esto es porque toma en cuenta la fila añadida con la opción \"Muestra sugerencias de aplicaciones\" que viene activada por defecto </string>
+  <string name="hotseatShowArrow">Flecha indicadora</string>
+  <string name="hotseatShowArrow_sum">Activa/Desactiva la flecha indicadora sobre el dock</string>
+  <string name="hotseat_show_page_indicator">Indicador de página</string>
+  <string name="hotseat_show_page_indicator_sum">Habilitar/Deshabilitar indicador de página en la pantalla de inicio sobre el dock </string>
+  <string name="gradient_size">Tamaño de grandiente</string>
+  <string name="remove_gradient">Vista de grandiente</string>
   <!-- Hide labels -->
+  <string name="icon_size">Tamaño de icono</string>
   <!--At glance-->
+  <string name="custom_glance">A simple vista</string>
+  <string name="smartspace_time">Añadir reloj</string>
   <!-- Date formats -->
+  <string name="date_format">Formato de fecha</string>
+  <string name="date_format_1">Martes, Feb 13</string>
+  <string name="date_format_2">Martes</string>
+  <string name="date_format_3">Mart, Febrero 13</string>
+  <string name="date_format_4">Mart, 02/13</string>
+  <string name="date_format_5">13 Martes</string>
+  <string name="date_format_6">Martes, Febrero 13</string>
   <!--theme-->
+  <string name="theme">Tema</string>
+  <string name="white_theme">Blanco</string>
+  <string name="white_withdarktext_theme">Blanco con Texto Oscuro</string>
+  <string name="dark_theme">Oscuro</string>
+  <string name="black_theme">Negro</string>
+  <string name="solid_theme">Sólido</string>
+  <string name="transparent_theme">Transparente</string>
   <!--Notification dot-->
   <!--<string name="custom_label_color">Custom lable color</string>-->
   <!--Home screen-->
   <!-- Hide/Show search bars -->
   <!--Double tap to lock-->
   <!-- Colors -->
+  <string name="Black">Negro</string>
+  <string name="Green1">Verde claro</string>
+  <string name="Green2">Verde oscuro</string>
+  <string name="Teal1">Verde azulado</string>
+  <string name="Teal2">Verde azulado oscuro</string>
+  <string name="Blue1">Azul claro</string>
+  <string name="Violet">Violeta</string>
+  <string name="Purple1">Morado claro</string>
+  <string name="Purple2">Morado oscuro</string>
+  <string name="Pink1">Rosa claro</string>
+  <string name="Pink2">Rosa oscuro</string>
+  <string name="Red1">Rojo claro</string>
+  <string name="Red2">Rojo oscuro</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Tratamiento de iconos viejos</string>
+  <string name="legacy_icons_title_sum">Crea un fondo adaptable detrás del ícono, luego de habilitarlo, debe \"Cambiar la forma del ícono\" para ver los cambios aplicados</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Columnas de la cuadrícula</string>
+  <string name="home_action_title">Acción del botón de inicio en la cuadrícula</string>
+  <string name="home_action_nothing">Nada</string>
+  <string name="home_action_quick_search">Búsqueda rápida</string>
+  <string name="home_action_voice_search">Búsqueda por voz</string>
+  <string name="home_action_app_drawer">Abrir cajón de aplicaciones</string>
+  <string name="home_action_app_search">Abrir aplicación de búsqueda</string>
   <!--search provider-->
   <!--Time format-->
 </resources>

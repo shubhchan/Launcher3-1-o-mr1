@@ -44,6 +44,7 @@
   <string name="long_accessible_way_to_add">Ketuk dua kalip &amp; tahan untuk mengambil widget atau menggunakan tindakan khusus.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
+  <string name="widget_dims_format">%1$d\u00d7%2$d</string>
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
   <string name="widget_accessible_dims_format">lebar %1$d x tinggi %2$d</string>
   <!-- Message to tell the user to press and hold a widget/icon to add it  -->
@@ -251,9 +252,11 @@
   <string name="action_dismiss_notification">Singkirkan</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Hapus pemberitahuan</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
   <string name="smartspace_preferences">Preferensi</string>
   <string name="label_search">Cari</string>
   <string name="label_voice_search">Pencarian suara</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Paket ikon</string>
   <string name="state_loading">Menerapkan...</string>
   <string name="smartspace_preferences_in_settings">At A Glance</string>
@@ -273,6 +276,7 @@
   <string name="label_turn_off_suggestions">Non aktifkan</string>
   <string name="action_edit">Sunting</string>
   <string name="hide_app_sum">Menyembunyikan aplikasi dari laci</string>
+  <string name="hide_app">Sembunyikan apl</string>
   <!-- Dock bar -->
   <!-- Sizes -->
   <!-- Rows and Coloumns -->
@@ -357,5 +361,20 @@
   <string name="donate_sum">Link paypal untuk donasi ( jika anda ingin )</string>
   <string name="icon_pack_updated">Ikon pak anda yang teraplikasikan telah di perbaharui. Sangat disarankan untuk ke pengaturan menerapkan kembali ikon pak.</string>
   <string name="icon_pack_apply_warning_title">Peringatan</string>
+  <string name="icon_pack_apply_warning_message">Semua kustom ikon dan kustom label ikon akan hilang. Apakah anda yamin untuk melanjutkan ?</string>
+  <string name="show_top_shadow_title">Tunjukkan bayangan di atas</string>
+  <string name="pdock1">Gaya dok Android P</string>
+  <string name="pdock1sum">Peluncur Pixel terbaru mengenalkan dok pada android P developer tinjau 1</string>
   <!--Time format-->
+  <string name="time_formats">Format Waktu</string>
+  <string name="other_settings">Pengaturan lainnya</string>
+  <string name="space_in_dock">Batasan ikon di dok</string>
+  <string name="space_in_dock_sum">Munculkan ini jika ikon terlalu dekat dengan bar dok</string>
+  <string name="generate_adaptive_background_title">Ambil warna dari ikon lama</string>
+  <string name="generate_adaptive_background_summary">Untuk mengambil latar belakang ikon adaptif, setelah dimuncukan anda harus mengubah \" ubah bentuk ikon\" dan mengaktifkan \" pengaturan ikon lawas \" untuk melihat perubahan</string>
+  <string name="allow_two_line_labels_title">Izinkan dua baris label</string>
+  <string name="allow_two_line_labels_summary">Untuk nama apl atau folder yang panjang,mungkin akan terpotong</string>
+  <string name="faq">Pertanyaan yang sering di ajukan</string>
+  <string name="hide_apps_title">Sembunyikan apl</string>
+  <string name="hide_apps_summary">Dari daftar apl</string>
 </resources>

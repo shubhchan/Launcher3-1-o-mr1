@@ -35,7 +35,7 @@
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
   <string name="shortcut_not_available">O atalho não está disponível</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-  <string name="home_screen">Tela inicial</string>
+  <string name="home_screen">Ambiente de trabalho</string>
   <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
   <string name="custom_actions">Ações personalizadas</string>
   <!-- Widgets -->
@@ -66,7 +66,7 @@
   <string name="notifications_header">Notificações</string>
   <!-- Drag and drop -->
   <!-- Error message when user has filled a home screen -->
-  <string name="out_of_space">Não há mais espaço na tela inicial.</string>
+  <string name="out_of_space">Não há mais espaço neste ambiente de trabalho.</string>
   <!-- Error message when user has filled the hotseat -->
   <string name="hotseat_out_of_space">Sem espaço na bandeja de favoritos</string>
   <!-- All applications label -->
@@ -110,16 +110,16 @@
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
   <string name="default_scroll_format">Página %1$d de %2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <string name="workspace_scroll_format">Tela inicial %1$d de %2$d</string>
+  <string name="workspace_scroll_format">Ambiente de trabalho %1$d de %2$d</string>
   <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Nova página na tela inicial</string>
+  <string name="workspace_new_page">Nova página no ambiente de trabalho</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <string name="folder_opened">Pasta aberta, <xliff:g id="WIDTH">%1$d</xliff:g> por <xliff:g id="HEIGHT">%2$d</xliff:g></string>
   <!-- Instruction that clicking outside will close folder -->
   <string name="folder_tap_to_close">Toque para fechar a pasta</string>
   <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Toque para salvar o novo nome</string>
+  <string name="folder_tap_to_rename">Toque para guardar o novo nome</string>
   <!-- Indication that folder closed -->
   <string name="folder_closed">Pasta fechada</string>
   <!-- Folder renamed format -->
@@ -128,20 +128,20 @@
   <string name="folder_name_format">Pasta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
-  <string name="widget_button_text">Atalhos</string>
+  <string name="widget_button_text">Widget</string>
   <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Planos de fundo</string>
+  <string name="wallpaper_button_text">Imagens de fundo</string>
   <!-- Text for settings button -->
-  <string name="settings_button_text">Configurações da página inicial</string>
+  <string name="settings_button_text">Definições da página inicial</string>
   <!-- Message shown when a feature is disabled by the administrator -->
   <string name="msg_disabled_by_admin">Desativado pelo administrador</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
   <string name="accessibility_action_overview">Visão geral</string>
   <!-- Strings for settings -->
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <string name="allow_rotation_title">Permitir rotação da tela inicial</string>
+  <string name="allow_rotation_title">Permitir rotação do ambiente de trabalho</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Quando o smartphone for girado</string>
+  <string name="allow_rotation_desc">Quando o telemóvel é rodado</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
   <string name="allow_rotation_blocked_desc">A configuração atual de exibição não permite rotação</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
@@ -155,15 +155,15 @@
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
   <string name="msg_missing_notification_access">Para mostrar pontos de notificação, ative as notificações de app para <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-  <string name="title_change_settings">Alterar configurações</string>
+  <string name="title_change_settings">Alterar definições</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-  <string name="auto_add_shortcuts_label">Adicionar ícone à tela inicial</string>
+  <string name="auto_add_shortcuts_label">Adicionar ícone ao ambiente de trabalho</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-  <string name="auto_add_shortcuts_description">Para novos apps</string>
+  <string name="auto_add_shortcuts_description">Para novas aplicações</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Alterar forma de ícones</string>
+  <string name="icon_shape_override_label">Alterar forma do ícone</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Usar padrão do sistema</string>
+  <string name="icon_shape_system_default">Utilizar a predefinição do sistema</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
   <string name="icon_shape_square">Quadrado</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
@@ -173,7 +173,7 @@
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
   <string name="icon_shape_teardrop">Lágrima</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-  <string name="icon_shape_override_progress">Aplicando alterações na forma dos ícones</string>
+  <string name="icon_shape_override_progress">A aplicar alterações à forma do ícone...</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
   <string name="package_state_unknown">Desconhecido</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
@@ -181,24 +181,24 @@
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
   <string name="abandoned_search">Pesquisar</string>
   <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">Este app não está instalado</string>
+  <string name="abandoned_promises_title">Esta aplicação não está instalada</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">O app deste ícone não está instalado. Você pode remover o ícone, ou procurar o app e instalá-lo manualmente.</string>
+  <string name="abandoned_promise_explanation">A aplicação deste ícone não está instalada. Pode removê-lo ou pesquisar a aplicação e instalá-la manualmente.</string>
   <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title">Fazendo download de <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="PROGRESS">%2$s</xliff:g> concluído</string>
+  <string name="app_downloading_title">A transferir o <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="PROGRESS">%2$s</xliff:g> concluído</string>
   <!-- Title for an app whose download has been started. -->
-  <string name="app_waiting_download_title">Aguardando instalação de <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="app_waiting_download_title">A aguardar a instalação do <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
-  <string name="widgets_bottom_sheet_title">Widgets do <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="widgets_bottom_sheet_title">Widgets de <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Adicionar à tela inicial</string>
+  <string name="action_add_to_workspace">Adicionar ao ambiente de trabalho</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-  <string name="action_move_here">Mover item para cá</string>
+  <string name="action_move_here">Mover o item para aqui</string>
   <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Item adicionado à tela inicial</string>
+  <string name="item_added_to_workspace">Item adicionado ao ambiente de trabalho</string>
   <!-- Accessibility confirmation for item removed. -->
   <string name="item_removed">Item removido</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
@@ -222,7 +222,7 @@
   <!-- Accessibility confirmation for folder created. -->
   <string name="folder_created">Pasta criada</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Mover para a tela inicial</string>
+  <string name="action_move_to_workspace">Mover para o ambiente de trabalho</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
   <string name="action_move_screen_left">Mover tela para a esquerda</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
@@ -251,15 +251,17 @@
   <string name="action_dismiss_notification">Dispensar</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Notificação dispensada</string>
+  <string name="icu_abbrev_wday_month_day_no_year">AAAAMMMd</string>
   <string name="smartspace_preferences">Preferências</string>
   <string name="label_search">Pesquisar</string>
   <string name="label_voice_search">Pesquisa por voz</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Conjunto de ícones</string>
   <string name="state_loading">A aplicar…</string>
   <string name="smartspace_preferences_in_settings">Resumo</string>
-  <string name="smartspace_preferences_in_settings_desc">Na parte superior da tela inicial</string>
+  <string name="smartspace_preferences_in_settings_desc">Na parte superior do ambiente de trabalho</string>
   <string name="title_show_google_app">Exibir %1$s</string>
-  <string name="msg_minus_one_on_left">À esquerda da tela inicial principal</string>
+  <string name="msg_minus_one_on_left">À esquerda do ambiente de trabalho principal</string>
   <string name="about">Sobre</string>
   <string name="title_google_app">Aplicação Google</string>
   <string name="title_app_suggestions">Exibir sugestões de apps</string>
@@ -364,9 +366,9 @@
   <string name="custom_hs">Ambiente de trabalho</string>
   <string name="custom_allapp">Gaveta de aplicações</string>
   <string name="settings_edit_allow_title">Permitir edições</string>
-  <string name="settings_edit_allow_summary_on">Ícones e widgets podem ser adicionados, removidos e movidos no ecrã inicial</string>
-  <string name="settings_edit_allow_summary_off">Ícones e widgets não podem ser adicionados, removidos e movidos no ecrã inicial</string>
-  <string name="settings_edit_widgets_error">Não é possível adicionar widgets ao ecrã inicial</string>
+  <string name="settings_edit_allow_summary_on">Ícones e widgets podem ser adicionados, removidos e movidos no ambiente de trabalho</string>
+  <string name="settings_edit_allow_summary_off">Ícones e widgets não podem ser adicionados, removidos ou movidos do ambiente de trabalho</string>
+  <string name="settings_edit_widgets_error">Não é possível adicionar widgets ao ambiente de trabalho</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Barra de pesquisa do Google</string>
   <string name="bottom_search_bar_summary">Mostrar a barra de pesquisa do Google no fundo da barra inferior</string>
@@ -434,10 +436,24 @@
     <item>Pesquisa Rápida</item>
     <item>Pesquisa por voz</item>
     <item>Gaveta de Aplicações</item>
-    <item>appsearch</item>
-    <item>overview</item>
+    <item>Pesquisa de aplicações</item>
+    <item>Resumo</item>
   </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Provedor de pesquisa</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Barra de navegação transparente</string>
+  <string name="transparent_nav_bar_summary">Na gaveta de aplicações</string>
+  <string name="smartspace_launchclock_sum">Na pressão contínua</string>
+  <string name="smartspace_launchclock">Abrir a aplicação do relógio</string>
+  <string name="system_font_for_smartspace">Usar a fonte do sistema</string>
+  <string name="system_font_for_smartspace_sum">Para a widget \"At a Glance\"</string>
+  <string name="bage_size">Tamanho dos marcadores</string>
+  <string name="label_font">Fonte do rótulo</string>
+  <string name="smartspace_font">Fonte da widget \"At a Glance\"</string>
   <string name="donate">Link para donativo</string>
   <string name="donate_sum">Link para donativo PayPal (caso pretenda)</string>
   <string name="icon_pack_updated">O teu actual pacote de ícones teve uma atualização. Recomendamos que vá às definições e volte a aplicar o pacote de temas novamente.</string>
@@ -454,4 +470,10 @@
   <string name="space_in_dock">Margem dos ícones na dock</string>
   <string name="space_in_dock_sum">Ativar esta opção se os ícones estiverem muito próximo da dock</string>
   <string name="generate_adaptive_background_title">Extrair a cor dos ícones antigos</string>
+  <string name="generate_adaptive_background_summary">Para os ícones com o fundo adaptativo gerado, é necessário após a ativação, alterar a forma do ícone e ativar a opção de tratamento dos icones antigos para ver as alterações aplicadas</string>
+  <string name="allow_two_line_labels_title">Permitir rótulos com duas linhas</string>
+  <string name="allow_two_line_labels_summary">Caso os nomes das pastas sejam muito longos, podem ficar cortados</string>
+  <string name="faq">Perguntas Frequentes</string>
+  <string name="hide_apps_title">Ocultar aplicações</string>
+  <string name="hide_apps_summary">Na gaveta de aplicações</string>
 </resources>

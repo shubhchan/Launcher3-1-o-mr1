@@ -337,9 +337,29 @@
   <string name="settings_edit_allow_title">Разреши редактиране</string>
   <string name="settings_edit_allow_summary_on">Икони и джаджи могат да бъдат добавяни, премахвани и местени на началния екран</string>
   <string name="settings_edit_allow_summary_off">Икони и джаджи не могат да бъдат добавяни, премахвани и местени на началния екран</string>
+  <string name="settings_edit_widgets_error">Невъзможно е да се добавят джаджи към началния екран</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Google док</string>
   <!--Double tap to lock-->
   <!-- Colors -->
+  <string name="Yellow2">Тъмно жълто</string>
+  <string name="Lime1">Светло лайм</string>
+  <string name="Lime2">Тъмен лайм</string>
+  <string name="Light_green1">Светло зелено</string>
+  <string name="Light_green2">Светло зелено (тъмно)</string>
+  <string name="Green1">Светло зелено</string>
+  <string name="Green2">Тъмно зелено</string>
+  <string name="Teal1">Светло зелено</string>
+  <string name="Teal2">Тъмно зелено</string>
+  <string name="Cyan1">Светло синьо</string>
+  <string name="Cyan2">Тъмно синьо</string>
+  <string name="Light_blue1">Светло синьо (светло)</string>
+  <string name="Light_blue2">Светло синьо (тъмно)</string>
+  <string name="Blue1">Светло синьо</string>
+  <string name="Blue2">Синьо2</string>
+  <string name="Indigo1">Светло лилаво</string>
+  <string name="Indigo2">Тъмно лилаво</string>
+  <string name="Violet">Виолетово</string>
   <!--Animations-->
   <!--AllappsGrid-->
   <!--search provider-->

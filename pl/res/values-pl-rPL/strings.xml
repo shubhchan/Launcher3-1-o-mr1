@@ -250,9 +250,11 @@
   <string name="action_dismiss_notification">Odrzuć</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Powiadomienie odrzucone</string>
+  <string name="icu_abbrev_wday_month_day_no_year">RRRRMMd</string>
   <string name="smartspace_preferences">Ustawienia</string>
   <string name="label_search">Wyszukiwanie</string>
   <string name="label_voice_search">Wyszukiwanie głosowe</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Pakiet ikon</string>
   <string name="state_loading">Stosowanie…</string>
   <string name="smartspace_preferences_in_settings">W skrócie</string>
@@ -264,6 +266,8 @@
   <string name="title_app_suggestions">Wyświetl sugerowane aplikacje</string>
   <string name="summary_app_suggestions">U góry listy Wszystkie aplikacje</string>
   <string name="about_app_version">Wersja</string>
+  <string name="compiled_by">Skompilowany przez</string>
+  <string name="Icon_By">Ikony według</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">Wyłączyć sugerowane aplikacje?</string>
   <string name="msg_disable_suggestions_prompt">"Sugestie nie będą pojawiać się u góry listy Twoich aplikacji, a dane o użytkowaniu służące do ich utworzenia zostaną trwale usunięte."</string>
@@ -272,21 +276,134 @@
   <string name="hide_app_sum">Ukryj aplikacje z listy</string>
   <string name="hide_app">Ukryj aplikacje</string>
   <string name="icon_shape_rounded_square">Zaokrąglony kwadrat</string>
+  <string name="icon_pack_default">Domyślne</string>
+  <string name="icon_edit">Edytuj ikonę aplikacji i podpis</string>
+  <string name="market">Więcej</string>
+  <string name="based_on">Bazuje na</string>
+  <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
+  <string name="diabledgemargin">Wyłącz boczne wypełnienie</string>
+  <string name="diabledgemargin_sum">Wyłącz przestrzeń pomiędzy lewą/prawą stroną</string>
   <!-- Dock bar -->
+  <string name="force_mic">Wymuś ikonę mikrofonu</string>
+  <string name="force_mic_sum">Włącz widoczność ikony mikrofonu nawet w trybie automatycznej widoczności</string>
+  <string name="force_colour_logo">Kolorowa ikona Google na pasku wyszukiwania</string>
+  <string name="force_colour_logo_sum">Włączenie kolorowych ikon Google i mikrofonu w dockbarze</string>
+  <string name="dark_themeqsb">Ciemny pasek wyszukiwania</string>
+  <string name="transparentqsb">Przezroczystość paska wyszukiwania</string>
+  <string name="transparentqsb_sum">Pasek wyszukiwania bardziej widoczny</string>
+  <string name="custom_qsb_in_dock">Ustawienia paska wyszukiwania</string>
+  <string name="qsb_in_dock_show">Pokaż pasek wyszukiwania w docku</string>
+  <string name="pdock">Stały styl docka</string>
   <!-- Sizes -->
+  <string name="size_biggest">Większe</string>
+  <string name="size_big">Duże</string>
+  <string name="size_smallest">Mniejsze</string>
+  <string name="size_small">Małe</string>
+  <string name="size_stock">Domyślne</string>
+  <string name="size_tiny">Mały</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Liczba wierszy</string>
+  <string name="num_cols">Liczba kolumn</string>
+  <string name="num_hotseat_icons_pref_title">Liczba ikon w docku</string>
+  <string name="custom_grid_size">Zmień siatkę</string>
+  <string name="change_grid_size">Siatka listy aplikacji</string>
+  <string name="hotseatShowArrow">Przesuń strzałkę</string>
+  <string name="hotseat_show_page_indicator">Wskaźnik strony</string>
+  <string name="hotseat_show_page_indicator_sum">Włącz/wyłącz wskaźnik strony strony nad dockiem </string>
+  <string name="gradient_size">Wielkość gradientu</string>
+  <string name="remove_gradient">Widok gradientu</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Etykiety pulpitu</string>
+  <string name="desktop_show_labels_sum">Pokaż etykiety aplikacji na pulpicie</string>
+  <string name="drawer_show_labels">Etykiety na liście aplikacji</string>
+  <string name="drawer_show_labels_sum">Pokaż etykiety aplikacji na liście aplikacji</string>
+  <string name="folder_show_labels">Etykiety folderów</string>
+  <string name="folder_show_labels_sum">Pokaż etykiety aplikacji w folderach</string>
+  <string name="icon_size">Wielkość ikon</string>
   <!--At glance-->
+  <string name="custom_glance">W skrócie</string>
+  <string name="smartspace_time">Dodaj zegar</string>
+  <string name="in_smartspace">Widżet \"W skrócie\"</string>
   <!-- Date formats -->
+  <string name="date_format">Format daty</string>
+  <string name="date_format_1">Wtorek, 13 Luty</string>
+  <string name="date_format_2">Wtorek</string>
+  <string name="date_format_3">Wt, 13 luty</string>
+  <string name="date_format_4">Wt, 02/13</string>
+  <string name="date_format_5">13 wtorek</string>
+  <string name="date_format_6">Wtorek, 13 luty</string>
   <!--theme-->
+  <string name="custom_theme">Motyw i kształt ikon</string>
+  <string name="theme">Motyw</string>
+  <string name="white_theme">Biały</string>
+  <string name="white_withdarktext_theme">Biały z ciemnym tekstem</string>
+  <string name="dark_theme">Ciemny</string>
+  <string name="black_theme">Czarny</string>
+  <string name="solid_theme">Pogrubiony</string>
+  <string name="transparent_theme">Przezroczysty</string>
+  <string name="auto_theme_sum">Przez tapetę</string>
+  <string name="auto_theme">Automatyczny motyw</string>
+  <string name="googleinappmenu">Pasek wyszukiwania Google</string>
+  <string name="g_bar_drawer">Pasek wyszukiwania Google w liście aplikacji</string>
   <!--Notification dot-->
+  <string name="textinbadge">Numeryczne znaczniki</string>
+  <string name="textinbadge_sum">Pokaż numer powiadomienia w znaczniku</string>
+  <string name="bottombadge">Znaczniki na dole </string>
+  <string name="bottombadge_sum">Pokaż znaczniki na dole po prawej</string>
+  <string name="restart">Restart</string>
+  <string name="restart_sum">Restart do debugowania</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Własny kolor paska wyszukiwania</string>
+  <string name="custom_qsb_color_list">Lista kolorów paska Google</string>
+  <string name="dark_themeqsballapp">Ciemny pasek wyszukiwania</string>
+  <string name="behavior_pref_title">Zachowanie</string>
+  <string name="custom_dockbar">Dock</string>
   <!--Home screen-->
+  <string name="custom_hs">Ekran główny</string>
+  <string name="custom_allapp">Lista aplikacji</string>
+  <string name="settings_edit_allow_title">Zezwól na edycję</string>
+  <string name="settings_edit_allow_summary_on">Ikony i widżety można dodawać, usuwać i przenosić na ekranie głównym</string>
+  <string name="settings_edit_allow_summary_off">Ikon i widżetów nie można dodawać, usuwać i przenosić na ekranie głównym</string>
+  <string name="settings_edit_widgets_error">Nie można dodać widżetów do ekranu głównego</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Pasek wyszukiwania Google</string>
+  <string name="bottom_search_bar_summary">Pokaż pasek wyszukiwania Google poniżej docka</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Blokuj przez podwójne dotknięcie</string>
+  <string name="double_tap_to_lock_summary">Na ekranie głównym</string>
   <!-- Colors -->
+  <string name="White">Biały</string>
+  <string name="Black">Czarny</string>
+  <string name="Blue_gray2">Niebieski szary ciemny</string>
+  <string name="Gray1">Jasny szary</string>
+  <string name="Gray2">Ciemny szary</string>
+  <string name="Brown1">Jasny brązowy</string>
+  <string name="Brown2">Ciemny brązowy</string>
+  <string name="Deep_orange1">Głęboki jasny pomarańczowy</string>
+  <string name="Deep_orange2">Głęboki ciemny pomarańczowy</string>
+  <string name="Orange1">Jasny pomarańczowy</string>
+  <string name="Orange2">Ciemny pomarańczowy</string>
+  <string name="Amber1">Jenny bursztynowy</string>
+  <string name="Amber2">Ciemny bursztynowy</string>
+  <string name="Yellow1">Jasny żółty</string>
+  <string name="Yellow2">Ciemny żółty</string>
+  <string name="Lime1">Jasny limonkowy</string>
+  <string name="Lime2">Ciemny limonkowy</string>
+  <string name="Light_green1">Jasny zielony (jasny)</string>
+  <string name="Light_green2">Jasny zielony (ciemny)</string>
+  <string name="Green1">Jasny zielony</string>
+  <string name="Green2">Ciemny zielony</string>
+  <string name="Teal1">Jasny turkusowy</string>
+  <string name="Teal2">Ciemny turkusowy</string>
+  <string name="Cyan1">Jasny cyan</string>
+  <string name="Cyan2">Ciemny cyan</string>
   <!--Animations-->
   <!--AllappsGrid-->
+  <string name="home_action_nothing">Nic</string>
+  <string name="home_action_quick_search">Szybkie wyszukiwanie</string>
+  <string name="home_action_voice_search">Wyszukiwanie głosowe</string>
+  <string name="home_action_app_drawer">Otwórz listę aplikacji</string>
+  <string name="home_action_app_search">Otwórz aplikację wyszukiwania</string>
   <!--search provider-->
   <!--Time format-->
 </resources>

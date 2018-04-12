@@ -284,6 +284,7 @@
   <string name="diabledgemargin_sum">Desativa espaço entre icones, e dos lados esquerdo/direito</string>
   <!-- Dock bar -->
   <string name="force_mic">Forçar ícone do microfone</string>
+  <string name="force_mic_sum">Ativa o ícone do microfone mesmo que as condições para que esteja visível automaticamente não sejam cumpridas</string>
   <!-- Sizes -->
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->

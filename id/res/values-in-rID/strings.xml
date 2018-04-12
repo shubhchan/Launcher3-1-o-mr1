@@ -327,9 +327,20 @@
   <string name="double_tap_to_lock_title">Ketuk dua kali untuk mengunci</string>
   <string name="double_tap_to_lock_summary">Pada layar beranda</string>
   <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci,anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artina ada harus memasukkan  PIN pada saat membukan layar selanjutnya</string>
+  <string name="double_tap_to_lock_disable_warning">Dengan menonaktifkan akses admin, anda tidak akan bisa menggunakan ketuk layar dua kali untuk mengunci</string>
   <!-- Colors -->
+  <string name="White">Putih</string>
+  <string name="Black">Hitam</string>
+  <string name="Blue_gray1">Biru abu-abu cerah</string>
+  <string name="Blue_gray2">Biru abu - abu gelap</string>
+  <string name="Gray1">Abu - abu cerah</string>
+  <string name="Gray2">Abu - abu gelap</string>
+  <string name="Brown1">Cokelat cerah</string>
   <!--Animations-->
   <!--AllappsGrid-->
   <!--search provider-->
+  <string name="search_provider_title">Cari penyedia</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
   <!--Time format-->
 </resources>

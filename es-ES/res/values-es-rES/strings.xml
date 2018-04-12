@@ -120,7 +120,7 @@
   <!-- Instruction that clicking outside will commit folder rename -->
   <string name="folder_tap_to_rename">Toca fóra para cambiar o nome do cartafol</string>
   <!-- Indication that folder closed -->
-  <string name="folder_closed">Pechouse o cartafol</string>
+  <string name="folder_closed">Carpeta cerrada</string>
   <!-- Folder renamed format -->
   <string name="folder_renamed">O cartafol cambiou o nome a <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Folder name format -->
@@ -460,5 +460,13 @@
   <string name="icon_pack_apply_warning_message">Cualquier etiqueta de iconos o iconos personalizados desaparecerán. ¿Estás seguro que deseas continuar?</string>
   <string name="show_top_shadow_title">Mostrar sombra superior</string>
   <string name="pdock1">Dock de estilo Android P</string>
+  <string name="pdock1sum">Nuevo dock del Pixel Launcher presentado en la developer preview 1 de Android P</string>
   <!--Time format-->
+  <string name="time_formats">Formato de tiempo</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Otros ajustes</string>
+  <string name="space_in_dock">Margen de los iconos en el dock</string>
+  <string name="space_in_dock_sum">Activa esto si los iconos están muy cercanos a la barra del dock </string>
+  <string name="generate_adaptive_background_title">Extraer color del ícono Legacy</string>
 </resources>

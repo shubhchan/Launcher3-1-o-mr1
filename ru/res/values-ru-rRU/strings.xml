@@ -264,6 +264,9 @@
   <string name="title_app_suggestions">Показывать рекомендуемые приложения</string>
   <string name="summary_app_suggestions">Вверху списка всех приложений</string>
   <string name="about_app_version">Версия</string>
+  <string name="compiled_by">Скомпилирован</string>
+  <string name="Icon_By">Иконка от</string>
+  <string name="app_name_pixel_launcher">Ruthless Launcher</string>
   <string name="title_disable_suggestions_prompt">Не показывать рекомендуемые приложения?</string>
   <string name="msg_disable_suggestions_prompt">"Рекомендуемые приложения не будут показываться в начале списка. Данные, связанные с этой функцией, будут удалены."</string>
   <string name="label_turn_off_suggestions">ОТКЛЮЧИТЬ</string>
@@ -271,21 +274,120 @@
   <string name="hide_app_sum">Скрыть приложение из меню</string>
   <string name="hide_app">Скрыть приложение</string>
   <string name="icon_shape_rounded_square">Квадрат с закругленными углами</string>
+  <string name="icon_pack_default">По умолчанию</string>
+  <string name="icon_edit">Редактировать иконки и подпись</string>
+  <string name="market">Еще</string>
+  <string name="based_on">На основе</string>
+  <string name="based_on_sum">\"Rootless Pixel Launcher\" от Амира Заиди</string>
   <!-- Dock bar -->
+  <string name="force_mic">Закрепить иконку микрофона</string>
+  <string name="force_colour_logo">Цветной логотип в строке поиска</string>
+  <string name="force_colour_logo_sum">Иконка Google и микрофона цветные на нижней панели</string>
+  <string name="dark_themeqsb">Темная строка поиска</string>
+  <string name="transparentqsb">Прозрачность строки поиска</string>
+  <string name="custom_qsb_in_dock">Настройки строки посика</string>
+  <string name="qsb_in_dock_show">Строка поиска в нижней панели</string>
   <!-- Sizes -->
+  <string name="size_biggest">Крупнейший</string>
+  <string name="size_big">Крупный</string>
+  <string name="size_smallest">Наименьший</string>
+  <string name="size_small">Мелкий</string>
+  <string name="size_stock">По умолчанию</string>
+  <string name="size_tiny">Крошечный</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Количество строк</string>
+  <string name="num_cols">Количество столбцов</string>
+  <string name="num_hotseat_icons_pref_title">Количество значков в нижней панели</string>
+  <string name="custom_grid_size">Изменить сетку</string>
+  <string name="hotseatShowArrow">Стрелка вверх</string>
+  <string name="hotseatShowArrow_sum">Включить/Выключить стрелку вверх над нижней панелью</string>
+  <string name="hotseat_show_page_indicator">Индикатор страницы</string>
+  <string name="hotseat_show_page_indicator_sum">Включить/Выключить индикатор страницы на нижней панелью</string>
+  <string name="gradient_size">Размер градиента</string>
+  <string name="remove_gradient">Вид градиента</string>
+  <string name="remove_gradient_sum">Включить/Выключить градиент в зоне нижней панели для прозрачной панели даже при белой теме, не работает в P-style</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels_sum">Отображать подписи значков на рабочем столе</string>
+  <string name="folder_show_labels">Имена папок</string>
+  <string name="folder_show_labels_sum">Отображать подписи значков в папке</string>
+  <string name="icon_size">Размер иконки</string>
   <!--At glance-->
+  <string name="custom_glance">Быстрый просмотр</string>
+  <string name="smartspace_time">Добавить часы</string>
+  <string name="in_smartspace">В виджете \"Быстрый просмотр\"</string>
   <!-- Date formats -->
+  <string name="date_format">Формат даты</string>
+  <string name="date_format_1">Вторник, Февраль 13</string>
+  <string name="date_format_2">Вторник</string>
+  <string name="date_format_3">Вт, Февраль 13</string>
+  <string name="date_format_4">Вт, 02/13</string>
+  <string name="date_format_5">13 Вторник</string>
+  <string name="date_format_6">Вторник, Февраль 13</string>
   <!--theme-->
+  <string name="theme">Тема</string>
+  <string name="white_theme">Светлая</string>
+  <string name="white_withdarktext_theme">Белая с темный текстом</string>
+  <string name="dark_theme">Тёмная</string>
+  <string name="black_theme">Черная</string>
+  <string name="transparent_theme">Прозрачная</string>
+  <string name="auto_theme_sum">По обоям</string>
+  <string name="auto_theme">Автоматически</string>
+  <string name="googleinappmenu">Строка поиска Google</string>
   <!--Notification dot-->
+  <string name="textinbadge">Номерные значки</string>
+  <string name="textinbadge_sum">Показать количество уведомлений в значке</string>
+  <string name="bottombadge">Нижние значки </string>
+  <string name="restart">Перезапустить</string>
+  <string name="restart_sum">Перезапуск для отладки</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Свой цвет строки поиска</string>
+  <string name="custom_qsb_color_list">Список цветов G-панели</string>
+  <string name="dark_themeqsballapp">Темная строка поиска</string>
+  <string name="behavior_pref_title">Поведение</string>
+  <string name="custom_dockbar">Нижняя панель</string>
   <!--Home screen-->
+  <string name="custom_hs">Главный экран</string>
+  <string name="custom_allapp">Меню приложений</string>
+  <string name="settings_edit_allow_title">Разрешить редактирование</string>
+  <string name="settings_edit_allow_summary_on">Иконки и виджеты могут быть добавлены, удалены и перемещены на главный экран</string>
+  <string name="settings_edit_allow_summary_off">Иконки и виджеты не могут быть добавлены, удалены и перемещены на главный экран</string>
+  <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
   <!-- Hide/Show search bars -->
   <!--Double tap to lock-->
   <!-- Colors -->
+  <string name="White">Белый</string>
+  <string name="Black">Чёрный</string>
+  <string name="Blue_gray1">Сине-серо-светлый</string>
+  <string name="Blue_gray2">Сине-серо-темный</string>
+  <string name="Gray1">Светло серый</string>
+  <string name="Gray2">Темно серый</string>
+  <string name="Brown1">Светло коричневый</string>
+  <string name="Brown2">Темно коричневый</string>
+  <string name="Blue1">Синий свет</string>
+  <string name="Blue2">Второй синий</string>
   <!--Animations-->
+  <string name="legacy_icons_title_sum">Адаптирует фон за иконкой, после включения вы должны \"Изменить размер иконки\" чтобы изменения применились</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Колонки сетки</string>
+  <string name="home_action_title">Действие кнопки домой на главном экране</string>
+  <string name="home_action_nothing">Ничего</string>
+  <string name="home_action_quick_search">Быстрый поиск</string>
+  <string name="home_action_voice_search">Голосовой поиск</string>
+  <string name="home_action_app_drawer">Открыть меню</string>
+  <string name="home_action_app_search">Поиск приложения</string>
+  <string-array name="home_action_values">
+    <item>Ничего</item>
+    <item>быстрый поиск</item>
+    <item>voicesearch</item>
+    <item>appdrawer</item>
+    <item>appsearch</item>
+    <item>overview</item>
+  </string-array>
   <!--search provider-->
+  <string name="smartspace_launchclock_sum">При долгом нажатии</string>
+  <string name="smartspace_launchclock">Запустить часы</string>
+  <string name="system_font_for_smartspace">Использовать шрифт системы</string>
+  <string name="system_font_for_smartspace_sum">В виджете \"Быстрый просмотр\"</string>
+  <string name="pdock1">Нижняя панель в стиле Android P</string>
   <!--Time format-->
 </resources>

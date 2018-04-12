@@ -307,11 +307,14 @@
   <string name="num_hotseat_icons_pref_title">Liczba ikon w docku</string>
   <string name="custom_grid_size">Zmień siatkę</string>
   <string name="change_grid_size">Siatka listy aplikacji</string>
+  <string name="change_grid_size_sum">Zmień rozmiar siatki w szufladzie aplikacji, wiersz siatki może wydawać się o jedną cyfrę więcej, niż jest w rzeczywistości, ponieważ zlicza \"Domyślne sugestie dotyczące aplikacji\" włączone domyślnie </string>
   <string name="hotseatShowArrow">Przesuń strzałkę</string>
+  <string name="hotseatShowArrow_sum">Włącz/wyłącz wskaźnik strzałki w górę nad dockiem</string>
   <string name="hotseat_show_page_indicator">Wskaźnik strony</string>
   <string name="hotseat_show_page_indicator_sum">Włącz/wyłącz wskaźnik strony strony nad dockiem </string>
   <string name="gradient_size">Wielkość gradientu</string>
   <string name="remove_gradient">Widok gradientu</string>
+  <string name="remove_gradient_sum">Włącz/wyłącz gradient docka dla przezroczystego docka nawet w białym motywie, nie będzie działać w docku w stylu P</string>
   <!-- Hide labels -->
   <string name="desktop_show_labels">Etykiety pulpitu</string>
   <string name="desktop_show_labels_sum">Pokaż etykiety aplikacji na pulpicie</string>

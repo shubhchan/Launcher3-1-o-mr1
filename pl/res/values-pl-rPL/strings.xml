@@ -116,9 +116,9 @@
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <string name="folder_opened">Folder otwarty, <xliff:g id="WIDTH">%1$d</xliff:g> na <xliff:g id="HEIGHT">%2$d</xliff:g></string>
   <!-- Instruction that clicking outside will close folder -->
-  <string name="folder_tap_to_close">Kliknij, by zamknąć folder</string>
+  <string name="folder_tap_to_close">Kliknij, aby zamknąć folder</string>
   <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Kliknij, by zapisać nową nazwę</string>
+  <string name="folder_tap_to_rename">Kliknij, aby zapisać nową nazwę</string>
   <!-- Indication that folder closed -->
   <string name="folder_closed">Folder zamknięty</string>
   <!-- Folder renamed format -->
@@ -419,6 +419,7 @@
   <string name="Red1">Jasny czerwony</string>
   <string name="Red2">Ciemny czerwony</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Traktowanie niewspieranych ikon</string>
   <string name="legacy_icons_title_sum">Tworzy tło adaptacyjne za ikoną, po włączeniu tego musisz kliknąć \"Zmień kształt ikony\", aby zobaczyć zastosowane zmiany</string>
   <!--AllappsGrid-->
   <string name="number_of_columns_title1">Kolumny siatki</string>
@@ -456,5 +457,22 @@
   <string name="donate_sum">Link do darowizny PayPal (jeżeli chciałbyś)</string>
   <string name="icon_pack_updated">Twój aktualnie zastosowany pakiet ikon został zaktualizowany. Zaleca się przejście do ustawień i ponowne zastosowanie pakietu ikon.</string>
   <string name="icon_pack_apply_warning_title">Ostrzeżenie</string>
+  <string name="icon_pack_apply_warning_message">Wszystkie niestandardowe ikony lub etykiety ikon znikną. Jesteś pewien, że chcesz kontynuować?</string>
+  <string name="show_top_shadow_title">Pokaż górny cień</string>
+  <string name="pdock1">Dock w stylu P</string>
+  <string name="pdock1sum">Nowy Pixel Launcher wprowadzony w wersji Developer Preview 1</string>
   <!--Time format-->
+  <string name="time_formats">Format czasu</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Inne ustawienia</string>
+  <string name="space_in_dock">Margines ikon w docku</string>
+  <string name="space_in_dock_sum">Włącz, jeśli ikony znajdują się zbyt blisko paska dokowania </string>
+  <string name="generate_adaptive_background_title">Wyodrębnij kolor ze starej ikony</string>
+  <string name="generate_adaptive_background_summary">W przypadku adaptacyjnego tła ikon, po włączeniu tej opcji należy zmienić \"Zmień kształt ikony\" i włączyć \"Tryb starszych ikon\", aby zobaczyć, jakie zmiany zostały zastosowane</string>
+  <string name="allow_two_line_labels_title">Zezwól na etykiety w dwóch liniach</string>
+  <string name="allow_two_line_labels_summary">W przypadku długich nazw aplikacji lub folderów może wydawać się odcięte </string>
+  <string name="faq">Często zadawane pytania</string>
+  <string name="hide_apps_title">Ukryte aplikacje</string>
+  <string name="hide_apps_summary">Z listy aplikacji</string>
 </resources>

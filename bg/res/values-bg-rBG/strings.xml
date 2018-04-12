@@ -333,6 +333,7 @@
   <string name="date_format_5">13 Вторник</string>
   <string name="date_format_6">Вторник, Февруари 13</string>
   <!--theme-->
+  <string name="custom_theme">Тема и третирана на иконите</string>
   <string name="theme">Тема</string>
   <string name="white_theme">Бяло</string>
   <string name="white_withdarktext_theme">Бяло с тъмен текст</string>
@@ -446,6 +447,8 @@
   <string name="label_font">Шрифт на заглавията</string>
   <string name="smartspace_font">Шрифт на \"Бърз Поглед\" джаджата</string>
   <string name="donate">Линк за донори</string>
+  <string name="donate_sum">Paypal донор линк(ако искате)</string>
+  <string name="icon_pack_updated">Темата с икони която използвате беше актуализирана. Препоръчително е да отидете в настройките и да я сложите отново.</string>
   <string name="icon_pack_apply_warning_title">Внимание</string>
   <string name="show_top_shadow_title">Показване на сянка отгоре</string>
   <string name="pdock1">P Стил Док</string>
@@ -458,6 +461,7 @@
   <string name="space_in_dock_sum">Включете това ако иконите в дока са прекалено близо до дока </string>
   <string name="generate_adaptive_background_title">Изкарване на цвят от неподдържани икони</string>
   <string name="allow_two_line_labels_title">Дву-редови заглавия на приложенията</string>
+  <string name="allow_two_line_labels_summary">За дълги заглавия на приложения или папки може да изглежда отрязано </string>
   <string name="faq">Често задавани въпроси</string>
   <string name="hide_apps_title">Скрий приложения</string>
   <string name="hide_apps_summary">От чекмеджето за приложения</string>

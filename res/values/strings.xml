@@ -338,7 +338,7 @@
     <string name="compiled_by_sum">Shubbyy</string>
     <string name="Icon_By">Icon By</string>
     <string name="Icon_By_sum">Joshua Baldassarre</string>
-    <string name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
+    <string translatable="false" name="app_releases_url">https://github.com/amirzaidi/launcher3/releases</string>
     <string name="app_name_pixel_launcher">Ruthless Launcher</string>
     <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
     <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
@@ -502,7 +502,7 @@
     <string name="Light_blue1">Light blue (light)</string>
     <string name="Light_blue2">Light blue (dark)</string>
     <string name="Blue1">Blue light</string>
-    <string name="Blue2">Blue dark</string>
+    <string name="Blue2">Blue2</string>
     <string name="Indigo1">Indigo light</string>
     <string name="Indigo2">Indigo dark</string>
     <string name="Violet">Violet</string>
@@ -585,7 +585,7 @@
     <string name="smartspace_font">\"At a Glance\" Widget Font</string>
     <string name="donate">Donation Link</string>
     <string name="donate_sum">Paypal donation link(if you want to)</string>
-    <string name="donate_url">https://PayPal.Me/Shubbyy</string>
+    <string translatable="false" name="donate_url">https://PayPal.Me/Shubbyy</string>
 
     <string name="icon_pack_updated">Your currently applied icon pack has been updated. It is recommended to go into settings and re-apply the icon pack.</string>
     <string name="icon_pack_apply_warning_title">Warning</string>
@@ -611,7 +611,7 @@
     <string name="allow_two_line_labels_title">Allow two line labels</string>
     <string name="allow_two_line_labels_summary">For long app or folder names ,may seem cut off </string>
     <string name="faq">Frequently Asked Questions</string>
-    <string name="faq_url">http://telegra.ph/Frequently-Asked-Questions-04-09</string>
+    <string translatable="false" name="faq_url">http://telegra.ph/Frequently-Asked-Questions-04-09</string>
     <string name="hide_apps_title">Hide apps</string>
     <string name="hide_apps_summary">From the app drawer</string>
 </resources>

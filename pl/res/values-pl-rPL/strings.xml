@@ -93,7 +93,7 @@
   <!-- Permission description -->
   <string name="permdesc_write_settings">Umożliwia aplikacji zmianę ustawień i skrótów na ekranie głównym.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> nie może wykonywać połączeń telefonicznych</string>
+  <string name="msg_no_phone_permission"><xliff:g id="App_NAME">%1$s</xliff:g> nie może wykonywać połączeń telefonicznych</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Problem podczas ładowania widżetu</string>
@@ -374,9 +374,12 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Blokuj przez podwójne dotknięcie</string>
   <string name="double_tap_to_lock_summary">Na ekranie głównym</string>
+  <string name="double_tap_to_lock_hint">Aby móc korzystać z podwójnego dotknięcia, aby zablokować, musisz włączyć dostęp administracyjny dla Ruthless Launchera. Jest to bezpieczna blokada, co oznacza, że ​​musisz podać kod PIN przy następnym odblokowaniu, jeśli go posiadasz.</string>
+  <string name="double_tap_to_lock_disable_warning">Wyłączając dostęp administratora, nie będziesz w stanie użyć podwójnego dotknięcia, aby zablokować ekran główny.</string>
   <!-- Colors -->
   <string name="White">Biały</string>
   <string name="Black">Czarny</string>
+  <string name="Blue_gray1">Jasny niebiesko-szary</string>
   <string name="Blue_gray2">Niebieski szary ciemny</string>
   <string name="Gray1">Jasny szary</string>
   <string name="Gray2">Ciemny szary</string>
@@ -400,13 +403,58 @@
   <string name="Teal2">Ciemny turkusowy</string>
   <string name="Cyan1">Jasny cyan</string>
   <string name="Cyan2">Ciemny cyan</string>
+  <string name="Light_blue1">Jasny niebieski (jasny)</string>
+  <string name="Light_blue2">Jasny niebieski (ciemny)</string>
+  <string name="Blue1">Jasny niebieski</string>
+  <string name="Blue2">Niebieski 2</string>
+  <string name="Indigo1">Jasny indygo</string>
+  <string name="Indigo2">Ciemny indygo</string>
+  <string name="Violet">Fioletowy</string>
+  <string name="Deep_purple1">Głęboki jasny pomarańczowy</string>
+  <string name="Deep_purple2">Głęboki jasny pomarańczowy</string>
+  <string name="Purple1">Jasny fioletowy</string>
+  <string name="Purple2">Ciemny fioletowy</string>
+  <string name="Pink1">Jasny różowy</string>
+  <string name="Pink2">Ciemny różowy</string>
+  <string name="Red1">Jasny czerwony</string>
+  <string name="Red2">Ciemny czerwony</string>
   <!--Animations-->
+  <string name="legacy_icons_title_sum">Tworzy tło adaptacyjne za ikoną, po włączeniu tego musisz kliknąć \"Zmień kształt ikony\", aby zobaczyć zastosowane zmiany</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Kolumny siatki</string>
+  <string name="home_action_title">Działanie przycisku home na ekranie głównym</string>
   <string name="home_action_nothing">Nic</string>
   <string name="home_action_quick_search">Szybkie wyszukiwanie</string>
   <string name="home_action_voice_search">Wyszukiwanie głosowe</string>
   <string name="home_action_app_drawer">Otwórz listę aplikacji</string>
   <string name="home_action_app_search">Otwórz aplikację wyszukiwania</string>
+  <string name="home_action_overview">Wprowadź przegląd</string>
+  <string-array name="home_action_values">
+    <item>nic</item>
+    <item>szybkie wyszukiwanie</item>
+    <item>wszykiwanie głosowe</item>
+    <item>szuflada aplikacji</item>
+    <item>wyszukiwanie aplikacji</item>
+    <item>przegląd</item>
+  </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Dostawca wyszukiwania</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Przezroczysty pasek nawigacji</string>
+  <string name="transparent_nav_bar_summary">W liście aplikacji</string>
+  <string name="smartspace_launchclock_sum">Po dłuższym przytrzymaniu</string>
+  <string name="smartspace_launchclock">Uruchom aplikację zegara</string>
+  <string name="system_font_for_smartspace">Użyj czcionki systemowej</string>
+  <string name="system_font_for_smartspace_sum">Dla widżetu \"W skrócie\"</string>
+  <string name="bage_size">Rozmiar znaczników</string>
+  <string name="label_font">Czcionka etykiety</string>
+  <string name="smartspace_font">Czcionka widżetu \"W skrócie\"</string>
+  <string name="donate">Darowizna</string>
+  <string name="donate_sum">Link do darowizny PayPal (jeżeli chciałbyś)</string>
+  <string name="icon_pack_updated">Twój aktualnie zastosowany pakiet ikon został zaktualizowany. Zaleca się przejście do ustawień i ponowne zastosowanie pakietu ikon.</string>
+  <string name="icon_pack_apply_warning_title">Ostrzeżenie</string>
   <!--Time format-->
 </resources>

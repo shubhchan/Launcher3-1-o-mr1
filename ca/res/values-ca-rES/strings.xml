@@ -250,9 +250,11 @@
   <string name="action_dismiss_notification">Ignora</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">S\'ha ignorat la notificació</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
   <string name="smartspace_preferences">Preferències</string>
   <string name="label_search">Cerca</string>
   <string name="label_voice_search">Cerca per veu</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Paquet d\'icones</string>
   <string name="state_loading">S\'està aplicant…</string>
   <string name="smartspace_preferences_in_settings">Recorda</string>
@@ -264,6 +266,9 @@
   <string name="title_app_suggestions">Mostra suggeriments d\'aplicacions</string>
   <string name="summary_app_suggestions">A la part superior de la llista Totes les aplicacions</string>
   <string name="about_app_version">Versió</string>
+  <string name="compiled_by">Compilat Per</string>
+  <string name="Icon_By">Icones Per</string>
+  <string name="app_name_pixel_launcher">Ruthless Launcher</string>
   <string name="title_disable_suggestions_prompt">Vols desactivar els suggeriments d\'aplicacions?</string>
   <string name="msg_disable_suggestions_prompt">"Els suggeriments no es mostraran a la part superior de la llista d'aplicacions, i les dades d'ús utilitzades per crear-los s'esborraran permanentment."</string>
   <string name="label_turn_off_suggestions">DESACTIVA</string>
@@ -271,21 +276,133 @@
   <string name="hide_app_sum">Amaga l\'aplicació del calaix</string>
   <string name="hide_app">Amaga l\'aplicació</string>
   <string name="icon_shape_rounded_square">Quadrat arrodonit</string>
+  <string name="icon_pack_default">Per defecte</string>
+  <string name="icon_edit">Modifica la icona i etiqueta de l\'aplicació</string>
+  <string name="market">Més</string>
+  <string name="based_on">Basat en</string>
+  <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
+  <string name="diabledgemargin">Deshabilitar separació als costats</string>
+  <string name="diabledgemargin_sum">Deshabilita l\'espai entre les icones i els costats dret i esquerre</string>
   <!-- Dock bar -->
+  <string name="force_mic">Força la icona de Micròfon</string>
+  <string name="force_mic_sum">Habilita que el micròfon es mostri encara que les condicions que el fan visible no es compleixin</string>
+  <string name="force_colour_logo">Logo de Google colorejat a la barra de cerca</string>
+  <string name="force_colour_logo_sum">Habilitant açò fas que el logo de Google i el micròfon siguin colorejats a la barra de cerca</string>
+  <string name="dark_themeqsb">Barra de Cerca Obscura</string>
+  <string name="transparentqsb">Transparència en la barra de cerca</string>
+  <string name="transparentqsb_sum">Fa que es pugui veure a través de la barra de cerca</string>
+  <string name="custom_qsb_in_dock">Configuració de la barra de cerca</string>
+  <string name="qsb_in_dock_show">Mostra la barra de cerca al dock</string>
+  <string name="pdock">Dock d\'estil Sòlid</string>
   <!-- Sizes -->
+  <string name="size_biggest">La més gran</string>
+  <string name="size_big">Gran</string>
+  <string name="size_smallest">La més menuda</string>
+  <string name="size_small">Menuda</string>
+  <string name="size_stock">Per defecte</string>
+  <string name="size_tiny">Diminuta</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Nombre de files</string>
+  <string name="num_cols">Nombre de columnes</string>
+  <string name="num_hotseat_icons_pref_title">Nombre d\'icones al dock</string>
+  <string name="custom_grid_size">Canviar graella</string>
+  <string name="change_grid_size">Graella del caixó</string>
+  <string name="change_grid_size_sum">Canvia el tamany de graella en el caixó d\'aplicacions, les files poden semblar un dígit més llargues ja que compten el \"Mostrar Sugerències d\'aplicacions\", actiu per defecte </string>
+  <string name="hotseatShowArrow">Fletxa cap amunt</string>
+  <string name="hotseatShowArrow_sum">Habilitar/Deshabitar la fletxa cap amunt(suau) de damunt del dock</string>
+  <string name="hotseat_show_page_indicator">Indicador de Pàgina</string>
+  <string name="hotseat_show_page_indicator_sum">Habilitar/Deshabitar l\'indicador de pàgina a la pantalla d\'inici a sobre del dock </string>
+  <string name="gradient_size">Tamany del degradat</string>
+  <string name="remove_gradient">Vista del Degradat</string>
+  <string name="remove_gradient_sum">Habilitar/Deshabitar el degradat en la zona del dock per al dock transparent, inclús per al tema clar. No funcionarà en el dock d\'estil Android-P</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Etiquetes de l\'escriptori</string>
+  <string name="desktop_show_labels_sum">Mostra les etiquetes d\'icona a l\'escriptor</string>
+  <string name="drawer_show_labels">Etiquetes al caixó</string>
+  <string name="drawer_show_labels_sum">Mostra etiquetes a les icones del caixó</string>
+  <string name="folder_show_labels">Etiquetes de carpeta</string>
+  <string name="folder_show_labels_sum">Mostra etiquetes d\'icona a lea carpetes</string>
+  <string name="icon_size">Tamany d\'icona</string>
   <!--At glance-->
+  <string name="custom_glance">D\'Una Ullada, At a Glance</string>
+  <string name="smartspace_time">Afegir Rellotge</string>
+  <string name="in_smartspace">Al widget \"En una Ullada\"</string>
   <!-- Date formats -->
+  <string name="date_format">Format de data</string>
+  <string name="date_format_1">Dimarts, Feb 13</string>
+  <string name="date_format_2">Dimarts</string>
+  <string name="date_format_3">Dimarts, Febrer 13</string>
+  <string name="date_format_4">Dimarts, 02/13</string>
+  <string name="date_format_5">13 Dimarts</string>
+  <string name="date_format_6">Dimarts, Febrer 13</string>
   <!--theme-->
+  <string name="custom_theme">Tractament de Temes i Icones</string>
+  <string name="theme">Tema</string>
+  <string name="white_theme">Blanc</string>
+  <string name="white_withdarktext_theme">Blanc amb Text Obscur</string>
+  <string name="dark_theme">Obscur</string>
+  <string name="black_theme">Negre</string>
+  <string name="solid_theme">Sòlid</string>
+  <string name="transparent_theme">Transparent</string>
+  <string name="auto_theme_sum">Pel fons</string>
+  <string name="auto_theme">Tema automàtic</string>
+  <string name="googleinappmenu">Barra de Cerca de Google</string>
   <!--Notification dot-->
   <!--<string name="custom_label_color">Custom lable color</string>-->
   <!--Home screen-->
   <!-- Hide/Show search bars -->
   <!--Double tap to lock-->
   <!-- Colors -->
+  <string name="Lime1">Clar llima</string>
+  <string name="Lime2">Llima Obscur</string>
+  <string name="Light_green1">Verd clar (clar)</string>
+  <string name="Light_green2">Verd clar (obscur)</string>
+  <string name="Green1">Verd clar</string>
+  <string name="Green2">Verd obscur</string>
+  <string name="Teal1">Verd clar</string>
+  <string name="Teal2">Verd Obscur</string>
+  <string name="Cyan1">Cian Clar</string>
+  <string name="Cyan2">Cian Obscur</string>
+  <string name="Light_blue1">Blau clar (clar)</string>
+  <string name="Light_blue2">Blau clar (obscur)</string>
+  <string name="Blue1">Blau clar</string>
+  <string name="Blue2">Blau2</string>
+  <string name="Indigo1">Índigo clar</string>
+  <string name="Indigo2">Índigo obscur</string>
+  <string name="Violet">Violeta</string>
+  <string name="Deep_purple1">Lila Fosc clar</string>
+  <string name="Deep_purple2">Lila Fosc obscur</string>
+  <string name="Purple1">Lila Clar</string>
+  <string name="Purple2">Lila obscur</string>
+  <string name="Pink1">Rosa clar</string>
+  <string name="Pink2">Rosa Obscur</string>
+  <string name="Red1">Vermell clar</string>
+  <string name="Red2">Vermell obscur</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Tractament d\'icones heretades</string>
+  <string name="legacy_icons_title_sum">Crea un fons adaptiu darrere de la icona, després d\'habilitar açò has d\'anar a \"Canviar Forma d\'Icona\" per a veure els canvis</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Nombre de columnes</string>
+  <string name="home_action_title">Acció del botó home a la pantalla d\'inici</string>
+  <string name="home_action_nothing">Res</string>
+  <string name="home_action_quick_search">Cerca Ràpida</string>
+  <string name="home_action_voice_search">Cerca de Veu</string>
+  <string name="home_action_app_drawer">Obrir caixó d\'aplicacions</string>
+  <string name="home_action_app_search">Obrir cerca d\'aplicacions</string>
+  <string name="home_action_overview">Accedir a visió general</string>
+  <string-array name="home_action_values">
+    <item>res</item>
+    <item>cerca ràpida</item>
+    <item>cerca de veu</item>
+    <item>caixó d\'aplicacions</item>
+    <item>cerca d\'apps</item>
+    <item>visió general</item>
+  </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Proveïdor de Cerca</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
   <!--Time format-->
 </resources>

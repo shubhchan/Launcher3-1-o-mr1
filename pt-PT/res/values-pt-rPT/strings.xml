@@ -308,18 +308,150 @@
   <string name="change_grid_size">Desenhar Grelha</string>
   <string name="change_grid_size_sum">Altera o tamanho da grelha no menu de aplicações, o número de linhas na grelha pode ter um valor a mais, mas deve-se ao facto da opção \"Mostrar sugestão de aplicações\" estar ativa por defeito</string>
   <string name="hotseatShowArrow">Seta do deslize</string>
+  <string name="hotseatShowArrow_sum">Ativa ou desativa a seta para cima (indicador acima da dock)</string>
+  <string name="hotseat_show_page_indicator">Indicador de página</string>
+  <string name="hotseat_show_page_indicator_sum">Ativa ou desativa o indicador da página no ambiente de trabalho acima da dock</string>
+  <string name="gradient_size">Tamanho da gradiente</string>
+  <string name="remove_gradient">Ativar gradiente</string>
+  <string name="remove_gradient_sum">Ativa ou desativa a gradiente na área da dock quando transparente mesmo com o tema branco. Não funciona com o estilo do Android P na dock</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Rótulos no ambiente de trabalho</string>
+  <string name="desktop_show_labels_sum">Mostrar os rótulos dos ícones no ambiente de trabalho</string>
+  <string name="drawer_show_labels">Ativar rótulos na gaveta de aplicações</string>
+  <string name="drawer_show_labels_sum">Mostrar rótulos dos ícones na gaveta de aplicações</string>
+  <string name="folder_show_labels">Rótulos das pastas</string>
+  <string name="folder_show_labels_sum">Mostrar os rótulos dos ícones nas pastas</string>
+  <string name="icon_size">Tamanho do ícone</string>
   <!--At glance-->
+  <string name="custom_glance">At a Glance</string>
+  <string name="smartspace_time">Adicionar relógio</string>
+  <string name="in_smartspace">Na widget \"At a Glance\"</string>
   <!-- Date formats -->
+  <string name="date_format">Formato da data</string>
+  <string name="date_format_1">Terça feira, Fev 13</string>
+  <string name="date_format_2">Terça-feira</string>
+  <string name="date_format_3">Ter, Fevereiro 13</string>
+  <string name="date_format_4">Ter, 02/13</string>
+  <string name="date_format_5">13 Terça feira</string>
+  <string name="date_format_6">Terça feira, Fevereiro 13</string>
   <!--theme-->
+  <string name="custom_theme">Tratamento do ícone e do tema</string>
+  <string name="theme">Tema</string>
+  <string name="white_theme">Branco</string>
+  <string name="white_withdarktext_theme">Branco com texto escuro</string>
+  <string name="dark_theme">Escuro</string>
+  <string name="black_theme">Preto</string>
+  <string name="solid_theme">Sólido</string>
+  <string name="transparent_theme">Transparente</string>
+  <string name="auto_theme_sum">Por papel de parede</string>
+  <string name="auto_theme">Auto-tema</string>
+  <string name="googleinappmenu">Barra de pesquisa do Google</string>
+  <string name="g_bar_drawer">Barra de pesquisa do Google no drawer</string>
   <!--Notification dot-->
+  <string name="textinbadge">Badges numéricas</string>
+  <string name="textinbadge_sum">Mostre o número de notificações na badge</string>
+  <string name="bottombadge">Marcadores inferiores </string>
+  <string name="bottombadge_sum">Mostrar os marcadores no canto inferior direito do ícone</string>
+  <string name="restart">Reiniciar</string>
+  <string name="restart_sum">Reiniciar para debug</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Cor customizada para barra de pesquisa</string>
+  <string name="custom_qsb_color_list">Lista das cores da barra Google</string>
+  <string name="dark_themeqsballapp">Barra de pesquisa escura</string>
+  <string name="behavior_pref_title">Comportamento</string>
+  <string name="custom_dockbar">Barra inferior</string>
   <!--Home screen-->
+  <string name="custom_hs">Ambiente de trabalho</string>
+  <string name="custom_allapp">Gaveta de aplicações</string>
+  <string name="settings_edit_allow_title">Permitir edições</string>
+  <string name="settings_edit_allow_summary_on">Ícones e widgets podem ser adicionados, removidos e movidos no ecrã inicial</string>
+  <string name="settings_edit_allow_summary_off">Ícones e widgets não podem ser adicionados, removidos e movidos no ecrã inicial</string>
+  <string name="settings_edit_widgets_error">Não é possível adicionar widgets ao ecrã inicial</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Barra de pesquisa do Google</string>
+  <string name="bottom_search_bar_summary">Mostrar a barra de pesquisa do Google no fundo da barra inferior</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Duplo toque para bloquear</string>
+  <string name="double_tap_to_lock_summary">Quando no ambiente de trabalho</string>
+  <string name="double_tap_to_lock_hint">Para ser possível utilizar o duplo toque para bloquear, têm de ser dadas permissões de administrador ao Ruthless Launcher. Isto é um bloqueio seguro, querendo dizer que é necessário utilizar o pin para desbloquear caso o mesmo esteja definido.</string>
+  <string name="double_tap_to_lock_disable_warning">Ao desativar o acesso de administrador, não vai ser possível utilizar o duplo toque no ambiente de trabalho para bloquear.</string>
   <!-- Colors -->
+  <string name="White">Branco</string>
+  <string name="Black">Preto</string>
+  <string name="Blue_gray1">Azul acinzentado claro</string>
+  <string name="Blue_gray2">Azul acinzentado escuro</string>
+  <string name="Gray1">Cinzento claro</string>
+  <string name="Gray2">Cinzento escuro</string>
+  <string name="Brown1">Castanho claro</string>
+  <string name="Brown2">Castanho escuro</string>
+  <string name="Deep_orange1">Laranja profundo claro</string>
+  <string name="Deep_orange2">Laranja profundo esxuro</string>
+  <string name="Orange1">Laranja claro</string>
+  <string name="Orange2">Laranja escuro</string>
+  <string name="Amber1">Âmbar claro</string>
+  <string name="Amber2">Âmbar escuro</string>
+  <string name="Yellow1">Amarelo claro</string>
+  <string name="Yellow2">Amarelo escuro</string>
+  <string name="Lime1">Lima claro</string>
+  <string name="Lime2">Lima escuro</string>
+  <string name="Light_green1">Verde brilhante claro</string>
+  <string name="Light_green2">Verde brilhante escuro</string>
+  <string name="Green1">Verde claro</string>
+  <string name="Green2">Verde escuro</string>
+  <string name="Teal1">Azul-petróleo claro</string>
+  <string name="Teal2">Azul-petróleo escuro</string>
+  <string name="Cyan1">Cyan claro</string>
+  <string name="Cyan2">Cyan escuro</string>
+  <string name="Light_blue1">Azul brilhante claro</string>
+  <string name="Light_blue2">Azul brilhante escuro</string>
+  <string name="Blue1">Azul claro</string>
+  <string name="Blue2">Azul 2</string>
+  <string name="Indigo1">Indigo claro</string>
+  <string name="Indigo2">Indigo escuro</string>
+  <string name="Violet">Violeta</string>
+  <string name="Deep_purple1">Roxo profundo claro</string>
+  <string name="Deep_purple2">Roxo profundo escuro</string>
+  <string name="Purple1">Roxo claro</string>
+  <string name="Purple2">Roco escuro</string>
+  <string name="Pink1">Rosa claro</string>
+  <string name="Pink2">Rosa escuro</string>
+  <string name="Red1">Vermelho claro</string>
+  <string name="Red2">Vermelho escuro</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Tratamento dos ícones antigos</string>
+  <string name="legacy_icons_title_sum">Cria um fundo adaptativo por trás do ícone, depois de ativar é necessário alterar a forma do ícone para ver as alterações aplicadas</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Colunas da grelha</string>
+  <string name="home_action_title">Acção do botão Home no ambiente de trabalho</string>
+  <string name="home_action_nothing">Nenhuma</string>
+  <string name="home_action_quick_search">Pesquisa rápida</string>
+  <string name="home_action_voice_search">Pesquisa por voz</string>
+  <string name="home_action_app_drawer">Abrir a gaveta de aplicações</string>
+  <string name="home_action_app_search">Abrir a pesquisa de aplicações</string>
+  <string name="home_action_overview">Entrar no resumo</string>
+  <string-array name="home_action_values">
+    <item>Nada</item>
+    <item>Pesquisa Rápida</item>
+    <item>Pesquisa por voz</item>
+    <item>Gaveta de Aplicações</item>
+    <item>appsearch</item>
+    <item>overview</item>
+  </string-array>
   <!--search provider-->
+  <string name="donate">Link para donativo</string>
+  <string name="donate_sum">Link para donativo PayPal (caso pretenda)</string>
+  <string name="icon_pack_updated">O teu actual pacote de ícones teve uma atualização. Recomendamos que vá às definições e volte a aplicar o pacote de temas novamente.</string>
+  <string name="icon_pack_apply_warning_title">Alerta</string>
+  <string name="icon_pack_apply_warning_message">Todos os ícones ou rótulos personalizados irão desaparecer. Tem a certeza que quer continuar?</string>
+  <string name="show_top_shadow_title">Mostrar sombra superior</string>
+  <string name="pdock1">Dock estilo Android P</string>
+  <string name="pdock1sum">Nova dock introduzida no Android P no navegador do pixel</string>
   <!--Time format-->
+  <string name="time_formats">Formato da hora</string>
+  <string name="time_f1">12:00:AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Outras configurações</string>
+  <string name="space_in_dock">Margem dos ícones na dock</string>
+  <string name="space_in_dock_sum">Ativar esta opção se os ícones estiverem muito próximo da dock</string>
+  <string name="generate_adaptive_background_title">Extrair a cor dos ícones antigos</string>
 </resources>

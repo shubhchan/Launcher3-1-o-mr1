@@ -23,10 +23,15 @@
   <!-- Default folder name -->
   <!-- Work folder name -->
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+  <string name="activity_not_found">Aplikasi tidak terpasang.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+  <string name="activity_not_available">Aplikasi tidak tersedia</string>
   <!-- SafeMode shortcut error string -->
+  <string name="safemode_shortcut_error">Aplikasi yang diunduh dinonaktifkan dalam mode Aman</string>
   <!-- SafeMode widget error string -->
+  <string name="safemode_widget_error">Widget dinonaktifkan dalam mode Aman</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+  <string name="shortcut_not_available">Pintasan tidak tersedia</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
   <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
   <!-- Widgets -->

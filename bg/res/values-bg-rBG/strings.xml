@@ -376,6 +376,15 @@
   <string name="Blue_gray2">Тъмно сиво синьо</string>
   <string name="Gray1">Светло сиво</string>
   <string name="Gray2">Тъмно сиво</string>
+  <string name="Brown1">Светло кафяво</string>
+  <string name="Brown2">Тъмно кафяво</string>
+  <string name="Deep_orange1">Светло оранжево</string>
+  <string name="Deep_orange2">Тъмно оранжево</string>
+  <string name="Orange1">Светло оранжево</string>
+  <string name="Orange2">Тъмно оранжево</string>
+  <string name="Amber1">Светло жълто-оранжево</string>
+  <string name="Amber2">Тъмно жълто-оранжево</string>
+  <string name="Yellow1">Светло жълто</string>
   <string name="Yellow2">Тъмно жълто</string>
   <string name="Lime1">Светло лайм</string>
   <string name="Lime2">Тъмен лайм</string>
@@ -403,11 +412,53 @@
   <string name="Red1">Светло червено</string>
   <string name="Red2">Тъмно червено</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Третиране на неподдържани икони</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Колони на решетката</string>
+  <string name="home_action_title">Действие на началния бутон на началния екран</string>
+  <string name="home_action_nothing">Нищо</string>
+  <string name="home_action_quick_search">Бързо търсене</string>
+  <string name="home_action_voice_search">Гласово търсене</string>
+  <string name="home_action_app_drawer">Отвори чекмедже с приложения</string>
+  <string name="home_action_app_search">Отвори търсачка на приложенията</string>
+  <string name="home_action_overview">Преглед</string>
+  <string-array name="home_action_values">
+    <item>нищо</item>
+    <item>бързотърсене</item>
+    <item>гласовотърсене</item>
+    <item>чекмеджесприложения</item>
+    <item>търсененаприложения</item>
+    <item>преглед</item>
+  </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Доставчици на търсене</string>
   <string name="search_provider_google">Google</string>
   <string name="search_provider_bing">Bing</string>
   <string name="search_provider_duckduckgo">DuckDuckGo</string>
   <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Прозрачна навигация</string>
+  <string name="transparent_nav_bar_summary">На чекмеджето за приложения</string>
+  <string name="smartspace_launchclock_sum">На дълго задържане</string>
+  <string name="smartspace_launchclock">Отваряне на приложението часовник</string>
+  <string name="system_font_for_smartspace">Използване на системният шрифт</string>
+  <string name="system_font_for_smartspace_sum">За \"Бърз Поглед\" джаджата</string>
+  <string name="bage_size">Размер на етикетите</string>
+  <string name="label_font">Шрифт на заглавията</string>
+  <string name="smartspace_font">Шрифт на \"Бърз Поглед\" джаджата</string>
+  <string name="donate">Линк за донори</string>
+  <string name="icon_pack_apply_warning_title">Внимание</string>
+  <string name="show_top_shadow_title">Показване на сянка отгоре</string>
+  <string name="pdock1">P Стил Док</string>
   <!--Time format-->
+  <string name="time_formats">Формати на времето</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Други настройки</string>
+  <string name="space_in_dock">Разстояние на иконите в дока</string>
+  <string name="space_in_dock_sum">Включете това ако иконите в дока са прекалено близо до дока </string>
+  <string name="generate_adaptive_background_title">Изкарване на цвят от неподдържани икони</string>
+  <string name="allow_two_line_labels_title">Дву-редови заглавия на приложенията</string>
+  <string name="faq">Често задавани въпроси</string>
+  <string name="hide_apps_title">Скрий приложения</string>
+  <string name="hide_apps_summary">От чекмеджето за приложения</string>
 </resources>

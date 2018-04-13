@@ -28,11 +28,17 @@
 
 ফাইল: strings.xml</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+  <string name="activity_not_found">অ্যাপ ইনস্টল করা নেই।</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+  <string name="activity_not_available">অ্যাপ উপলব্ধ নেই।</string>
   <!-- SafeMode shortcut error string -->
+  <string name="safemode_shortcut_error">ডাউনলড করা অ্যাপ টি ডিসেবল করা আছে সেফ মোড\'এ।</string>
   <!-- SafeMode widget error string -->
+  <string name="safemode_widget_error">উইজেট ডিসেবল করা আছে সেফ মোডে।</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+  <string name="shortcut_not_available">শর্টকাট উপলব্ধ নেই।</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
+  <string name="home_screen">মুখ্য স্ক্রিন।</string>
   <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->

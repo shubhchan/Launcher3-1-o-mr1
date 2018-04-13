@@ -265,7 +265,7 @@
   <string name="msg_minus_one_on_left">Ke arah kiri laman beranda utama</string>
   <string name="about">Tentang</string>
   <string name="title_google_app">Aplikasi Google</string>
-  <string name="title_app_suggestions">Tampilkan applikasi yang disarankan</string>
+  <string name="title_app_suggestions">Tampilkan aplikasi yang disarankan</string>
   <string name="summary_app_suggestions">Di atas semua daftar apl anda</string>
   <string name="about_app_version">Versi Ruthless </string>
   <string name="compiled_by">Di kompilasi oleh</string>
@@ -273,9 +273,9 @@
   <string name="app_name_pixel_launcher">Peluncur Ruthless</string>
   <string name="title_disable_suggestions_prompt">Matikan penyaran aplikasi ?</string>
   <string name="msg_disable_suggestions_prompt">"Penyaranan tidak akan muncul di atas daftar aplikasi, dan penggunanaan data yang ada akan di hapus selamanya."</string>
-  <string name="label_turn_off_suggestions">Non aktifkan</string>
+  <string name="label_turn_off_suggestions">Nonaktifkan</string>
   <string name="action_edit">Sunting</string>
-  <string name="hide_app_sum">Menyembunyikan aplikasi dari semua apl</string>
+  <string name="hide_app_sum">Sembunyikan dari laci aplikasi</string>
   <string name="hide_app">Sembunyikan apl</string>
   <string name="icon_shape_rounded_square">Kotak membulat</string>
   <string name="icon_pack_default">Bawaan</string>
@@ -309,19 +309,19 @@
   <string name="num_hotseat_icons_pref_title">Jumlah ikon di dok</string>
   <string name="custom_grid_size">Ubah kisi</string>
   <string name="change_grid_size">Kisi daftar apl</string>
-  <string name="change_grid_size_sum">Ubah ukuran kisi di daftar aplikasi, baris kisi mungkin tampak satu digit lebih banyak , sebenarnya karena ini menghitung \"Tampilkan Saran Aplikasi\" diaktifkan secara default</string>
+  <string name="change_grid_size_sum">Ubah ukuran kisi di \"semua aplikasi\". Baris kisi mungkin tampak satu digit lebih banyak , sebenarnya karena ini menghitung \"Tampilkan Saran Aplikasi\" diaktifkan secara bawaan</string>
   <string name="hotseatShowArrow">Panah usap</string>
   <string name="hotseatShowArrow_sum">Aktifkan / Nonaktifkan panah geser (tanda sisipan) di atas dok</string>
   <string name="hotseat_show_page_indicator">Indikator Halaman</string>
-  <string name="hotseat_show_page_indicator_sum">Aktifkan / Nonaktifkan indikator halaman pada beranda awal di atas dok</string>
+  <string name="hotseat_show_page_indicator_sum">Aktifkan / Nonaktifkan indikator halaman pada laman beranda awal di atas dok</string>
   <string name="gradient_size">Ukuran gradien</string>
   <string name="remove_gradient">Tampilan gradien</string>
   <string name="remove_gradient_sum">Aktifkan / Nonaktifkan gradien di area dok untuk  transparansi bahkan dalam tema putih, itu tidak akan berfungsi di dok bergaya Android-P</string>
   <!-- Hide labels -->
   <string name="desktop_show_labels">Label desktop</string>
-  <string name="desktop_show_labels_sum">Tampilkan label ikon pada layar beranda</string>
-  <string name="drawer_show_labels">Label daftar apl</string>
-  <string name="drawer_show_labels_sum">Tampilkan label ikon pada daftar apl</string>
+  <string name="desktop_show_labels_sum">Tampilkan label ikon pada laman beranda</string>
+  <string name="drawer_show_labels">Label \"Semua Aplikasi\"</string>
+  <string name="drawer_show_labels_sum">Tampilkan label ikon pada \" semua apl \"</string>
   <string name="folder_show_labels">Label folder</string>
   <string name="folder_show_labels_sum">Tampilkan label ikon pada folder</string>
   <string name="icon_size">Ukuran Ikon</string>
@@ -346,20 +346,20 @@
   <string name="black_theme">Hitam</string>
   <string name="solid_theme">Padat</string>
   <string name="transparent_theme">Transparan</string>
-  <string name="auto_theme_sum">Oleh latar belakang</string>
+  <string name="auto_theme_sum">Dari latar belakang</string>
   <string name="auto_theme">Tema otomatis</string>
-  <string name="googleinappmenu">Pencarian Google bar</string>
+  <string name="googleinappmenu">Bilah pencarian Google </string>
   <string name="g_bar_drawer">Pencarian Google bar di daftar apl</string>
   <!--Notification dot-->
   <string name="textinbadge">Angka pada lencana</string>
   <string name="textinbadge_sum">Tunjukkan notifikasi angka pada lencana</string>
   <string name="bottombadge">Lencana di bawah</string>
-  <string name="bottombadge_sum">Tunjukkan lencana di bawah kanan icon</string>
+  <string name="bottombadge_sum">Tunjukkan lencana di bawah kanan ikon</string>
   <string name="restart">Memulai ulang</string>
   <string name="restart_sum">Memulai ulang untuk debug</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
-  <string name="custom_qsb_color">Kustomisasi warna pada bar pencarian</string>
-  <string name="custom_qsb_color_list">Daftar warna Google Bar</string>
+  <string name="custom_qsb_color">Kustomisasi warna pada bilah pencarian</string>
+  <string name="custom_qsb_color_list">Daftar warna Bilah Google </string>
   <string name="dark_themeqsballapp">Bar pencarian gelap</string>
   <string name="behavior_pref_title">Perilaku</string>
   <string name="custom_dockbar">Dokbar</string>
@@ -376,7 +376,7 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Ketuk dua kali untuk mengunci</string>
   <string name="double_tap_to_lock_summary">Pada layar beranda</string>
-  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci,anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artina ada harus memasukkan  PIN pada saat membukan layar selanjutnya</string>
+  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci, anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artinya ada harus memasukkan PIN pada saat membukan layar selanjutnya.</string>
   <string name="double_tap_to_lock_disable_warning">Dengan menonaktifkan akses admin, anda tidak akan bisa menggunakan ketuk layar dua kali untuk mengunci</string>
   <!-- Colors -->
   <string name="White">Putih</string>
@@ -469,7 +469,7 @@
   <string name="time_f2">00:00</string>
   <string name="other_settings">Pengaturan lainnya</string>
   <string name="space_in_dock">Batasan ikon di dok</string>
-  <string name="space_in_dock_sum">Munculkan ini jika ikon terlalu dekat dengan bar dok</string>
+  <string name="space_in_dock_sum">Aktifkan ini jika ikon terlalu dekat dengan bar dok </string>
   <string name="generate_adaptive_background_title">Ambil warna dari ikon lama</string>
   <string name="generate_adaptive_background_summary">Untuk mengambil latar belakang ikon adaptif, setelah dimuncukan anda harus mengubah \" ubah bentuk ikon\" dan mengaktifkan \" pengaturan ikon lawas \" untuk melihat perubahan</string>
   <string name="allow_two_line_labels_title">Izinkan dua baris label</string>

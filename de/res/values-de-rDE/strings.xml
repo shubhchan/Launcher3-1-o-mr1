@@ -299,7 +299,14 @@
   <string name="size_big">Groß</string>
   <string name="size_smallest">Kleinste</string>
   <string name="size_small">Klein</string>
+  <string name="size_stock">Standard</string>
+  <string name="size_tiny">Winzig</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Anzahl von Reihen</string>
+  <string name="num_cols">Anzahl von Spalten</string>
+  <string name="num_hotseat_icons_pref_title">Anzahl von Symbolen im Dock</string>
+  <string name="custom_grid_size">Ändere Raster</string>
+  <string name="change_grid_size">Drawer Raster</string>
   <!-- Hide labels -->
   <!--At glance-->
   <!-- Date formats -->

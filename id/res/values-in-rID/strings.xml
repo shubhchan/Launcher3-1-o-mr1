@@ -207,7 +207,7 @@
   <!-- Accessibility description to move item to empty cell. -->
   <string name="move_to_empty_cell">Ubah baris<xliff:g id="number" example="1">%1$s</xliff:g>kolom<xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Ubah posisi<xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="move_to_position">Ubah ke posisi<xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
   <string name="move_to_hotseat_position">Ubah ke posisi favorit<xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
@@ -272,10 +272,10 @@
   <string name="Icon_By">Ikon oleh</string>
   <string name="app_name_pixel_launcher">Peluncur Ruthless</string>
   <string name="title_disable_suggestions_prompt">Matikan penyaran aplikasi ?</string>
-  <string name="msg_disable_suggestions_prompt">"Penyaranan tidak akan muncuk di atas daftar aplikasi, dan penggunana data untuk membuatnya akan di hapus selamanya."</string>
+  <string name="msg_disable_suggestions_prompt">"Penyaranan tidak akan muncul di atas daftar aplikasi, dan penggunana data untuk membuatnya akan di hapus selamanya."</string>
   <string name="label_turn_off_suggestions">Non aktifkan</string>
   <string name="action_edit">Sunting</string>
-  <string name="hide_app_sum">Menyembunyikan aplikasi dari laci</string>
+  <string name="hide_app_sum">Menyembunyikan aplikasi dari daftar apl</string>
   <string name="hide_app">Sembunyikan apl</string>
   <string name="icon_shape_rounded_square">Kotak membulat</string>
   <string name="icon_pack_default">Bawaan</string>
@@ -287,7 +287,7 @@
   <string name="diabledgemargin_sum">Menonaktifkan ruang antara ikon dan sisi kiri / kanan</string>
   <!-- Dock bar -->
   <string name="force_mic">Paksa ikon mik</string>
-  <string name="force_mic_sum">Mengaktifkan ikon mic bahkan jika kondisi untuk membuatnya secara otomatis terlihat tidak terpenuhi</string>
+  <string name="force_mic_sum">Mengaktifkan ikon mik bahkan jika kondisi untuk membuatnya secara otomatis terlihat tidak terpenuhi</string>
   <string name="force_colour_logo">Logo google berwarna di bilah pencarian</string>
   <string name="force_colour_logo_sum">Mengaktifkan ini akan membuat logo google dan ikon mik berwarna di bilah google dok</string>
   <string name="dark_themeqsb">Bilah penelusuran gelap</string>
@@ -390,8 +390,56 @@
   <string name="Deep_orange1">Cerah oranye gelap</string>
   <string name="Deep_orange2">Oranye gelap gelap</string>
   <string name="Orange1">Oranye cerah</string>
+  <string name="Orange2">Oranye gelap</string>
+  <string name="Amber1">Amber cerah</string>
+  <string name="Amber2">Amber gelap</string>
+  <string name="Yellow1">Kuning cerah</string>
+  <string name="Yellow2">Kuning gelap</string>
+  <string name="Lime1">Hijau lemon cerah</string>
+  <string name="Lime2">Hijau lemon gelap</string>
+  <string name="Light_green1">Hijau muda cerah</string>
+  <string name="Light_green2">Hijau muda gelap</string>
+  <string name="Green1">Hijau daun cerah</string>
+  <string name="Green2">Hijau daun gelap</string>
+  <string name="Teal1">Til cerah</string>
+  <string name="Teal2">Til gelap</string>
+  <string name="Cyan1">Sian cerah</string>
+  <string name="Cyan2">Sian gelap</string>
+  <string name="Light_blue1">Biru muda cerah</string>
+  <string name="Light_blue2">Biru tua gelap</string>
+  <string name="Blue1">Biru cerah</string>
+  <string name="Blue2">Biru 2</string>
+  <string name="Indigo1">Indigo cerah</string>
+  <string name="Indigo2">Indigo gelap</string>
+  <string name="Violet">Violet</string>
+  <string name="Deep_purple1">Ungu tua cerah</string>
+  <string name="Deep_purple2">Ungu tua gelap</string>
+  <string name="Purple1">Ungu cerah</string>
+  <string name="Purple2">Ungu gelap</string>
+  <string name="Pink1">Merah muda cerah</string>
+  <string name="Pink2">Merah muda gelap</string>
+  <string name="Red1">Merah cerah</string>
+  <string name="Red2">Merah gelap</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Penanganan ikon lama</string>
+  <string name="legacy_icons_title_sum">Membuat latar belakang adaptif di belakang ikon, setelah mengaktifkan ini Anda harus \"Ubah Bentuk Ikon\" untuk melihat kemudian perubahan diterapkan</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Kolom kisi</string>
+  <string name="home_action_title">Tombol beranda di layar beranda</string>
+  <string name="home_action_nothing">Tidak ada</string>
+  <string name="home_action_quick_search">Pencarian Cepat</string>
+  <string name="home_action_voice_search">Pencarian suara</string>
+  <string name="home_action_app_drawer">Buka daftar aplikasi</string>
+  <string name="home_action_app_search">Buka penelusuran apl</string>
+  <string name="home_action_overview">Masukkan ikhtisar</string>
+  <string-array name="home_action_values">
+    <item>tidak ada</item>
+    <item>Pencarian kilat</item>
+    <item>Pencarian usaha</item>
+    <item>appdrawer</item>
+    <item>appsearch</item>
+    <item>overview</item>
+  </string-array>
   <!--search provider-->
   <string name="search_provider_title">Cari penyedia</string>
   <string name="search_provider_google">Google</string>

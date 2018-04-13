@@ -30,7 +30,7 @@
   <!-- SafeMode shortcut error string -->
   <string name="safemode_shortcut_error">Aplikasi yang diunduh dinonaktifkan dalam mode Aman</string>
   <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Widget dinonaktifkan dalam mode Aman</string>
+  <string name="safemode_widget_error">Gawai dinonaktifkan dalam mode Aman</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
   <string name="shortcut_not_available">Pintasan tidak tersedia</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
@@ -39,9 +39,9 @@
   <string name="custom_actions">Modifikasi tindakan</string>
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Sentuh &amp; tahan untuk mengambil widget.</string>
+  <string name="long_press_widget_to_add">Sentuh &amp; tahan untuk mengambil gawai.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Ketuk dua kali &amp; tahan untuk mengambil widget atau menggunakan tindakan khusus.</string>
+  <string name="long_accessible_way_to_add">Ketuk dua kali &amp; tahan untuk mengambil gawai atau menggunakan tindakan khusus.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
   <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
@@ -96,7 +96,7 @@
   <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3"> %1$s</xliff:g> tidak di izinkan untuk membuat pangilan telepon</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
-  <string name="gadget_error_text">Masalah memuat widget</string>
+  <string name="gadget_error_text">Gagal memuat gawai</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
   <string name="gadget_setup_text">Konfigurasi</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
@@ -127,7 +127,7 @@
   <string name="folder_name_format">Map<xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
-  <string name="widget_button_text">Widget</string>
+  <string name="widget_button_text">Gawai</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Wallpaper</string>
   <!-- Text for settings button -->
@@ -205,9 +205,9 @@
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
   <string name="action_move">Pindahkan item</string>
   <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Ubah baris<xliff:g id="number" example="1">%1$s</xliff:g>kolom<xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="move_to_empty_cell">Pindah ke baris<xliff:g id="number" example="1">%1$s</xliff:g>kolom<xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Ubah ke posisi<xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="move_to_position">Pindah ke <xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
   <string name="move_to_hotseat_position">Ubah ke posisi favorit<xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
@@ -241,7 +241,7 @@
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
   <string name="action_decrease_height">Kurangi ketinggian</string>
   <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Ubah ukuran lebar widget dari <xliff:g id="number" example="2">%1$s</xliff:g>dan tinggi <xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="widget_resized">Ubah lebar gawai dari <xliff:g id="number" example="2">%1$s</xliff:g>dan tinggi <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
   <string name="action_deep_shortcut">Pintasan</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
@@ -367,8 +367,8 @@
   <string name="custom_hs">Layar Beranda</string>
   <string name="custom_allapp">Semua Aplikasi</string>
   <string name="settings_edit_allow_title">Izinkan sunting</string>
-  <string name="settings_edit_allow_summary_on">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada laman beranda</string>
-  <string name="settings_edit_allow_summary_off">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
+  <string name="settings_edit_allow_summary_on">Ikon dan gawai dapat ditambahkan, dihapus dan dipindahkan pada laman beranda</string>
+  <string name="settings_edit_allow_summary_off">Ikon dan gawai tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
   <string name="settings_edit_widgets_error">Tidak dimungkinkan untuk menambah widget di laman beranda</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Bilah pencarian Google </string>
@@ -472,7 +472,7 @@
   <string name="space_in_dock_sum">Aktifkan ini jika ikon terlalu dekat dengan bar dok </string>
   <string name="generate_adaptive_background_title">Ambil warna dari ikon lama</string>
   <string name="generate_adaptive_background_summary">Untuk mengambil latar belakang ikon adaptif, setelah dimunculkan anda harus mengubah \" ubah bentuk ikon\" dan mengaktifkan \" pengaturan ikon lawas \" untuk melihat perubahan</string>
-  <string name="allow_two_line_labels_title">Izinkan dua baris label</string>
+  <string name="allow_two_line_labels_title">Izinkan label dua baris</string>
   <string name="allow_two_line_labels_summary">Untuk nama apl atau folder yang panjang,mungkin akan terpotong</string>
   <string name="faq">Pertanyaan yang sering di ajukan</string>
   <string name="hide_apps_title">Sembunyikan apl</string>

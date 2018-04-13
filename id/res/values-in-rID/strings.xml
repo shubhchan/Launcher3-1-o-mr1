@@ -85,15 +85,15 @@
   <!-- Permission description -->
   <string name="permdesc_install_shortcut">Mengizinkan aplikasi menambahkan         pintasan tanpa campur tangan pengguna.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">membaca setelan dan pintasan layar Utama</string>
+  <string name="permlab_read_settings">membaca setelan dan pintasan layar beranda</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Mengizinkan aplikasi membaca setelan         dan pintasan di layar Utama.</string>
+  <string name="permdesc_read_settings">Mengizinkan aplikasi membaca setelan         dan pintasan di layar beranda.</string>
   <!-- Permission short label -->
   <string name="permlab_write_settings">menulis setelan dan pintasan layar beranda</string>
   <!-- Permission description -->
   <string name="permdesc_write_settings">Mengizinkan aplikasi mengubah setelan         dan pintasan di layar beranda.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3"> tidak di izinkan untuk membuat pangilan telepon</string>
+  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3"> %1$s</xliff:g>tidak di izinkan untuk membuat pangilan telepon</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Masalah memuat widget</string>
@@ -144,7 +144,7 @@
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
   <string name="allow_rotation_blocked_desc">Pengaturan tampilan sekarang tidak memungkinkan untuk melakukan rotasi</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
-  <string name="icon_badging_title">Titik notifkasi</string>
+  <string name="icon_badging_title">Titik notifikasi</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
   <string name="icon_badging_desc_on">Aktif</string>
   <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->

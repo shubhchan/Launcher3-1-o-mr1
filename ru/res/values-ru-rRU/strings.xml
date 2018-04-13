@@ -317,7 +317,7 @@
   <string name="in_smartspace">В виджете \"Быстрый просмотр\"</string>
   <!-- Date formats -->
   <string name="date_format">Формат даты</string>
-  <string name="date_format_1">Вторник, Февраль 13</string>
+  <string name="date_format_1">Вторник, Фев 13</string>
   <string name="date_format_2">Вторник</string>
   <string name="date_format_3">Вт, Февраль 13</string>
   <string name="date_format_4">Вт, 02/13</string>
@@ -380,14 +380,36 @@
     <item>быстрый поиск</item>
     <item>voicesearch</item>
     <item>appdrawer</item>
-    <item>appsearch</item>
-    <item>overview</item>
+    <item>поиск приложений</item>
+    <item>обзор</item>
   </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Поисковая система</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Прозрачная панель навигации</string>
   <string name="smartspace_launchclock_sum">При долгом нажатии</string>
   <string name="smartspace_launchclock">Запустить часы</string>
   <string name="system_font_for_smartspace">Использовать шрифт системы</string>
   <string name="system_font_for_smartspace_sum">В виджете \"Быстрый просмотр\"</string>
+  <string name="smartspace_font">Шрифт виджета \"Быстрый просмотр\"</string>
+  <string name="donate">Для пожертвований</string>
+  <string name="donate_sum">Ссылка для пожертвований на Patpal (по желанию)</string>
+  <string name="icon_pack_updated">Примененный вами набор иконок был обновлен. Рекомендуется зайти в настройки и применить его еще раз.</string>
+  <string name="icon_pack_apply_warning_title">Внимание</string>
+  <string name="icon_pack_apply_warning_message">Любые пользовательские значки и их надписи исчезнут. Вы уверены что хотите продолжить?</string>
+  <string name="show_top_shadow_title">Показать тень сверху</string>
   <string name="pdock1">Нижняя панель в стиле Android P</string>
+  <string name="pdock1sum">Новый нижняя панель pixel лаунчера представленная в Android P developer preview 1</string>
   <!--Time format-->
+  <string name="time_formats">Формат времени</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Другие настройки</string>
+  <string name="allow_two_line_labels_summary">Обрезать длинные имена приложений или папок </string>
+  <string name="faq">Часто Задаваемые Вопросы</string>
+  <string name="hide_apps_title">Скрыть приложения</string>
+  <string name="hide_apps_summary">Из меню приложений</string>
 </resources>

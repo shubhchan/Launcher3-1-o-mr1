@@ -293,17 +293,20 @@
   <string name="transparentqsb_sum">Rendi semi-trasparente la barra di ricerca</string>
   <string name="custom_qsb_in_dock">Impostazioni della barra di ricerca</string>
   <string name="qsb_in_dock_show">Mostra la barra di ricerca nella dock</string>
+  <string name="pdock">Dock solida</string>
   <!-- Sizes -->
   <string name="size_biggest">Più grande</string>
   <string name="size_big">Grande</string>
   <string name="size_smallest">Più piccolo</string>
   <string name="size_small">Piccolo</string>
   <string name="size_stock">Predefinito</string>
+  <string name="size_tiny">Minuscolo</string>
   <!-- Rows and Coloumns -->
   <string name="num_rows">Numero di righe</string>
   <string name="num_cols">Numero di colonne</string>
   <string name="num_hotseat_icons_pref_title">Numero di icone nella dock</string>
   <string name="custom_grid_size">Cambia griglia</string>
+  <string name="change_grid_size">Griglia del drawer</string>
   <!-- Hide labels -->
   <!--At glance-->
   <!-- Date formats -->

@@ -39,12 +39,12 @@
   <string name="custom_actions">Modifikasi tindakan</string>
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Sentuh &amp; amp; tahan untuk mengambil widget.</string>
+  <string name="long_press_widget_to_add">Sentuh &amp; tahan untuk mengambil widget.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
   <string name="long_accessible_way_to_add">Ketuk dua kali &amp; tahan untuk mengambil widget atau menggunakan tindakan khusus.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
-  <string name="widget_dims_format">%1$d\u00d7%2$d</string>
+  <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
   <string name="widget_accessible_dims_format">lebar %1$d x tinggi %2$d</string>
   <!-- Message to tell the user to press and hold a widget/icon to add it  -->
@@ -55,7 +55,7 @@
   <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
   <string name="all_apps_search_bar_hint">Cari aplikasi</string>
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Memuat Aplikasi &#8230;</string>
+  <string name="all_apps_loading_message">Memuat Aplikasi&#8230;</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
   <string name="all_apps_no_search_results">Tidak ditemukan Aplikasi yang cocok dengan \"<xliff:g example="Android" id="query">%1$s</xliff:g>\"</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
@@ -262,7 +262,7 @@
   <string name="smartspace_preferences_in_settings">At A Glance</string>
   <string name="smartspace_preferences_in_settings_desc">Di atas laman beranda anda</string>
   <string name="title_show_google_app">Tampilan %1$s</string>
-  <string name="msg_minus_one_on_left">Ke arah kiri laman beranda utama</string>
+  <string name="msg_minus_one_on_left">Di sebelah kiri layar utama</string>
   <string name="about">Tentang</string>
   <string name="title_google_app">Aplikasi Google</string>
   <string name="title_app_suggestions">Tampilkan aplikasi yang disarankan</string>
@@ -362,21 +362,21 @@
   <string name="custom_qsb_color_list">Daftar warna Bilah Google </string>
   <string name="dark_themeqsballapp">Bar pencarian gelap</string>
   <string name="behavior_pref_title">Perilaku</string>
-  <string name="custom_dockbar">Dokbar</string>
+  <string name="custom_dockbar">Bilah dok</string>
   <!--Home screen-->
   <string name="custom_hs">Layar Beranda</string>
-  <string name="custom_allapp">Laci Aplikasi</string>
+  <string name="custom_allapp">Semua Aplikasi</string>
   <string name="settings_edit_allow_title">Izinkan sunting</string>
-  <string name="settings_edit_allow_summary_on">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada layar utama</string>
+  <string name="settings_edit_allow_summary_on">Ikon dan widget dapat ditambahkan, dihapus dan dipindahkan pada laman beranda</string>
   <string name="settings_edit_allow_summary_off">Ikon dan widget tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
-  <string name="settings_edit_widgets_error">Tidak dimungkinkan untuk menambah widget di layar beranda</string>
+  <string name="settings_edit_widgets_error">Tidak dimungkinkan untuk menambah widget di laman beranda</string>
   <!-- Hide/Show search bars -->
-  <string name="bottom_search_bar_title">Pencarian Google bar</string>
-  <string name="bottom_search_bar_summary">Tunjukkan pencarian Google Bar di bawah dok</string>
+  <string name="bottom_search_bar_title">Bilah pencarian Google </string>
+  <string name="bottom_search_bar_summary">Tunjukkan bilah pencarian Google  di bawah dok</string>
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Ketuk dua kali untuk mengunci</string>
-  <string name="double_tap_to_lock_summary">Pada layar beranda</string>
-  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci, anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artinya ada harus memasukkan PIN pada saat membukan layar selanjutnya.</string>
+  <string name="double_tap_to_lock_summary">Pada laman beranda</string>
+  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci, anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artinya anda harus memasukkan PIN pada saat membukan layar selanjutnya.</string>
   <string name="double_tap_to_lock_disable_warning">Dengan menonaktifkan akses admin, anda tidak akan bisa menggunakan ketuk layar dua kali untuk mengunci</string>
   <!-- Colors -->
   <string name="White">Putih</string>
@@ -388,7 +388,7 @@
   <string name="Brown1">Cokelat cerah</string>
   <string name="Brown2">Cokelat gelap</string>
   <string name="Deep_orange1">Cerah oranye gelap</string>
-  <string name="Deep_orange2">Oranye gelap gelap</string>
+  <string name="Deep_orange2">Oranye tua gelap</string>
   <string name="Orange1">Oranye cerah</string>
   <string name="Orange2">Oranye gelap</string>
   <string name="Amber1">Amber cerah</string>
@@ -425,18 +425,18 @@
   <string name="legacy_icons_title_sum">Membuat latar belakang adaptif di belakang ikon, setelah mengaktifkan ini Anda harus \"Ubah Bentuk Ikon\" untuk melihat kemudian perubahan diterapkan</string>
   <!--AllappsGrid-->
   <string name="number_of_columns_title1">Kolom kisi</string>
-  <string name="home_action_title">Tombol beranda di layar beranda</string>
+  <string name="home_action_title">Pintasan tombol \"beranda\" pada laman beranda</string>
   <string name="home_action_nothing">Tidak ada</string>
   <string name="home_action_quick_search">Pencarian Cepat</string>
   <string name="home_action_voice_search">Pencarian suara</string>
-  <string name="home_action_app_drawer">Buka daftar aplikasi</string>
+  <string name="home_action_app_drawer">Buka semua aplikasi</string>
   <string name="home_action_app_search">Buka penelusuran apl</string>
-  <string name="home_action_overview">Masukkan ikhtisar</string>
+  <string name="home_action_overview">Melihat tinjauan</string>
   <string-array name="home_action_values">
     <item>tidak ada</item>
     <item>Pencarian kilat</item>
     <item>Pencarian usaha</item>
-    <item>Daftar apl</item>
+    <item>Semua aplikasi</item>
     <item>Pencarian apl</item>
     <item>tinjauan</item>
   </string-array>
@@ -446,7 +446,7 @@
   <string name="search_provider_bing">Bing</string>
   <string name="search_provider_duckduckgo">DuckDuckGo</string>
   <string name="search_provider_baidu">Baidu</string>
-  <string name="transparent_nav_bar_title">Transparansi bar navigasi</string>
+  <string name="transparent_nav_bar_title">Transparansi bilah navigasi</string>
   <string name="transparent_nav_bar_summary">Pada daftar apl</string>
   <string name="smartspace_launchclock_sum">Tahan lama</string>
   <string name="smartspace_launchclock">Luncurkan apl jam</string>
@@ -459,10 +459,10 @@
   <string name="donate_sum">Link paypal untuk donasi ( jika anda ingin )</string>
   <string name="icon_pack_updated">Ikon pak anda yang teraplikasikan telah di perbaharui. Sangat disarankan untuk ke pengaturan menerapkan kembali ikon pak.</string>
   <string name="icon_pack_apply_warning_title">Peringatan</string>
-  <string name="icon_pack_apply_warning_message">Semua kustom ikon dan kustom label ikon akan hilang. Apakah anda yamin untuk melanjutkan ?</string>
+  <string name="icon_pack_apply_warning_message">Semua kustom ikon dan kustom label ikon akan hilang. Apakah anda yakin untuk melanjutkan ?</string>
   <string name="show_top_shadow_title">Tunjukkan bayangan di atas</string>
   <string name="pdock1">Gaya dok Android P</string>
-  <string name="pdock1sum">Peluncur Pixel terbaru mengenalkan dok pada android P developer tinjau 1</string>
+  <string name="pdock1sum">Dok Peluncur Pixel terbaru yang dikenalkan pada Android P Developer Preview 1</string>
   <!--Time format-->
   <string name="time_formats">Format Waktu</string>
   <string name="time_f1">0:00</string>

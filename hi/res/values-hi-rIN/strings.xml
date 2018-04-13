@@ -250,9 +250,11 @@
   <string name="action_dismiss_notification">खारिज करें</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">नोटिफ़िकेशन को खारिज किया गया</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
   <string name="smartspace_preferences">प्राथमिकताएं</string>
   <string name="label_search">खोजें</string>
   <string name="label_voice_search">बोलकर खोजें</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">आइकन पैक</string>
   <string name="state_loading">लागू कर रहा...</string>
   <string name="smartspace_preferences_in_settings">एक नज़र में</string>
@@ -264,6 +266,8 @@
   <string name="title_app_suggestions">ऐप्लिकेशन सुझाव दिखाएं</string>
   <string name="summary_app_suggestions">आपकी सभी ऐप्लिकेशन सूची के शीर्ष पर</string>
   <string name="about_app_version">वर्शन</string>
+  <string name="compiled_by">द्वारा संकलित</string>
+  <string name="Icon_By">द्वारा चिह्न</string>
   <string name="app_name_pixel_launcher">Pixel लॉन्चर</string>
   <string name="title_disable_suggestions_prompt">ऐप्लिकेशन सुझाव बंद करें?</string>
   <string name="msg_disable_suggestions_prompt">"सुझाव आपकी ऐप्लिकेशन सूची के शीर्ष पर नहीं दिखाई देंगे और उन्हें बनाने के लिए उपयोग किया गया उपयोग डेटा स्थायी रूप से मिटा दिया जाएगा."</string>
@@ -273,9 +277,16 @@
   <string name="hide_app">एप्लिकेशन छुपाएँ</string>
   <string name="icon_shape_rounded_square">गोल कोने वाला वर्ग</string>
   <string name="icon_pack_default">डिफॉल्ट</string>
+  <string name="icon_edit">ऐप आइकन और लेबल संपादित करें</string>
   <string name="market">अधिक</string>
   <string name="based_on">पर आधारित</string>
+  <string name="based_on_sum">अमीर जैदी \"रूठ रहित पिक्सेल लांचर\"</string>
+  <string name="diabledgemargin">साइड पैडिंग अक्षम करें</string>
+  <string name="diabledgemargin_sum">आइकन और बायीं / दाईं ओर के बीच स्थान को अक्षम करता है</string>
   <!-- Dock bar -->
+  <string name="force_mic">फोर्स मीिक आइकन</string>
+  <string name="force_mic_sum">माइक आइकन को दृश्यमान सक्षम करता है, हालाँकि परिस्थितियों को यह स्वचालित रूप से दिखाई नहीं दे रहा है</string>
+  <string name="force_colour_logo">खोज बार में रंग का गूगल लोगो</string>
   <!-- Sizes -->
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->

@@ -435,7 +435,7 @@
   <string-array name="home_action_values">
     <item>tidak ada</item>
     <item>Pencarian kilat</item>
-    <item>Pencarian usaha</item>
+    <item>Pencarian suara</item>
     <item>Semua aplikasi</item>
     <item>Pencarian apl</item>
     <item>tinjauan</item>
@@ -471,7 +471,7 @@
   <string name="space_in_dock">Batasan ikon di dok</string>
   <string name="space_in_dock_sum">Aktifkan ini jika ikon terlalu dekat dengan bar dok </string>
   <string name="generate_adaptive_background_title">Ambil warna dari ikon lama</string>
-  <string name="generate_adaptive_background_summary">Untuk mengambil latar belakang ikon adaptif, setelah dimuncukan anda harus mengubah \" ubah bentuk ikon\" dan mengaktifkan \" pengaturan ikon lawas \" untuk melihat perubahan</string>
+  <string name="generate_adaptive_background_summary">Untuk mengambil latar belakang ikon adaptif, setelah dimunculkan anda harus mengubah \" ubah bentuk ikon\" dan mengaktifkan \" pengaturan ikon lawas \" untuk melihat perubahan</string>
   <string name="allow_two_line_labels_title">Izinkan dua baris label</string>
   <string name="allow_two_line_labels_summary">Untuk nama apl atau folder yang panjang,mungkin akan terpotong</string>
   <string name="faq">Pertanyaan yang sering di ajukan</string>

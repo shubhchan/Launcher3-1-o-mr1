@@ -350,13 +350,48 @@
   <string name="g_bar_drawer">Google Suchleiste im Drawer</string>
   <!--Notification dot-->
   <string name="textinbadge">Numerische Abzeichen</string>
+  <string name="textinbadge_sum">Die Anzahl der Benachrichtigungen im Abzeichen zeigen</string>
+  <string name="bottombadge">Untere Abzeichen</string>
+  <string name="bottombadge_sum">Abzeichen unten rechts vom Symbol anzeigen</string>
+  <string name="restart">Neustarten</string>
+  <string name="restart_sum">Neustarten zum debuggen</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Benutzerdefinierte Suchleisten Farbe</string>
+  <string name="custom_qsb_color_list">Liste von G-Leiste Farben</string>
+  <string name="dark_themeqsballapp">Dunkle Suchleiste</string>
+  <string name="behavior_pref_title">Verhalten</string>
+  <string name="custom_dockbar">Dockleiste</string>
   <!--Home screen-->
+  <string name="custom_hs">Startseite</string>
+  <string name="custom_allapp">App-Liste</string>
+  <string name="settings_edit_allow_title">Bearbeitungen zulassen</string>
+  <string name="settings_edit_allow_summary_on">Symbole und Widgets können auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+  <string name="settings_edit_allow_summary_off">Symbole und Widgets können nicht auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+  <string name="settings_edit_widgets_error">Es ist nicht möglich, Widgets zum Startbildschirm hinzuzufügen</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Google Suchleiste</string>
+  <string name="bottom_search_bar_summary">Die Google Suchleiste Unten im Dock anzeigen</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">durch doppeltes Tippen sperren</string>
+  <string name="double_tap_to_lock_summary">Auf deiner Startseite</string>
+  <string name="double_tap_to_lock_hint">Um \"durch doppeltes Tippen sperren\" nutzen zu können, musst du Ruthless Launcher Administratorzugriff gewähren. Das ist ein Sperrung, dass heißt du musst deinen PIN beim nächsten entsperren eingeben wenn du einen hast.</string>
+  <string name="double_tap_to_lock_disable_warning">Bei deaktivieren des Administratorzugriffs kannst du \"durch doppeltes Tippen sperren\" auf deinem Startbildschirm nicht nutzen.</string>
   <!-- Colors -->
+  <string name="White">Weiß</string>
+  <string name="Black">Schwarz</string>
+  <string name="Blue_gray1">Hellblaugrau </string>
+  <string name="Blue_gray2">Dunkelblaugrau</string>
+  <string name="Gray1">Hellgrau</string>
   <!--Animations-->
   <!--AllappsGrid-->
+  <string-array name="home_action_values">
+    <item>nothing</item>
+    <item>quicksearch</item>
+    <item>voicesearch</item>
+    <item>appdrawer</item>
+    <item>Appsuche</item>
+    <item>overview</item>
+  </string-array>
   <!--search provider-->
   <!--Time format-->
 </resources>

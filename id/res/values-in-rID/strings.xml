@@ -368,7 +368,7 @@
   <string name="custom_allapp">Semua Aplikasi</string>
   <string name="settings_edit_allow_title">Izinkan sunting</string>
   <string name="settings_edit_allow_summary_on">Ikon dan gawai dapat ditambahkan, dihapus dan dipindahkan pada laman beranda</string>
-  <string name="settings_edit_allow_summary_off">Ikon dan gawai tidak dapat ditambahkan, dihapus dan dipindahkan pada layar beranda</string>
+  <string name="settings_edit_allow_summary_off">Ikon dan gawai tidak dapat ditambahkan, dihapus dan dipindahkan pada laman beranda</string>
   <string name="settings_edit_widgets_error">Tidak dimungkinkan untuk menambah widget di laman beranda</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Bilah pencarian Google </string>
@@ -454,7 +454,7 @@
   <string name="system_font_for_smartspace_sum">Untuk gawai \"Sekilas\"</string>
   <string name="bage_size">Ukuran lencana</string>
   <string name="label_font">Label huruf</string>
-  <string name="smartspace_font">Fonta gawai \"Sekilas\"</string>
+  <string name="smartspace_font">Gaya huruf gawai \"Sekilas\"</string>
   <string name="donate">Link untuk donasi</string>
   <string name="donate_sum">Link paypal untuk donasi ( jika anda ingin )</string>
   <string name="icon_pack_updated">Paket ikon anda yang diterapkan telah di diperbarui. Disarankan untuk masuk ke setelan dan menerapkan kembali paket ikon.</string>

@@ -382,6 +382,9 @@
   <string name="Blue_gray1">Hellblaugrau </string>
   <string name="Blue_gray2">Dunkelblaugrau</string>
   <string name="Gray1">Hellgrau</string>
+  <string name="Gray2">Dunkelgrau</string>
+  <string name="Brown1">Hellbraun</string>
+  <string name="Brown2">Dunkelbraun</string>
   <!--Animations-->
   <!--AllappsGrid-->
   <string-array name="home_action_values">

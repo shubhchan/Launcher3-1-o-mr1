@@ -390,8 +390,28 @@
     <item>voicesearch</item>
     <item>appdrawer</item>
     <item>Appsuche</item>
-    <item>overview</item>
+    <item>Übersicht</item>
   </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Suchanbieter</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">transparente Navigationsleiste</string>
+  <string name="smartspace_launchclock_sum">Bei langem drücken</string>
+  <string name="smartspace_launchclock">Starte Uhrenapp</string>
+  <string name="system_font_for_smartspace">Systemschrift nutzen</string>
+  <string name="bage_size">Abzeichengröße</string>
+  <string name="label_font">Beschriftungsschrift</string>
+  <string name="smartspace_font">\"Auf einen Blick\" Widget-Schrift</string>
+  <string name="donate">Spendenlink</string>
+  <string name="icon_pack_apply_warning_title">Warnung</string>
+  <string name="show_top_shadow_title">Schatten oben anzeigen</string>
+  <string name="pdock1">P-Style Dock</string>
+  <string name="pdock1sum">Neuer Pixel-Launcher Dock eingeführt in Android P Developer Preview 1</string>
   <!--Time format-->
+  <string name="time_formats">Zeitformat</string>
+  <string name="time_f1">12 Stunden Format</string>
+  <string name="time_f2">24 Stunden Format</string>
 </resources>

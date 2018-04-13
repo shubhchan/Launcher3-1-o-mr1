@@ -26,7 +26,7 @@
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
   <string name="activity_not_found">App ist nicht installiert.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">App nicht verfügbar</string>
+  <string name="activity_not_available">App ist nicht verfügbar</string>
   <!-- SafeMode shortcut error string -->
   <string name="safemode_shortcut_error">Heruntergeladene App im abgesicherten Modus deaktiviert</string>
   <!-- SafeMode widget error string -->
@@ -399,13 +399,42 @@
   <string name="Light_green2">Leuchtgrün Dunkel</string>
   <string name="Green1">Grün Hell</string>
   <string name="Green2">Grün Dunkel</string>
+  <string name="Teal1">Blaugrün Hell</string>
+  <string name="Teal2">Blaugrün Dunkel</string>
+  <string name="Cyan1">Cyan Hell</string>
+  <string name="Cyan2">Cyan Dunkel</string>
+  <string name="Light_blue1">Leuchtblau Hell</string>
+  <string name="Light_blue2">Leuchtblau Dunkel</string>
+  <string name="Blue1">Blau Hell</string>
+  <string name="Blue2">Blau Dunkel</string>
+  <string name="Indigo1">Indigo Hell</string>
+  <string name="Indigo2">Indigo Dunkel</string>
+  <string name="Violet">Violett</string>
+  <string name="Deep_purple1">Dunkellila Hell</string>
+  <string name="Deep_purple2">Dunkellila Dunkel</string>
+  <string name="Purple1">Lila Hell</string>
+  <string name="Purple2">Lila Dunkel</string>
+  <string name="Pink1">Pink Hell</string>
+  <string name="Pink2">Pink Dunkel</string>
+  <string name="Red1">Rot Hell</string>
+  <string name="Red2">Rot Dunkel</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Legacy-Symbol-Behandlung</string>
+  <string name="legacy_icons_title_sum">Hinter dem Symbol wird ein adaptiver Hintergrund erstellt. Nachdem Sie dies aktiviert haben, müssen Sie \"Symbolform ändern\" auswählen, um die angewendeten Änderungen zu sehen</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Rasterspalten</string>
+  <string name="home_action_title">Home-Knopf Aktion auf dem Startbildschirm</string>
+  <string name="home_action_nothing">Nichts</string>
+  <string name="home_action_quick_search">Schnellsuche</string>
+  <string name="home_action_voice_search">Sprachsuche</string>
+  <string name="home_action_app_drawer">App-Drawer öffnen</string>
+  <string name="home_action_app_search">App-Suche öffnen</string>
+  <string name="home_action_overview">Übersicht</string>
   <string-array name="home_action_values">
-    <item>nothing</item>
-    <item>quicksearch</item>
-    <item>voicesearch</item>
-    <item>appdrawer</item>
+    <item>nichts</item>
+    <item>Schnellsuche</item>
+    <item>Sprachsuche</item>
+    <item>App-Drawer</item>
     <item>Appsuche</item>
     <item>Übersicht</item>
   </string-array>
@@ -440,6 +469,7 @@
   <string name="space_in_dock">Icon-Spielraum im Dock</string>
   <string name="space_in_dock_sum">Aktivieren wenn die Symbole zu nah an der Dockleiste sind</string>
   <string name="generate_adaptive_background_title">Farbe aus Legacy-Symbol extrahieren</string>
+  <string name="generate_adaptive_background_summary">Bei generierten adaptiven Icon-Hintergründen müssen Sie nach dem Aktivieren die Option \"Icon-Form ändern\" aktivieren und \"Legacy-Symbole-Behandlung\" aktivieren, um die angewendeten Änderungen zu sehen</string>
   <string name="allow_two_line_labels_title">Erlaube Zwei-Zeilen Beschriftung</string>
   <string name="allow_two_line_labels_summary">Für lange App oder Ordner Beschriftungen, scheint abgeschnitten zu sein</string>
   <string name="faq">Häufig Gestellte Fragen</string>

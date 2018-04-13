@@ -129,7 +129,7 @@
   <!-- Text for widget add button -->
   <string name="widget_button_text">Widget</string>
   <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Latar Belakang</string>
+  <string name="wallpaper_button_text">Wallpaper</string>
   <!-- Text for settings button -->
   <string name="settings_button_text">Pengaturan laman beranda</string>
   <!-- Message shown when a feature is disabled by the administrator -->

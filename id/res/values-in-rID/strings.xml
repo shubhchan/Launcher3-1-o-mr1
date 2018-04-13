@@ -93,7 +93,7 @@
   <!-- Permission description -->
   <string name="permdesc_write_settings">Mengizinkan aplikasi mengubah setelan         dan pintasan di layar beranda.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3"> %1$s</xliff:g>tidak di izinkan untuk membuat pangilan telepon</string>
+  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3"> %1$s</xliff:g> tidak di izinkan untuk membuat pangilan telepon</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Masalah memuat widget</string>

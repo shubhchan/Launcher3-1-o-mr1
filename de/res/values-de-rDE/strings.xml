@@ -399,14 +399,19 @@
   <string name="search_provider_duckduckgo">DuckDuckGo</string>
   <string name="search_provider_baidu">Baidu</string>
   <string name="transparent_nav_bar_title">transparente Navigationsleiste</string>
+  <string name="transparent_nav_bar_summary">Auf der Appübersicht</string>
   <string name="smartspace_launchclock_sum">Bei langem drücken</string>
   <string name="smartspace_launchclock">Starte Uhrenapp</string>
   <string name="system_font_for_smartspace">Systemschrift nutzen</string>
+  <string name="system_font_for_smartspace_sum">Für \"Auf einen Blick\" Widget</string>
   <string name="bage_size">Abzeichengröße</string>
   <string name="label_font">Beschriftungsschrift</string>
   <string name="smartspace_font">\"Auf einen Blick\" Widget-Schrift</string>
   <string name="donate">Spendenlink</string>
+  <string name="donate_sum">PayPal Spendenlink (wenn du möchtest)</string>
+  <string name="icon_pack_updated">Dein zur Zeit angewendete Icon-Pack wurde aktualisiert. Es wird empfohlen in die Einstellungen zu gehen und das Icon-Pack neu anzuwenden</string>
   <string name="icon_pack_apply_warning_title">Warnung</string>
+  <string name="icon_pack_apply_warning_message">Alle Benutzer Symbole und Beschriftungen werden verschwinden. Willst du wirklich weitermachen?</string>
   <string name="show_top_shadow_title">Schatten oben anzeigen</string>
   <string name="pdock1">P-Style Dock</string>
   <string name="pdock1sum">Neuer Pixel-Launcher Dock eingeführt in Android P Developer Preview 1</string>
@@ -414,4 +419,13 @@
   <string name="time_formats">Zeitformat</string>
   <string name="time_f1">12 Stunden Format</string>
   <string name="time_f2">24 Stunden Format</string>
+  <string name="other_settings">Andere Einstellungen</string>
+  <string name="space_in_dock">Icon-Spielraum im Dock</string>
+  <string name="space_in_dock_sum">Aktivieren wenn die Symbole zu nah an der Dockleiste sind</string>
+  <string name="generate_adaptive_background_title">Farbe aus Legacy-Symbol extrahieren</string>
+  <string name="allow_two_line_labels_title">Erlaube Zwei-Zeilen Beschriftung</string>
+  <string name="allow_two_line_labels_summary">Für lange App oder Ordner Beschriftungen, scheint abgeschnitten zu sein</string>
+  <string name="faq">Häufig Gestellte Fragen</string>
+  <string name="hide_apps_title">Apps ausblenden</string>
+  <string name="hide_apps_summary">Von der Appübersicht</string>
 </resources>

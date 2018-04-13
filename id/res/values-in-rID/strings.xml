@@ -120,29 +120,29 @@
   <!-- Instruction that clicking outside will commit folder rename -->
   <string name="folder_tap_to_rename">Ketuk untuk menyimpan nama baru</string>
   <!-- Indication that folder closed -->
-  <string name="folder_closed">Folder ditutup</string>
+  <string name="folder_closed">Map ditutup</string>
   <!-- Folder renamed format -->
-  <string name="folder_renamed">Folder diganti namanya menjadi <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_renamed">Map diganti namanya menjadi <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Folder name format -->
-  <string name="folder_name_format">Folder<xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_name_format">Map<xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
   <string name="widget_button_text">Widget</string>
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Wallpaper</string>
   <!-- Text for settings button -->
-  <string name="settings_button_text">Pengaturan laman beranda</string>
+  <string name="settings_button_text">Pengaturan beranda</string>
   <!-- Message shown when a feature is disabled by the administrator -->
   <string name="msg_disabled_by_admin">Dimatikan oleh admin</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
   <string name="accessibility_action_overview">Tinjauan</string>
   <!-- Strings for settings -->
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <string name="allow_rotation_title">Izinkan untuk rotasi layar</string>
+  <string name="allow_rotation_title">Izinkan rotasi layar beranda</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Ketika telepon di rotasi</string>
+  <string name="allow_rotation_desc">Ketika telepon berputar</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <string name="allow_rotation_blocked_desc">Pengaturan tampilan sekarang tidak memungkinkan untuk melakukan rotasi</string>
+  <string name="allow_rotation_blocked_desc">Pengaturan tampilan sekarang tidak memungkinkan untuk melakukan putaran</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
   <string name="icon_badging_title">Titik notifikasi</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
@@ -156,7 +156,7 @@
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
   <string name="title_change_settings">Ubah setelan</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-  <string name="auto_add_shortcuts_label">Tambahkan ikon ke laman beranda</string>
+  <string name="auto_add_shortcuts_label">Tambahkan ikon ke beranda</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
   <string name="auto_add_shortcuts_description">Untuk apl baru</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
@@ -195,7 +195,7 @@
   <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g>widget</string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Tambah ke laman beranda</string>
+  <string name="action_add_to_workspace">Tambah ke beranda</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
   <string name="action_move_here">Pindahkan item ke sini</string>
   <!-- Accessibility confirmation for item added to workspace. -->
@@ -251,9 +251,9 @@
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
   <string name="action_dismiss_notification">Singkirkan</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Hapus pemberitahuan</string>
+  <string name="notification_dismissed">Pemberitahuan disingkirkan</string>
   <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
-  <string name="smartspace_preferences">Preferensi</string>
+  <string name="smartspace_preferences">Setelan</string>
   <string name="label_search">Cari</string>
   <string name="label_voice_search">Pencarian suara</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
@@ -282,7 +282,7 @@
   <string name="icon_edit">Ubah ikon apl dan label</string>
   <string name="market">Lainnya</string>
   <string name="based_on">Berdasarkan</string>
-  <string name="based_on_sum">Amir Zaidi \"Peluncur Rootless Pixel \"</string>
+  <string name="based_on_sum">\"Peluncur Rootless Pixel\" Amir Zaidi</string>
   <string name="diabledgemargin">Nonaktifkan batasan samping</string>
   <string name="diabledgemargin_sum">Menonaktifkan ruang antara ikon dan sisi kiri / kanan</string>
   <!-- Dock bar -->
@@ -326,17 +326,17 @@
   <string name="folder_show_labels_sum">Tampilkan label ikon pada folder</string>
   <string name="icon_size">Ukuran Ikon</string>
   <!--At glance-->
-  <string name="custom_glance">At A Glance</string>
+  <string name="custom_glance">Sekilas</string>
   <string name="smartspace_time">Tambahkan jam</string>
-  <string name="in_smartspace">Pada widget \"At a Glance \"</string>
+  <string name="in_smartspace">Pada gawai \"Sekilas\"</string>
   <!-- Date formats -->
   <string name="date_format">Format tanggal</string>
   <string name="date_format_1">Selasa,Peb 13</string>
   <string name="date_format_2">Selasa</string>
-  <string name="date_format_3">Sel, Pebruari 13</string>
-  <string name="date_format_4">Sel,02/13</string>
+  <string name="date_format_3">Sel, Februari 13</string>
+  <string name="date_format_4">Sel, 02/13</string>
   <string name="date_format_5">13 Selasa</string>
-  <string name="date_format_6">Selasa, Pebruari 13</string>
+  <string name="date_format_6">Selasa, Februari 13</string>
   <!--theme-->
   <string name="custom_theme">Tema dan pengaturan ikon</string>
   <string name="theme">Tema</string>
@@ -451,10 +451,10 @@
   <string name="smartspace_launchclock_sum">Tahan lama</string>
   <string name="smartspace_launchclock">Luncurkan apl jam</string>
   <string name="system_font_for_smartspace">Gunakan huruf bawaan</string>
-  <string name="system_font_for_smartspace_sum">Untuk widget \" At a Glance \"</string>
+  <string name="system_font_for_smartspace_sum">Untuk gawai \"Sekilas\"</string>
   <string name="bage_size">Ukuran lencana</string>
   <string name="label_font">Label huruf</string>
-  <string name="smartspace_font">Widget huruf \" At a Glance \"</string>
+  <string name="smartspace_font">Fonta gawai \"Sekilas\"</string>
   <string name="donate">Link untuk donasi</string>
   <string name="donate_sum">Link paypal untuk donasi ( jika anda ingin )</string>
   <string name="icon_pack_updated">Ikon pak anda yang teraplikasikan telah di perbaharui. Sangat disarankan untuk ke pengaturan menerapkan kembali ikon pak.</string>

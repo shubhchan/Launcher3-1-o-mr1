@@ -53,6 +53,7 @@
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
+  <string name="all_apps_search_market_message">আরও এ্যাপের সন্ধান করুন</string>
   <!-- Popup items -->
   <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
   <string name="notifications_header">বিজ্ঞপ্তি</string>
@@ -60,7 +61,9 @@
   <!-- Error message when user has filled a home screen -->
   <string name="out_of_space">মুখ্য স্ক্রিনে জায়গা নেই.</string>
   <!-- Error message when user has filled the hotseat -->
+  <string name="hotseat_out_of_space">হাত বাক্সে জায়গা নেই</string>
   <!-- All applications label -->
+  <string name="all_apps_button_label">এ্যাপ সমূহ</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
   <string name="all_apps_home_button_label">গৃহ</string>
@@ -69,6 +72,7 @@
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
   <string name="uninstall_drop_target_label">বিসর্জন</string>
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
+  <string name="app_info_drop_target_label">এ্যাপ বিবরণ</string>
   <!-- Permissions: -->
   <!-- Permission short label -->
   <!-- Permission description -->

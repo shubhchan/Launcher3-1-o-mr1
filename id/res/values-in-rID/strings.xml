@@ -349,7 +349,7 @@
   <string name="auto_theme_sum">Dari latar belakang</string>
   <string name="auto_theme">Tema otomatis</string>
   <string name="googleinappmenu">Bilah pencarian Google </string>
-  <string name="g_bar_drawer">Pencarian Google bar di daftar apl</string>
+  <string name="g_bar_drawer">Bilah pencarian Google di \"semua apl\"</string>
   <!--Notification dot-->
   <string name="textinbadge">Angka pada lencana</string>
   <string name="textinbadge_sum">Tunjukkan notifikasi angka pada lencana</string>
@@ -376,7 +376,7 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Ketuk dua kali untuk mengunci</string>
   <string name="double_tap_to_lock_summary">Pada laman beranda</string>
-  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci, anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artinya anda harus memasukkan PIN pada saat membukan layar selanjutnya.</string>
+  <string name="double_tap_to_lock_hint">Untuk memungkinkan menggunakan ketuk layar untuk mengunci, anda harus mengizinkan akses admin untuk Peluncuran Ruthless. Ini adalah kunci aman, artinya anda harus memasukkan PIN pada saat membuka layar selanjutnya.</string>
   <string name="double_tap_to_lock_disable_warning">Dengan menonaktifkan akses admin, anda tidak akan bisa menggunakan ketuk layar dua kali untuk mengunci</string>
   <!-- Colors -->
   <string name="White">Putih</string>

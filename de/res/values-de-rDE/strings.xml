@@ -307,11 +307,49 @@
   <string name="num_hotseat_icons_pref_title">Anzahl von Symbolen im Dock</string>
   <string name="custom_grid_size">Ändere Raster</string>
   <string name="change_grid_size">Drawer Raster</string>
+  <string name="change_grid_size_sum">Verändere Rastergröße im App-Drawer. Die Gitterreihe scheint eine Ziffer mehr zu sein, als sie tatsächlich ist weil es zählt \"zeige App-Vorschläge\" Standardmäßig dazu</string>
+  <string name="hotseatShowArrow">Streiche den Pfeil</string>
+  <string name="hotseatShowArrow_sum">An/Aus nach oben streichen Pfeil-Indikator über dem Dock</string>
+  <string name="hotseat_show_page_indicator">Seitenanzeige</string>
+  <string name="hotseat_show_page_indicator_sum">An/Aus Seitenanzeige auf dem Startbildschirm über dem Dock</string>
+  <string name="gradient_size">Gradient Größe</string>
+  <string name="remove_gradient">Gradient Ansicht</string>
+  <string name="remove_gradient_sum">An/Aus Gradient in dem Dock-Areal für transparentes Dock selbst im weißen Theme (Es funktioniert nicht im P-Style Dock)</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Desktop Beschriftungen</string>
+  <string name="desktop_show_labels_sum">Symbolbeschriftungen auf dem Startbildschirm anzeigen</string>
+  <string name="drawer_show_labels">Appübersicht Beschriftungen</string>
+  <string name="drawer_show_labels_sum">Symbolbeschriftungen in der Appübersicht anzeigen</string>
+  <string name="folder_show_labels">Ordnerbeschriftungen</string>
+  <string name="folder_show_labels_sum">Symbolbeschriftungen in den Ordnern anzeigen</string>
+  <string name="icon_size">Symbolgröße</string>
   <!--At glance-->
+  <string name="custom_glance">Auf einen Blick</string>
+  <string name="smartspace_time">füge Uhr hinzu</string>
+  <string name="in_smartspace">Im \"Auf einen Blick\" Widget</string>
   <!-- Date formats -->
+  <string name="date_format">Datumsformat</string>
+  <string name="date_format_1">Dienstag, Feb 13</string>
+  <string name="date_format_2">Dienstag</string>
+  <string name="date_format_3">Die, Februar 13</string>
+  <string name="date_format_4">Die, 02/13</string>
+  <string name="date_format_5">13 Dienstag</string>
+  <string name="date_format_6">Dienstag, Februar 13</string>
   <!--theme-->
+  <string name="custom_theme">Design und Symbol Bearbeitung</string>
+  <string name="theme">Design</string>
+  <string name="white_theme">Weiß</string>
+  <string name="white_withdarktext_theme">Weiß mit dunklem Text</string>
+  <string name="dark_theme">Dunkel</string>
+  <string name="black_theme">Schwarz</string>
+  <string name="solid_theme">Solide</string>
+  <string name="transparent_theme">Transparent</string>
+  <string name="auto_theme_sum">Nach Hintergrund</string>
+  <string name="auto_theme">Autodesign</string>
+  <string name="googleinappmenu">Google Suchleiste</string>
+  <string name="g_bar_drawer">Google Suchleiste im Drawer</string>
   <!--Notification dot-->
+  <string name="textinbadge">Numerische Abzeichen</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
   <!--Home screen-->
   <!-- Hide/Show search bars -->

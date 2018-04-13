@@ -83,7 +83,7 @@
   <!-- Permission short label -->
   <string name="permlab_install_shortcut">pasang pintasan</string>
   <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Mengizinkan aplikasi menambahkan         pintasan tanpa campur tangan pengguna.</string>
+  <string name="permdesc_install_shortcut">Mengizinkan aplikasi menambahkan          pintasan tanpa campur tangan pengguna.</string>
   <!-- Permission short label -->
   <string name="permlab_read_settings">membaca setelan dan pintasan laman beranda</string>
   <!-- Permission description -->
@@ -91,7 +91,7 @@
   <!-- Permission short label -->
   <string name="permlab_write_settings">menulis setelan dan pintasan laman beranda</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Mengizinkan aplikasi mengubah setelan         dan pintasan di layar beranda.</string>
+  <string name="permdesc_write_settings">Mengizinkan aplikasi mengubah setelan         dan pintasan di laman beranda.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
   <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3"> %1$s</xliff:g> tidak di izinkan untuk membuat pangilan telepon</string>
   <!-- Widgets: -->

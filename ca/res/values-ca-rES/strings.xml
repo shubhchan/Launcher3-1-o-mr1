@@ -347,11 +347,33 @@
   <string name="auto_theme_sum">Pel fons</string>
   <string name="auto_theme">Tema automàtic</string>
   <string name="googleinappmenu">Barra de Cerca de Google</string>
+  <string name="g_bar_drawer">Barra de cerca en el caixó</string>
   <!--Notification dot-->
+  <string name="textinbadge">Insígnia Numèrica</string>
+  <string name="textinbadge_sum">Mostra el nombre de notificacions en la insígnia</string>
+  <string name="bottombadge">Insígnia inferior </string>
+  <string name="bottombadge_sum">Mostra insígnies a la part inferior dreta de la icona</string>
+  <string name="restart">Reiniciar</string>
+  <string name="restart_sum">Reiniciar per a depuració</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Color de barra de cerca personalitzat</string>
+  <string name="custom_qsb_color_list">Llista de colors G-Bar</string>
+  <string name="dark_themeqsballapp">Barra de cerca obscura</string>
+  <string name="behavior_pref_title">Comportament</string>
+  <string name="custom_dockbar">Barra de dock</string>
   <!--Home screen-->
+  <string name="custom_hs">Pantalla d\'inici</string>
+  <string name="custom_allapp">Caixó d\'aplicacions</string>
+  <string name="settings_edit_allow_title">Permet l\'edició</string>
+  <string name="settings_edit_allow_summary_on">Les icones i widgets poden ser afegits, eliminats i moguts en la pantalla d\'inici</string>
+  <string name="settings_edit_allow_summary_off">Les icones i els widgets no poden ser afegits, eliminats o moguts en la pantalla d\'inici</string>
+  <string name="settings_edit_widgets_error">No és possible afegir widgets a la pantalla d\'inici</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Barra Dock de Google</string>
+  <string name="bottom_search_bar_summary">Mostra la barra de cerca de Google a la part de baix del dock</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Toca dues vegades per a bloquejar</string>
+  <string name="double_tap_to_lock_summary">En la pantalla d\'inici</string>
   <!-- Colors -->
   <string name="Lime1">Clar llima</string>
   <string name="Lime2">Llima Obscur</string>

@@ -277,7 +277,18 @@
   <string name="action_edit">Sunting</string>
   <string name="hide_app_sum">Menyembunyikan aplikasi dari laci</string>
   <string name="hide_app">Sembunyikan apl</string>
+  <string name="icon_shape_rounded_square">Kotak membulat</string>
+  <string name="icon_pack_default">Bawaan</string>
+  <string name="icon_edit">Ubah ikon apl dan label</string>
+  <string name="market">Lainnya</string>
+  <string name="based_on">Berdasarkan</string>
+  <string name="based_on_sum">Amir Zaidi \"Peluncur Rootless Pixel \"</string>
+  <string name="diabledgemargin">Nonaktifkan padding samping</string>
+  <string name="diabledgemargin_sum">Menonaktifkan ruang antara ikon dan sisi kiri / kanan</string>
   <!-- Dock bar -->
+  <string name="force_mic">Paksa ikon mik</string>
+  <string name="force_mic_sum">Mengaktifkan ikon mic bahkan jika kondisi untuk membuatnya secara otomatis terlihat tidak terpenuhi</string>
+  <string name="force_colour_logo">Logo google berwarna di bilah pencarian</string>
   <!-- Sizes -->
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->

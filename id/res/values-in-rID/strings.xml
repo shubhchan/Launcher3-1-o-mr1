@@ -154,7 +154,7 @@
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
   <string name="msg_missing_notification_access">Untuk menunjukkan titik notifikasi, hidupkan notifikasi apl untuk <xliff:g id="name" example="My App">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-  <string name="title_change_settings">Ubah setelan...</string>
+  <string name="title_change_settings">Ubah setelan</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
   <string name="auto_add_shortcuts_label">Tambahkan ikon ke layar beranda</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
@@ -195,11 +195,11 @@
   <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g>widget</string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Tambah ke layar beranda</string>
+  <string name="action_add_to_workspace">Tambah ke laman beranda</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
   <string name="action_move_here">Pindahkan item ke sini</string>
   <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Item ditambahkan ke beranda</string>
+  <string name="item_added_to_workspace">Item ditambahkan ke laman beranda</string>
   <!-- Accessibility confirmation for item removed. -->
   <string name="item_removed">Item dihapus</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
@@ -223,7 +223,7 @@
   <!-- Accessibility confirmation for folder created. -->
   <string name="folder_created">Folder dibuat</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Pindahkan ke beranda</string>
+  <string name="action_move_to_workspace">Pindah ke laman beranda</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
   <string name="action_move_screen_left">Pindahkan layar ke kiri</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->

@@ -50,8 +50,11 @@
   <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
   <!-- All Apps -->
   <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+  <string name="all_apps_search_bar_hint">এ্যাপ অনুসন্ধান</string>
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
+  <string name="all_apps_loading_message">এ্যাপ চালু হচ্ছে</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
+  <string name="all_apps_no_search_results">প্রত্যাশিত এ্যাপ সন্ধানে নেই</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
   <string name="all_apps_search_market_message">আরও এ্যাপের সন্ধান করুন</string>
   <!-- Popup items -->
@@ -95,8 +98,11 @@
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <!-- Instruction that clicking outside will close folder -->
   <!-- Instruction that clicking outside will commit folder rename -->
+  <string name="folder_tap_to_rename">নামান্তরের জন্য স্পর্শ করুন</string>
   <!-- Indication that folder closed -->
+  <string name="folder_closed">পোঁটলা অবরুদ্ধ হয়েছে</string>
   <!-- Folder renamed format -->
+  <string name="folder_renamed">পোঁটলা <xliff:g id="name" example="Games">%1$s</xliff:g> -তে নামান্তরিত হয়েছে</string>
   <!-- Folder name format -->
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->

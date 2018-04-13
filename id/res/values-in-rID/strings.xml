@@ -436,9 +436,9 @@
     <item>tidak ada</item>
     <item>Pencarian kilat</item>
     <item>Pencarian usaha</item>
-    <item>appdrawer</item>
-    <item>appsearch</item>
-    <item>overview</item>
+    <item>Daftar apl</item>
+    <item>Pencarian apl</item>
+    <item>tinjauan</item>
   </string-array>
   <!--search provider-->
   <string name="search_provider_title">Cari penyedia</string>
@@ -465,6 +465,8 @@
   <string name="pdock1sum">Peluncur Pixel terbaru mengenalkan dok pada android P developer tinjau 1</string>
   <!--Time format-->
   <string name="time_formats">Format Waktu</string>
+  <string name="time_f1">0:00</string>
+  <string name="time_f2">00:00</string>
   <string name="other_settings">Pengaturan lainnya</string>
   <string name="space_in_dock">Batasan ikon di dok</string>
   <string name="space_in_dock_sum">Munculkan ini jika ikon terlalu dekat dengan bar dok</string>

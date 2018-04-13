@@ -382,9 +382,23 @@
   <string name="Blue_gray1">Hellblaugrau </string>
   <string name="Blue_gray2">Dunkelblaugrau</string>
   <string name="Gray1">Hellgrau</string>
-  <string name="Gray2">Dunkelgrau</string>
-  <string name="Brown1">Hellbraun</string>
-  <string name="Brown2">Dunkelbraun</string>
+  <string name="Gray2">Grau dunkel</string>
+  <string name="Brown1">Braun Hell</string>
+  <string name="Brown2">Braun Dunkel</string>
+  <string name="Deep_orange1">Tief-Orange hell</string>
+  <string name="Deep_orange2">Tief-Orange dunkel</string>
+  <string name="Orange1">Orange Hell</string>
+  <string name="Orange2">Orange Dunkel</string>
+  <string name="Amber1">Bernstein Hell</string>
+  <string name="Amber2">Bernstein Dunkel</string>
+  <string name="Yellow1">Gelb Hell</string>
+  <string name="Yellow2">Gelb dunkel</string>
+  <string name="Lime1">Limette Hell</string>
+  <string name="Lime2">Limette Dunkel</string>
+  <string name="Light_green1">Leuchtgrün Hell</string>
+  <string name="Light_green2">Leuchtgrün Dunkel</string>
+  <string name="Green1">Grün Hell</string>
+  <string name="Green2">Grün Dunkel</string>
   <!--Animations-->
   <!--AllappsGrid-->
   <string-array name="home_action_values">

@@ -111,7 +111,7 @@
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">Главные экран %1$d из %2$d</string>
   <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Новый экран</string>
+  <string name="workspace_new_page">Новый главный экран</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <string name="folder_opened">Папка открыта, <xliff:g id="WIDTH">%1$d</xliff:g> x <xliff:g id="HEIGHT">%2$d</xliff:g></string>
@@ -359,12 +359,15 @@
   <string name="Black">Чёрный</string>
   <string name="Blue_gray1">Сине-серо-светлый</string>
   <string name="Blue_gray2">Сине-серо-темный</string>
-  <string name="Gray1">Светло серый</string>
-  <string name="Gray2">Темно серый</string>
-  <string name="Brown1">Светло коричневый</string>
-  <string name="Brown2">Темно коричневый</string>
+  <string name="Gray1">Светло-серый</string>
+  <string name="Gray2">Темно-серый</string>
+  <string name="Brown1">Светло-коричневый</string>
+  <string name="Brown2">Темно-коричневый</string>
   <string name="Blue1">Синий свет</string>
   <string name="Blue2">Второй синий</string>
+  <string name="Pink2">Темно-розовая</string>
+  <string name="Red1">Светло-красная</string>
+  <string name="Red2">Темно-красная</string>
   <!--Animations-->
   <string name="legacy_icons_title_sum">Адаптирует фон за иконкой, после включения вы должны \"Изменить размер иконки\" чтобы изменения применились</string>
   <!--AllappsGrid-->
@@ -378,8 +381,8 @@
   <string-array name="home_action_values">
     <item>Ничего</item>
     <item>быстрый поиск</item>
-    <item>voicesearch</item>
-    <item>appdrawer</item>
+    <item>голосовой поиск</item>
+    <item>меню приложений</item>
     <item>поиск приложений</item>
     <item>обзор</item>
   </string-array>

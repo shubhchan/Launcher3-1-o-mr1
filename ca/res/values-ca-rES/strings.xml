@@ -374,7 +374,25 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Toca dues vegades per a bloquejar</string>
   <string name="double_tap_to_lock_summary">En la pantalla d\'inici</string>
+  <string name="double_tap_to_lock_hint">Per a poder utilizar el bloqueig amb doble toc, has d\'habilitar el accés d\'administrador per a Rootless Launcher. Açò és un bloqueig segur, el que vol dir que hauràs d\'introduir el teu pin en el pròxim desbloqueig, si en tens.</string>
+  <string name="double_tap_to_lock_disable_warning">Deshabilitant l\'accés d\'administrador, no podràs utilitzar el toc doble per a bloquejar en la pantalla d\'inici.</string>
   <!-- Colors -->
+  <string name="White">Blanc</string>
+  <string name="Black">Negre</string>
+  <string name="Blue_gray1">Gris blau clar</string>
+  <string name="Blue_gray2">Gris blau obscur</string>
+  <string name="Gray1">Gris clar</string>
+  <string name="Gray2">Gris obscur</string>
+  <string name="Brown1">Marró clar</string>
+  <string name="Brown2">Marró obscur</string>
+  <string name="Deep_orange1">Taronja obscur clar</string>
+  <string name="Deep_orange2">Taronja obscur obscur</string>
+  <string name="Orange1">Taronja clar</string>
+  <string name="Orange2">Taronja obscur</string>
+  <string name="Amber1">Ambre clar</string>
+  <string name="Amber2">Ambre Obscur</string>
+  <string name="Yellow1">Groc clar</string>
+  <string name="Yellow2">Groc obscur</string>
   <string name="Lime1">Clar llima</string>
   <string name="Lime2">Llima Obscur</string>
   <string name="Light_green1">Verd clar (clar)</string>
@@ -426,5 +444,34 @@
   <string name="search_provider_bing">Bing</string>
   <string name="search_provider_duckduckgo">DuckDuckGo</string>
   <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Barra de Navegació Transparent</string>
+  <string name="transparent_nav_bar_summary">En el caixó d\'aplicacions</string>
+  <string name="smartspace_launchclock_sum">Al fer un clic llarg</string>
+  <string name="smartspace_launchclock">Llença l\'app de rellotge</string>
+  <string name="system_font_for_smartspace">Utilitza la font del sistema</string>
+  <string name="system_font_for_smartspace_sum">Per al widget \"En una Ullada\"</string>
+  <string name="bage_size">Tamany d\'insígnia</string>
+  <string name="label_font">Font d\'etiqueta</string>
+  <string name="smartspace_font">Tipus de lletra a \"En una mirada\"</string>
+  <string name="donate">Enllaç de donació</string>
+  <string name="donate_sum">Enllaç de donació per Paypal (si vols)</string>
+  <string name="icon_pack_updated">El teu paquet d\'icones actual ha sigut actualitzat. Es recomana que vagis de la configuració i reapliques el paquet.</string>
+  <string name="icon_pack_apply_warning_title">Advertència</string>
+  <string name="icon_pack_apply_warning_message">Qualsevol icona personalitzada o etiquetes de icona desapareixerà. Segur que vols continuar?</string>
+  <string name="show_top_shadow_title">Mostra l\'ombra superior</string>
+  <string name="pdock1">Dock d\'estil Android-P</string>
+  <string name="pdock1sum">El nou dock del pixel launcher introduït en Android P developer preview 1</string>
   <!--Time format-->
+  <string name="time_formats">Formats d\'hora</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Altra configuració</string>
+  <string name="space_in_dock">Separació d\'icones en dock</string>
+  <string name="space_in_dock_sum">Habilitar açò si les icones estan molt a prop de la barra de dock </string>
+  <string name="generate_adaptive_background_title">Extreu el color de la icona per defecte</string>
+  <string name="allow_two_line_labels_title">Segueix etiquetes de dues línies</string>
+  <string name="allow_two_line_labels_summary">Per a noms d\'app o carpeta llargs, pot semblar que es tallin </string>
+  <string name="faq">Preguntes Freqüents</string>
+  <string name="hide_apps_title">Amagar aplicacions</string>
+  <string name="hide_apps_summary">Des del caixó d\'aplicacions</string>
 </resources>

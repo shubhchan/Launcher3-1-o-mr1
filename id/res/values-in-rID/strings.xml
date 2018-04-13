@@ -266,7 +266,7 @@
   <string name="about">Tentang</string>
   <string name="title_google_app">Aplikasi Google</string>
   <string name="title_app_suggestions">Tampilkan aplikasi yang disarankan</string>
-  <string name="summary_app_suggestions">Di atas semua daftar apl anda</string>
+  <string name="summary_app_suggestions">Di bagian atas daftar Semua Aplikasi</string>
   <string name="about_app_version">Versi Ruthless </string>
   <string name="compiled_by">Di kompilasi oleh</string>
   <string name="Icon_By">Ikon oleh</string>
@@ -275,7 +275,7 @@
   <string name="msg_disable_suggestions_prompt">"Penyaranan tidak akan muncul di atas daftar aplikasi, dan penggunanaan data yang ada akan di hapus selamanya."</string>
   <string name="label_turn_off_suggestions">Nonaktifkan</string>
   <string name="action_edit">Sunting</string>
-  <string name="hide_app_sum">Sembunyikan dari laci aplikasi</string>
+  <string name="hide_app_sum">Sembunyikan dari semua aplikasi</string>
   <string name="hide_app">Sembunyikan apl</string>
   <string name="icon_shape_rounded_square">Kotak membulat</string>
   <string name="icon_pack_default">Bawaan</string>

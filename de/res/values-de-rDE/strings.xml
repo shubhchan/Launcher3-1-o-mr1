@@ -250,9 +250,11 @@
   <string name="action_dismiss_notification">Schließen</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Benachrichtigung geschlossen</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
   <string name="smartspace_preferences">Einstellungen</string>
   <string name="label_search">Suchen</string>
   <string name="label_voice_search">Sprachsuche</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
   <string name="pref_icon_pack">Icon Pack</string>
   <string name="state_loading">Anwenden…</string>
   <string name="smartspace_preferences_in_settings">Überblick</string>
@@ -264,6 +266,9 @@
   <string name="title_app_suggestions">App-Vorschläge anzeigen</string>
   <string name="summary_app_suggestions">Oben in der Liste \"Alle Apps\"</string>
   <string name="about_app_version">Version</string>
+  <string name="compiled_by">Kompiliert von</string>
+  <string name="Icon_By">Symbol von</string>
+  <string name="app_name_pixel_launcher">Ruthless Launcher</string>
   <string name="title_disable_suggestions_prompt">App-Vorschläge deaktivieren?</string>
   <string name="msg_disable_suggestions_prompt">"Vorschläge werden nicht oben in deiner Apps-Liste angezeigt und die zu deiner Erstellung verwendeten Nutzungsdaten werden endgültig gelöscht."</string>
   <string name="label_turn_off_suggestions">DEAKTIVIEREN</string>
@@ -271,8 +276,29 @@
   <string name="hide_app_sum">App in der App-Liste ausblenden</string>
   <string name="hide_app">App ausblenden</string>
   <string name="icon_shape_rounded_square">Abgerundetes Quadrat</string>
+  <string name="icon_pack_default">Standard</string>
+  <string name="icon_edit">editiere Programm Symbol und Beschriftung</string>
+  <string name="market">Mehr</string>
+  <string name="based_on">Basierend auf</string>
+  <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
+  <string name="diabledgemargin">Deaktiviert Seitenauffüllung</string>
+  <string name="diabledgemargin_sum">Deaktiviert den Freiraum zwischen Symbol und linke/rechte Seiten</string>
   <!-- Dock bar -->
+  <string name="force_mic">Erzwinge Mikrofonsymbol</string>
+  <string name="force_mic_sum">Aktiviert das Mikrofonsymbol auch wenn die Bedingungen, um es automatisch sichtbar zu machen nicht erfüllt sind</string>
+  <string name="force_colour_logo">Farbiges Google Logo in der Suchleiste</string>
+  <string name="force_colour_logo_sum">Aktivieren damit das Google-Logo und das Mikrofonsymbol farbig in der Dock-Leiste angezeigt wird</string>
+  <string name="dark_themeqsb">dunkle Suchleiste</string>
+  <string name="transparentqsb">transparenz in der Suchleiste</string>
+  <string name="transparentqsb_sum">Macht die Suchleiste ein wenig durchsichtig</string>
+  <string name="custom_qsb_in_dock">Suchleiste Einstellungen</string>
+  <string name="qsb_in_dock_show">Zeige Suchleiste im Dock</string>
+  <string name="pdock">Solides Dock</string>
   <!-- Sizes -->
+  <string name="size_biggest">Größte</string>
+  <string name="size_big">Groß</string>
+  <string name="size_smallest">Kleinste</string>
+  <string name="size_small">Klein</string>
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->
   <!--At glance-->

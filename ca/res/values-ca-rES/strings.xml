@@ -469,6 +469,7 @@
   <string name="space_in_dock">Separació d\'icones en dock</string>
   <string name="space_in_dock_sum">Habilitar açò si les icones estan molt a prop de la barra de dock </string>
   <string name="generate_adaptive_background_title">Extreu el color de la icona per defecte</string>
+  <string name="generate_adaptive_background_summary">Per a generar fons d\'icona adaptius, després d\'habilitar açò hauràs de canviar \"Canviar la forma de la Icona\" i habilita \"Tractament d\'icones per defecte\" per a veure els canvis aplicats</string>
   <string name="allow_two_line_labels_title">Segueix etiquetes de dues línies</string>
   <string name="allow_two_line_labels_summary">Per a noms d\'app o carpeta llargs, pot semblar que es tallin </string>
   <string name="faq">Preguntes Freqüents</string>

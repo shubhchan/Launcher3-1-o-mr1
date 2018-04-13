@@ -459,14 +459,14 @@
   <string name="donate_sum">Link paypal untuk donasi ( jika anda ingin )</string>
   <string name="icon_pack_updated">Paket ikon anda yang diterapkan telah di diperbarui. Disarankan untuk masuk ke setelan dan menerapkan kembali paket ikon.</string>
   <string name="icon_pack_apply_warning_title">Peringatan</string>
-  <string name="icon_pack_apply_warning_message">Semua kustom ikon dan kustom label ikon akan hilang. Apakah anda yakin untuk melanjutkan ?</string>
+  <string name="icon_pack_apply_warning_message">Semua ikon dan label ubahsuai akan hilang, Anda yakin untuk melanjutkan?</string>
   <string name="show_top_shadow_title">Tunjukkan bayangan di atas</string>
-  <string name="pdock1">Gaya dok Android P</string>
+  <string name="pdock1">Dok gaya Android P</string>
   <string name="pdock1sum">Dok Peluncur Pixel terbaru yang dikenalkan pada Android P Developer Preview 1</string>
   <!--Time format-->
   <string name="time_formats">Format Waktu</string>
-  <string name="time_f1">0:00</string>
-  <string name="time_f2">00:00</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
   <string name="other_settings">Pengaturan lainnya</string>
   <string name="space_in_dock">Batasan ikon di dok</string>
   <string name="space_in_dock_sum">Aktifkan ini jika ikon terlalu dekat dengan bar dok </string>

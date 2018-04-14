@@ -307,11 +307,14 @@
   <string name="num_hotseat_icons_pref_title">Брой на икони в Док</string>
   <string name="custom_grid_size">Промяна на решетката</string>
   <string name="change_grid_size">Промяна на решетката в листа с приложения</string>
+  <string name="change_grid_size_sum">Промяна на решетката в листа с приложения, решетката може да изглежда с един ред по-голяма, ако \"Показване на най-използвани\" приложения е включено </string>
   <string name="hotseatShowArrow">Стрелка</string>
+  <string name="hotseatShowArrow_sum">Включва/Изключва стрелката за плъзгане нагоре над дока</string>
   <string name="hotseat_show_page_indicator">Индикатор на страницата</string>
   <string name="hotseat_show_page_indicator_sum">Включва/изключва индикатора на страницата на началният екран </string>
   <string name="gradient_size">Размер на смесването на цветове</string>
   <string name="remove_gradient">Изглед на смесването на цветове</string>
+  <string name="remove_gradient_sum">Включва/Изключва цвета за дока дори и за бялата тема, не работи с док стил \"P\"</string>
   <!-- Hide labels -->
   <string name="desktop_show_labels">Заглавия на иконите</string>
   <string name="desktop_show_labels_sum">Покажи заглавията на началният екран</string>
@@ -367,6 +370,7 @@
   <string name="settings_edit_widgets_error">Невъзможно е да се добавят джаджи към началния екран</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Google док</string>
+  <string name="bottom_search_bar_summary">Показване на търсачката в долната част на дока</string>
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Двукратно почукване за заспиване</string>
   <string name="double_tap_to_lock_summary">На началният Ви екран</string>

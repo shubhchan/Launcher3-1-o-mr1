@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
-/*
-* Copyright (C) 2008 The Android Open Source Project
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*      http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
--->
+    /*
+    * Copyright (C) 2008 The Android Open Source Project
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    *      http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+    -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General -->
@@ -110,7 +110,7 @@
     <string name="msg_no_phone_permission">不允许使用<xliff:g id="app_name" example="Launcher3">%1$s</xliff:g>拨打电话</string>
 
     <!-- Widgets: -->
-    <skip />    
+    <skip />
 
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">加载微件时出现问题</string>
@@ -224,7 +224,7 @@
     <!-- Title for a bottom sheet that shows widgets for a particular app -->
     <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> 微件</string>
 
-<!-- Strings for accessibility actions -->
+    <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">添加到主屏幕</string>
 
@@ -350,14 +350,19 @@
 
 
     <string name="diabledgemargin">窄页边距</string>
+    <string name="diabledgemargin_sum">减少图标和左右边距之间的间距</string>
 
     <!-- Dock bar -->
-    <string name="force_mic">强制显示麦克风图标</string>
-    <string name="force_colour_logo">使用彩色的Google图标</string>
-    <string name="dark_themeqsb">暗色搜索栏</string>
+    <string name="force_mic">强制显示语音搜索图标</string>
+    <string name="force_mic_sum">即使不满足语音搜索图标自动显示的条件，也让它也始终可见。</string>
+    <string name="force_colour_logo">显示彩色的Google图标</string>
+    <string name="force_colour_logo_sum">开启后，为Google图标和语音搜索图标着色。</string>
+    <string name="dark_themeqsb">暗黑搜索栏</string>
     <string name="transparentqsb">透明化搜索栏</string>
+    <string name="transparentqsb_sum">搜索栏使用轻微透明的效果</string>
     <string name="custom_qsb_in_dock">搜索栏设置</string>
     <string name="qsb_in_dock_show">在dock栏显示搜索框</string>
+    <string name="pdock">实体风格dock栏</string>
 
 
     <!-- Sizes -->
@@ -371,27 +376,34 @@
     <!-- Rows and Coloumns -->
     <string name="num_rows">行数</string>
     <string name="num_cols">列数</string>
+    <string name="num_hotseat_icons_pref_title">dock栏内图标数目</string>
+    <string name="custom_grid_size">更改网格</string>
+    <string name="change_grid_size_sum">在应用抽屉里改变网格大小，当你没有开启“显示应用推荐”时可能会显示额外的一行。</string>
 
 
     <string name="hotseatShowArrow">显示箭头</string>
+    <string name="hotseatShowArrow_sum">启用/禁用位于dock栏上方的箭头指示器。</string>
     <string name="hotseat_show_page_indicator">显示页面指示器</string>
+    <string name="hotseat_show_page_indicator_sum">在主屏幕上启用/禁用页面指示器。</string>
 
-    <string name="gradient_size">底部遮罩透明度</string>
-    <string name="remove_gradient">禁用底部dock栏遮罩</string>
+    <string name="gradient_size">底部阴影浓度</string>
+    <string name="remove_gradient">禁用底部dock栏阴影</string>
+    <string name="remove_gradient_sum">即使是白色主题，也在dock栏区域启用/禁用阴影；在你使用Android-P样式时不会有效果</string>
 
     <!-- Hide labels -->
-    <string name="desktop_show_labels">在桌面上显示图标标签</string>
-    <string name="drawer_show_labels">在抽屉里显示图标标签</string>
-    <string name="folder_show_labels">在文件夹里显示图标标签</string>
+    <string name="desktop_show_labels">桌面标签</string>
+    <string name="desktop_show_labels_sum">在桌面上显示图标标签</string>
+    <string name="drawer_show_labels">抽屉标签</string>
+    <string name="drawer_show_labels_sum">在抽屉里显示图标标签</string>
+    <string name="folder_show_labels">文件夹标签</string>
+    <string name="folder_show_labels_sum">在文件夹显示图标标签</string>
 
     <string name="icon_size">图标大小</string>
 
     <!--At glance-->
     <string name="custom_glance">一目了然</string>
     <string name="smartspace_time">添加时钟</string>
-    <string name="in_smartspace">在一目了然微件里</string>
-    <!--   <string name="smartspace_launchclock_sum">On long click</string>
-       <string name="smartspace_launchclock">Launch clock app</string>-->
+
 
     <!-- Date formats -->
     <string name="date_format">日期格式</string>
@@ -402,12 +414,16 @@
     <string name="date_format_5">13 星期二</string>
     <string name="date_format_6">星期二, 二月 13</string>
 
-     <!--theme-->
-    <string name="custom_theme">主题</string>
+    <!--theme-->
+    <string name="theme">主题</string>
     <string name="white_theme">白色</string>
     <string name="white_withdarktext_theme">白色（使用暗色字体）</string>
     <string name="dark_theme">暗色</string>
     <string name="black_theme">黑色</string>
+    <string name="solid_theme">填充</string>
+    <string name="transparent_theme">透明</string>
+    <string name="auto_theme_sum">根据你的壁纸</string>
+    <string name="auto_theme">自动切换主题</string>
     <string name="googleinappmenu">Google搜索栏</string>
 
     <!--Notification dot-->
@@ -415,45 +431,6 @@
     <string name="textinbadge_sum">在圆点上显示通知数目</string>
     <string name="bottombadge">改变圆点位置</string>
     <string name="bottombadge_sum">在不同的位置上显示圆点</string>
-    <!--Grid size-->
-    <string name="num_default">默认</string>
-    <string name="num_three">3</string>
-    <string name="num_four">4</string>
-    <string name="num_five">5</string>
-    <string name="num_six">6</string>
-    <string name="num_seven">7</string>
-    <!-- <string name="num_eight">Eight</string>
-      <string name="num_nine">Nine</string>-->
-
-    <string-array name="grid_names">
-        <item>@string/num_default</item>
-        <item>@string/num_three</item>
-        <item>@string/num_four</item>
-        <item>@string/num_five</item>
-        <item>@string/num_six</item>
-        <item>@string/num_seven</item>
-        <!--  <item>@string/num_eight</item>
-         <item>@string/num_nine</item>-->
-    </string-array>
-
-    <string-array name="grid_values">
-        <item>default</item>
-        <item>three</item>
-        <item>four</item>
-        <item>five</item>
-        <item>six</item>
-        <item>seven</item>
-       <!--  <item>eight</item>
-         <item>nine</item>-->
-    </string-array>
-
-    <string name="grid_category_title">列和行</string>
-    <string name="number_of_columns_title">网格列数</string>
-    <string name="number_of_rows_title">网格行数</string>
-    <string name="number_of_hotseat_title">Dock栏图标数量</string>
-
-    <string name="restart">重新启动</string>
-    <string name="restart_sum">开启后，返回时桌面会重新启动</string>
 
 
     <!--<string name="custom_label_color">Custom lable color</string>-->
@@ -475,8 +452,6 @@
     <!-- Hide/Show search bars -->
     <string name="bottom_search_bar_title">底部搜索栏</string>
     <string name="bottom_search_bar_summary">在Dock栏的图标底部显示搜索栏</string>
-   <!-- <string name="top_search_bar_title">顶部搜索栏</string>
-    <string name="top_search_bar_summary">在应用程序抽屉顶部显示搜索栏</string>-->
 
     <!--Double tap to lock-->
     <string name="double_tap_to_lock_title">双击锁屏</string>
@@ -529,13 +504,12 @@
     <string name="Red2">红色2</string>
 
     <!--Animations-->
-    <string name="physical_animation_title">物理动画</string>
-    <string name="physical_animation_summary">使用回弹动画效果</string>
 
-     <string name="legacy_icons_title">对未适配图标添加遮罩</string>
-    <string name="gradient_switch">安卓P样式的dock栏</string>
 
-     <!--AllappsGrid-->
+    <string name="legacy_icons_title">处理旧样式图标</string>
+    <string name="legacy_icons_title_sum">为图标设置一个自适应背景，在启用后，您必须“更改图标形状”以查看应用的更改。</string>
+
+    <!--AllappsGrid-->
     <string name="number_of_columns_title1">网格列数</string>
     <string name="home_action_title">在主屏按下主页键的操作</string>
 
@@ -567,19 +541,22 @@
     <!--search provider-->
     <string name="search_provider_title">搜索供应商</string>
     <string name="search_provider_google">Google</string>
-    <string name="search_provider_bing">必应</string>
+    <string name="search_provider_bing">Bing</string>
     <string name="search_provider_duckduckgo">DuckDuckGo</string>
+    <string name="search_provider_baidu">Baidu</string>
 
     <string-array name="search_provider_names">
         <item>@string/search_provider_google</item>
         <item>@string/search_provider_bing</item>
         <item>@string/search_provider_duckduckgo</item>
+        <item>@string/search_provider_baidu</item>
     </string-array>
 
     <string-array name="search_provider_values">
-    <item>https://www.google.com</item>
-    <item>https://www.bing.com</item>
-    <item>https://www.duckduckgo.com</item>
+        <item>https://www.google.com</item>
+        <item>https://www.bing.com</item>
+        <item>https://www.duckduckgo.com</item>
+        <item>https://www.baidu.com</item>
     </string-array>
 
     <string name="transparent_nav_bar_title">透明化导航栏</string>
@@ -588,4 +565,47 @@
     <string name="smartspace_launchclock_sum">长按</string>
     <string name="smartspace_launchclock">打开时钟程序</string>
 
- </resources>
+
+    <string name="bage_size">通知圆点大小</string>
+
+
+    <string name="donate">捐赠链接</string>
+    <string name="donate_sum">Paypal捐赠链接(如果您乐意)</string>
+    <string name="donate_url">https://PayPal.Me/Shubbyy</string>
+
+    <string name="icon_pack_updated">您已更新当前使用的的图标包，建议进入设置并重新应用它。</string>
+    <string name="icon_pack_apply_warning_title">警告</string>
+    <string name="icon_pack_apply_warning_message">任何您自定义的图标或标签都将消失，你确定要继续吗？</string>
+
+    <string name="show_top_shadow_title">显示顶部阴影</string>
+    <string name="pdock1">Android P 样式 Dock 栏</string>
+    <string name="pdock1sum">抢鲜体验在Android P开发者预览第一版中包含的Pixel Launcher dock栏样式 </string>
+
+
+    <!--Time format-->
+    <string name="time_formats">时间格式</string>
+    <string name="time_f1">12小时制</string>
+    <string name="time_f2">24小时制</string>
+
+    <string name="other_settings">其他设置</string>
+    <string name="space_in_dock">Dock栏内图标边距</string>
+    <string name="space_in_dock_sum">如果与dock栏距离太近，请开启这个选项。 </string>
+
+    <string name="generate_adaptive_background_title">从旧样式图标中取色</string>
+    <string name="generate_adaptive_background_summary">对于生成的自适应图标背景，在启用此选项后，您必须更改“更改图标形状”并启用“处理旧样式图标”，以查看应用程序的更改。</string>
+
+    <string name="allow_two_line_labels_summary">对于过长的应用程序或文件夹名称，可能不会完全显示。 </string>
+    <string name="faq">常见问题解答（待汉化）</string>
+    <string name="faq_url">http://telegra.ph/Frequently-Asked-Questions-04-09</string>
+    <string name="custom_theme">主题和图标</string>
+    <string name="change_grid_size">自定义网格数目</string>
+    <string name="restart">重新启动启动器</string>
+    <string name="restart_sum">重启以调试</string>
+    <string name="allow_two_line_labels_title">允许标签双行显示</string>
+    <string name="system_font_for_smartspace">使用系统英文字体</string>
+    <string name="label_font">标签英文字体</string>
+    <string name="smartspace_font">“一目了然”微件英文字体</string>
+    <string name="in_smartspace">在“一目了然”微件里</string>
+    <string name="system_font_for_smartspace_sum">在“一目了然”微件使用</string>
+
+</resources>

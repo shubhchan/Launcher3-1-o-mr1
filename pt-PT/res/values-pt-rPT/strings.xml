@@ -86,11 +86,11 @@
   <!-- Permission description -->
   <string name="permdesc_install_shortcut">Permite a uma aplicação adicionar atalhos sem a intervenção do utilizador.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">Ler definições e atalhos do Ecrã Principal</string>
+  <string name="permlab_read_settings">Ler definições e atalhos do ambiente de trabalho</string>
   <!-- Permission description -->
   <string name="permdesc_read_settings">Permite à aplicação ler as definições e os atalhos no ambiente de trabalho</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">Gravar definições e atalhos do Ecrã principal</string>
+  <string name="permlab_write_settings">Gravar definições e atalhos do ambiente de trabalho</string>
   <!-- Permission description -->
   <string name="permdesc_write_settings">Permite à aplicação alterar as definições e os atalhos no Ecrã Principal.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
@@ -123,7 +123,7 @@
   <!-- Indication that folder closed -->
   <string name="folder_closed">Pasta fechada</string>
   <!-- Folder renamed format -->
-  <string name="folder_renamed">Pasta renomeada para <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="folder_renamed">Nome de pasta alterado para <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Folder name format -->
   <string name="folder_name_format">Pasta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->

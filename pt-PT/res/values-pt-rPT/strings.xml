@@ -134,7 +134,7 @@
   <!-- Text for settings button -->
   <string name="settings_button_text">Definições da página inicial</string>
   <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Desativado pelo administrador</string>
+  <string name="msg_disabled_by_admin">Desativada pelo administrador</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
   <string name="accessibility_action_overview">Visão geral</string>
   <!-- Strings for settings -->
@@ -143,7 +143,7 @@
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
   <string name="allow_rotation_desc">Quando o telemóvel é rodado</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <string name="allow_rotation_blocked_desc">A configuração atual de exibição não permite rotação</string>
+  <string name="allow_rotation_blocked_desc">A definição de visualização atual não permite a rotação</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
   <string name="icon_badging_title">Pontos de notificação</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
@@ -153,7 +153,7 @@
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
   <string name="title_missing_notification_access">Acesso a notificações necessário</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-  <string name="msg_missing_notification_access">Para mostrar pontos de notificação, ative as notificações de app para <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="msg_missing_notification_access">Para mostrar os Pontos de notificação, ative as notificações de aplicações para o <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
   <string name="title_change_settings">Alterar definições</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
@@ -224,11 +224,11 @@
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
   <string name="action_move_to_workspace">Mover para o ambiente de trabalho</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Mover tela para a esquerda</string>
+  <string name="action_move_screen_left">Mover ecrã para a esquerda</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Mover tela para a direita</string>
+  <string name="action_move_screen_right">Mover ecrã para a direita</string>
   <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Tela movida</string>
+  <string name="screen_moved">Ecrã movido</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
   <string name="action_resize">Redimensionar</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
@@ -305,7 +305,7 @@
   <!-- Rows and Coloumns -->
   <string name="num_rows">Número de linhas</string>
   <string name="num_cols">Número de colunas</string>
-  <string name="num_hotseat_icons_pref_title">Número de ícones da dock</string>
+  <string name="num_hotseat_icons_pref_title">Número de ícones na dock</string>
   <string name="custom_grid_size">Alterar grelha</string>
   <string name="change_grid_size">Desenhar Grelha</string>
   <string name="change_grid_size_sum">Altera o tamanho da grelha no menu de aplicações, o número de linhas na grelha pode ter um valor a mais, mas deve-se ao facto da opção \"Mostrar sugestão de aplicações\" estar ativa por defeito</string>
@@ -317,12 +317,12 @@
   <string name="remove_gradient">Ativar gradiente</string>
   <string name="remove_gradient_sum">Ativa ou desativa a gradiente na área da dock quando transparente mesmo com o tema branco. Não funciona com o estilo do Android P na dock</string>
   <!-- Hide labels -->
-  <string name="desktop_show_labels">Rótulos no ambiente de trabalho</string>
-  <string name="desktop_show_labels_sum">Mostrar os rótulos dos ícones no ambiente de trabalho</string>
-  <string name="drawer_show_labels">Ativar rótulos na gaveta de aplicações</string>
-  <string name="drawer_show_labels_sum">Mostrar rótulos dos ícones na gaveta de aplicações</string>
-  <string name="folder_show_labels">Rótulos das pastas</string>
-  <string name="folder_show_labels_sum">Mostrar os rótulos dos ícones nas pastas</string>
+  <string name="desktop_show_labels">Legendas no ambiente de trabalho</string>
+  <string name="desktop_show_labels_sum">Mostrar as legendas dos ícones no ambiente de trabalho</string>
+  <string name="drawer_show_labels">Ativar legendas na gaveta de aplicações</string>
+  <string name="drawer_show_labels_sum">Mostrar legendas dos ícones na gaveta de aplicações</string>
+  <string name="folder_show_labels">Legendas das pastas</string>
+  <string name="folder_show_labels_sum">Mostrar as legendas dos ícones nas pastas</string>
   <string name="icon_size">Tamanho do ícone</string>
   <!--At glance-->
   <string name="custom_glance">At a Glance</string>
@@ -346,7 +346,7 @@
   <string name="solid_theme">Sólido</string>
   <string name="transparent_theme">Transparente</string>
   <string name="auto_theme_sum">Por papel de parede</string>
-  <string name="auto_theme">Auto-tema</string>
+  <string name="auto_theme">Tema automático</string>
   <string name="googleinappmenu">Barra de pesquisa do Google</string>
   <string name="g_bar_drawer">Barra de pesquisa do Google na gaveta de aplicações</string>
   <!--Notification dot-->
@@ -414,7 +414,7 @@
   <string name="Deep_purple1">Roxo profundo claro</string>
   <string name="Deep_purple2">Roxo profundo escuro</string>
   <string name="Purple1">Roxo claro</string>
-  <string name="Purple2">Roco escuro</string>
+  <string name="Purple2">Roxo escuro</string>
   <string name="Pink1">Rosa claro</string>
   <string name="Pink2">Rosa escuro</string>
   <string name="Red1">Vermelho claro</string>
@@ -447,7 +447,7 @@
   <string name="search_provider_baidu">Baidu</string>
   <string name="transparent_nav_bar_title">Barra de navegação transparente</string>
   <string name="transparent_nav_bar_summary">Na gaveta de aplicações</string>
-  <string name="smartspace_launchclock_sum">Na pressão contínua</string>
+  <string name="smartspace_launchclock_sum">No premir contínuo</string>
   <string name="smartspace_launchclock">Abrir a aplicação do relógio</string>
   <string name="system_font_for_smartspace">Usar a fonte do sistema</string>
   <string name="system_font_for_smartspace_sum">Para a widget \"At a Glance\"</string>

@@ -374,6 +374,8 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Двукратно почукване за заспиване</string>
   <string name="double_tap_to_lock_summary">На началният Ви екран</string>
+  <string name="double_tap_to_lock_hint">За да използвате двойно натискане за заключване, трябва да направите Ruthless Launcher администратор на вашето устройство. Това е \"сигурно\" заключване, което значение че ако имате пин, ще трябва да го въведете за отключване.</string>
+  <string name="double_tap_to_lock_disable_warning">Като изключите администраторски права, няма да може да използвате двойно натискане за заключване на началния Ви екран.</string>
   <!-- Colors -->
   <string name="White">Бяло</string>
   <string name="Black">Черно</string>
@@ -418,6 +420,7 @@
   <string name="Red2">Тъмно червено</string>
   <!--Animations-->
   <string name="legacy_icons_title">Третиране на неподдържани икони</string>
+  <string name="legacy_icons_title_sum">Добавя адаптивен фон на иконите, след като включите това трябва да смените фон на иконите за да видите промените</string>
   <!--AllappsGrid-->
   <string name="number_of_columns_title1">Колони на решетката</string>
   <string name="home_action_title">Действие на началния бутон на началния екран</string>
@@ -454,8 +457,10 @@
   <string name="donate_sum">Paypal донор линк(ако искате)</string>
   <string name="icon_pack_updated">Темата с икони която използвате беше актуализирана. Препоръчително е да отидете в настройките и да я сложите отново.</string>
   <string name="icon_pack_apply_warning_title">Внимание</string>
+  <string name="icon_pack_apply_warning_message">Всякакви икони които сте променили ще изчезнат. Сигурни ли сте?</string>
   <string name="show_top_shadow_title">Показване на сянка отгоре</string>
   <string name="pdock1">P Стил Док</string>
+  <string name="pdock1sum">Нов док, видян в Android P Developer Preview 1</string>
   <!--Time format-->
   <string name="time_formats">Формати на времето</string>
   <string name="time_f1">12:00 AM</string>
@@ -464,6 +469,7 @@
   <string name="space_in_dock">Разстояние на иконите в дока</string>
   <string name="space_in_dock_sum">Включете това ако иконите в дока са прекалено близо до дока </string>
   <string name="generate_adaptive_background_title">Изкарване на цвят от неподдържани икони</string>
+  <string name="generate_adaptive_background_summary">За генерираните адаптивни икони, трябва да смените формата на иконите и да включите промяна на неадаптивни икони за да видите промените</string>
   <string name="allow_two_line_labels_title">Дву-редови заглавия на приложенията</string>
   <string name="allow_two_line_labels_summary">За дълги заглавия на приложения или папки може да изглежда отрязано </string>
   <string name="faq">Често задавани въпроси</string>

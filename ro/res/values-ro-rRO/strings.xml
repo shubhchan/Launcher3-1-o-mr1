@@ -184,16 +184,25 @@
     The second "it" refers to the app. -->
   <string name="abandoned_promise_explanation">Aplicația nu este instalata. Puteți sa stergeți pictograma sau să o instalați manual.    </string>
   <!-- Title for an app which is being downloaded. -->
+  <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> se descarca<xliff:g id="progress" example="30%">%2$s</xliff:g> complet</string>
   <!-- Title for an app whose download has been started. -->
+  <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> se așteptă instalarea</string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
+  <string name="widgets_bottom_sheet_title">Widget-uri ale aplicației <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+  <string name="action_add_to_workspace">Adăugați pe ecranul de pornire</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+  <string name="action_move_here">Mutați elementul aici</string>
   <!-- Accessibility confirmation for item added to workspace. -->
+  <string name="item_added_to_workspace">Element adăugat pe ecranul de pornire</string>
   <!-- Accessibility confirmation for item removed. -->
+  <string name="item_removed">Element eliminat</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+  <string name="action_move">Mutați elementul</string>
   <!-- Accessibility description to move item to empty cell. -->
+  <string name="move_to_empty_cell">Mutați pe rândul <xliff:g id="number" example="1">%1$s</xliff:g> coloana <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
   <!-- Accessibility description to move item to the hotseat. -->
   <!-- Accessibility confirmation for item move. -->

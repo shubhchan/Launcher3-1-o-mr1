@@ -25,13 +25,13 @@
   <!-- Work folder name -->
   <string name="work_folder_name">Trabalho</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">O app não está instalado.</string>
+  <string name="activity_not_found">A aplicação não está instalada.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">O app não está disponível</string>
+  <string name="activity_not_available">A aplicação não está disponível</string>
   <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">App transferido por download desativado no modo de segurança</string>
+  <string name="safemode_shortcut_error">Aplicação transferida desativada no Modo de segurança</string>
   <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Widgets desativados no modo de segurança</string>
+  <string name="safemode_widget_error">Widgets desativados no Modo de segurança</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
   <string name="shortcut_not_available">O atalho não está disponível</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
@@ -40,9 +40,9 @@
   <string name="custom_actions">Ações personalizadas</string>
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Toque e pressione para selecionar um widget.</string>
+  <string name="long_press_widget_to_add">Prima sem soltar para escolher um widget.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Toque duas vezes e segure para selecionar um widget ou usar ações personalizadas.</string>
+  <string name="long_accessible_way_to_add">Toque duas vezes sem soltar para escolher um widget ou utilize ações personalizadas.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
   <string name="widget_dims_format">%1$d × %2$d</string>
@@ -54,13 +54,13 @@
   <string name="place_automatically">Adicionar automaticamente</string>
   <!-- All Apps -->
   <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Apps de pesquisa</string>
+  <string name="all_apps_search_bar_hint">Pesquisar aplicações</string>
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Carregando apps…</string>
+  <string name="all_apps_loading_message">A carregar aplicações…</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">Nenhum app encontrado que corresponda a \"<xliff:g id="QUERY">%1$s</xliff:g>\"</string>
+  <string name="all_apps_no_search_results">Nenhuma aplicação correspondente a \"<xliff:g id="QUERY">%1$s</xliff:g>\"</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Pesquisar mais apps</string>
+  <string name="all_apps_search_market_message">Pesquisar mais aplicações</string>
   <!-- Popup items -->
   <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
   <string name="notifications_header">Notificações</string>
@@ -68,9 +68,9 @@
   <!-- Error message when user has filled a home screen -->
   <string name="out_of_space">Não há mais espaço neste ambiente de trabalho.</string>
   <!-- Error message when user has filled the hotseat -->
-  <string name="hotseat_out_of_space">Sem espaço na bandeja de favoritos</string>
+  <string name="hotseat_out_of_space">Não existe mais espaço no tabuleiro de Favoritos</string>
   <!-- All applications label -->
-  <string name="all_apps_button_label">Lista de apps</string>
+  <string name="all_apps_button_label">Lista de aplicações</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
   <string name="all_apps_home_button_label">Início</string>
@@ -79,29 +79,29 @@
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
   <string name="uninstall_drop_target_label">Desinstalar</string>
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">Informações do app</string>
+  <string name="app_info_drop_target_label">Informações da aplicação</string>
   <!-- Permissions: -->
   <!-- Permission short label -->
   <string name="permlab_install_shortcut">instalar atalhos</string>
   <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Permite que um app adicione atalhos sem intervenção do usuário.</string>
+  <string name="permdesc_install_shortcut">Permite a uma aplicação adicionar atalhos sem a intervenção do utilizador.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">ler configurações e atalhos da tela inicial</string>
+  <string name="permlab_read_settings">Ler definições e atalhos do Ecrã Principal</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Permite que o app leia as configurações e os atalhos na tela inicial.</string>
+  <string name="permdesc_read_settings">Permite à aplicação ler as definições e os atalhos no ambiente de trabalho</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">gravar configurações e atalhos da tela inicial</string>
+  <string name="permlab_write_settings">Gravar definições e atalhos do Ecrã principal</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Permite que o app altere as configurações e os atalhos na tela inicial.</string>
+  <string name="permdesc_write_settings">Permite à aplicação alterar as definições e os atalhos no Ecrã Principal.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> não tem permissão para fazer chamadas</string>
+  <string name="msg_no_phone_permission">O <xliff:g id="APP_NAME">%1$s</xliff:g> não tem autorização para efetuar chamadas telefónicas</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Problema ao carregar o widget</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
   <string name="gadget_setup_text">Configuração</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">Este é um app do sistema e não pode ser desinstalado.</string>
+  <string name="uninstall_system_app_text">É uma aplicação de sistema e não pode ser desinstalada.</string>
   <!-- Default folder title -->
   <string name="folder_hint_text">Pasta sem nome</string>
   <!-- Accessibility -->
@@ -244,13 +244,13 @@
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
   <string name="action_deep_shortcut">Atalhos</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
-  <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> atalhos para <xliff:g id="APP_NAME">%2$s</xliff:g></string>
+  <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> atalhos para a aplicação <xliff:g id="APP_NAME">%2$s</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
-  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> atalhos e <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> notificações para o app <xliff:g id="APP_NAME">%3$s</xliff:g></string>
+  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> atalhos e <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> notificações para a aplicação <xliff:g id="APP_NAME">%3$s</xliff:g></string>
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_dismiss_notification">Dispensar</string>
+  <string name="action_dismiss_notification">Ignorar</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Notificação dispensada</string>
+  <string name="notification_dismissed">Notificação ignorada</string>
   <string name="icu_abbrev_wday_month_day_no_year">AAAAMMMd</string>
   <string name="smartspace_preferences">Preferências</string>
   <string name="label_search">Pesquisar</string>
@@ -260,18 +260,18 @@
   <string name="state_loading">A aplicar…</string>
   <string name="smartspace_preferences_in_settings">Resumo</string>
   <string name="smartspace_preferences_in_settings_desc">Na parte superior do ambiente de trabalho</string>
-  <string name="title_show_google_app">Exibir %1$s</string>
+  <string name="title_show_google_app">Apresentar %1$s</string>
   <string name="msg_minus_one_on_left">À esquerda do ambiente de trabalho principal</string>
-  <string name="about">Sobre</string>
+  <string name="about">Acerca de</string>
   <string name="title_google_app">Aplicação Google</string>
-  <string name="title_app_suggestions">Exibir sugestões de apps</string>
-  <string name="summary_app_suggestions">No topo da sua lista Todos os apps</string>
+  <string name="title_app_suggestions">Apresentar sugestões de aplicações</string>
+  <string name="summary_app_suggestions">No topo da lista Todas as aplicações</string>
   <string name="about_app_version">Versão</string>
   <string name="compiled_by">Compilado por</string>
   <string name="Icon_By">Icones por</string>
-  <string name="app_name_pixel_launcher">Tela de início do Pixel</string>
-  <string name="title_disable_suggestions_prompt">Desativar sugestões de apps?</string>
-  <string name="msg_disable_suggestions_prompt">"As sugestões não serão exibidas na parte superior da sua lista de apps, e os dados de uso utilizados para criá-las serão permanentemente limpos."</string>
+  <string name="app_name_pixel_launcher">Iniciador do Pixel</string>
+  <string name="title_disable_suggestions_prompt">Pretende desativar as sugestões de aplicações?</string>
+  <string name="msg_disable_suggestions_prompt">"Não são apresentadas sugestões na parte superior da lista de aplicações e os dados de utilização utilizados para as criar são apagados de forma permanente."</string>
   <string name="label_turn_off_suggestions">DESATIVAR</string>
   <string name="action_edit">Editar</string>
   <string name="hide_app_sum">Ocultar aplicações da gaveta de aplicações</string>
@@ -283,7 +283,7 @@
   <string name="based_on">Baseado Em</string>
   <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
   <string name="diabledgemargin">Desactivar limites laterais</string>
-  <string name="diabledgemargin_sum">Desativa espaço entre icones, e dos lados esquerdo/direito</string>
+  <string name="diabledgemargin_sum">Desativa espaço entre ícones e os lados esquerdo e direito dos limites do ambiente de trabalho</string>
   <!-- Dock bar -->
   <string name="force_mic">Forçar ícone do microfone</string>
   <string name="force_mic_sum">Ativa o ícone do microfone mesmo que as condições para que esteja visível automaticamente não sejam cumpridas</string>
@@ -348,16 +348,16 @@
   <string name="auto_theme_sum">Por papel de parede</string>
   <string name="auto_theme">Auto-tema</string>
   <string name="googleinappmenu">Barra de pesquisa do Google</string>
-  <string name="g_bar_drawer">Barra de pesquisa do Google no drawer</string>
+  <string name="g_bar_drawer">Barra de pesquisa do Google na gaveta de aplicações</string>
   <!--Notification dot-->
-  <string name="textinbadge">Badges numéricas</string>
-  <string name="textinbadge_sum">Mostre o número de notificações na badge</string>
-  <string name="bottombadge">Marcadores inferiores </string>
+  <string name="textinbadge">Marcadores numéricos</string>
+  <string name="textinbadge_sum">Mostra o número de notificações no marcador</string>
+  <string name="bottombadge">Marcadores inferiores</string>
   <string name="bottombadge_sum">Mostrar os marcadores no canto inferior direito do ícone</string>
   <string name="restart">Reiniciar</string>
-  <string name="restart_sum">Reiniciar para debug</string>
+  <string name="restart_sum">Reiniciar para depuração</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
-  <string name="custom_qsb_color">Cor customizada para barra de pesquisa</string>
+  <string name="custom_qsb_color">Cor personalizada na barra de pesquisa</string>
   <string name="custom_qsb_color_list">Lista das cores da barra Google</string>
   <string name="dark_themeqsballapp">Barra de pesquisa escura</string>
   <string name="behavior_pref_title">Comportamento</string>
@@ -375,7 +375,7 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Duplo toque para bloquear</string>
   <string name="double_tap_to_lock_summary">Quando no ambiente de trabalho</string>
-  <string name="double_tap_to_lock_hint">Para ser possível utilizar o duplo toque para bloquear, têm de ser dadas permissões de administrador ao Ruthless Launcher. Isto é um bloqueio seguro, querendo dizer que é necessário utilizar o pin para desbloquear caso o mesmo esteja definido.</string>
+  <string name="double_tap_to_lock_hint">Para ser possível utilizar o duplo toque para bloquear, têm que ser dadas permissões de administrador ao Ruthless Launcher. Isto é um bloqueio seguro, o que significa que é necessário utilizar o pin para desbloquear caso o mesmo esteja definido.</string>
   <string name="double_tap_to_lock_disable_warning">Ao desativar o acesso de administrador, não vai ser possível utilizar o duplo toque no ambiente de trabalho para bloquear.</string>
   <!-- Colors -->
   <string name="White">Branco</string>
@@ -452,16 +452,16 @@
   <string name="system_font_for_smartspace">Usar a fonte do sistema</string>
   <string name="system_font_for_smartspace_sum">Para a widget \"At a Glance\"</string>
   <string name="bage_size">Tamanho dos marcadores</string>
-  <string name="label_font">Fonte do rótulo</string>
+  <string name="label_font">Fonte da legenda</string>
   <string name="smartspace_font">Fonte da widget \"At a Glance\"</string>
   <string name="donate">Link para donativo</string>
   <string name="donate_sum">Link para donativo PayPal (caso pretenda)</string>
-  <string name="icon_pack_updated">O teu actual pacote de ícones teve uma atualização. Recomendamos que vá às definições e volte a aplicar o pacote de temas novamente.</string>
+  <string name="icon_pack_updated">O actual pacote de ícones teve uma atualização. Recomendamos que vá às definições e volte a aplicar o pacote de temas novamente.</string>
   <string name="icon_pack_apply_warning_title">Alerta</string>
   <string name="icon_pack_apply_warning_message">Todos os ícones ou rótulos personalizados irão desaparecer. Tem a certeza que quer continuar?</string>
   <string name="show_top_shadow_title">Mostrar sombra superior</string>
-  <string name="pdock1">Dock estilo Android P</string>
-  <string name="pdock1sum">Nova dock introduzida no Android P no navegador do pixel</string>
+  <string name="pdock1">Dock com estilo Android P</string>
+  <string name="pdock1sum">Nova dock introduzida no Android P com o novo iniciador do pixel</string>
   <!--Time format-->
   <string name="time_formats">Formato da hora</string>
   <string name="time_f1">12:00:AM</string>
@@ -471,8 +471,8 @@
   <string name="space_in_dock_sum">Ativar esta opção se os ícones estiverem muito próximo da dock</string>
   <string name="generate_adaptive_background_title">Extrair a cor dos ícones antigos</string>
   <string name="generate_adaptive_background_summary">Para os ícones com o fundo adaptativo gerado, é necessário após a ativação, alterar a forma do ícone e ativar a opção de tratamento dos icones antigos para ver as alterações aplicadas</string>
-  <string name="allow_two_line_labels_title">Permitir rótulos com duas linhas</string>
-  <string name="allow_two_line_labels_summary">Caso os nomes das pastas sejam muito longos, podem ficar cortados</string>
+  <string name="allow_two_line_labels_title">Permitir legendas com duas linhas</string>
+  <string name="allow_two_line_labels_summary">Caso os nomes das pastas sejam muito longos, podem parecer cortados</string>
   <string name="faq">Perguntas Frequentes</string>
   <string name="hide_apps_title">Ocultar aplicações</string>
   <string name="hide_apps_summary">Na gaveta de aplicações</string>

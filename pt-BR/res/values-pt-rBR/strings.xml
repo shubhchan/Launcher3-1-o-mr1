@@ -60,7 +60,7 @@
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
   <string name="all_apps_no_search_results">Nenhum aplicativo correspondente encontrado \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Pesquise mais aplicativos</string>
+  <string name="all_apps_search_market_message">Pesquisar mais aplicativos</string>
   <!-- Popup items -->
   <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
   <string name="notifications_header">Notificações</string>

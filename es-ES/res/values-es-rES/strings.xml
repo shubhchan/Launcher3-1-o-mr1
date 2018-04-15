@@ -152,38 +152,38 @@
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
   <string name="title_missing_notification_access">Se necesita acceso a las notificaciones</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-  <string name="msg_missing_notification_access">Para que se mostren os puntos de notificacións, activa as notificacións da aplicación <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="msg_missing_notification_access">Para mostrar los puntos de notificación, activa las notificaciones de la aplicación de <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-  <string name="title_change_settings">Cambiar configuración</string>
+  <string name="title_change_settings">Cambiar ajustes</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-  <string name="auto_add_shortcuts_label">Engadir icona á pantalla de inicio</string>
+  <string name="auto_add_shortcuts_label">Añadir ícono a la Pantalla de inicio</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-  <string name="auto_add_shortcuts_description">Para novas aplicacións</string>
+  <string name="auto_add_shortcuts_description">Para nuevas aplicaciones</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Cambiar forma das iconas</string>
+  <string name="icon_shape_override_label">Cambiar forma de los íconos</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Usar valores predeterminados do sistema</string>
+  <string name="icon_shape_system_default">Usar opción predeterminada del sistema</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_square">Cadrado</string>
+  <string name="icon_shape_square">Cuadrado</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_squircle">Cadrado de bordos redondeados</string>
+  <string name="icon_shape_squircle">Cuadrado con esquinas redondeadas</string>
   <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-  <string name="icon_shape_circle">Círculo</string>
+  <string name="icon_shape_circle">Circular</string>
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-  <string name="icon_shape_teardrop">Bágoa</string>
+  <string name="icon_shape_teardrop">Gota</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-  <string name="icon_shape_override_progress">Aplicando cambios na forma das iconas</string>
+  <string name="icon_shape_override_progress">Aplicando cambios en la forma de los iconos</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Descoñecido</string>
+  <string name="package_state_unknown">Desconocido</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Quitar</string>
+  <string name="abandoned_clean_this">Eliminar</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
   <string name="abandoned_search">Buscar</string>
   <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">Esta aplicación non está instalada</string>
+  <string name="abandoned_promises_title">Esta aplicación no está instalada</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">A aplicación para esta icona non está instalada. Podes eliminala ou buscar a aplicación e instalala manualmente.</string>
+  <string name="abandoned_promise_explanation">La aplicación de este icono no está instalada. Puedes quitar el ícono o buscar la aplicación e instalarla manualmente.    </string>
   <!-- Title for an app which is being downloaded. -->
   <string name="app_downloading_title">Descargando <xliff:g id="NAME">%1$s</xliff:g> (<xliff:g id="PROGRESS">%2$s</xliff:g> completado)</string>
   <!-- Title for an app whose download has been started. -->

@@ -297,14 +297,14 @@
   <!-- Sizes -->
   <string name="size_biggest">Más grande</string>
   <string name="size_big">Grande</string>
-  <string name="size_smallest">Más pequeña</string>
+  <string name="size_smallest">Más pequeño</string>
   <string name="size_small">Pequeño</string>
-  <string name="size_stock">Defecto</string>
-  <string name="size_tiny">Diminuto</string>
+  <string name="size_stock">Por defecto</string>
+  <string name="size_tiny">Muy pequeño</string>
   <!-- Rows and Coloumns -->
   <string name="num_rows">Número de filas</string>
   <string name="num_cols">Número de columnas</string>
-  <string name="num_hotseat_icons_pref_title">Número de iconos en el dock</string>
+  <string name="num_hotseat_icons_pref_title">Número de íconos en el dock</string>
   <string name="custom_grid_size">Cambiar cuadrícula</string>
   <string name="change_grid_size">Cuadrícula del cajón</string>
   <string name="change_grid_size_sum">Cambia el tamaño de la cuadrícula en el cajón de aplicaciones. Las filas pueden parecer que tiene una más. Esto es porque toma en cuenta la fila añadida con la opción \"Muestra sugerencias de aplicaciones\" que viene activada por defecto </string>

@@ -375,7 +375,7 @@
   <string name="double_tap_to_lock_title">Tocar dos veces para bloquear</string>
   <string name="double_tap_to_lock_summary">En tu pantalla principal</string>
   <string name="double_tap_to_lock_hint">Si quieres \"tocar dos veces para bloquear\" debes activar los permisos de administración para Ruthless Launcher. Esto es un bloqueo seguro, lo que significa que debes ingresar tu NIP en el próximo desbloqueo, si tienes uno.</string>
-  <string name="double_tap_to_lock_disable_warning">Al desactivar los permisos de administrador, no podrás usar \"doble toque para bloquear\" en tu pantalla principal.</string>
+  <string name="double_tap_to_lock_disable_warning">Al desactivar los permisos de administración, no podrás usar \"tocar dos veces para bloquear\" en tu Pantalla de inicio.</string>
   <!-- Colors -->
   <string name="White">Blanco</string>
   <string name="Black">Negro</string>
@@ -427,8 +427,8 @@
   <string name="home_action_nothing">Nada</string>
   <string name="home_action_quick_search">Búsqueda rápida</string>
   <string name="home_action_voice_search">Búsqueda por voz</string>
-  <string name="home_action_app_drawer">Abrir cajón de aplicaciones</string>
-  <string name="home_action_app_search">Abrir aplicación de búsqueda</string>
+  <string name="home_action_app_drawer">Abrir el cajón de aplicaciones</string>
+  <string name="home_action_app_search">Abrir la aplicación de búsqueda</string>
   <string name="home_action_overview">Entrar en Vista general</string>
   <string-array name="home_action_values">
     <item>nada</item>

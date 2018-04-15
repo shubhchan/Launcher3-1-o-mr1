@@ -85,11 +85,11 @@
   <!-- Permission description -->
   <string name="permdesc_install_shortcut">Permite que una aplicación añada accesos directos sin intervención del usuario.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">ler a configuración e os atallos da pantalla de inicio</string>
+  <string name="permlab_read_settings">leer ajustes de la Pantalla de inicio y accesos directos</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Permite a unha aplicación ler a configuración e os atallos da páxina de inicio.</string>
+  <string name="permdesc_read_settings">Permite que la aplicación consulte los ajustes y los accesos directos de la Pantalla de inicio.</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">modificar a configuración e os atallos da pantalla de inicio</string>
+  <string name="permlab_write_settings">escribir los ajustes de la Pantalla de inicio y accesos directos</string>
   <!-- Permission description -->
   <string name="permdesc_write_settings">Permite a unha aplicación cambiar a configuración e os atallos da pantalla de inicio.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->

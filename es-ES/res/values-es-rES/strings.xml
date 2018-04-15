@@ -124,7 +124,7 @@
   <!-- Folder renamed format -->
   <string name="folder_renamed">Se ha cambiado el nombre de la carpeta a <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Folder name format -->
-  <string name="folder_name_format">Cartafol: <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="folder_name_format">Carpeta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
   <string name="widget_button_text">Widgets</string>
@@ -223,39 +223,39 @@
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
   <string name="action_move_to_workspace">Mover á pantalla de inicio</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Mover pantalla á esquerda</string>
+  <string name="action_move_screen_left">Mover pantalla a la izquierda</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Mover pantalla á dereita</string>
+  <string name="action_move_screen_right">Mover pantalla a la derecha</string>
   <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Moveuse a pantalla</string>
+  <string name="screen_moved">Se movió la pantalla.</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Cambiar tamaño</string>
+  <string name="action_resize">Ajustar tamaño</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Aumentar ancho</string>
+  <string name="action_increase_width">Aumentar el ancho</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Aumentar altura</string>
+  <string name="action_increase_height">Aumentar la altura</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Reducir ancho</string>
+  <string name="action_decrease_width">Reducir el ancho</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Reducir altura</string>
+  <string name="action_decrease_height">Reducir la altura</string>
   <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Cambiouse o tamaño do widget polo ancho <xliff:g id="NUMBER_0">%1$s</xliff:g> e a altura <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+  <string name="widget_resized">Se cambió el tamaño del widget a <xliff:g id="NUMBER_0">%1$s</xliff:g> de ancho y <xliff:g id="NUMBER_1">%2$s</xliff:g> de alto</string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Atallos</string>
+  <string name="action_deep_shortcut">Accesos directos</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> accesos directos para <xliff:g id="APP_NAME">%2$s</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
-  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> atallos e <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> notificacións para a aplicación <xliff:g id="APP_NAME">%3$s</xliff:g></string>
+  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g> accesos directos y <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g> notificaciones para <xliff:g id="APP_NAME">%3$s</xliff:g></string>
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_dismiss_notification">Ignorar</string>
+  <string name="action_dismiss_notification">Descartar</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Ignorouse a notificación</string>
+  <string name="notification_dismissed">Se descartó la notificación</string>
   <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
   <string name="smartspace_preferences">Preferencias</string>
-  <string name="label_search">Busca</string>
-  <string name="label_voice_search">Busca por voz</string>
+  <string name="label_search">Buscar</string>
+  <string name="label_voice_search">Búsqueda por voz</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-  <string name="pref_icon_pack">Paquete de iconos</string>
+  <string name="pref_icon_pack">Paquete de íconos</string>
   <string name="state_loading">Aplicando…</string>
   <string name="smartspace_preferences_in_settings">Dunha ollada</string>
   <string name="smartspace_preferences_in_settings_desc">Na parte superior da pantalla de Inicio</string>

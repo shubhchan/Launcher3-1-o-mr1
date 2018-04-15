@@ -258,7 +258,7 @@
   <string name="label_search">Pesquisar</string>
   <string name="label_voice_search">Pesquisa por voz</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-  <string name="pref_icon_pack">Pacote de ícones</string>
+  <string name="pref_icon_pack">Conjunto de ícones</string>
   <string name="state_loading">Aplicando…</string>
   <string name="smartspace_preferences_in_settings">Resumo</string>
   <string name="smartspace_preferences_in_settings_desc">Na parte superior da sua tela inicial</string>

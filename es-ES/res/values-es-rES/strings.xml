@@ -91,7 +91,7 @@
   <!-- Permission short label -->
   <string name="permlab_write_settings">escribir los ajustes de la Pantalla de inicio y accesos directos</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Permite que la aplicación cambie los ajustes y accesos directos de la Pantalla de inicio.</string>
+  <string name="permdesc_write_settings">Permite que la aplicación cambie los ajustes y accesos directos en la Pantalla de inicio.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
   <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> no tiene permitido hacer llamadas telefónicas</string>
   <!-- Widgets: -->
@@ -111,7 +111,7 @@
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
   <string name="workspace_scroll_format">Pantalla de inicio %1$d de %2$d</string>
   <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">Nueva página de Pantalla de inicio</string>
+  <string name="workspace_new_page">Nueva página de la Pantalla de inicio</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
   <string name="folder_opened">Carpeta abierta, <xliff:g id="WIDTH">%1$d</xliff:g> por <xliff:g id="HEIGHT">%2$d</xliff:g></string>
@@ -131,26 +131,26 @@
   <!-- Text for wallpaper change button -->
   <string name="wallpaper_button_text">Fondos de pantalla</string>
   <!-- Text for settings button -->
-  <string name="settings_button_text">Configuración de inicio</string>
+  <string name="settings_button_text">Configuración de Inicio</string>
   <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Función desactivada polo administrador</string>
+  <string name="msg_disabled_by_admin">Desactivada por el administrador</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-  <string name="accessibility_action_overview">Visión xeral</string>
+  <string name="accessibility_action_overview">Vista general</string>
   <!-- Strings for settings -->
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <string name="allow_rotation_title">Permitir xirar a pantalla de inicio</string>
+  <string name="allow_rotation_title">Permitir la rotación de la Pantalla de inicio</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Ao xirar o teléfono</string>
+  <string name="allow_rotation_desc">Al rotar el teléfono</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <string name="allow_rotation_blocked_desc">A configuración de visualización actual non permite xirar a pantalla</string>
+  <string name="allow_rotation_blocked_desc">La configuración de pantalla actual no permite la rotación</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
-  <string name="icon_badging_title">Puntos de notificacións</string>
+  <string name="icon_badging_title">Puntos de notificación</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
   <string name="icon_badging_desc_on">Activado</string>
   <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
   <string name="icon_badging_desc_off">Desactivado</string>
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
-  <string name="title_missing_notification_access">Necesítase acceso ás notificacións</string>
+  <string name="title_missing_notification_access">Se necesita acceso a las notificaciones</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
   <string name="msg_missing_notification_access">Para que se mostren os puntos de notificacións, activa as notificacións da aplicación <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
@@ -469,10 +469,10 @@
   <string name="space_in_dock">Margen de los íconos en el dock</string>
   <string name="space_in_dock_sum">Activa ésto si los íconos están muy cercanos a la barra del dock </string>
   <string name="generate_adaptive_background_title">Extraer color del ícono Legacy</string>
-  <string name="generate_adaptive_background_summary">Para los fondos de iconos adaptativos generados, después de habilitar esto, deber cambiar \"Cambiar Forma de los íconos\" y habilitar \"Tratamiento para iconos Legacy\" y entonces verás los cambios aplicados</string>
-  <string name="allow_two_line_labels_title">Permitir etiquetas de doble línea</string>
-  <string name="allow_two_line_labels_summary">Para nombre de aplicaciones o carpetas muy largos. Pueden verse cortados </string>
+  <string name="generate_adaptive_background_summary">Para los fondos de íconos adaptativos generados, después de activar ésto, debes modificar \"Cambiar Forma de los íconos\" y activar \"Tratamiento para íconos Legacy\", entonces verás los cambios aplicados</string>
+  <string name="allow_two_line_labels_title">Permitir etiquetas de dos líneas</string>
+  <string name="allow_two_line_labels_summary">Para nombres de aplicaciones o carpetas largos, pueden parecer cortados </string>
   <string name="faq">Preguntas frecuentes</string>
-  <string name="hide_apps_title">Esconder aplicaciones</string>
-  <string name="hide_apps_summary">De el cajón de aplicaciones</string>
+  <string name="hide_apps_title">Ocultar aplicaciones</string>
+  <string name="hide_apps_summary">Del cajón de aplicaciones</string>
 </resources>

@@ -455,19 +455,19 @@
   <string name="smartspace_font">Fuente del widget \"Un Vistazo\"</string>
   <string name="donate">Link de donación</string>
   <string name="donate_sum">Link de donación de PayPal (si así lo quieres)</string>
-  <string name="icon_pack_updated">Tu paquete de iconos actual ha sido actualizado. Se recomienda ir a los ajustes y re-aplicar el paquete de iconos.</string>
+  <string name="icon_pack_updated">Tu paquete de íconos actual ha sido actualizado. Se recomienda ir a los ajustes y aplicar de nuevo el paquete de íconos.</string>
   <string name="icon_pack_apply_warning_title">Advertencia</string>
-  <string name="icon_pack_apply_warning_message">Cualquier etiqueta de iconos o iconos personalizados desaparecerán. ¿Estás seguro que deseas continuar?</string>
+  <string name="icon_pack_apply_warning_message">Algunas etiquetas de íconos o íconos personalizados desaparecerán. ¿Estás seguro que deseas continuar?</string>
   <string name="show_top_shadow_title">Mostrar sombra superior</string>
   <string name="pdock1">Dock de estilo Android P</string>
-  <string name="pdock1sum">Nuevo dock del Pixel Launcher presentado en la developer preview 1 de Android P</string>
+  <string name="pdock1sum">El nuevo dock del Pixel Launcher presentado en la versión preliminar 1 de Android P</string>
   <!--Time format-->
-  <string name="time_formats">Formato de tiempo</string>
+  <string name="time_formats">Formatos de tiempo</string>
   <string name="time_f1">12:00 AM</string>
   <string name="time_f2">24:00</string>
   <string name="other_settings">Otros ajustes</string>
-  <string name="space_in_dock">Margen de los iconos en el dock</string>
-  <string name="space_in_dock_sum">Activa esto si los iconos están muy cercanos a la barra del dock </string>
+  <string name="space_in_dock">Margen de los íconos en el dock</string>
+  <string name="space_in_dock_sum">Activa ésto si los íconos están muy cercanos a la barra del dock </string>
   <string name="generate_adaptive_background_title">Extraer color del ícono Legacy</string>
   <string name="generate_adaptive_background_summary">Para los fondos de iconos adaptativos generados, después de habilitar esto, deber cambiar \"Cambiar Forma de los íconos\" y habilitar \"Tratamiento para iconos Legacy\" y entonces verás los cambios aplicados</string>
   <string name="allow_two_line_labels_title">Permitir etiquetas de doble línea</string>

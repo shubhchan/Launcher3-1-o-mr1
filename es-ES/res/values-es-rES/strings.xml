@@ -313,7 +313,7 @@
   <string name="hotseat_show_page_indicator">Indicador de página</string>
   <string name="hotseat_show_page_indicator_sum">Habilitar/Deshabilitar indicador de página en la pantalla de inicio sobre el dock </string>
   <string name="gradient_size">Tamaño de grandiente</string>
-  <string name="remove_gradient">Vista de grandiente</string>
+  <string name="remove_gradient">Vista de gradiente</string>
   <string name="remove_gradient_sum">Activar/Desactivar degradado en el área del dock cuando eliges dock transparente incluso en con el tema blanco. No funciona con el dock con estilo de Android P</string>
   <!-- Hide labels -->
   <string name="desktop_show_labels">Etiquetas de escritorio</string>
@@ -471,7 +471,7 @@
   <string name="generate_adaptive_background_title">Extraer color del ícono Legacy</string>
   <string name="generate_adaptive_background_summary">Para los fondos de íconos adaptativos generados, después de activar ésto, debes modificar \"Cambiar forma de los íconos\" y activar \"Tratamiento para íconos viejos (Legacy)\", entonces verás los cambios aplicados</string>
   <string name="allow_two_line_labels_title">Permitir etiquetas de dos líneas</string>
-  <string name="allow_two_line_labels_summary">Para nombres de aplicaciones o carpetas largos, pueden parecer cortados </string>
+  <string name="allow_two_line_labels_summary">Para nombres de aplicaciones o carpetas largos, pueden verse acortados </string>
   <string name="faq">Preguntas frecuentes</string>
   <string name="hide_apps_title">Ocultar aplicaciones</string>
   <string name="hide_apps_summary">Del cajón de aplicaciones</string>

@@ -190,38 +190,38 @@
   <string name="app_waiting_download_title">Esperando para instalar <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
-  <string name="widgets_bottom_sheet_title">Widgets de: <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="widgets_bottom_sheet_title">Widgets de <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Engadir á pantalla de inicio</string>
+  <string name="action_add_to_workspace">Añadir a la Pantalla de inicio</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
   <string name="action_move_here">Mover elemento aquí</string>
   <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Engadiuse o elemento á pantalla de inicio</string>
+  <string name="item_added_to_workspace">Elemento añadido a la pantalla de inicio</string>
   <!-- Accessibility confirmation for item removed. -->
-  <string name="item_removed">Eliminouse o elemento</string>
+  <string name="item_removed">Elemento eliminado</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
   <string name="action_move">Mover elemento</string>
   <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Mover á fila <xliff:g id="NUMBER_0">%1$s</xliff:g> columna <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
+  <string name="move_to_empty_cell">Mover a la fila <xliff:g id="NUMBER_0">%1$s</xliff:g>, columna <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Mover á posición <xliff:g id="NUMBER">%1$s</xliff:g></string>
+  <string name="move_to_position">Mover a la posición número <xliff:g id="NUMBER">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Mover á posición dos favoritos <xliff:g id="NUMBER">%1$s</xliff:g></string>
+  <string name="move_to_hotseat_position">Mover a la posición de favoritos número <xliff:g id="NUMBER">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
-  <string name="item_moved">Moveuse o elemento</string>
+  <string name="item_moved">Elemento movido</string>
   <!-- Accessibility description to move item into an existing folder. -->
-  <string name="add_to_folder">Engadir ao cartafol: <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="add_to_folder">Agregar a carpeta: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Accessibility description to move item into an existing folder containing an app. -->
-  <string name="add_to_folder_with_app">Engadir ao cartafol con <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="add_to_folder_with_app">Agregar a la carpeta que contiene <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item added to folder. -->
-  <string name="added_to_folder">Engadiuse o elemento ao cartafol</string>
+  <string name="added_to_folder">Elemento agregado a la carpeta</string>
   <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Crear cartafol con: <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="create_folder_with">Crear carpeta con: <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Creouse o cartafol</string>
+  <string name="folder_created">Carpeta creada</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Mover á pantalla de inicio</string>
+  <string name="action_move_to_workspace">Mover a la Pantalla de inicio</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
   <string name="action_move_screen_left">Mover pantalla a la izquierda</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
@@ -277,12 +277,12 @@
   <string name="hide_app">Ocultar aplicación</string>
   <string name="icon_shape_rounded_square">Cuadrado redondeado</string>
   <string name="icon_pack_default">Predeterminado</string>
-  <string name="icon_edit">Editar icono y etiqueta de la aplicación</string>
+  <string name="icon_edit">Editar ícono y etiqueta de la aplicación</string>
   <string name="market">Más</string>
   <string name="based_on">Basado En</string>
   <string name="based_on_sum">\"Rootless Pixel Launcher\" de Amir Zaidi</string>
   <string name="diabledgemargin">Desactivar separación lateral</string>
-  <string name="diabledgemargin_sum">Desactiva el espacio entre los iconos y los bordes laterales</string>
+  <string name="diabledgemargin_sum">Desactiva el espacio entre los íconos y los bordes laterales</string>
   <!-- Dock bar -->
   <string name="force_mic">Forzar ícono de micrófono</string>
   <string name="force_mic_sum">Activar ícono del micrófono visible incluso si las condiciones para hacerlo automáticamente no se cumplen</string>
@@ -291,13 +291,13 @@
   <string name="dark_themeqsb">Barra de búsqueda oscura</string>
   <string name="transparentqsb">Transparencia en barra de búsqueda</string>
   <string name="transparentqsb_sum">Hace la barra de búsqueda un poco transparente</string>
-  <string name="custom_qsb_in_dock">Ajustes de barra de búsqueda</string>
+  <string name="custom_qsb_in_dock">Ajustes de la barra de búsqueda</string>
   <string name="qsb_in_dock_show">Mostrar barra de búsqueda en el dock</string>
   <string name="pdock">Dock de estilo sólido</string>
   <!-- Sizes -->
   <string name="size_biggest">Más grande</string>
   <string name="size_big">Grande</string>
-  <string name="size_smallest">Diminuto</string>
+  <string name="size_smallest">Más pequeña</string>
   <string name="size_small">Pequeño</string>
   <string name="size_stock">Defecto</string>
   <string name="size_tiny">Diminuto</string>

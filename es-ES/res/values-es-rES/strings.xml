@@ -311,20 +311,20 @@
   <string name="hotseatShowArrow">Flecha indicadora</string>
   <string name="hotseatShowArrow_sum">Activa/Desactiva la flecha indicadora sobre el dock</string>
   <string name="hotseat_show_page_indicator">Indicador de página</string>
-  <string name="hotseat_show_page_indicator_sum">Habilitar/Deshabilitar indicador de página en la pantalla de inicio sobre el dock </string>
+  <string name="hotseat_show_page_indicator_sum">Activa/Desactiva el indicador de página en la pantalla de inicio sobre el dock </string>
   <string name="gradient_size">Tamaño de grandiente</string>
   <string name="remove_gradient">Vista de gradiente</string>
-  <string name="remove_gradient_sum">Activar/Desactivar degradado en el área del dock cuando eliges dock transparente incluso en con el tema blanco. No funciona con el dock con estilo de Android P</string>
+  <string name="remove_gradient_sum">Activa/Desactiva el degradado en el área del dock cuando eliges dock transparente incluso con el tema blanco. No funcionará en el dock con estilo Android P</string>
   <!-- Hide labels -->
-  <string name="desktop_show_labels">Etiquetas de escritorio</string>
-  <string name="desktop_show_labels_sum">Mostrar etiquetas de los iconos en el escritorio</string>
+  <string name="desktop_show_labels">Etiquetas del escritorio</string>
+  <string name="desktop_show_labels_sum">Mostrar etiquetas de los íconos en el escritorio</string>
   <string name="drawer_show_labels">Etiquetas del Cajón</string>
-  <string name="drawer_show_labels_sum">Mostrar etiquetas de los iconos en el cajón de aplicaciones</string>
+  <string name="drawer_show_labels_sum">Mostrar etiquetas de los íconos en el cajón</string>
   <string name="folder_show_labels">Etiquetas de carpetas</string>
-  <string name="folder_show_labels_sum">Mostrar etiquetas de los iconos en las carpetas</string>
-  <string name="icon_size">Tamaño de icono</string>
+  <string name="folder_show_labels_sum">Mostrar etiquetas de los íconos en las carpetas</string>
+  <string name="icon_size">Tamaño de los íconos</string>
   <!--At glance-->
-  <string name="custom_glance">A simple vista</string>
+  <string name="custom_glance">Un vistazo</string>
   <string name="smartspace_time">Añadir reloj</string>
   <string name="in_smartspace">En el widget \"Un vistazo\"</string>
   <!-- Date formats -->
@@ -347,7 +347,7 @@
   <string name="auto_theme_sum">Definido por el fondo de pantalla</string>
   <string name="auto_theme">Tema automático</string>
   <string name="googleinappmenu">Barra de búsqueda de Google</string>
-  <string name="g_bar_drawer">Barra de búsqueda de Google en el cajón de aplicaciones</string>
+  <string name="g_bar_drawer">Barra de búsqueda de Google en el cajón</string>
   <!--Notification dot-->
   <string name="textinbadge">Insignias numéricas</string>
   <string name="textinbadge_sum">Muestra la cantidad de notificaciones en la insignia</string>
@@ -367,15 +367,15 @@
   <string name="settings_edit_allow_title">Permitir edición</string>
   <string name="settings_edit_allow_summary_on">Los íconos y widgets se pueden añadir, eliminar y mover en la Pantalla de inicio</string>
   <string name="settings_edit_allow_summary_off">Los iconos y widgets no se pueden añadir, eliminar y mover en la Pantalla de inicio</string>
-  <string name="settings_edit_widgets_error">No es posible añadir widgets a la página principal</string>
+  <string name="settings_edit_widgets_error">No es posible añadir widgets a la Página de inicio</string>
   <!-- Hide/Show search bars -->
-  <string name="bottom_search_bar_title">Barra Dock de Google</string>
+  <string name="bottom_search_bar_title">Barra de dock de Google</string>
   <string name="bottom_search_bar_summary">Mostrar la barra de búsqueda de Google en la base del dock</string>
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Tocar dos veces para bloquear</string>
   <string name="double_tap_to_lock_summary">En tu pantalla principal</string>
   <string name="double_tap_to_lock_hint">Si quieres \"tocar dos veces para bloquear\" debes activar los permisos de administración para Ruthless Launcher. Esto es un bloqueo seguro, lo que significa que debes ingresar tu NIP en el próximo desbloqueo, si tienes uno.</string>
-  <string name="double_tap_to_lock_disable_warning">Al desactivar los permisos de administración, no podrás usar \"tocar dos veces para bloquear\" en tu Pantalla de inicio.</string>
+  <string name="double_tap_to_lock_disable_warning">Al desactivar los permisos de administración no podrás usar \"tocar dos veces para bloquear\" en tu Pantalla de inicio.</string>
   <!-- Colors -->
   <string name="White">Blanco</string>
   <string name="Black">Negro</string>
@@ -399,12 +399,12 @@
   <string name="Light_green2">Verde claro (oscuro)</string>
   <string name="Green1">Verde claro</string>
   <string name="Green2">Verde oscuro</string>
-  <string name="Teal1">Verde azulado</string>
-  <string name="Teal2">Verde azulado oscuro</string>
-  <string name="Cyan1">Cían claro</string>
-  <string name="Cyan2">Cían oscuro</string>
-  <string name="Light_blue1">Celeste claro</string>
-  <string name="Light_blue2">Celeste oscuro</string>
+  <string name="Teal1">Turquesa claro</string>
+  <string name="Teal2">Turquesa oscuro</string>
+  <string name="Cyan1">Cian claro</string>
+  <string name="Cyan2">Cian oscuro</string>
+  <string name="Light_blue1">Azul claro (claro)</string>
+  <string name="Light_blue2">Azul claro (oscuro)</string>
   <string name="Blue1">Azul claro</string>
   <string name="Blue2">Azul 2</string>
   <string name="Indigo1">Índigo claro</string>

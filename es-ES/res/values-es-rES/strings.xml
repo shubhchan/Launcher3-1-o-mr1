@@ -28,13 +28,13 @@
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
   <string name="activity_not_available">La aplicación no está disponible</string>
   <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">Aplicación descargada inhabilitada en modo seguro</string>
+  <string name="safemode_shortcut_error">La aplicación descargada está inactiva en Modo seguro</string>
   <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Widgets inhabilitados en modo seguro</string>
+  <string name="safemode_widget_error">Los widgets están desactivados en Modo Seguro</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
   <string name="shortcut_not_available">El acceso directo no está disponible</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-  <string name="home_screen">Pantalla principal</string>
+  <string name="home_screen">Pantalla de inicio</string>
   <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
   <string name="custom_actions">Acciones personalizadas</string>
   <!-- Widgets -->

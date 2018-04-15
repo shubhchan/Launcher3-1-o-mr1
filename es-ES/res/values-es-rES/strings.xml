@@ -307,7 +307,7 @@
   <string name="num_hotseat_icons_pref_title">Número de íconos en el dock</string>
   <string name="custom_grid_size">Cambiar cuadrícula</string>
   <string name="change_grid_size">Cuadrícula del cajón</string>
-  <string name="change_grid_size_sum">Cambia el tamaño de la cuadrícula en el cajón de aplicaciones. Las filas pueden parecer que tiene una más. Esto es porque toma en cuenta la fila añadida con la opción \"Muestra sugerencias de aplicaciones\" que viene activada por defecto </string>
+  <string name="change_grid_size_sum">Cambia el tamaño de la cuadrícula en el cajón de aplicaciones. La cuadrícula puede parecer una fila más grande porque toma en cuenta la fila añadida con la opción \"Mostrar sugerencias de aplicaciones\" que está activada por defecto </string>
   <string name="hotseatShowArrow">Flecha indicadora</string>
   <string name="hotseatShowArrow_sum">Activa/Desactiva la flecha indicadora sobre el dock</string>
   <string name="hotseat_show_page_indicator">Indicador de página</string>
@@ -410,8 +410,8 @@
   <string name="Indigo1">Índigo claro</string>
   <string name="Indigo2">Índigo oscuro</string>
   <string name="Violet">Violeta</string>
-  <string name="Deep_purple1">Violeta profundo claro</string>
-  <string name="Deep_purple2">Violeta profundo oscuro</string>
+  <string name="Deep_purple1">Morado profundo claro</string>
+  <string name="Deep_purple2">Morado profundo oscuro</string>
   <string name="Purple1">Morado claro</string>
   <string name="Purple2">Morado oscuro</string>
   <string name="Pink1">Rosa claro</string>
@@ -419,11 +419,11 @@
   <string name="Red1">Rojo claro</string>
   <string name="Red2">Rojo oscuro</string>
   <!--Animations-->
-  <string name="legacy_icons_title">Tratamiento de iconos viejos</string>
-  <string name="legacy_icons_title_sum">Crea un fondo adaptable detrás del ícono, luego de habilitarlo, debe \"Cambiar la forma del ícono\" para ver los cambios aplicados</string>
+  <string name="legacy_icons_title">Tratamiento de íconos viejos (Legacy)</string>
+  <string name="legacy_icons_title_sum">Crea un fondo adaptativo detrás del ícono. Después de activarse debe \"Cambiar la forma del ícono\" para ver los cambios</string>
   <!--AllappsGrid-->
   <string name="number_of_columns_title1">Columnas de la cuadrícula</string>
-  <string name="home_action_title">Acción del botón de inicio en la cuadrícula</string>
+  <string name="home_action_title">Acción del boton Inicio en la Pantalla de inicio</string>
   <string name="home_action_nothing">Nada</string>
   <string name="home_action_quick_search">Búsqueda rápida</string>
   <string name="home_action_voice_search">Búsqueda por voz</string>
@@ -455,7 +455,7 @@
   <string name="smartspace_font">Fuente del widget \"Un Vistazo\"</string>
   <string name="donate">Link de donación</string>
   <string name="donate_sum">Link de donación de PayPal (si así lo quieres)</string>
-  <string name="icon_pack_updated">Tu paquete de íconos actual ha sido actualizado. Se recomienda ir a los ajustes y aplicar de nuevo el paquete de íconos.</string>
+  <string name="icon_pack_updated">Tu paquete de íconos en uso ha sido actualizado. Se recomienda ir a los ajustes y aplicar de nuevo el paquete de íconos.</string>
   <string name="icon_pack_apply_warning_title">Advertencia</string>
   <string name="icon_pack_apply_warning_message">Algunas etiquetas de íconos o íconos personalizados desaparecerán. ¿Estás seguro que deseas continuar?</string>
   <string name="show_top_shadow_title">Mostrar sombra superior</string>
@@ -469,7 +469,7 @@
   <string name="space_in_dock">Margen de los íconos en el dock</string>
   <string name="space_in_dock_sum">Activa ésto si los íconos están muy cercanos a la barra del dock </string>
   <string name="generate_adaptive_background_title">Extraer color del ícono Legacy</string>
-  <string name="generate_adaptive_background_summary">Para los fondos de íconos adaptativos generados, después de activar ésto, debes modificar \"Cambiar Forma de los íconos\" y activar \"Tratamiento para íconos Legacy\", entonces verás los cambios aplicados</string>
+  <string name="generate_adaptive_background_summary">Para los fondos de íconos adaptativos generados, después de activar ésto, debes modificar \"Cambiar forma de los íconos\" y activar \"Tratamiento para íconos viejos (Legacy)\", entonces verás los cambios aplicados</string>
   <string name="allow_two_line_labels_title">Permitir etiquetas de dos líneas</string>
   <string name="allow_two_line_labels_summary">Para nombres de aplicaciones o carpetas largos, pueden parecer cortados </string>
   <string name="faq">Preguntas frecuentes</string>

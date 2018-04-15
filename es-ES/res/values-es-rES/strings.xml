@@ -432,11 +432,11 @@
   <string name="home_action_overview">Entrar en Vista general</string>
   <string-array name="home_action_values">
     <item>nada</item>
-    <item>búsqueda rapida</item>
+    <item>búsqueda rápida</item>
     <item>búsqueda por voz</item>
     <item>cajón de aplicaciones</item>
     <item>búsqueda de aplicaciones</item>
-    <item>visión general</item>
+    <item>vista general</item>
   </string-array>
   <!--search provider-->
   <string name="search_provider_title">Motor de búsqueda</string>
@@ -446,15 +446,15 @@
   <string name="search_provider_baidu">Baidu</string>
   <string name="transparent_nav_bar_title">Barra de navegación transparente</string>
   <string name="transparent_nav_bar_summary">En el cajón de aplicaciones</string>
-  <string name="smartspace_launchclock_sum">Al mantener presiónado</string>
-  <string name="smartspace_launchclock">Abrir Reloj</string>
+  <string name="smartspace_launchclock_sum">Al mantener presionado</string>
+  <string name="smartspace_launchclock">Abrir aplicación de Reloj</string>
   <string name="system_font_for_smartspace">Usar fuente del sistema</string>
   <string name="system_font_for_smartspace_sum">Para el widget \"Un Vistazo\"</string>
   <string name="bage_size">Tamaño de las insignias</string>
-  <string name="label_font">Fuente de las etoquetas</string>
+  <string name="label_font">Fuente de las etiquetas</string>
   <string name="smartspace_font">Fuente del widget \"Un Vistazo\"</string>
   <string name="donate">Link de donación</string>
-  <string name="donate_sum">Link de donación de PayPal (si es que quieres)</string>
+  <string name="donate_sum">Link de donación de PayPal (si así lo quieres)</string>
   <string name="icon_pack_updated">Tu paquete de iconos actual ha sido actualizado. Se recomienda ir a los ajustes y re-aplicar el paquete de iconos.</string>
   <string name="icon_pack_apply_warning_title">Advertencia</string>
   <string name="icon_pack_apply_warning_message">Cualquier etiqueta de iconos o iconos personalizados desaparecerán. ¿Estás seguro que deseas continuar?</string>

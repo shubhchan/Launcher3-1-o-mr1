@@ -339,22 +339,22 @@
   <string name="custom_theme">Temas e Íconos</string>
   <string name="theme">Tema</string>
   <string name="white_theme">Blanco</string>
-  <string name="white_withdarktext_theme">Blanco con Texto Oscuro</string>
+  <string name="white_withdarktext_theme">Blanco con texto oscuro</string>
   <string name="dark_theme">Oscuro</string>
   <string name="black_theme">Negro</string>
   <string name="solid_theme">Sólido</string>
   <string name="transparent_theme">Transparente</string>
-  <string name="auto_theme_sum">Definido por Fondo de pantalla</string>
+  <string name="auto_theme_sum">Definido por el fondo de pantalla</string>
   <string name="auto_theme">Tema automático</string>
   <string name="googleinappmenu">Barra de búsqueda de Google</string>
-  <string name="g_bar_drawer">Barra de búsqueda de Google en el cajón</string>
+  <string name="g_bar_drawer">Barra de búsqueda de Google en el cajón de aplicaciones</string>
   <!--Notification dot-->
   <string name="textinbadge">Insignias numéricas</string>
   <string name="textinbadge_sum">Muestra la cantidad de notificaciones en la insignia</string>
   <string name="bottombadge">Insignias abajo </string>
   <string name="bottombadge_sum">Mostrar insignias en la parte inferior derecha del ícono</string>
   <string name="restart">Reiniciar</string>
-  <string name="restart_sum">Reiniciar para solucionar errores</string>
+  <string name="restart_sum">Reiniciar en modo de depuración</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
   <string name="custom_qsb_color">Color de la barra de búsqueda personalizado</string>
   <string name="custom_qsb_color_list">Lista de colores de la barra de Google</string>
@@ -362,12 +362,12 @@
   <string name="behavior_pref_title">Comportamiento</string>
   <string name="custom_dockbar">Barra del dock</string>
   <!--Home screen-->
-  <string name="custom_hs">Pantalla principal</string>
+  <string name="custom_hs">Pantalla de inicio</string>
   <string name="custom_allapp">Cajón de aplicaciones</string>
   <string name="settings_edit_allow_title">Permitir edición</string>
-  <string name="settings_edit_allow_summary_on">Se pueden añadir, remover y mover iconos y widgets de la página principal</string>
-  <string name="settings_edit_allow_summary_off">No sé pueden añadir, remover o mover iconos y widgets de la página principal</string>
-  <string name="settings_edit_widgets_error">No sé pueden añadir widgets a la página principal</string>
+  <string name="settings_edit_allow_summary_on">Los íconos y widgets se pueden añadir, eliminar y mover en la Pantalla de inicio</string>
+  <string name="settings_edit_allow_summary_off">Los iconos y widgets no se pueden añadir, eliminar y mover en la Pantalla de inicio</string>
+  <string name="settings_edit_widgets_error">No es posible añadir widgets a la página principal</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Barra de dock de Google</string>
   <string name="bottom_search_bar_summary">Mostrar la barra de búsqueda de Google abajo del dock</string>

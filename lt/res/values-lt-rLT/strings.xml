@@ -23,8 +23,11 @@
   <!-- Default folder name -->
   <!-- Work folder name -->
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+  <string name="activity_not_found">Programa neįrašyta.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+  <string name="activity_not_available">Programa neprieinama</string>
   <!-- SafeMode shortcut error string -->
+  <string name="safemode_shortcut_error">Parsiųsta programa yra nepasiekiama Saugiame režime</string>
   <!-- SafeMode widget error string -->
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->

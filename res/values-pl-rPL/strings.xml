@@ -193,7 +193,7 @@
   <string name="widgets_bottom_sheet_title"><xliff:g id="NAME">%1$s</xliff:g> – widżety</string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Dodaj do strony głównej</string>
+  <string name="action_add_to_workspace">Dodaj do ekranu głównego</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
   <string name="action_move_here">Przenieś element tutaj</string>
   <!-- Accessibility confirmation for item added to workspace. -->
@@ -295,12 +295,12 @@
   <string name="qsb_in_dock_show">Pokaż pasek wyszukiwania w docku</string>
   <string name="pdock">Stały styl docka</string>
   <!-- Sizes -->
-  <string name="size_biggest">Większe</string>
+  <string name="size_biggest">Największe</string>
   <string name="size_big">Duże</string>
-  <string name="size_smallest">Mniejsze</string>
+  <string name="size_smallest">Najmniejsze</string>
   <string name="size_small">Małe</string>
   <string name="size_stock">Domyślne</string>
-  <string name="size_tiny">Mały</string>
+  <string name="size_tiny">Malutki</string>
   <!-- Rows and Coloumns -->
   <string name="num_rows">Liczba wierszy</string>
   <string name="num_cols">Liczba kolumn</string>

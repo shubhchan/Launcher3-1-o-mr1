@@ -369,7 +369,7 @@
   <string name="settings_edit_allow_summary_off">Ikon i widżetów nie można dodawać, usuwać i przenosić na ekranie głównym</string>
   <string name="settings_edit_widgets_error">Nie można dodać widżetów do ekranu głównego</string>
   <!-- Hide/Show search bars -->
-  <string name="bottom_search_bar_title">Pasek wyszukiwania Google</string>
+  <string name="bottom_search_bar_title">Pasek Google</string>
   <string name="bottom_search_bar_summary">Pokaż pasek wyszukiwania Google poniżej docka</string>
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Blokuj przez podwójne dotknięcie</string>
@@ -380,7 +380,7 @@
   <string name="White">Biały</string>
   <string name="Black">Czarny</string>
   <string name="Blue_gray1">Jasny niebiesko-szary</string>
-  <string name="Blue_gray2">Niebieski szary ciemny</string>
+  <string name="Blue_gray2">Ciemny niebiesko-szary</string>
   <string name="Gray1">Jasny szary</string>
   <string name="Gray2">Ciemny szary</string>
   <string name="Brown1">Jasny brązowy</string>
@@ -389,7 +389,7 @@
   <string name="Deep_orange2">Głęboki ciemny pomarańczowy</string>
   <string name="Orange1">Jasny pomarańczowy</string>
   <string name="Orange2">Ciemny pomarańczowy</string>
-  <string name="Amber1">Jenny bursztynowy</string>
+  <string name="Amber1">Jasny bursztynowy</string>
   <string name="Amber2">Ciemny bursztynowy</string>
   <string name="Yellow1">Jasny żółty</string>
   <string name="Yellow2">Ciemny żółty</string>
@@ -470,8 +470,8 @@
   <string name="space_in_dock_sum">Włącz, jeśli ikony znajdują się zbyt blisko paska dokowania </string>
   <string name="generate_adaptive_background_title">Wyodrębnij kolor ze starej ikony</string>
   <string name="generate_adaptive_background_summary">W przypadku adaptacyjnego tła ikon, po włączeniu tej opcji należy zmienić \"Zmień kształt ikony\" i włączyć \"Tryb starszych ikon\", aby zobaczyć, jakie zmiany zostały zastosowane</string>
-  <string name="allow_two_line_labels_title">Zezwól na etykiety w dwóch liniach</string>
-  <string name="allow_two_line_labels_summary">W przypadku długich nazw aplikacji lub folderów może wydawać się odcięte </string>
+  <string name="allow_two_line_labels_title">Zezwól na podpisy aplikacji w dwóch liniach</string>
+  <string name="allow_two_line_labels_summary">W przypadku długich nazw aplikacji lub folderów mogą wydawać się ucięte </string>
   <string name="faq">Często zadawane pytania</string>
   <string name="hide_apps_title">Ukryte aplikacje</string>
   <string name="hide_apps_summary">Z listy aplikacji</string>

@@ -300,14 +300,14 @@
   <string name="size_smallest">Najmniejsze</string>
   <string name="size_small">Małe</string>
   <string name="size_stock">Domyślne</string>
-  <string name="size_tiny">Malutki</string>
+  <string name="size_tiny">Malutkie</string>
   <!-- Rows and Coloumns -->
   <string name="num_rows">Liczba wierszy</string>
   <string name="num_cols">Liczba kolumn</string>
   <string name="num_hotseat_icons_pref_title">Liczba ikon w docku</string>
   <string name="custom_grid_size">Zmień siatkę</string>
   <string name="change_grid_size">Siatka listy aplikacji</string>
-  <string name="change_grid_size_sum">Zmień rozmiar siatki w szufladzie aplikacji, wiersz siatki może wydawać się o jedną cyfrę więcej, niż jest w rzeczywistości, ponieważ zlicza \"Domyślne sugestie dotyczące aplikacji\" włączone domyślnie </string>
+  <string name="change_grid_size_sum">Zmień rozmiar siatki w szufladzie aplikacji, wiersz siatki może wydawać się o jedną cyfrę większyj, niż jest w rzeczywistości, ponieważ zlicza \"Domyślne sugestie dotyczące aplikacji\" </string>
   <string name="hotseatShowArrow">Przesuń strzałkę</string>
   <string name="hotseatShowArrow_sum">Włącz/wyłącz wskaźnik strzałki w górę nad dockiem</string>
   <string name="hotseat_show_page_indicator">Wskaźnik strony</string>
@@ -342,12 +342,12 @@
   <string name="white_withdarktext_theme">Biały z ciemnym tekstem</string>
   <string name="dark_theme">Ciemny</string>
   <string name="black_theme">Czarny</string>
-  <string name="solid_theme">Pogrubiony</string>
+  <string name="solid_theme">Pogrubiony/stały</string>
   <string name="transparent_theme">Przezroczysty</string>
   <string name="auto_theme_sum">Przez tapetę</string>
   <string name="auto_theme">Automatyczny motyw</string>
   <string name="googleinappmenu">Pasek wyszukiwania Google</string>
-  <string name="g_bar_drawer">Pasek wyszukiwania Google w liście aplikacji</string>
+  <string name="g_bar_drawer">Pasek wyszukiwania Google na liście aplikacji</string>
   <!--Notification dot-->
   <string name="textinbadge">Numeryczne znaczniki</string>
   <string name="textinbadge_sum">Pokaż numer powiadomienia w znaczniku</string>
@@ -411,7 +411,7 @@
   <string name="Indigo2">Ciemny indygo</string>
   <string name="Violet">Fioletowy</string>
   <string name="Deep_purple1">Głęboki jasny pomarańczowy</string>
-  <string name="Deep_purple2">Głęboki jasny pomarańczowy</string>
+  <string name="Deep_purple2">Głęboki ciemny pomarańczowy</string>
   <string name="Purple1">Jasny fioletowy</string>
   <string name="Purple2">Ciemny fioletowy</string>
   <string name="Pink1">Jasny różowy</string>
@@ -445,21 +445,21 @@
   <string name="search_provider_duckduckgo">DuckDuckGo</string>
   <string name="search_provider_baidu">Baidu</string>
   <string name="transparent_nav_bar_title">Przezroczysty pasek nawigacji</string>
-  <string name="transparent_nav_bar_summary">W liście aplikacji</string>
-  <string name="smartspace_launchclock_sum">Po dłuższym przytrzymaniu</string>
+  <string name="transparent_nav_bar_summary">Na liście aplikacji</string>
+  <string name="smartspace_launchclock_sum">Po długim przytrzymaniu</string>
   <string name="smartspace_launchclock">Uruchom aplikację zegara</string>
   <string name="system_font_for_smartspace">Użyj czcionki systemowej</string>
   <string name="system_font_for_smartspace_sum">Dla widżetu \"W skrócie\"</string>
   <string name="bage_size">Rozmiar znaczników</string>
   <string name="label_font">Czcionka etykiety</string>
   <string name="smartspace_font">Czcionka widżetu \"W skrócie\"</string>
-  <string name="donate">Darowizna</string>
+  <string name="donate">Link do darowizny</string>
   <string name="donate_sum">Link do darowizny PayPal (jeżeli chciałbyś)</string>
   <string name="icon_pack_updated">Twój aktualnie zastosowany pakiet ikon został zaktualizowany. Zaleca się przejście do ustawień i ponowne zastosowanie pakietu ikon.</string>
   <string name="icon_pack_apply_warning_title">Ostrzeżenie</string>
   <string name="icon_pack_apply_warning_message">Wszystkie niestandardowe ikony lub etykiety ikon znikną. Jesteś pewien, że chcesz kontynuować?</string>
   <string name="show_top_shadow_title">Pokaż górny cień</string>
-  <string name="pdock1">Dock w stylu P</string>
+  <string name="pdock1">Dock w stylu androida P</string>
   <string name="pdock1sum">Nowy Pixel Launcher wprowadzony w wersji Developer Preview 1</string>
   <!--Time format-->
   <string name="time_formats">Format czasu</string>

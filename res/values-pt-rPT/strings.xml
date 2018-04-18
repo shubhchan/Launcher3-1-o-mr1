@@ -337,7 +337,7 @@
   <string name="date_format_5">13 Terça feira</string>
   <string name="date_format_6">Terça feira, Fevereiro 13</string>
   <!--theme-->
-  <string name="custom_theme">Tratamento do ícone e do tema</string>
+  <string name="custom_theme">Configuração dos ícones e do tema</string>
   <string name="theme">Tema</string>
   <string name="white_theme">Branco</string>
   <string name="white_withdarktext_theme">Branco com texto escuro</string>

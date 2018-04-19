@@ -217,24 +217,58 @@
   <!-- Accessibility confirmation for item added to folder. -->
   <string name="added_to_folder">Item toegevoegd aan map</string>
   <!-- Accessibility description to create folder with another item. -->
+  <string name="create_folder_with">Map maken met: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
+  <string name="folder_created">Map gemaakt</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+  <string name="action_move_to_workspace">Verplaatsen naar thuisscherm</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
+  <string name="action_move_screen_left">Scherm naar links verplaatsen</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
+  <string name="action_move_screen_right">Scherm naar rechts verplaatsen</string>
   <!-- Accessibility confirmation when a screen was moved. -->
+  <string name="screen_moved">Scherm verplaatst</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+  <string name="action_resize">Aanpassen</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_increase_width">Breedte vergroten</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_increase_height">Hoogte vergroten</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_decrease_width">Breedte verkleinen</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+  <string name="action_decrease_height">Hoogte verkleinen</string>
   <!-- Accessibility confirmation for widget resize. -->
+  <string name="widget_resized">Widget gewijzigd naar breedte <xliff:g id="number" example="2">%1$s</xliff:g>, hoogte <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+  <string name="action_deep_shortcut">Snelkoppelingen</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
+  <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> snelkoppelingen voor <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
+  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> snelkoppelingen en <xliff:g id="number_of_notifications" example="3">%2$d</xliff:g> meldingen voor <xliff:g id="app_name" example="Messenger">%3$s</xliff:g></string>
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
+  <string name="action_dismiss_notification">Negeren</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
+  <string name="notification_dismissed">Melding gesloten</string>
+  <string name="icu_abbrev_wday_month_day_no_year">EEEEMMMd</string>
+  <string name="smartspace_preferences">Voorkeuren</string>
+  <string name="label_search">Zoeken</string>
+  <string name="label_voice_search">Spraakgestuurd zoeken</string>
+  <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
+  <string name="pref_icon_pack">Pictogram pakket</string>
+  <string name="state_loading">Toepassen…</string>
+  <string name="smartspace_preferences_in_settings">In een oogopslag</string>
+  <string name="smartspace_preferences_in_settings_desc">Bovenaan op het thuisscherm</string>
+  <string name="title_show_google_app">%1$s weergeven</string>
+  <string name="msg_minus_one_on_left">Links van het standaard thuisscherm</string>
+  <string name="about">Over</string>
+  <string name="title_google_app">Google app</string>
   <string name="title_app_suggestions">App-suggesties weergeven</string>
   <string name="summary_app_suggestions">Bovenaan het app-overzicht</string>
+  <string name="about_app_version">Ruthless versie</string>
+  <string name="compiled_by">Gecompileerd door</string>
+  <string name="Icon_By">Pictogram door</string>
+  <string name="app_name_pixel_launcher">Ruthless Launcher</string>
   <string name="title_disable_suggestions_prompt">App-suggesties uitschakelen?</string>
   <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan de lijst met apps, en de gebruiksgegevens op basis waarvan ze zijn gemaakt worden definitief verwijderd."</string>
   <string name="label_turn_off_suggestions">UITSCHAKELEN</string>
@@ -274,6 +308,8 @@
   <string name="custom_grid_size">Raster wijzigen</string>
   <string name="change_grid_size">App-overzicht raster</string>
   <string name="change_grid_size_sum">Rastergrootte in app-overzicht wijzigen. Rasterrijen houdt rekening met de \"App-suggesties weergeven\" optie, waardoor deze met één getal kan afwijken</string>
+  <string name="hotseatShowArrow">Veeg pijltje</string>
+  <string name="hotseatShowArrow_sum">Omhoog vegen pijltje boven favorieten vak in-/uitschakelen</string>
   <string name="hotseat_show_page_indicator">Pagina-indicator</string>
   <string name="hotseat_show_page_indicator_sum">Pagina-indicator in-/uitschakelen boven het favorieten vak</string>
   <string name="gradient_size">Kleurovergang grootte</string>

@@ -307,7 +307,7 @@
   <string name="num_hotseat_icons_pref_title">Nombre d\'icones al dock</string>
   <string name="custom_grid_size">Canviar graella</string>
   <string name="change_grid_size">Graella del caixó</string>
-  <string name="change_grid_size_sum">Canvia el tamany de graella en el caixó d\'aplicacions, les files poden semblar un dígit més llargues ja que compten el \"Mostrar Sugerències d\'aplicacions\", actiu per defecte </string>
+  <string name="change_grid_size_sum">Canvia el tamany de graella en el calaix d\'aplicacions, les files poden semblar un dígit més llargues ja que compten el \"Mostrar Sugerències d\'aplicacions\", actiu per defecte </string>
   <string name="hotseatShowArrow">Fletxa cap amunt</string>
   <string name="hotseatShowArrow_sum">Habilitar/Deshabitar la fletxa cap amunt(suau) de damunt del dock</string>
   <string name="hotseat_show_page_indicator">Indicador de Pàgina</string>
@@ -363,7 +363,7 @@
   <string name="custom_dockbar">Barra de dock</string>
   <!--Home screen-->
   <string name="custom_hs">Pantalla d\'inici</string>
-  <string name="custom_allapp">Caixó d\'aplicacions</string>
+  <string name="custom_allapp">Calaix d\'aplicacions</string>
   <string name="settings_edit_allow_title">Permet l\'edició</string>
   <string name="settings_edit_allow_summary_on">Les icones i widgets poden ser afegits, eliminats i moguts en la pantalla d\'inici</string>
   <string name="settings_edit_allow_summary_off">Les icones i els widgets no poden ser afegits, eliminats o moguts en la pantalla d\'inici</string>
@@ -427,7 +427,7 @@
   <string name="home_action_nothing">Res</string>
   <string name="home_action_quick_search">Cerca Ràpida</string>
   <string name="home_action_voice_search">Cerca de Veu</string>
-  <string name="home_action_app_drawer">Obrir caixó d\'aplicacions</string>
+  <string name="home_action_app_drawer">Obrir calaix d\'aplicacions</string>
   <string name="home_action_app_search">Obrir cerca d\'aplicacions</string>
   <string name="home_action_overview">Accedir a visió general</string>
   <string-array name="home_action_values">
@@ -445,7 +445,7 @@
   <string name="search_provider_duckduckgo">DuckDuckGo</string>
   <string name="search_provider_baidu">Baidu</string>
   <string name="transparent_nav_bar_title">Barra de Navegació Transparent</string>
-  <string name="transparent_nav_bar_summary">En el caixó d\'aplicacions</string>
+  <string name="transparent_nav_bar_summary">En el calaix d\'aplicacions</string>
   <string name="smartspace_launchclock_sum">Al fer un clic llarg</string>
   <string name="smartspace_launchclock">Llença l\'app de rellotge</string>
   <string name="system_font_for_smartspace">Utilitza la font del sistema</string>
@@ -474,5 +474,5 @@
   <string name="allow_two_line_labels_summary">Per a noms d\'app o carpeta llargs, pot semblar que es tallin </string>
   <string name="faq">Preguntes Freqüents</string>
   <string name="hide_apps_title">Amagar aplicacions</string>
-  <string name="hide_apps_summary">Des del caixó d\'aplicacions</string>
+  <string name="hide_apps_summary">Des del calaix d\'aplicacions</string>
 </resources>

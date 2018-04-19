@@ -219,6 +219,8 @@
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
   <!-- Accessibility confirmation for notification being dismissed. -->
+  <string name="title_app_suggestions">App-suggesties weergeven</string>
+  <string name="summary_app_suggestions">Bovenaan het app-overzicht</string>
   <string name="title_disable_suggestions_prompt">App-suggesties uitschakelen?</string>
   <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan je lijst met apps, en de gebruiksgegevens op basis waarvan ze zijn gemaakt worden definitief verwijderd."</string>
   <string name="label_turn_off_suggestions">UITSCHAKELEN</string>
@@ -243,8 +245,22 @@
   <string name="transparentqsb_sum">Maakt de zoekbalk lichtelijk doorzichtig</string>
   <string name="custom_qsb_in_dock">Zoekbalk instellingen</string>
   <string name="qsb_in_dock_show">Zoekbalk in favorieten vak weergeven</string>
+  <string name="pdock">Solide favorieten vak</string>
   <!-- Sizes -->
+  <string name="size_biggest">Groter</string>
+  <string name="size_big">Groot</string>
+  <string name="size_smallest">Kleiner</string>
+  <string name="size_small">Klein</string>
+  <string name="size_stock">Standaard</string>
+  <string name="size_tiny">Minuscuul</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Aantal rijen</string>
+  <string name="num_cols">Aantal kolommen</string>
+  <string name="num_hotseat_icons_pref_title">Aantal pictogrammen in favorieten vak</string>
+  <string name="custom_grid_size">Raster wijzigen</string>
+  <string name="change_grid_size">App-overzicht raster</string>
+  <string name="change_grid_size_sum">Rastergrootte in app-overzicht wijzigen. Rasterrijen houdt rekening met de \"App-suggesties weergeven\" optie, waardoor deze met één getal kan afwijken</string>
+  <string name="hotseat_show_page_indicator">Pagina-indicator</string>
   <!-- Hide labels -->
   <!--At glance-->
   <!-- Date formats -->

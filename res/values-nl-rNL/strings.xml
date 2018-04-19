@@ -152,7 +152,7 @@
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
   <string name="title_missing_notification_access">Toegang tot meldingen vereist</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-  <string name="msg_missing_notification_access">Als je meldingsstipjes wilt weergeven, schakel je app-meldingen in voor <xliff:g id="name" example="My App">%1$s</xliff:g></string>
+  <string name="msg_missing_notification_access">Om meldingsstipjes te weergeven, schakel app-meldingen in voor <xliff:g id="name" example="My App">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
   <string name="title_change_settings">Instellingen wijzigen</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
@@ -222,7 +222,7 @@
   <string name="title_app_suggestions">App-suggesties weergeven</string>
   <string name="summary_app_suggestions">Bovenaan het app-overzicht</string>
   <string name="title_disable_suggestions_prompt">App-suggesties uitschakelen?</string>
-  <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan je lijst met apps, en de gebruiksgegevens op basis waarvan ze zijn gemaakt worden definitief verwijderd."</string>
+  <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan de lijst met apps, en de gebruiksgegevens op basis waarvan ze zijn gemaakt worden definitief verwijderd."</string>
   <string name="label_turn_off_suggestions">UITSCHAKELEN</string>
   <string name="action_edit">Bewerken</string>
   <string name="hide_app_sum">App verbergen in het app-overzicht</string>
@@ -310,9 +310,20 @@
   <string name="custom_qsb_color_list">Lijst van G-balkkleuren</string>
   <string name="dark_themeqsballapp">Donkere zoekbalk</string>
   <string name="behavior_pref_title">Gedrag</string>
+  <string name="custom_dockbar">Favorieten vak</string>
   <!--Home screen-->
+  <string name="custom_hs">Thuisscherm</string>
+  <string name="custom_allapp">App-overzicht</string>
+  <string name="settings_edit_allow_title">Bewerken toestaan</string>
+  <string name="settings_edit_allow_summary_on">Pictogrammen en widgets kunnen worden bewerkt, verplaatst en verwijderd</string>
+  <string name="settings_edit_allow_summary_off">Pictogrammen en widgets kunnen niet worden toegevoegd, verplaatst en verwijderd</string>
+  <string name="settings_edit_widgets_error">Het is niet mogelijk om widgets toe te voegen aan het thuisscherm</string>
   <!-- Hide/Show search bars -->
+  <string name="bottom_search_bar_title">Favorieten vak zoekbalk</string>
+  <string name="bottom_search_bar_summary">Google zoekbalk onderin het favorieten vak weergeven</string>
   <!--Double tap to lock-->
+  <string name="double_tap_to_lock_title">Dubbel-tik om te vergrendelen</string>
+  <string name="double_tap_to_lock_summary">Op het thuisscherm</string>
   <!-- Colors -->
   <!--Animations-->
   <!--AllappsGrid-->

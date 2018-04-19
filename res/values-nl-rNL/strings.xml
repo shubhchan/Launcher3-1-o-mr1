@@ -430,7 +430,22 @@
   <string name="home_action_app_drawer">App-overzicht openen</string>
   <string name="home_action_app_search">App-zoeken openen</string>
   <string name="home_action_overview">Overzicht openen</string>
+  <string-array name="home_action_values">
+    <item>geen</item>
+    <item>snelzoeken</item>
+    <item>spraakgestuurdzoeken</item>
+    <item>appoverzicht</item>
+    <item>appzoeken</item>
+    <item>overzicht</item>
+  </string-array>
   <!--search provider-->
+  <string name="search_provider_title">Zoekmachine</string>
+  <string name="search_provider_google">Google</string>
+  <string name="search_provider_bing">Bing</string>
+  <string name="search_provider_duckduckgo">DuckDuckGo</string>
+  <string name="search_provider_baidu">Baidu</string>
+  <string name="transparent_nav_bar_title">Transparante navigatiebalk</string>
+  <string name="transparent_nav_bar_summary">In het app-overzicht</string>
   <string name="smartspace_launchclock_sum">Bij lang aanraken</string>
   <string name="smartspace_launchclock">Klok app openen</string>
   <!--Time format-->

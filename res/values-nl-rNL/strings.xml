@@ -100,37 +100,65 @@
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
   <string name="gadget_setup_text">Instellen</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
+  <string name="uninstall_system_app_text">Dit is een systeem-app en kan niet worden gedeïnstalleerd</string>
   <!-- Default folder title -->
+  <string name="folder_hint_text">Naamloze map</string>
   <!-- Accessibility -->
   <!-- The format string for when an app is temporarily disabled. -->
+  <string name="disabled_app_label"><xliff:g id="app_name" example="Messenger">%1$s</xliff:g> uitgeschakeld</string>
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+  <string name="default_scroll_format">Pagina %1$d van %2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+  <string name="workspace_scroll_format">Thuisscherm %1$d van %2$d</string>
   <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+  <string name="workspace_new_page">Nieuwe pagina</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
+  <string name="folder_opened">Map geopend, <xliff:g id="width" example="5">%1$d</xliff:g> bij <xliff:g id="height" example="3">%2$d</xliff:g></string>
   <!-- Instruction that clicking outside will close folder -->
+  <string name="folder_tap_to_close">Tik om map te sluiten</string>
   <!-- Instruction that clicking outside will commit folder rename -->
+  <string name="folder_tap_to_rename">Tik om te hernoemen</string>
   <!-- Indication that folder closed -->
+  <string name="folder_closed">Map gesloten</string>
   <!-- Folder renamed format -->
+  <string name="folder_renamed">Map hernoemd naar <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Folder name format -->
+  <string name="folder_name_format">Map: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
+  <string name="widget_button_text">Widgets</string>
   <!-- Text for wallpaper change button -->
+  <string name="wallpaper_button_text">Achtergronden</string>
   <!-- Text for settings button -->
+  <string name="settings_button_text">Instellingen voor thuispagina</string>
   <!-- Message shown when a feature is disabled by the administrator -->
+  <string name="msg_disabled_by_admin">Uitgeschakeld door de beheerder</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
+  <string name="accessibility_action_overview">Overzicht</string>
   <!-- Strings for settings -->
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+  <string name="allow_rotation_title">Thuisscherm draaien toestaan</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+  <string name="allow_rotation_desc">Wanneer de telefoon gedraaid is</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
+  <string name="allow_rotation_blocked_desc">Huidige scherminstelling staat draaien niet toe</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
+  <string name="icon_badging_title">Meldingsstipjes</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
+  <string name="icon_badging_desc_on">Aan</string>
   <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
+  <string name="icon_badging_desc_off">Uit</string>
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
+  <string name="title_missing_notification_access">Toegang tot meldingen vereist</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
+  <string name="msg_missing_notification_access">Als je meldingsstipjes wilt weergeven, schakel je app-meldingen in voor <xliff:g id="name" example="My App">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
+  <string name="title_change_settings">Instellingen wijzigen</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
+  <string name="auto_add_shortcuts_label">App-pictogram toevoegen aan thuisscherm</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
+  <string name="auto_add_shortcuts_description">Voor nieuwe apps</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->

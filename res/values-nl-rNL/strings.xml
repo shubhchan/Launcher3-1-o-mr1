@@ -160,7 +160,7 @@
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
   <string name="auto_add_shortcuts_description">Voor nieuwe apps</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Pictogrammenvorm wijzigen</string>
+  <string name="icon_shape_override_label">Pictogram vorm wijzigen</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
   <string name="icon_shape_system_default">Systeemstandaard gebruiken</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
@@ -172,7 +172,7 @@
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
   <string name="icon_shape_teardrop">Druppel</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-  <string name="icon_shape_override_progress">Pictogrammenvorm wijzigingen toepassen</string>
+  <string name="icon_shape_override_progress">Pictogram vorm wijzigingen toepassen</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
   <string name="package_state_unknown">Onbekend</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
@@ -261,8 +261,21 @@
   <string name="change_grid_size">App-overzicht raster</string>
   <string name="change_grid_size_sum">Rastergrootte in app-overzicht wijzigen. Rasterrijen houdt rekening met de \"App-suggesties weergeven\" optie, waardoor deze met één getal kan afwijken</string>
   <string name="hotseat_show_page_indicator">Pagina-indicator</string>
+  <string name="hotseat_show_page_indicator_sum">Pagina-indicator in-/uitschakelen boven het favorieten vak</string>
+  <string name="gradient_size">Kleurovergang grootte</string>
+  <string name="remove_gradient">Kleurovergang weergave</string>
+  <string name="remove_gradient_sum">Kleurovergang in het favorieten vak in-/uitschakelen voor transparant vak. Werkt niet met P-stijl favorieten vak</string>
   <!-- Hide labels -->
+  <string name="desktop_show_labels">Thuisscherm labels</string>
+  <string name="desktop_show_labels_sum">Pictogram labels op thuisscherm weergeven</string>
+  <string name="drawer_show_labels">App-overzicht labels</string>
+  <string name="drawer_show_labels_sum">Pictogram labels in app-overzicht weergeven</string>
+  <string name="folder_show_labels">Map labels</string>
+  <string name="folder_show_labels_sum">Pictogram labels in map weergeven</string>
+  <string name="icon_size">Pictogram grootte</string>
   <!--At glance-->
+  <string name="custom_glance">In een oogopslag</string>
+  <string name="smartspace_time">Klok toevoegen</string>
   <!-- Date formats -->
   <!--theme-->
   <!--Notification dot-->

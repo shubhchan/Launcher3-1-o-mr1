@@ -429,6 +429,7 @@
   <string name="home_action_voice_search">Spraakgestuurd zoeken</string>
   <string name="home_action_app_drawer">App-overzicht openen</string>
   <string name="home_action_app_search">App-zoeken openen</string>
+  <string name="home_action_overview">Overzicht openen</string>
   <!--search provider-->
   <string name="smartspace_launchclock_sum">Bij lang aanraken</string>
   <string name="smartspace_launchclock">Klok app openen</string>

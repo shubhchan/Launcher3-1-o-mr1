@@ -160,16 +160,27 @@
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
   <string name="auto_add_shortcuts_description">Voor nieuwe apps</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
+  <string name="icon_shape_override_label">Pictogrammenvorm wijzigen</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
+  <string name="icon_shape_system_default">Systeemstandaard gebruiken</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
+  <string name="icon_shape_square">Vierkant</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
+  <string name="icon_shape_squircle">Vierkantcirkel</string>
   <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
+  <string name="icon_shape_circle">Cirkel</string>
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
+  <string name="icon_shape_teardrop">Druppel</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
+  <string name="icon_shape_override_progress">Pictogrammenvorm wijzigingen toepassen</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+  <string name="package_state_unknown">Onbekend</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+  <string name="abandoned_clean_this">Verwijderen</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+  <string name="abandoned_search">Zoeken</string>
   <!-- Title for abandoned promise dialog. -->
+  <string name="abandoned_promises_title">Deze app is niet geïnstalleerd</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
   <!-- Title for an app which is being downloaded. -->

@@ -81,11 +81,14 @@
   <string name="app_info_drop_target_label">App-info</string>
   <!-- Permissions: -->
   <!-- Permission short label -->
-  <string name="permlab_install_shortcut">Snelkoppelingen instellen</string>
+  <string name="permlab_install_shortcut">snelkoppelingen instellen</string>
+  <!-- Permission description -->
+  <string name="permdesc_install_shortcut">App toestaan om snelkoppelingen toe te voegen zonder tussenkomst van de gebruiker.</string>
+  <!-- Permission short label -->
+  <string name="permlab_read_settings">instellingen en snelkoppelingen van de thuispagina lezen</string>
   <!-- Permission description -->
   <!-- Permission short label -->
-  <!-- Permission description -->
-  <!-- Permission short label -->
+  <string name="permlab_write_settings">instellingen en snelkoppelingen op de thuispagina schrijven</string>
   <!-- Permission description -->
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
   <!-- Widgets: -->

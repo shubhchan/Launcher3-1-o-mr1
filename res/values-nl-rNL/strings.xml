@@ -279,10 +279,37 @@
   <string name="in_smartspace">Aan \"In een oogopslag\" widget</string>
   <!-- Date formats -->
   <string name="date_format">Datumformaat</string>
-  <string name="date_format_1">Dinsdag, feb 13</string>
+  <string name="date_format_1">Dinsdag, 13 feb.</string>
+  <string name="date_format_2">Dinsdag</string>
+  <string name="date_format_3">Dinsdag, 13 februari</string>
+  <string name="date_format_4">Di, 13-02</string>
+  <string name="date_format_5">Dinsdag 13</string>
+  <string name="date_format_6">Dinsdag, 13 februari</string>
   <!--theme-->
+  <string name="custom_theme">Thema en pictogrammen</string>
+  <string name="theme">Thema</string>
+  <string name="white_theme">Wit</string>
+  <string name="white_withdarktext_theme">Wit met donkere tekst</string>
+  <string name="dark_theme">Donker</string>
+  <string name="black_theme">Zwart</string>
+  <string name="solid_theme">Solide</string>
+  <string name="transparent_theme">Transparant</string>
+  <string name="auto_theme_sum">Door achtergrond</string>
+  <string name="auto_theme">Automatisch thema</string>
+  <string name="googleinappmenu">Google zoekbalk</string>
+  <string name="g_bar_drawer">Google zoekbalk in favorieten vak</string>
   <!--Notification dot-->
+  <string name="textinbadge">Numerieke stipjes</string>
+  <string name="textinbadge_sum">Aantal meldingen weergeven in meldingsstipjes</string>
+  <string name="bottombadge">Stipjes onderaan</string>
+  <string name="bottombadge_sum">Meldingsstipjes rechtsonder pictogram weergeven</string>
+  <string name="restart">Herstarten</string>
+  <string name="restart_sum">Herstarten voor debuggen</string>
   <!--<string name="custom_label_color">Custom lable color</string>-->
+  <string name="custom_qsb_color">Aangepaste zoekbalk kleur</string>
+  <string name="custom_qsb_color_list">Lijst van G-balkkleuren</string>
+  <string name="dark_themeqsballapp">Donkere zoekbalk</string>
+  <string name="behavior_pref_title">Gedrag</string>
   <!--Home screen-->
   <!-- Hide/Show search bars -->
   <!--Double tap to lock-->

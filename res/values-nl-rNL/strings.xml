@@ -87,13 +87,18 @@
   <!-- Permission short label -->
   <string name="permlab_read_settings">instellingen en snelkoppelingen van de thuispagina lezen</string>
   <!-- Permission description -->
+  <string name="permdesc_read_settings">App toestaan om instellingen en snelkoppelingen van de thuispagina te lezen.</string>
   <!-- Permission short label -->
   <string name="permlab_write_settings">instellingen en snelkoppelingen op de thuispagina schrijven</string>
   <!-- Permission description -->
+  <string name="permdesc_write_settings">App toestaan om instellingen en snelkoppelingen op de thuispagina te wijzigen.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3">%1$s</xliff:g> heeft geen toestemming om te telefoneren</string>
   <!-- Widgets: -->
   <!-- Text to show user in place of a gadget when we can't display it properly -->
+  <string name="gadget_error_text">Probleem bij laden van widget</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
+  <string name="gadget_setup_text">Instellen</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
   <!-- Default folder title -->
   <!-- Accessibility -->

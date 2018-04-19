@@ -448,5 +448,27 @@
   <string name="transparent_nav_bar_summary">In het app-overzicht</string>
   <string name="smartspace_launchclock_sum">Bij lang aanraken</string>
   <string name="smartspace_launchclock">Klok app openen</string>
+  <string name="system_font_for_smartspace">Systeemlettertype gebruiken</string>
+  <string name="system_font_for_smartspace_sum">Voor \"In een oogopslag\" widget</string>
+  <string name="bage_size">Stipjes grootte</string>
+  <string name="label_font">Label lettertype</string>
+  <string name="smartspace_font">\"In een oogopslag\" widget lettertype</string>
+  <string name="donate">Donatie link</string>
+  <string name="donate_sum">Paypal donatie link (als je wilt)</string>
+  <string name="icon_pack_updated">Het toegepaste pictogram pakket is bijgewerkt. Het is aangeraden om het pakket opnieuw toe te passen in de instellingen</string>
+  <string name="icon_pack_apply_warning_title">Waarschuwing</string>
+  <string name="icon_pack_apply_warning_message">Alle aangepaste pictogrammen of labels zullen verdwijnen. Zeker weten doorgaan?</string>
+  <string name="show_top_shadow_title">Schaduw bovenin weergeven</string>
+  <string name="pdock1">P-stijl favorieten vak</string>
+  <string name="pdock1sum">Nieuwe pixel launcher favorieten vak, geïntroduceerd in Android P</string>
   <!--Time format-->
+  <string name="time_formats">Tijdsformaat</string>
+  <string name="time_f1">12:00 AM</string>
+  <string name="time_f2">24:00</string>
+  <string name="other_settings">Andere instellingen</string>
+  <string name="space_in_dock">Pictogram marge in favorieten vak</string>
+  <string name="space_in_dock_sum">Inschakelen als pictogrammen te dicht op elkaar staan</string>
+  <string name="generate_adaptive_background_title">Kleur uit verouderd pictogram halen</string>
+  <string name="generate_adaptive_background_summary">Voor het genereren van adaptieve pictogram achtergronden. Eenmaal ingeschakeld kun je \"Pictogram vorm wijzigen\" instellen, en \"Verouderde pictogrammen omvormen\" inschakelen</string>
+  <string name="allow_two_line_labels_title">Tweeregelige labels toestaan</string>
 </resources>

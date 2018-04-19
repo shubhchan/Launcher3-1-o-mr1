@@ -471,4 +471,8 @@
   <string name="generate_adaptive_background_title">Kleur uit verouderd pictogram halen</string>
   <string name="generate_adaptive_background_summary">Voor het genereren van adaptieve pictogram achtergronden. Eenmaal ingeschakeld kun je \"Pictogram vorm wijzigen\" instellen, en \"Verouderde pictogrammen omvormen\" inschakelen</string>
   <string name="allow_two_line_labels_title">Tweeregelige labels toestaan</string>
+  <string name="allow_two_line_labels_summary">Voor lange app- of mapnamen</string>
+  <string name="faq">Veelgestelde vragen</string>
+  <string name="hide_apps_title">Apps verbergen</string>
+  <string name="hide_apps_summary">Van het app-overzicht</string>
 </resources>

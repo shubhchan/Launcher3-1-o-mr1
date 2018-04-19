@@ -187,21 +187,35 @@
   <!-- Title for an app which is being downloaded. -->
   <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> downloaden, <xliff:g id="progress" example="30%">%2$s</xliff:g> voltooid</string>
   <!-- Title for an app whose download has been started. -->
+  <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> wacht op installatie</string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
+  <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> widgets</string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+  <string name="action_add_to_workspace">Toevoegen aan thuisscherm</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+  <string name="action_move_here">Item hierheen verplaatsen</string>
   <!-- Accessibility confirmation for item added to workspace. -->
+  <string name="item_added_to_workspace">Item toegevoegd aan thuisscherm</string>
   <!-- Accessibility confirmation for item removed. -->
+  <string name="item_removed">Item verwijderd</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+  <string name="action_move">Item verplaatsen</string>
   <!-- Accessibility description to move item to empty cell. -->
+  <string name="move_to_empty_cell">Verplaatsen naar rij <xliff:g id="number" example="1">%1$s</xliff:g>, kolom <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
+  <string name="move_to_position">Verplaatsen naar positie <xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
+  <string name="move_to_hotseat_position">Verplaatsen naar favorieten positie <xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
+  <string name="item_moved">Item verplaatst</string>
   <!-- Accessibility description to move item into an existing folder. -->
+  <string name="add_to_folder">Toevoegen aan map: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Accessibility description to move item into an existing folder containing an app. -->
+  <string name="add_to_folder_with_app">Toevoegen aan map met <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item added to folder. -->
+  <string name="added_to_folder">Item toegevoegd aan map</string>
   <!-- Accessibility description to create folder with another item. -->
   <!-- Accessibility confirmation for folder created. -->
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
@@ -324,9 +338,63 @@
   <!--Double tap to lock-->
   <string name="double_tap_to_lock_title">Dubbel-tik om te vergrendelen</string>
   <string name="double_tap_to_lock_summary">Op het thuisscherm</string>
+  <string name="double_tap_to_lock_hint">Om \"Dubbel-tik om te vergrendelen\" te gebruiken, dient Ruthless Launcher apparaatbeheerder rechten te hebben. Dit is een beveiligde vergrendeling, waardoor je een PIN moet invoeren bij de volgende ontgrendeling (indien ingesteld)</string>
+  <string name="double_tap_to_lock_disable_warning">Door apparaatbeheerder rechten te ontnemen, zul je niet langer gebruik kunnen maken van \"Dubbel-tik om te vergrendelen\"</string>
   <!-- Colors -->
+  <string name="White">Wit</string>
+  <string name="Black">Zwart</string>
+  <string name="Blue_gray1">Blauwgrijs licht</string>
+  <string name="Blue_gray2">Blauwgrijs donker</string>
+  <string name="Gray1">Grijs licht</string>
+  <string name="Gray2">Grijs donker</string>
+  <string name="Brown1">Bruin licht</string>
+  <string name="Brown2">Bruin donker</string>
+  <string name="Deep_orange1">Diep oranje licht</string>
+  <string name="Deep_orange2">Diep oranje donker</string>
+  <string name="Orange1">Oranje licht</string>
+  <string name="Orange2">Oranje donker</string>
+  <string name="Amber1">Amber licht</string>
+  <string name="Amber2">Amber donker</string>
+  <string name="Yellow1">Geel licht</string>
+  <string name="Yellow2">Geel donker</string>
+  <string name="Lime1">Limoen licht</string>
+  <string name="Lime2">Limoen donker</string>
+  <string name="Light_green1">Lichtgroen licht</string>
+  <string name="Light_green2">Lichtgroen donker</string>
+  <string name="Green1">Groen licht</string>
+  <string name="Green2">Groen donker</string>
+  <string name="Teal1">Blauwgroen licht</string>
+  <string name="Teal2">Blauwgroen donker</string>
+  <string name="Cyan1">Cyaan licht</string>
+  <string name="Cyan2">Cyaan donker</string>
+  <string name="Light_blue1">Lichtblauw licht</string>
+  <string name="Light_blue2">Lichtblauw donker</string>
+  <string name="Blue1">Blauw licht</string>
+  <string name="Blue2">Blauw donker</string>
+  <string name="Indigo1">Indigo licht</string>
+  <string name="Indigo2">Indigo donker</string>
+  <string name="Violet">Violet</string>
+  <string name="Deep_purple1">Diep paars licht</string>
+  <string name="Deep_purple2">Diep paars donker</string>
+  <string name="Purple1">Paars licht</string>
+  <string name="Purple2">Paars donker</string>
+  <string name="Pink1">Roze licht</string>
+  <string name="Pink2">Roze donker</string>
+  <string name="Red1">Rood licht</string>
+  <string name="Red2">Rood donker</string>
   <!--Animations-->
+  <string name="legacy_icons_title">Verouderde pictogrammen vervormen</string>
+  <string name="legacy_icons_title_sum">Maakt een adaptieve achtergrond achter het pictogram. Eenmaal ingeschakeld kun je \"Pictogram vorm aanpassen\" hiervoor gebruiken</string>
   <!--AllappsGrid-->
+  <string name="number_of_columns_title1">Rasterkolommen</string>
+  <string name="home_action_title">Thuisknop-actie op thuisscherm</string>
+  <string name="home_action_nothing">Geen</string>
+  <string name="home_action_quick_search">Snel zoeken</string>
+  <string name="home_action_voice_search">Spraakgestuurd zoeken</string>
+  <string name="home_action_app_drawer">App-overzicht openen</string>
+  <string name="home_action_app_search">App-zoeken openen</string>
   <!--search provider-->
+  <string name="smartspace_launchclock_sum">Bij lang aanraken</string>
+  <string name="smartspace_launchclock">Klok app openen</string>
   <!--Time format-->
 </resources>

@@ -276,7 +276,10 @@
   <!--At glance-->
   <string name="custom_glance">In een oogopslag</string>
   <string name="smartspace_time">Klok toevoegen</string>
+  <string name="in_smartspace">Aan \"In een oogopslag\" widget</string>
   <!-- Date formats -->
+  <string name="date_format">Datumformaat</string>
+  <string name="date_format_1">Dinsdag, feb 13</string>
   <!--theme-->
   <!--Notification dot-->
   <!--<string name="custom_label_color">Custom lable color</string>-->

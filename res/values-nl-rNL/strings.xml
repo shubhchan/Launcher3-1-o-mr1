@@ -183,7 +183,9 @@
   <string name="abandoned_promises_title">Deze app is niet geïnstalleerd</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
+  <string name="abandoned_promise_explanation">De app voor dit pictogram is niet geïnstalleerd. Je kunt het pictogram verwijderen, of de app zoeken en handmatig installeren.</string>
   <!-- Title for an app which is being downloaded. -->
+  <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> downloaden, <xliff:g id="progress" example="30%">%2$s</xliff:g> voltooid</string>
   <!-- Title for an app whose download has been started. -->
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
@@ -217,6 +219,12 @@
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
   <!-- Accessibility confirmation for notification being dismissed. -->
+  <string name="title_disable_suggestions_prompt">App-suggesties uitschakelen?</string>
+  <string name="msg_disable_suggestions_prompt">"Er worden geen suggesties weergegeven boven aan je lijst met apps, en de gebruiksgegevens op basis waarvan ze zijn gemaakt worden definitief verwijderd."</string>
+  <string name="label_turn_off_suggestions">UITSCHAKELEN</string>
+  <string name="action_edit">Bewerken</string>
+  <string name="hide_app_sum">App verbergen in het app-overzicht</string>
+  <string name="hide_app">App verbergen</string>
   <!-- Dock bar -->
   <!-- Sizes -->
   <!-- Rows and Coloumns -->

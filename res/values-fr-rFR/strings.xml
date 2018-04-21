@@ -275,6 +275,8 @@
   <string name="icon_shape_rounded_square">Carré arrondi</string>
   <string name="icon_pack_default">Défaut</string>
   <string name="icon_edit">French</string>
+  <string name="based_on">Based On</string>
+  <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
   <!-- Dock bar -->
   <!-- Sizes -->
   <!-- Rows and Coloumns -->

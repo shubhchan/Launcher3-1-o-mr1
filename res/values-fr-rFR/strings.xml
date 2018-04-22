@@ -281,7 +281,11 @@
   <string name="based_on">Based On</string>
   <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
   <string name="diabledgemargin">Désactiver la marge latérale</string>
+  <string name="diabledgemargin_sum">Désactiver l\'espace entre les icône et les cotés gauche/droite</string>
   <!-- Dock bar -->
+  <string name="force_mic">Forcer l\'icône du micro</string>
+  <string name="force_mic_sum">Activer l\'affichage du micro même s\'il n\'est pas configuré pour être rendu visible automatiquement</string>
+  <string name="force_colour_logo">Logo Google coloré sur la barre de recherche</string>
   <!-- Sizes -->
   <!-- Rows and Coloumns -->
   <!-- Hide labels -->

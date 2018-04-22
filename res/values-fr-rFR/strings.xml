@@ -286,12 +286,45 @@
   <string name="force_mic">Forcer l\'icône du micro</string>
   <string name="force_mic_sum">Activer l\'affichage du micro même s\'il n\'est pas configuré pour être rendu visible automatiquement</string>
   <string name="force_colour_logo">Logo Google coloré sur la barre de recherche</string>
+  <string name="force_colour_logo_sum">L\'activation de cette option rend le logo Google et l\'icône du micro coloré dans la barre Google</string>
+  <string name="dark_themeqsb">Barre de recherche foncé</string>
+  <string name="transparentqsb">Transparence dans la barre de recherche</string>
+  <string name="custom_qsb_in_dock">Paramètres de la barre de recherche</string>
+  <string name="qsb_in_dock_show">Montrer la barre de recherche dans le dock</string>
   <!-- Sizes -->
+  <string name="size_biggest">Le plus gros</string>
+  <string name="size_big">Gros</string>
+  <string name="size_smallest">Le plus petit</string>
+  <string name="size_small">Petit</string>
+  <string name="size_tiny">Minuscule</string>
   <!-- Rows and Coloumns -->
+  <string name="num_rows">Nombre de rangées</string>
+  <string name="num_cols">Nombre de colonnes</string>
+  <string name="num_hotseat_icons_pref_title">Nombre d\'icônes dans le dock</string>
+  <string name="custom_grid_size">Changer la grille</string>
+  <string name="change_grid_size">Grille du tiroir</string>
+  <string name="hotseat_show_page_indicator">Indicateur de page</string>
+  <string name="gradient_size">Taille du dégradé</string>
   <!-- Hide labels -->
   <!--At glance-->
+  <string name="custom_glance">En bref</string>
+  <string name="smartspace_time">Ajouter une horloge</string>
   <!-- Date formats -->
+  <string name="date_format">Format de date</string>
+  <string name="date_format_1">Mardi, 13 fév</string>
+  <string name="date_format_2">Mardi</string>
+  <string name="date_format_3">Mar, 13 février</string>
+  <string name="date_format_4">Mar, 02/13</string>
+  <string name="date_format_5">Mardi, 13</string>
+  <string name="date_format_6">Mar, 13 février</string>
   <!--theme-->
+  <string name="theme">Thème</string>
+  <string name="white_theme">Clair</string>
+  <string name="white_withdarktext_theme">Clair avec texte foncé</string>
+  <string name="dark_theme">Foncé</string>
+  <string name="black_theme">Foncé</string>
+  <string name="solid_theme">Solide</string>
+  <string name="transparent_theme">Transparent</string>
   <!--Notification dot-->
   <!--<string name="custom_label_color">Custom lable color</string>-->
   <!--Home screen-->

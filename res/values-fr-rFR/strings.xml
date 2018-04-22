@@ -265,6 +265,8 @@
   <string name="title_app_suggestions">Afficher les suggestions d\'applications</string>
   <string name="summary_app_suggestions">En haut de la liste de toutes vos applications</string>
   <string name="about_app_version">Version</string>
+  <string name="compiled_by">Compilé par</string>
+  <string name="Icon_By">Icône par</string>
   <string name="app_name_pixel_launcher">Pixel Launcher</string>
   <string name="title_disable_suggestions_prompt">Désactiver les suggestions d\'applications ?</string>
   <string name="msg_disable_suggestions_prompt">"Les suggestions ne s'afficheront pas en haut de votre liste d'applications, et les données d'utilisation employées pour les créer seront supprimées définitivement."</string>
@@ -275,8 +277,10 @@
   <string name="icon_shape_rounded_square">Carré arrondi</string>
   <string name="icon_pack_default">Défaut</string>
   <string name="icon_edit">French</string>
+  <string name="market">Plus</string>
   <string name="based_on">Based On</string>
   <string name="based_on_sum">Amir Zaidi \"Rootless Pixel Launcher\"</string>
+  <string name="diabledgemargin">Désactiver la marge latérale</string>
   <!-- Dock bar -->
   <!-- Sizes -->
   <!-- Rows and Coloumns -->

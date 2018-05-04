@@ -82,22 +82,31 @@ public class NexusLauncherActivity extends Launcher {
             if (darkthemestyle == 1) setTheme(R.style.GoogleSearchLauncherThemeDark);
             else setTheme(R.style.GoogleSearchLauncherThemeBlack);*/
         if (googlebarinappmenu) {
-            if (themestyle == 1) setTheme(R.style.GoogleSearchLauncherTheme);
-            if (themestyle == 2) {
-                if (Utilities.ATLEAST_NOUGAT) setTheme(R.style.GoogleSearchLauncherThemeDarkText);
+            switch (themestyle) {
+                case 1:
+                    setTheme(R.style.GoogleSearchLauncherTheme);
+                case 2:
+                    if (Utilities.ATLEAST_NOUGAT)
+                        setTheme(R.style.GoogleSearchLauncherThemeDarkText);
+                case 3:
+                    setTheme(R.style.GoogleSearchLauncherThemeDark);
+                case 4:
+                    setTheme(R.style.GoogleSearchLauncherThemeBlack);
             }
-            if (themestyle == 3) setTheme(R.style.GoogleSearchLauncherThemeDark);
-            if (themestyle == 4) setTheme(R.style.GoogleSearchLauncherThemeBlack);
+        } else {
+            switch (themestyle) {
+                case 1:
+                    setTheme(R.style.LauncherTheme);
+                case 2:
+                    if (Utilities.ATLEAST_NOUGAT) setTheme(R.style.LauncherThemeDarkText);
+                case 3:
+                    setTheme(R.style.LauncherThemeDark);
+                case 4:
+                    setTheme(R.style.LauncherThemeBlack);
+            }
         }
-        if (!googlebarinappmenu) {
-            if (themestyle == 1) setTheme(R.style.LauncherTheme);
-            if (themestyle == 2) {
-                if (Utilities.ATLEAST_NOUGAT) setTheme(R.style.LauncherThemeDarkText);
-            }
-            if (themestyle == 3) setTheme(R.style.LauncherThemeDark);
-            if (themestyle == 4) setTheme(R.style.LauncherThemeBlack);
     }
-    }
+
     public List<ComponentKeyMapper<AppInfo>> getPredictedApps() {
         return mLauncher.fA.getPredictedApps();
     }

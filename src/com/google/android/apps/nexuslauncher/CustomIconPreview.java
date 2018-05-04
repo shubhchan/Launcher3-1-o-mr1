@@ -108,6 +108,7 @@ public class CustomIconPreview extends PreviewWorkspaceActivityBase {
 
                         return label1.compareToIgnoreCase(label2);
                     } catch (PackageManager.NameNotFoundException e) {
+                        e.printStackTrace();
                     }
 
                     return 0;
@@ -124,7 +125,7 @@ public class CustomIconPreview extends PreviewWorkspaceActivityBase {
 
         @Override
         public int getItemViewType(int position) {
-            if (position == providers.size() - 2 && providers.get(position) == null){
+            if (position == providers.size() - 2 && providers.get(position) == null) {
                 return MARKET_DIVIDER_VIEW_TYPE;
             }
             return NORMAL_VIEW_TYPE;
@@ -180,6 +181,7 @@ public class CustomIconPreview extends PreviewWorkspaceActivityBase {
                 holder.label.setSelected(selected);
                 holder.selected.setVisibility(selected ? View.VISIBLE : View.GONE);
             } catch (PackageManager.NameNotFoundException e) {
+                e.printStackTrace();
             }
         }
 
@@ -218,7 +220,7 @@ public class CustomIconPreview extends PreviewWorkspaceActivityBase {
                     String currentPack = PreferenceManager.getDefaultSharedPreferences(context)
                             .getString(Utilities.KEY_ICON_PACK, defaultName);
                     if (!currentPack.equals(name)) {
-                       LauncherAppState.getInstance(context).getIconsHandler().switchIconPacks(name, false);
+                        LauncherAppState.getInstance(context).getIconsHandler().switchIconPacks(name, false);
                         notifyDataSetChanged();
                         setShouldReload(true);
 
